@@ -1,0 +1,883 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	detention_grp  voicegroup000
+	#define	detention_pri  0
+	#define	detention_rev  0
+	#define	detention_mvl  67
+	#define	detention_key  0
+	#define	detention_tbs  1
+	#define	detention_exg  0
+	#define	detention_cmp  1
+
+	// .rodata
+	//	detention
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+detention_1:
+	BYTE	KEYSH   detention_key+0
+detention_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   69*detention_tbs/2
+	BYTE		VOICE   41
+	BYTE		VOL     97*detention_mvl/mxv
+	BYTE		N24     As3   v064
+	BYTE	W24
+	BYTE		N48     Cs4 
+	BYTE	W48
+	BYTE		N12     Bn3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+// 001   ----------------------------------------
+detention_1_001:
+	BYTE		N24     Bn3   v064
+	BYTE	W24
+	BYTE		N48     As3 
+	BYTE	W48
+	BYTE		N24     Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+detention_1_002:
+	BYTE		N24     As3   v064
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+detention_1_003:
+	BYTE		N48     Fn3   v064
+	BYTE	W48
+	BYTE		        Fs3 
+	BYTE	W48
+	BYTE	PEND
+// 004   ----------------------------------------
+detention_1_004:
+	BYTE		N24     As3   v064
+	BYTE	W24
+	BYTE		N48     Cs4 
+	BYTE	W48
+	BYTE		N24     Fn4 
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_002
+// 007   ----------------------------------------
+detention_1_007:
+	BYTE		N48     Fn3   v064
+	BYTE	W48
+	BYTE		        Ds3 
+	BYTE	W48
+	BYTE	PEND
+// 008   ----------------------------------------
+detention_1_008:
+	BYTE		N06     Ds4   v064
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		N12     Ds4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		N06     Ds4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		N12     Ds4 
+	BYTE	W24
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+detention_1_009:
+	BYTE		N12     Fs4   v064
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		N36     As3 
+	BYTE	W36
+	BYTE		N12     Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_008
+// 011   ----------------------------------------
+detention_1_011:
+	BYTE		N12     Fs4   v064
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		N36     Bn3 
+	BYTE	W36
+	BYTE		N12     Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+detention_1_012:
+	BYTE		N24     As3   v064
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W24
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE		N96     Fn3 
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		VOL     97*detention_mvl/mxv
+	BYTE		N24     As3 
+	BYTE	W24
+	BYTE		N48     Cs4 
+	BYTE	W48
+	BYTE		N12     Bn3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_002
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_004
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_002
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_007
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_008
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_009
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_011
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_1_012
+// 027   ----------------------------------------
+	BYTE		N96     Fn3   v064
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W24
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	detention_1_B1
+detention_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+detention_2:
+	BYTE	KEYSH   detention_key+0
+detention_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   41
+	BYTE		VOL     81*detention_mvl/mxv
+	BYTE		N48     Ds3   v064
+	BYTE	W48
+	BYTE		        Gs3 
+	BYTE	W48
+// 001   ----------------------------------------
+detention_2_001:
+	BYTE		N84     Fs3   v064
+	BYTE	W84
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+detention_2_002:
+	BYTE		N48     Ds3   v064
+	BYTE	W48
+	BYTE		        Gs2 
+	BYTE	W48
+	BYTE	PEND
+// 003   ----------------------------------------
+detention_2_003:
+	BYTE		N84     Ds3   v064
+	BYTE	W84
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+detention_2_004:
+	BYTE		N48     Ds3   v064
+	BYTE	W48
+	BYTE		        Gs3 
+	BYTE	W48
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_003
+// 008   ----------------------------------------
+detention_2_008:
+	BYTE		N12     Gs2   v064
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N24     Bn3 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+detention_2_009:
+	BYTE		N12     Cs3   v064
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		N24     Ds4 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+detention_2_010:
+	BYTE		N12     As2   v064
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N24     Bn3 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+detention_2_011:
+	BYTE		N12     Cs3   v064
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE		N96     Fs3 
+	BYTE	W96
+// 013   ----------------------------------------
+detention_2_013:
+	BYTE		N84     Dn3   v064
+	BYTE	W84
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_004
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_002
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_004
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_002
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_003
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_008
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_009
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_010
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_011
+// 026   ----------------------------------------
+	BYTE		N96     Fs3   v064
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_2_013
+// 028   ----------------------------------------
+	BYTE	W24
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	detention_2_B1
+detention_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+detention_3:
+	BYTE	KEYSH   detention_key+0
+detention_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   41
+	BYTE		VOL     81*detention_mvl/mxv
+	BYTE		N48     Ds3   v064
+	BYTE	W48
+	BYTE		N24     Dn3 
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W24
+// 001   ----------------------------------------
+detention_3_001:
+	BYTE		N24     Cs3   v064
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W24
+	BYTE		N48     Cn3 
+	BYTE	W48
+	BYTE	PEND
+// 002   ----------------------------------------
+detention_3_002:
+	BYTE		N48     Bn2   v064
+	BYTE	W48
+	BYTE		N24     Cs3 
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+detention_3_003:
+	BYTE		N24     Ds3   v064
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W24
+	BYTE		N48     Ds3 
+	BYTE	W48
+	BYTE	PEND
+// 004   ----------------------------------------
+detention_3_004:
+	BYTE		N48     Ds3   v064
+	BYTE	W48
+	BYTE		N24     Dn3 
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_001
+// 006   ----------------------------------------
+detention_3_006:
+	BYTE		N48     Bn2   v064
+	BYTE	W48
+	BYTE		N24     Ds3 
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_003
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+detention_3_012:
+	BYTE		N24     Bn2   v064
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W24
+	BYTE		N48     Bn2 
+	BYTE	W48
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE		N96     Dn3 
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_004
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_002
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_004
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_006
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_003
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_3_012
+// 027   ----------------------------------------
+	BYTE		N96     Dn3   v064
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W24
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	detention_3_B1
+detention_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+detention_4:
+	BYTE		VOL     127*detention_mvl/mxv
+	BYTE	KEYSH   detention_key+0
+detention_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   0
+	BYTE		N12     Fs3   v064
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N24     Fs3 
+	BYTE		N24     As3 
+	BYTE	W24
+	BYTE		N48     Fn3 
+	BYTE		N48     Gs3 
+	BYTE	W48
+// 001   ----------------------------------------
+detention_4_001:
+	BYTE		N12     Ds3   v064
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		N24     Ds3 
+	BYTE		N24     Fs3 
+	BYTE	W24
+	BYTE		N36     Ds3 
+	BYTE		N36     Fs3 
+	BYTE	W36
+	BYTE		N12     Ds3 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+detention_4_002:
+	BYTE		N12     Ds3   v064
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		N24     Fs2 
+	BYTE		N24     Ds3 
+	BYTE	W24
+	BYTE		        Gs2 
+	BYTE		N24     Ds3 
+	BYTE		N24     Fs3 
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+detention_4_003:
+	BYTE		N12     As2   v064
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE		N12     Ds3 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		N36     As2 
+	BYTE		N36     Ds3 
+	BYTE	W36
+	BYTE		N12     Gs2 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+detention_4_004:
+	BYTE		N12     Fs3   v064
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N24     Fs3 
+	BYTE		N24     As3 
+	BYTE	W24
+	BYTE		N48     Fn3 
+	BYTE		N48     Gs3 
+	BYTE	W48
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_002
+// 007   ----------------------------------------
+detention_4_007:
+	BYTE		N12     As2   v064
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE		N12     Ds3 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		N36     As2 
+	BYTE		N36     Ds3 
+	BYTE	W36
+	BYTE		N12     As2 
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+detention_4_008:
+	BYTE		N12     Gs2   v064
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+detention_4_009:
+	BYTE		N12     Gs2   v064
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_008
+// 011   ----------------------------------------
+detention_4_011:
+	BYTE		N12     Gs2   v064
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE		N96     Ds3 
+	BYTE	W96
+// 013   ----------------------------------------
+detention_4_013:
+	BYTE		N72     Dn3   v064
+	BYTE		N84     Fn3 
+	BYTE	W84
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_004
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_002
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_004
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_002
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_007
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_008
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_009
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_011
+// 026   ----------------------------------------
+	BYTE		N96     Ds3   v064
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_4_013
+// 028   ----------------------------------------
+	BYTE	W24
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	detention_4_B1
+detention_4_B2:
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+detention_5:
+	BYTE		VOL     127*detention_mvl/mxv
+	BYTE	KEYSH   detention_key+0
+detention_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   0
+	BYTE		N48     Ds2   v064
+	BYTE	W48
+	BYTE		        Dn2 
+	BYTE	W48
+// 001   ----------------------------------------
+detention_5_001:
+	BYTE		N48     Cs2   v064
+	BYTE	W48
+	BYTE		        Cn2 
+	BYTE	W48
+	BYTE	PEND
+// 002   ----------------------------------------
+detention_5_002:
+	BYTE		N48     Bn1   v064
+	BYTE	W48
+	BYTE		        Cs2 
+	BYTE	W48
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N96     Ds2 
+	BYTE	W96
+// 004   ----------------------------------------
+detention_5_004:
+	BYTE		N48     Ds2   v064
+	BYTE	W48
+	BYTE		        Dn2 
+	BYTE	W48
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_5_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_5_002
+// 007   ----------------------------------------
+	BYTE		N96     Ds2   v064
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE		N96     Ds3 
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE		        As2 
+	BYTE		N96     Ds3 
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE		N96     Ds3 
+	BYTE	W96
+// 011   ----------------------------------------
+detention_5_011:
+	BYTE		N48     Cs3   v064
+	BYTE		N48     Fn3 
+	BYTE	W48
+	BYTE		        Fs3 
+	BYTE	W48
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE		N96     Ds3 
+	BYTE		N96     Fs3 
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_5_004
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_5_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_5_002
+// 017   ----------------------------------------
+	BYTE		N96     Ds2   v064
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_5_004
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_5_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_5_002
+// 021   ----------------------------------------
+	BYTE		N96     Ds2   v064
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE		N96     Ds3 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE		        As2 
+	BYTE		N96     Ds3 
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE		N96     Ds3 
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	detention_5_011
+// 026   ----------------------------------------
+	BYTE		N96     Ds3   v064
+	BYTE		N96     Fs3 
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W24
+	BYTE		N01     AnM1
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	detention_5_B1
+detention_5_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+detention:
+	BYTE	5	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	detention_pri	// Priority
+	BYTE	detention_rev	// Reverb.
+
+	POIN2	detention_grp
+
+	POIN2	detention_1
+	POIN2	detention_2
+	POIN2	detention_3
+	POIN2	detention_4
+	POIN2	detention_5
+
+	

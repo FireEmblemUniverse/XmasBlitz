@@ -1,0 +1,155 @@
+//begin Mode 1
+C03
+C07
+1  p- idle.png
+4  p- attack001.png
+12 p- attack002.png
+5  p- attack003.png
+3  p- attack004p.png
+C04
+C1A
+C1F
+//after hit, wait for hp
+6  p- attack005p.png
+6  p- attack006p.png
+6  p- attack007p.png
+6  p- attack008p.png
+
+C01
+//return
+10 p- attack008p.png
+3  p- return001.png
+4  p- return002.png
+5  p- return003.png
+3  p- idle.png
+C06
+C0D
+~~~
+//begin Mode 3
+C03
+C07
+1  p- idle.png
+4  p- attack001.png
+12 p- attack002.png
+5  p- attack003.png
+
+6  p- crit001.png
+8  p- crit002.png
+9  p- crit003.png
+6  p- crit004.png
+5  p- crit005.png
+4  p- crit006.png
+3  p- crit007.png
+
+3  p- attack004p.png
+C04
+C08
+C1F
+//after hit, wait for hp
+6  p- attack005p.png
+6  p- attack006p.png
+6  p- attack007p.png
+6  p- attack008p.png
+C01
+//return
+10 p- attack008p.png
+3  p- return001.png
+4  p- return002.png
+5  p- return003.png
+3  p- idle.png
+C06
+C0D
+~~~
+//begin Mode 5 ranged
+C03
+C07
+1  p- idle.png
+C22
+3  p- mag001.png
+3  p- mag002.png
+C05
+1  p- mag002.png
+C01
+C23
+3  p- mag002.png
+C06
+3  p- mag004.png
+3  p- idle.png
+C0D
+~~~
+//begin Mode 6 ranged crit
+C03
+C07
+1  p- idle.png
+C22
+3  p- mag001.png
+10 p- mag002.png
+4  p- mag003.png
+4  p- mag002.png
+10 p- mag003.png
+C05
+1  p- mag002.png
+C01
+C23
+3  p- mag002.png
+C06
+3  p- mag004.png
+3  p- idle.png
+C0D
+~~~
+//begin Mode 7
+C18
+1  p- idle.png
+C0E
+3  p- attack001.png
+1  p- attack002.png
+C01
+3  p- attack001.png
+C0D
+~~~
+//begin Mode 8
+C18
+1  p- idle.png
+C0E
+3  p- attack001.png
+1  p- attack002.png
+C01
+3  p- attack001.png
+C0D
+~~~
+//begin Mode 9
+4  p- idle.png
+C01
+~~~
+//begin Mode 10
+4  p- idle.png
+C01
+~~~
+//begin Mode 11
+4  p- idle.png
+~~~
+//begin Mode 12
+C03
+C07
+1  p- idle.png
+4  p- attack001.png
+12 p- attack002.png
+5  p- attack003.png
+3  p- attack004.png
+C04
+//after hit, wait for hp
+6  p- attack005.png
+6  p- attack006.png
+6  p- attack007.png
+6  p- attack008.png
+C01
+//return
+10 p- attack008.png
+3  p- return001.png
+4  p- return002.png
+5  p- return003.png
+3  p- idle.png
+C06
+C0D
+~~~
+//End of animation script

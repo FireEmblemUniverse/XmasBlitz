@@ -1,0 +1,12 @@
+#ifdef _FE8_
+	#include "EAstdlib.event"
+	#include "Extensions/Hack Installation.txt"
+	PUSH
+		ORG $192E4; jumpToHack(QuestionMarkPortrait)
+	POP
+	ALIGN 4
+	QuestionMarkPortrait:
+		#incbin "QuestionMarkPortrait.dmp"
+#else
+    ERROR QuestionMarkPortrait is for FE8!
+#endif

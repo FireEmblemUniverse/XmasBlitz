@@ -1,0 +1,101 @@
+## nameFolkvangr
+F[0xF3]lkvangr[X]
+
+## descFolkvangr
+Alfonse's sword.[X]
+
+## nameManiKatti
+Mani Katti[X]
+
+## nameFensalir
+Fensalir[X]
+
+## descFensalir
+Sharena's lance.[X]
+
+## nameNoatun
+N[0xF3]at[0xFA]n[X]
+
+## descNoatun
+Anna's axe.[X]
+
+## nameDireThunder
+Dire Thunder[X]
+
+## descDireThunder
+Strikes twice.[X]
+
+## nameDurandal
+Durandal[X]
+
+## descDurandal
+The Blazing Blade.[X]
+
+## nameParthia
+Parthia[X]
+
+## descParthia
+One of the three Regalia.[X]
+
+## nameVagueKatti
+Vague Katti[X]
+
+## descVagueKatti
+A mysterious blade.[X]
+
+## nameGradivus
+Gradivus[X]
+
+## descGradivus
+One of the three Regalia.[X]
+
+## nameArmads
+Armads[X]
+
+## descArmads
+The Thunder Axe.[X]
+
+## nameTurnwheel
+M.Turnwheel[X]
+
+## descTurnwheel
+Once able to turn back time,[N]
+now it can only view the past.[X]
+
+## nameOrbs
+5 Orbs[X]
+
+## descOrbs
+The most precious commodity in[N]
+the universe. Summons a unit.[X]
+
+## descGarm
+The Sacred Twin black axe.[X]
+
+## nameConcoction
+Concoction[X]
+
+## nameFeathers
+20K Feathers[X]
+
+## descFeathers
+Upgrade a unit[N]
+Lv10 or higher.[X]
+
+## nameTyrfing
+Tyrfing[X]
+
+## descTyrfing
+Sigurd's Holy Weapon.[X]
+
+## nameNaga
+Book of Naga[X]
+
+## descNaga
+Effective vs dragons.[X]
+
+## nameGaeBolg
+G[0xE1]e Bolg[X]
+
+## descGaeBolg
+Allegedly cursed.[X]

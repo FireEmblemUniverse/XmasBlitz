@@ -1,0 +1,208 @@
+#FE8 Character Editor by SpyroDi
+#
+
+1
+FE8 Character Editor
+0x803D64
+255
+52
+_CharacterEditorList.txt
+NULL
+
+Name
+0
+2
+NEHU
+NULL
+
+Description
+2
+2
+NEHU
+NULL
+
+Number
+4
+1
+NEHU
+NULL
+
+Class
+5
+1
+NEHU
+NULL
+
+Portrait
+6
+2
+NEHU
+NULL
+
+Mini Portrait
+8
+1
+NEHU
+NULL
+
+Affinity
+9
+1
+NEDU
+NULL
+
+Base Level
+11
+1
+NEDU
+NULL
+
+Base HP
+12
+1
+NEDS
+NULL
+
+Base Pwr
+13
+1
+NEDS
+NULL
+
+Base Skl
+14
+1
+NEDS
+NULL
+
+Base Spd
+15
+1
+NEDS
+NULL
+
+Base Lck
+18
+1
+NEDS
+NULL
+
+Base Def
+16
+1
+NEDS
+NULL
+
+Base Res
+17
+1
+NEDS
+NULL
+
+Base Con
+19
+1
+NEDS
+NULL
+
+Rank Sword
+20
+1
+NEDU
+NULL
+
+Rank Lance
+21
+1
+NEDU
+NULL
+
+Rank Axe
+22
+1
+NEDU
+NULL
+
+Rank Bow
+23
+1
+NEDU
+NULL
+
+Rank Staff
+24
+1
+NEDU
+NULL
+
+Rank Anima
+25
+1
+NEDU
+NULL
+
+Rank Light
+26
+1
+NEDU
+NULL
+
+Rank Dark
+27
+1
+NEDU
+NULL
+
+Growth HP
+28
+1
+NEDU
+NULL
+
+Growth Pwr
+29
+1
+NEDU
+NULL
+
+Growth Skl
+30
+1
+NEDU
+NULL
+
+Growth Spd
+31
+1
+NEDU
+NULL
+
+Growth Lck
+34
+1
+NEDU
+NULL
+
+Growth Def
+32
+1
+NEDU
+NULL
+
+Growth Res
+33
+1
+NEDU
+NULL
+
+Attributes
+40
+4
+NEHU
+NULL
+
+Supports Data Pointer
+44
+4
+NEHU
+NULL

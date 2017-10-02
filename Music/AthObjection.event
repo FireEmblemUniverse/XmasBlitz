@@ -1,0 +1,49 @@
+    #include "MPlayDef.event"
+
+    #define    AthObjection_grp_AthObjection  AthObjection_map
+    #define    AthObjection_pri_AthObjection  0
+    #define    AthObjection_rev_AthObjection  0
+    #define    AthObjection_mvl_AthObjection  127
+    #define    AthObjection_key_AthObjection  0
+    #define    AthObjection_tbs_AthObjection  1
+    #define    AthObjection_exg_AthObjection  0
+    #define    AthObjection_cmp_AthObjection  1
+
+    ALIGN 4
+
+AthObjection_1:
+    BYTE        VOL     127*AthObjection_mvl_AthObjection/mxv
+    BYTE    KEYSH   AthObjection_key_AthObjection+0
+    BYTE        VOICE   0
+    BYTE        TIE     Cn3   v064
+    BYTE    W96
+AthObjection_1_B1:
+    BYTE    W96
+    BYTE    W96
+    BYTE    GoTo
+     POIN2    AthObjection_1_B1
+AthObjection_1_B2:
+    BYTE    W06
+    BYTE        EOT     Cn3 
+    BYTE    FINE
+
+    ALIGN 4
+
+AthObjection:
+    BYTE    1    // NumTrks
+    BYTE    0    // NumBlks
+    BYTE    AthObjection_pri_AthObjection    // Priority
+    BYTE    AthObjection_rev_AthObjection    // Reverb.
+
+    POIN2    AthObjection_grp_AthObjection
+
+    POIN2    AthObjection_1
+
+    
+AthObjection_map:
+WORD $3c00
+POIN AthObjection_wav
+WORD $FF00FF
+
+AthObjection_wav:
+#incbin "AthObjection.bin"

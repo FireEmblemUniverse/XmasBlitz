@@ -1,0 +1,106 @@
+#ifndef CCB_DEFINITIONS
+#define CCB_DEFINITIONS
+
+// #define FreeSpace 0xb2a610
+#define FreeSpace 0x1000000
+#define FreeSpaceBLRange 0x1c1ec0
+
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+
+#ifndef ItemTable
+  #define ItemTable 0x809B10
+#endif
+#ifndef DebuffTable
+    #define DebuffTable 0x203F100
+#endif
+
+#define SetSkills(character, first, second, third, fourth) "SETVAL 0x2 first; SETVAL 0x3 (0x203e885+(character*16)); SETVAL 0x4 0x2; ASMC EventWriter+1;SETVAL 0x2 (second + (third*0x100)); SETVAL 0x3 (0x203e886+(character*16)); SETVAL 0x4 0x1; ASMC EventWriter+1;SETVAL 0x2 fourth; SETVAL 0x3 (0x203e888+(character*16)); SETVAL 0x4 0x2; ASMC EventWriter+1;"
+#define SetSupportsPointer(character, pointer) "PUSH; ORG ($803d30+(52*character)+44); POIN pointer; POP"
+#define SetSupportPartners(p1,p2,p3,p4,p5,p6,p7) "BYTE p1 p2 p3 p4 p5 p6 p7"
+#define SetSupportInitial(p1,p2,p3,p4,p5,p6,p7) "BYTE p1 p2 p3 p4 p5 p6 p7"
+#define SetSupportGrowth(p1,p2,p3,p4,p5,p6,p7) "BYTE p1 p2 p3 p4 p5 p6 p7"
+#define SetSupportNumber(partners) "BYTE partners 0 0; ALIGN 4"
+
+#define ASupport 241
+#define BSupport 161
+#define CSupport 81
+
+#define LunarBrace MoonBracelet
+#define SolarBrace SunBracelet
+
+#include "Engine Hacks/Skill System/skill_definitions.event"
+
+#define Sharena Eirika
+#define Alfonse Ephraim
+#define Anna Seth
+#define Norne Gilliam
+#define Mia Franz
+#define Reinhardt Garcia
+#define Camus Colm
+#define Linde Vanessa
+#define Olivia Tethys
+#define Narcian Moulder
+#define Elise LArachel
+#define Sigurd 0xb
+#define Deirdre 0xc
+#define Quan 0xd
+#define Ethlyn 0xe
+#define Veronica 0x11
+
+#define Eliwood 0x20
+#define Lyn 0x21
+#define Hector 0x22
+#define Lowen 0x23
+#define Bartre 0x24
+#define Marcus 0x25
+#define Jaffar 0x26
+#define Oswin 0x29
+#define Wallace 0x2a
+#define Kent 0x2b
+#define Sain 0x2c
+#define Isadora 0x2d
+#define Harken 0x2e
+#define Erk 0x27
+
+#define Dorcas 0x2f
+
+#define Markyjoe 0x10
+
+#define BasicGeneric 0xcd
+#define LungeGeneric 0xce
+#define SealDefGeneric 0xcf
+#define SealSpdGeneric 0xd0
+#define SealStrGeneric 0xd1
+#define SealResGeneric 0xd2
+#define CounterGeneric 0xd3
+#define CountermagicGeneric 0xd4
+#define PassGeneric 0xd5
+#define SwordbreakerGeneric 0xd6
+#define AxebreakerGeneric 0xd7
+#define LancebreakerGeneric 0xd8
+#define BowbreakerGeneric 0xd9
+#define TomebreakerGeneric 0xda
+#define RenewalGeneric 0xdb
+#define GambleGeneric 0xdc
+#define BasicGeneric2 0x7F
+
+#define Fensalir Reginleif
+#define Folkvangr Rapier
+#define Noatun Luce
+#define Durandal Sieglinde
+#define DireThunder Forblaze
+#define Parthia Nidhogg
+#define VagueKatti Audomra
+#define Gradivus Vidofnir
+#define Armads Siegmund
+#define Tyrfing Gleipnir
+#define Naga Excalibur
+#define GaeBolg Ivaldi
+
+#define Concoction Vulnerary
+#define Turnwheel 0x77
+#define Orbs RedGem
+
+#endif
+

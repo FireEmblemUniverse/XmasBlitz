@@ -1,0 +1,4 @@
+[ML][LoadVeronica]So, the Askrans arrived[N]
+before us, did they?[AN]
+No matter. Emblian troops,[N]
+destroy them all![A][X]

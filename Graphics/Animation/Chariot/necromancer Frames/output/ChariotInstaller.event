@@ -1,0 +1,24 @@
+// use the following to insert.
+// Also, if you haven't included it, add the following definitions:
+#define _animTable ClassAnimTable
+#define insertAnim(ID,p1,p2,p3,p4,p5) "ORG _animTable + (ID)*32 + 12; WORD $08000000 + p1; WORD $08000000 + p2; WORD $08000000 + p3; WORD $08000000 + p4; WORD $08000000 + p5"
+PUSH
+insertAnim(0x9D,_ChariotAnimNameModes,_ChariotAnimNameFrames,_ChariotAnimNameOAMRight,_ChariotAnimNameOAMLeft,_ChariotAnimNamePalette)
+POP
+
+_ChariotAnimNameModes:
+	#incbin modeData.bin
+_ChariotAnimNameFrames:
+	#include _frame.event
+ALIGN 4
+_ChariotAnimNameOAMLeft:
+	#incbin oamLeft.bin
+ALIGN 4
+_ChariotAnimNameOAMRight:
+	#incbin oamRight.bin
+ALIGN 4
+_ChariotAnimNamePalette:
+	#incbin palette.bin
+ALIGN 4
+	#include _gfx.event
+ALIGN 4

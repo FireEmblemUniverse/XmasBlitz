@@ -1,0 +1,1915 @@
+BYTE 0x10 0xf0 0x13 0x0
+BYTE 0
+BYTE 7 0 0 0x85
+BYTE 3 0 0 0x85
+BYTE 0
+BYTE 1 0 0 0x86
+POIN2 _ChariotAnimframe000_png
+BYTE 0
+BYTE 0 0 0 0
+BYTE 8 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe001_png
+BYTE 36 0 0 0
+BYTE 0
+BYTE 10 0 0 0x86
+POIN2 _ChariotAnimframe002_png
+BYTE 0
+BYTE 72 0 0 0
+BYTE 37 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe003_png
+BYTE 0
+BYTE 108 0 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe004_png
+BYTE 144 0 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe005_png
+BYTE 0
+BYTE 180 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe006_png
+BYTE 216 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe007_png
+BYTE 0
+BYTE 252 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe008_png
+BYTE 32 1 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe009_png
+BYTE 0
+BYTE 68 1 0 0
+BYTE 30 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe010_png
+BYTE 104 1 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe011_png
+BYTE 0
+BYTE 140 1 0 0
+BYTE 46 0 0 0x85
+BYTE 0
+BYTE 73 0 0 0x85
+BYTE 37 0 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe012_png
+BYTE 0
+BYTE 176 1 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe013_png
+BYTE 224 1 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe014_png
+BYTE 0
+BYTE 16 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe015_png
+BYTE 64 2 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe016_png
+BYTE 0
+BYTE 112 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe017_png
+BYTE 160 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe018_png
+BYTE 0
+BYTE 208 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe019_png
+BYTE 244 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe020_png
+BYTE 0
+BYTE 24 3 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe021_png
+BYTE 60 3 0 0
+BYTE 0
+BYTE 40 0 0 0x86
+POIN2 _ChariotAnimframe022_png
+BYTE 0
+BYTE 96 3 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe023_png
+BYTE 132 3 0 0
+BYTE 0
+BYTE 5 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe024_png
+BYTE 168 3 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe025_png
+BYTE 0
+BYTE 204 3 0 0
+BYTE 0 0 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe026_png
+BYTE 0
+BYTE 240 3 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe027_png
+BYTE 20 4 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe028_png
+BYTE 0
+BYTE 56 4 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe029_png
+BYTE 92 4 0 0
+BYTE 0
+BYTE 1 0xc 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe030_png
+BYTE 128 4 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe031_png
+BYTE 0
+BYTE 164 4 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe032_png
+BYTE 200 4 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe033_png
+BYTE 0
+BYTE 236 4 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe034_png
+BYTE 16 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe035_png
+BYTE 0
+BYTE 52 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe036_png
+BYTE 88 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe037_png
+BYTE 0
+BYTE 124 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe038_png
+BYTE 160 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe039_png
+BYTE 0
+BYTE 196 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe040_png
+BYTE 232 5 0 0
+BYTE 0
+BYTE 6 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe041_png
+BYTE 12 6 0 0
+BYTE 0
+BYTE 1 0 0 0x86
+POIN2 _ChariotAnimframe000_png
+BYTE 0
+BYTE 0 0 0 0
+BYTE 13 0 0 0x85
+BYTE 0
+BYTE 0 0 0 0x80
+BYTE 7 0 0 0x85
+BYTE 0
+BYTE 3 0 0 0x85
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 8 0 0 0x86
+POIN2 _ChariotAnimframe001_png
+BYTE 0
+BYTE 36 0 0 0
+BYTE 10 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe002_png
+BYTE 72 0 0 0
+BYTE 0
+BYTE 37 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe003_png
+BYTE 108 0 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe004_png
+BYTE 0
+BYTE 144 0 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe005_png
+BYTE 180 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe006_png
+BYTE 0
+BYTE 216 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe007_png
+BYTE 252 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe008_png
+BYTE 0
+BYTE 32 1 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe009_png
+BYTE 68 1 0 0
+BYTE 0
+BYTE 30 0 0 0x86
+POIN2 _ChariotAnimframe010_png
+BYTE 0
+BYTE 104 1 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe011_png
+BYTE 140 1 0 0
+BYTE 0
+BYTE 46 0 0 0x85
+BYTE 73 0 0 0x85
+BYTE 0
+BYTE 37 0 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe012_png
+BYTE 176 1 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe013_png
+BYTE 0
+BYTE 224 1 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe014_png
+BYTE 16 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe015_png
+BYTE 0
+BYTE 64 2 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe016_png
+BYTE 112 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe017_png
+BYTE 0
+BYTE 160 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe018_png
+BYTE 208 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe019_png
+BYTE 0
+BYTE 244 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe020_png
+BYTE 24 3 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe021_png
+BYTE 0
+BYTE 60 3 0 0
+BYTE 40 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe022_png
+BYTE 96 3 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe023_png
+BYTE 0
+BYTE 132 3 0 0
+BYTE 5 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe024_png
+BYTE 0
+BYTE 168 3 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe025_png
+BYTE 204 3 0 0
+BYTE 0
+BYTE 0 0 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe026_png
+BYTE 240 3 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe027_png
+BYTE 0
+BYTE 20 4 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe028_png
+BYTE 56 4 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe029_png
+BYTE 0
+BYTE 92 4 0 0
+BYTE 1 0xc 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe030_png
+BYTE 0
+BYTE 128 4 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe031_png
+BYTE 164 4 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe032_png
+BYTE 0
+BYTE 200 4 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe033_png
+BYTE 236 4 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe034_png
+BYTE 0
+BYTE 16 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe035_png
+BYTE 52 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe036_png
+BYTE 0
+BYTE 88 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe037_png
+BYTE 124 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe038_png
+BYTE 0
+BYTE 160 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe039_png
+BYTE 196 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe040_png
+BYTE 0
+BYTE 232 5 0 0
+BYTE 6 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe041_png
+BYTE 0
+BYTE 12 6 0 0
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 13 0 0 0x85
+BYTE 0 0 0 0x80
+BYTE 0
+BYTE 7 0 0 0x85
+BYTE 3 0 0 0x85
+BYTE 0
+BYTE 1 0 0 0x86
+POIN2 _ChariotAnimframe000_png
+BYTE 0
+BYTE 0 0 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe042_png
+BYTE 48 6 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe043_png
+BYTE 0
+BYTE 84 6 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe044_png
+BYTE 120 6 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe045_png
+BYTE 0
+BYTE 156 6 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe046_png
+BYTE 192 6 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe047_png
+BYTE 0
+BYTE 228 6 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe048_png
+BYTE 8 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe049_png
+BYTE 0
+BYTE 44 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe050_png
+BYTE 80 7 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe051_png
+BYTE 0
+BYTE 116 7 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe052_png
+BYTE 152 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe053_png
+BYTE 0
+BYTE 188 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe050_png
+BYTE 80 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe054_png
+BYTE 0
+BYTE 224 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe052_png
+BYTE 152 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe053_png
+BYTE 0
+BYTE 188 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe050_png
+BYTE 80 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe054_png
+BYTE 0
+BYTE 224 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe052_png
+BYTE 152 7 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe059_png
+BYTE 0
+BYTE 4 8 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe042_png
+BYTE 48 6 0 0
+BYTE 0
+BYTE 8 0 0 0x86
+POIN2 _ChariotAnimframe001_png
+BYTE 0
+BYTE 36 0 0 0
+BYTE 10 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe002_png
+BYTE 72 0 0 0
+BYTE 0
+BYTE 37 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe003_png
+BYTE 108 0 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe004_png
+BYTE 0
+BYTE 144 0 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe005_png
+BYTE 180 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe006_png
+BYTE 0
+BYTE 216 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe007_png
+BYTE 252 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe008_png
+BYTE 0
+BYTE 32 1 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe009_png
+BYTE 68 1 0 0
+BYTE 0
+BYTE 30 0 0 0x86
+POIN2 _ChariotAnimframe010_png
+BYTE 0
+BYTE 104 1 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe011_png
+BYTE 140 1 0 0
+BYTE 0
+BYTE 47 0 0 0x85
+BYTE 37 0 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe012_png
+BYTE 0
+BYTE 176 1 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe013_png
+BYTE 224 1 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe014_png
+BYTE 0
+BYTE 16 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe015_png
+BYTE 64 2 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe016_png
+BYTE 0
+BYTE 112 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe017_png
+BYTE 160 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe018_png
+BYTE 0
+BYTE 208 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe019_png
+BYTE 244 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe020_png
+BYTE 0
+BYTE 24 3 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe021_png
+BYTE 60 3 0 0
+BYTE 0
+BYTE 40 0 0 0x86
+POIN2 _ChariotAnimframe022_png
+BYTE 0
+BYTE 96 3 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe023_png
+BYTE 132 3 0 0
+BYTE 0
+BYTE 5 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe024_png
+BYTE 168 3 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe025_png
+BYTE 0
+BYTE 204 3 0 0
+BYTE 0 0 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe026_png
+BYTE 0
+BYTE 240 3 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe027_png
+BYTE 20 4 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe028_png
+BYTE 0
+BYTE 56 4 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe029_png
+BYTE 92 4 0 0
+BYTE 0
+BYTE 1 0xc 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe030_png
+BYTE 128 4 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe031_png
+BYTE 0
+BYTE 164 4 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe032_png
+BYTE 200 4 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe033_png
+BYTE 0
+BYTE 236 4 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe034_png
+BYTE 16 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe035_png
+BYTE 0
+BYTE 52 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe036_png
+BYTE 88 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe037_png
+BYTE 0
+BYTE 124 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe038_png
+BYTE 160 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe039_png
+BYTE 0
+BYTE 196 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe040_png
+BYTE 232 5 0 0
+BYTE 0
+BYTE 6 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe041_png
+BYTE 12 6 0 0
+BYTE 0
+BYTE 1 0 0 0x86
+POIN2 _ChariotAnimframe000_png
+BYTE 0
+BYTE 0 0 0 0
+BYTE 13 0 0 0x85
+BYTE 0
+BYTE 0 0 0 0x80
+BYTE 7 0 0 0x85
+BYTE 0
+BYTE 3 0 0 0x85
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe042_png
+BYTE 0
+BYTE 48 6 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe043_png
+BYTE 84 6 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe044_png
+BYTE 0
+BYTE 120 6 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe045_png
+BYTE 156 6 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe046_png
+BYTE 0
+BYTE 192 6 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe047_png
+BYTE 228 6 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe048_png
+BYTE 0
+BYTE 8 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe049_png
+BYTE 44 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe050_png
+BYTE 0
+BYTE 80 7 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe051_png
+BYTE 116 7 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe052_png
+BYTE 0
+BYTE 152 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe053_png
+BYTE 188 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe050_png
+BYTE 0
+BYTE 80 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe054_png
+BYTE 224 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe052_png
+BYTE 0
+BYTE 152 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe053_png
+BYTE 188 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe050_png
+BYTE 0
+BYTE 80 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe054_png
+BYTE 224 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe052_png
+BYTE 0
+BYTE 152 7 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe059_png
+BYTE 4 8 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe042_png
+BYTE 0
+BYTE 48 6 0 0
+BYTE 8 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe001_png
+BYTE 36 0 0 0
+BYTE 0
+BYTE 10 0 0 0x86
+POIN2 _ChariotAnimframe002_png
+BYTE 0
+BYTE 72 0 0 0
+BYTE 37 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe003_png
+BYTE 0
+BYTE 108 0 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe004_png
+BYTE 144 0 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe005_png
+BYTE 0
+BYTE 180 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe006_png
+BYTE 216 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe007_png
+BYTE 0
+BYTE 252 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe008_png
+BYTE 32 1 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe009_png
+BYTE 0
+BYTE 68 1 0 0
+BYTE 30 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe010_png
+BYTE 104 1 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe011_png
+BYTE 0
+BYTE 140 1 0 0
+BYTE 47 0 0 0x85
+BYTE 0
+BYTE 37 0 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe012_png
+BYTE 176 1 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe013_png
+BYTE 0
+BYTE 224 1 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe014_png
+BYTE 16 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe015_png
+BYTE 0
+BYTE 64 2 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe016_png
+BYTE 112 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe017_png
+BYTE 0
+BYTE 160 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe018_png
+BYTE 208 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe019_png
+BYTE 0
+BYTE 244 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe020_png
+BYTE 24 3 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe021_png
+BYTE 0
+BYTE 60 3 0 0
+BYTE 40 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe022_png
+BYTE 96 3 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe023_png
+BYTE 0
+BYTE 132 3 0 0
+BYTE 5 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe024_png
+BYTE 0
+BYTE 168 3 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe025_png
+BYTE 204 3 0 0
+BYTE 0
+BYTE 0 0 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe026_png
+BYTE 240 3 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe027_png
+BYTE 0
+BYTE 20 4 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe028_png
+BYTE 56 4 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe029_png
+BYTE 0
+BYTE 92 4 0 0
+BYTE 1 0xc 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe030_png
+BYTE 0
+BYTE 128 4 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe031_png
+BYTE 164 4 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe032_png
+BYTE 0
+BYTE 200 4 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe033_png
+BYTE 236 4 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe034_png
+BYTE 0
+BYTE 16 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe035_png
+BYTE 52 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe036_png
+BYTE 0
+BYTE 88 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe037_png
+BYTE 124 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe038_png
+BYTE 0
+BYTE 160 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe039_png
+BYTE 196 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe040_png
+BYTE 0
+BYTE 232 5 0 0
+BYTE 6 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe041_png
+BYTE 0
+BYTE 12 6 0 0
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 13 0 0 0x85
+BYTE 0 0 0 0x80
+BYTE 0
+BYTE 7 0 0 0x85
+BYTE 3 0 0 0x85
+BYTE 0
+BYTE 1 0 0 0x86
+POIN2 _ChariotAnimframe000_png
+BYTE 0
+BYTE 0 0 0 0
+BYTE 8 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe001_png
+BYTE 36 0 0 0
+BYTE 0
+BYTE 10 0 0 0x86
+POIN2 _ChariotAnimframe002_png
+BYTE 0
+BYTE 72 0 0 0
+BYTE 37 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe003_png
+BYTE 0
+BYTE 108 0 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe004_png
+BYTE 144 0 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe005_png
+BYTE 0
+BYTE 180 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe006_png
+BYTE 216 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe007_png
+BYTE 0
+BYTE 252 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe008_png
+BYTE 32 1 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe009_png
+BYTE 0
+BYTE 68 1 0 0
+BYTE 30 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe010_png
+BYTE 104 1 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe011_png
+BYTE 0
+BYTE 140 1 0 0
+BYTE 46 0 0 0x85
+BYTE 0
+BYTE 73 0 0 0x85
+BYTE 37 0 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe012_png
+BYTE 0
+BYTE 176 1 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe013_png
+BYTE 224 1 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe014_png
+BYTE 0
+BYTE 16 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe015_png
+BYTE 64 2 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe016_png
+BYTE 0
+BYTE 112 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe017_png
+BYTE 160 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe018_png
+BYTE 0
+BYTE 208 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe019_png
+BYTE 244 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe020_png
+BYTE 0
+BYTE 24 3 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe021_png
+BYTE 60 3 0 0
+BYTE 0
+BYTE 40 0 0 0x86
+POIN2 _ChariotAnimframe022_png
+BYTE 0
+BYTE 96 3 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe023_png
+BYTE 132 3 0 0
+BYTE 0
+BYTE 5 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe024_png
+BYTE 168 3 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe025_png
+BYTE 0
+BYTE 204 3 0 0
+BYTE 0 0 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe026_png
+BYTE 0
+BYTE 240 3 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe027_png
+BYTE 20 4 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe028_png
+BYTE 0
+BYTE 56 4 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe029_png
+BYTE 92 4 0 0
+BYTE 0
+BYTE 1 0xc 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe030_png
+BYTE 128 4 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe031_png
+BYTE 0
+BYTE 164 4 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe032_png
+BYTE 200 4 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe033_png
+BYTE 0
+BYTE 236 4 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe034_png
+BYTE 16 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe035_png
+BYTE 0
+BYTE 52 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe036_png
+BYTE 88 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe037_png
+BYTE 0
+BYTE 124 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe038_png
+BYTE 160 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe039_png
+BYTE 0
+BYTE 196 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe040_png
+BYTE 232 5 0 0
+BYTE 0
+BYTE 6 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe041_png
+BYTE 12 6 0 0
+BYTE 0
+BYTE 1 0 0 0x86
+POIN2 _ChariotAnimframe000_png
+BYTE 0
+BYTE 0 0 0 0
+BYTE 13 0 0 0x85
+BYTE 0
+BYTE 0 0 0 0x80
+BYTE 7 0 0 0x85
+BYTE 0
+BYTE 3 0 0 0x85
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe042_png
+BYTE 0
+BYTE 48 6 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe043_png
+BYTE 84 6 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe044_png
+BYTE 0
+BYTE 120 6 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe045_png
+BYTE 156 6 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe046_png
+BYTE 0
+BYTE 192 6 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe047_png
+BYTE 228 6 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe048_png
+BYTE 0
+BYTE 8 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe049_png
+BYTE 44 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe050_png
+BYTE 0
+BYTE 80 7 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe051_png
+BYTE 116 7 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe052_png
+BYTE 0
+BYTE 152 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe053_png
+BYTE 188 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe050_png
+BYTE 0
+BYTE 80 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe054_png
+BYTE 224 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe052_png
+BYTE 0
+BYTE 152 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe053_png
+BYTE 188 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe050_png
+BYTE 0
+BYTE 80 7 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe054_png
+BYTE 224 7 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe052_png
+BYTE 0
+BYTE 152 7 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe059_png
+BYTE 4 8 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe042_png
+BYTE 0
+BYTE 48 6 0 0
+BYTE 8 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe001_png
+BYTE 36 0 0 0
+BYTE 0
+BYTE 10 0 0 0x86
+POIN2 _ChariotAnimframe002_png
+BYTE 0
+BYTE 72 0 0 0
+BYTE 37 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe003_png
+BYTE 0
+BYTE 108 0 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe004_png
+BYTE 144 0 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe005_png
+BYTE 0
+BYTE 180 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe006_png
+BYTE 216 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe007_png
+BYTE 0
+BYTE 252 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe008_png
+BYTE 32 1 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe009_png
+BYTE 0
+BYTE 68 1 0 0
+BYTE 30 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe010_png
+BYTE 104 1 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe011_png
+BYTE 0
+BYTE 140 1 0 0
+BYTE 47 0 0 0x85
+BYTE 0
+BYTE 37 0 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe012_png
+BYTE 176 1 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe013_png
+BYTE 0
+BYTE 224 1 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe014_png
+BYTE 16 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe015_png
+BYTE 0
+BYTE 64 2 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe016_png
+BYTE 112 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe017_png
+BYTE 0
+BYTE 160 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe018_png
+BYTE 208 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe019_png
+BYTE 0
+BYTE 244 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe020_png
+BYTE 24 3 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe021_png
+BYTE 0
+BYTE 60 3 0 0
+BYTE 40 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe022_png
+BYTE 96 3 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe023_png
+BYTE 0
+BYTE 132 3 0 0
+BYTE 5 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe024_png
+BYTE 0
+BYTE 168 3 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe025_png
+BYTE 204 3 0 0
+BYTE 0
+BYTE 0 0 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe026_png
+BYTE 240 3 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe027_png
+BYTE 0
+BYTE 20 4 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe028_png
+BYTE 56 4 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe029_png
+BYTE 0
+BYTE 92 4 0 0
+BYTE 1 0xc 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe030_png
+BYTE 0
+BYTE 128 4 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe031_png
+BYTE 164 4 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe032_png
+BYTE 0
+BYTE 200 4 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe033_png
+BYTE 236 4 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe034_png
+BYTE 0
+BYTE 16 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe035_png
+BYTE 52 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe036_png
+BYTE 0
+BYTE 88 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe037_png
+BYTE 124 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe038_png
+BYTE 0
+BYTE 160 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe039_png
+BYTE 196 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe040_png
+BYTE 0
+BYTE 232 5 0 0
+BYTE 6 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe041_png
+BYTE 0
+BYTE 12 6 0 0
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 13 0 0 0x85
+BYTE 0 0 0 0x80
+BYTE 0
+BYTE 2 0 0 0x85
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 14 0 0 0x85
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe060_png
+BYTE 40 8 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe061_png
+BYTE 0
+BYTE 76 8 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe062_png
+BYTE 112 8 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe063_png
+BYTE 0
+BYTE 148 8 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe064_png
+BYTE 184 8 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe065_png
+BYTE 0
+BYTE 220 8 0 0
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe066_png
+BYTE 0 9 0 0
+BYTE 0
+BYTE 1 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe067_png
+BYTE 36 9 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe068_png
+BYTE 0
+BYTE 72 9 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe069_png
+BYTE 108 9 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe070_png
+BYTE 0
+BYTE 144 9 0 0
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 13 0 0 0x85
+BYTE 0 0 0 0x80
+BYTE 0
+BYTE 2 0 0 0x85
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 14 0 0 0x85
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe060_png
+BYTE 40 8 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe061_png
+BYTE 0
+BYTE 76 8 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe062_png
+BYTE 112 8 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe063_png
+BYTE 0
+BYTE 148 8 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe064_png
+BYTE 184 8 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe065_png
+BYTE 0
+BYTE 220 8 0 0
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe066_png
+BYTE 0 9 0 0
+BYTE 0
+BYTE 1 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe067_png
+BYTE 36 9 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe068_png
+BYTE 0
+BYTE 72 9 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe069_png
+BYTE 108 9 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe070_png
+BYTE 0
+BYTE 144 9 0 0
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 13 0 0 0x85
+BYTE 0 0 0 0x80
+BYTE 0
+BYTE 1 0 0 0x86
+POIN2 _ChariotAnimframe000_png
+BYTE 0
+BYTE 0 0 0 0
+BYTE 1 0 0 0x85
+BYTE 0
+BYTE 0 0 0 0x80
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 1 0 0 0x85
+BYTE 0 0 0 0x80
+BYTE 0
+BYTE 1 0 0 0x86
+POIN2 _ChariotAnimframe000_png
+BYTE 0
+BYTE 0 0 0 0
+BYTE 1 0 0 0x85
+BYTE 0
+BYTE 0 0 0 0x80
+BYTE 7 0 0 0x85
+BYTE 0
+BYTE 3 0 0 0x85
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 8 0 0 0x86
+POIN2 _ChariotAnimframe001_png
+BYTE 0
+BYTE 36 0 0 0
+BYTE 10 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe002_png
+BYTE 72 0 0 0
+BYTE 0
+BYTE 37 0 0 0x85
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe003_png
+BYTE 108 0 0 0
+BYTE 0
+BYTE 3 0 0 0x86
+POIN2 _ChariotAnimframe004_png
+BYTE 0
+BYTE 144 0 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe005_png
+BYTE 180 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe006_png
+BYTE 0
+BYTE 216 0 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe007_png
+BYTE 252 0 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe008_png
+BYTE 0
+BYTE 32 1 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe009_png
+BYTE 68 1 0 0
+BYTE 0
+BYTE 30 0 0 0x86
+POIN2 _ChariotAnimframe010_png
+BYTE 0
+BYTE 104 1 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe011_png
+BYTE 140 1 0 0
+BYTE 0
+BYTE 46 0 0 0x85
+BYTE 73 0 0 0x85
+BYTE 0
+BYTE 37 0 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe012_png
+BYTE 176 1 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe013_png
+BYTE 0
+BYTE 224 1 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe014_png
+BYTE 16 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe015_png
+BYTE 0
+BYTE 64 2 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe016_png
+BYTE 112 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe017_png
+BYTE 0
+BYTE 160 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe018_png
+BYTE 208 2 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe019_png
+BYTE 0
+BYTE 244 2 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe020_png
+BYTE 24 3 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe021_png
+BYTE 0
+BYTE 60 3 0 0
+BYTE 40 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe022_png
+BYTE 96 3 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe023_png
+BYTE 0
+BYTE 132 3 0 0
+BYTE 5 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe024_png
+BYTE 0
+BYTE 168 3 0 0
+BYTE 3 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe025_png
+BYTE 204 3 0 0
+BYTE 0
+BYTE 0 0 0 0x85
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe026_png
+BYTE 240 3 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe027_png
+BYTE 0
+BYTE 20 4 0 0
+BYTE 2 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe028_png
+BYTE 56 4 0 0
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe029_png
+BYTE 0
+BYTE 92 4 0 0
+BYTE 1 0xc 0 0x85
+BYTE 0
+BYTE 2 0 0 0x86
+POIN2 _ChariotAnimframe030_png
+BYTE 0
+BYTE 128 4 0 0
+BYTE 6 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe031_png
+BYTE 164 4 0 0
+BYTE 0
+BYTE 6 0 0 0x86
+POIN2 _ChariotAnimframe032_png
+BYTE 0
+BYTE 200 4 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe033_png
+BYTE 236 4 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe034_png
+BYTE 0
+BYTE 16 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe035_png
+BYTE 52 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe036_png
+BYTE 0
+BYTE 88 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe037_png
+BYTE 124 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe038_png
+BYTE 0
+BYTE 160 5 0 0
+BYTE 4 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe039_png
+BYTE 196 5 0 0
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe040_png
+BYTE 0
+BYTE 232 5 0 0
+BYTE 6 0 0 0x85
+BYTE 0
+BYTE 4 0 0 0x86
+POIN2 _ChariotAnimframe041_png
+BYTE 0
+BYTE 12 6 0 0
+BYTE 1 0 0 0x86
+BYTE 0
+POIN2 _ChariotAnimframe000_png
+BYTE 0 0 0 0
+BYTE 0
+BYTE 13 0 0 0x85
+BYTE 0 0 0 0x80

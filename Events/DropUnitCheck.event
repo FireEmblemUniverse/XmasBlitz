@@ -1,0 +1,29 @@
+DropUnitEvent:
+SVAL 1 Eirika //or whoever
+ASMC DropUnitCheck|1
+//result is in slot 2
+BEQ 0x3 r2 r0 //if slot 2 contains 0, jump to label 0x3
+CAM1 Eirika
+FlashCursor(Eirika, 60)
+ASMC DropToNearestSquare|1 //dropper in slot 1, droppee in slot 2
+CALL WarpInEvent
+LABEL 0x3
+NoFade
+ENDA
+
+WarpInEvent:
+REMU 0xFFFD
+CAM1 0xFFFD
+CHECK_COORDS 0xFFFD
+SADD 0xCB
+WARP_IN
+STAL2 0xA
+REVEAL 0xFFFD
+_0x412F 0x0
+ENDA
+
+DropToNearestSquare:
+#incbin "DropToNearestSquare.dmp"
+
+DropUnitCheck:
+#incbin "DropUnitCheck.dmp"

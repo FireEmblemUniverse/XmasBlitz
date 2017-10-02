@@ -1,0 +1,51 @@
+SongTable(0x93,mj1990intro1,0)
+
+    #include "MPlayDef.event"
+
+    #define    mj1990intro1_grp  mj1990intro1_map
+    #define    mj1990intro1_pri  0
+    #define    mj1990intro1_rev  0
+    #define    mj1990intro1_mvl  127
+    #define    mj1990intro1_key  0
+    #define    mj1990intro1_tbs  1
+    #define    mj1990intro1_exg  0
+    #define    mj1990intro1_cmp  1
+
+    ALIGN 4
+
+mj1990intro1_1:
+    BYTE        VOL     127*mj1990intro1_mvl/mxv
+    BYTE    KEYSH   mj1990intro1_key+0
+    BYTE        VOICE   0
+    BYTE        TIE     Cn3   v064
+    BYTE    W96
+mj1990intro1_1_B1:
+    BYTE    W96
+    BYTE    W96
+    BYTE    GoTo
+     POIN2    mj1990intro1_1_B1
+mj1990intro1_1_B2:
+    BYTE    W06
+    BYTE        EOT     Cn3 
+    BYTE    FINE
+
+    ALIGN 4
+
+mj1990intro1:
+    BYTE    1    // NumTrks
+    BYTE    0    // NumBlks
+    BYTE    mj1990intro1_pri    // Priority
+    BYTE    mj1990intro1_rev    // Reverb.
+
+    POIN2    mj1990intro1_grp
+
+    POIN2    mj1990intro1_1
+
+    
+mj1990intro1_map:
+WORD $3c00
+POIN mj1990intro1_wav
+WORD $FF00FF
+
+mj1990intro1_wav:
+#incbin "mj1990intro1.bin"

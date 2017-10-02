@@ -1,0 +1,244 @@
+#define ClassAnimTable (0xc00008-0x20)
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+
+PUSH
+  ORG $AC188
+  POIN NewDifficultyButtons
+
+  // ORG $8AEFE4
+  // BYTE 1 //make eirika use anims for lance not swd
+  // ORG $8AEFFC
+  // BYTE 1 //same for promo
+
+  ORG $c5830
+  POIN NewTitleScroll
+
+  ORG $c5808
+  POIN NewTitleText
+
+  ORG $a16dec
+  #incext Png2Dmp "edited status names_a16dec.png"
+
+  ORG $c57e4
+  POIN NewEmblem //replace dragons
+
+  ORG $c57ec
+  POIN NewEmblemMap
+
+
+  ORG $aac58c //clearing dragon palette to only use 1 colour
+  #incbin "emblem.pal.bin"
+  // BYTE $90 $42 $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A
+POP
+
+NewTitleText:
+  #incext Png2Dmp "FE_Title_heroes.png" --lz77
+
+NewEmblem:
+#incbin "emblem.img.bin"
+
+NewEmblemMap:
+#incbin "emblem.map.bin"
+
+NewDifficultyButtons:
+#incext Png2Dmp "difficulty.png" --lz77
+
+NewTitleScroll:
+#incext Png2Dmp "TitleScroll.png" --lz77
+
+PUSH
+  ORG 0xaab3f4
+  TitlePalette:
+    #incext Png2Dmp "title_bg_1.png" --palette-only
+    ALIGN 4
+
+  ORG $c5730
+  POIN TitlePt1
+
+  ORG $c5780
+  POIN TitlePt2
+POP
+  TitlePt1:
+    #incext Png2Dmp "title_bg_1.png" --lz77
+    ALIGN 4
+  TitlePt2:
+    #incext Png2Dmp "title_bg_2.png" --lz77
+    ALIGN 4
+
+PUSH
+#define ItemIconLocation(index) "ORG 0x5926F4 + (0x80 * index)"
+ItemIconLocation(0x42)//noatun
+#incext Png2Dmp "NoatunIcon.png"
+
+ItemIconLocation(8) //folkvangr icon
+#incext Png2Dmp "Folkvangr.png"
+
+ItemIconLocation(0xb3) //fensalir icon
+#incext Png2Dmp "Fensalir.png"
+
+ItemIconLocation(0x6a)
+#incext Png2Dmp "concoction.png"
+
+ItemIconLocation(0x89)//turnwheel
+#incext Png2Dmp "milagear.png"
+
+ItemIconLocation(0x3b)
+#incext Png2Dmp "direthunder.png"
+
+ItemIconLocation(0xb4)
+#incext Png2Dmp "armads.png"
+
+ItemIconLocation(0xb0)
+#incext Png2Dmp "durandal.png"
+
+ItemIconLocation(0x88) //was red gem
+#incext Png2Dmp "orb.png"
+
+ItemIconLocation(0xb1) //vague katti
+#incext Png2Dmp "VagueKatti.png"
+
+ItemIconLocation(0xba) //parthia
+#incext Png2Dmp "Parthia.png"
+
+ItemIconLocation(0xb5) //Gradivus
+#incext Png2Dmp "Gradivus.png"
+
+ItemIconLocation(0xbb) //gae bolg
+#incext Png2Dmp "gaebolg.png" //temp
+
+ItemIconLocation(0xbc) //tyrfing
+#incext Png2Dmp "tyrfing.png" //temp
+
+ItemIconLocation(0x3c) //naga
+#incext Png2Dmp "naga.png"
+POP
+
+SnowObjectType:
+#incbin "SnowObject_LZ.bin"
+
+SnowPalette:
+#incbin "SnowPalette_FE8.bin"
+
+SnowTileConfig:
+#incbin "SnowTileConfig_LZ.bin"
+
+CastlePalette:
+#incbin "CastlePalette_FE8.bin"
+
+EventPointerTable(0x8b, SnowObjectType)
+EventPointerTable(0x8c, SnowPalette)
+EventPointerTable(0x8d, SnowTileConfig)
+EventPointerTable(0x48, CastlePalette)
+#include "BattleAnimPointers.event"
+
+// TikiTransformPal:
+// #incext compress "tiki_transformed_pal.dmp"
+
+// TikiNormalPal:
+// #incext compress "tiki_untransformed_pal.dmp"
+
+// PUSH
+// ORG (0xc00008-0x20)+(0xc5*0x20)+(7*4)
+// POIN TikiTransformPal
+// ORG (0xc00008-0x20)+(0xc6*0x20)+(7*4)
+// POIN TikiTransformPal
+// ORG (0xc00008-0x20)+(0xc7*0x20)+(7*4)
+// POIN TikiNormalPal
+
+// ORG (0xc00008-0x20)+(0xc4*0x20)+(7*4)
+// POIN TikiTransformPal
+
+// POP
+
+
+//Stat screen
+PUSH
+ORG $88638
+POIN NewStatScreen
+ORG $88620
+POIN RemoveGlowy
+ORG $88640
+POIN NewStatScreenPal
+POP
+
+NewStatScreen:
+#incext Png2Dmp "StatScreen_B.png" --lz77
+NewStatScreenPal:
+#incext Png2Dmp "StatScreen_B.png" --palette-only
+
+RemoveGlowy:
+#incext Png2Dmp "RemoveGlowy.png" --lz77
+
+// #include "LanceVoidPromo.event"
+#include "Roui Installer.event"
+
+#include "RouiNoWpn Installer.event"
+
+#include "DancerSword Installer.event"
+
+#include "fhero_none Installer.event"
+#include "fhero_sw Installer.event"
+#include "fhero_axe Installer.event"
+#include "fhero_handaxe Installer.event"
+#include "hector Installer.event"
+#include "Lyn Installer.event"
+#include "Eliwood Installer.event"
+#include "sharenaAnim Installer.event"
+#include "sharenadis Installer.event"
+
+#include "Animation\Chariot\necromancer Frames\output\ChariotInstaller.event"
+
+ALIGN 4
+IMG_BloodPact:
+#incbin "bloodpact.img.bin"
+
+ALIGN 4
+TSA_BloodPact:
+#incbin "bloodpact.map.bin"
+
+ALIGN 4
+PAL_BloodPact:
+#incbin "bloodpact.pal.bin"
+
+ALIGN 4
+IMG_summoning_GR:
+#incbin "summonfed.img.bin"
+
+ALIGN 4
+TSA_summoning_GR:
+#incbin "summonfed.map.bin"
+
+ALIGN 4
+PAL_summoning_GR:
+#incbin "summonfed.pal.bin"
+
+ALIGN 4
+IMG_Objection:
+#incbin "Objection.img.bin"
+
+ALIGN 4
+TSA_Objection:
+#incbin "Objection.map.bin"
+// #include "Objection.map.event"
+
+ALIGN 4
+PAL_Objection:
+#incbin "Objection.pal.bin"
+
+
+//map sprites
+SharenaLordStanding:
+#incext Png2Dmp "map sprites/Sharena Lord Standing.png" --lz77
+
+SharenaLordMoving:
+#incext Png2Dmp "map sprites/Sharena Lord Moving.png" --lz77
+
+AlfonseLordStanding:
+#incext Png2Dmp "map sprites/Alfonse_Standing2.png" --lz77
+
+AlfonseLordMoving:
+#incext Png2Dmp "map sprites/Alfonse_Moving2.png" --lz77
+
+//Spells
+#include "Spells/Master Spell Animation Installer.event"

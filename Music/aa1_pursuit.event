@@ -1,0 +1,4269 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	aa1_pursuit_grp  voicegroup000
+	#define	aa1_pursuit_pri  0
+	#define	aa1_pursuit_rev  0
+	#define	aa1_pursuit_mvl  60
+	#define	aa1_pursuit_key  0
+	#define	aa1_pursuit_tbs  1
+	#define	aa1_pursuit_exg  0
+	#define	aa1_pursuit_cmp  1
+
+	// .rodata
+	//	aa1_pursuit
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.6) ****************//
+
+aa1_pursuit_1:
+	BYTE	KEYSH   aa1_pursuit_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   155*aa1_pursuit_tbs/2
+	BYTE		VOICE   3
+	BYTE		VOL     127*aa1_pursuit_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+aa1_pursuit_1_003:
+	BYTE		N17     Gn3   v112
+	BYTE		N17     Bn3 
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		N05     Gn3 
+	BYTE		N05     Bn3 
+	BYTE		N05     Dn4 
+	BYTE	W18
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE		N11     Cs4 
+	BYTE	W60
+	BYTE	PEND
+aa1_pursuit_1_B1:
+// 004   ----------------------------------------
+aa1_pursuit_1_004:
+	BYTE		N20     Bn3   v112
+	BYTE		N20     Bn4 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		N23     Gn3 
+	BYTE		N23     Cs4 
+	BYTE		N23     En4 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+aa1_pursuit_1_005:
+	BYTE	W12
+	BYTE		N05     Gn3   v112
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		N17     Cs3 
+	BYTE	W18
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE	PEND
+// 006   ----------------------------------------
+aa1_pursuit_1_006:
+	BYTE		N17     En4   v112
+	BYTE		N17     Gn4 
+	BYTE		N17     Bn4 
+	BYTE	W18
+	BYTE		N05     En4 
+	BYTE		N05     Gn4 
+	BYTE		N05     Bn4 
+	BYTE	W18
+	BYTE		N23     Dn4 
+	BYTE		N23     Fs4 
+	BYTE		N23     An4 
+	BYTE	W24
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		N54     Gn3 
+	BYTE		N54     Gn4 
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+aa1_pursuit_1_007:
+	BYTE	W60
+	BYTE		N23     En3   v112
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+aa1_pursuit_1_008:
+	BYTE		N28     En3   v112
+	BYTE		N28     Gn3 
+	BYTE		N28     Bn3 
+	BYTE	W30
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		N17     En3 
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE		N17     Bn3 
+	BYTE		N17     Fs4 
+	BYTE	W18
+	BYTE		N23     Bn3 
+	BYTE		N23     Cs4 
+	BYTE		N23     En4 
+	BYTE		N23     Bn4 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+aa1_pursuit_1_009:
+	BYTE	W12
+	BYTE		N23     An3   v112
+	BYTE		N23     Cs4 
+	BYTE		N23     En4 
+	BYTE		N23     An4 
+	BYTE	W24
+	BYTE		N32     Gn3 
+	BYTE		N32     Cs4 
+	BYTE		N32     En4 
+	BYTE		N32     Gn4 
+	BYTE	W36
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE	PEND
+// 010   ----------------------------------------
+aa1_pursuit_1_010:
+	BYTE		N17     Bn3   v112
+	BYTE		N17     En4 
+	BYTE		N17     Bn4 
+	BYTE	W18
+	BYTE		N05     Bn3 
+	BYTE		N05     En4 
+	BYTE		N05     Bn4 
+	BYTE	W18
+	BYTE		N23     An3 
+	BYTE		N23     Dn4 
+	BYTE		N23     Fs4 
+	BYTE		N23     An4 
+	BYTE	W24
+	BYTE		N11     Gn3 
+	BYTE		N11     Dn4 
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		N32     En3 
+	BYTE		N32     En4 
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+aa1_pursuit_1_011:
+	BYTE	W24
+	BYTE		N11     En3   v112
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		N17     Fs3 
+	BYTE		N17     An3 
+	BYTE	W18
+	BYTE		N48     En3 
+	BYTE		N48     Gn3 
+	BYTE	W30
+	BYTE	PEND
+// 012   ----------------------------------------
+aa1_pursuit_1_012:
+	BYTE	W24
+	BYTE		N20     Gn3   v112
+	BYTE		N20     Gn4 
+	BYTE	W24
+	BYTE		N17     Gn3 
+	BYTE		N17     Fs4 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N44     En3 
+	BYTE		N44     Gn3 
+	BYTE		N44     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+aa1_pursuit_1_013:
+	BYTE	W36
+	BYTE		N32     En3   v112
+	BYTE		N32     Gn3 
+	BYTE		N32     An3 
+	BYTE	W36
+	BYTE		N20     En3 
+	BYTE		N20     Bn3 
+	BYTE	W24
+	BYTE	PEND
+// 014   ----------------------------------------
+aa1_pursuit_1_014:
+	BYTE		N32     Fs3   v112
+	BYTE		N32     An3 
+	BYTE		N32     Dn4 
+	BYTE	W36
+	BYTE		N54     Fs3 
+	BYTE		N54     An3 
+	BYTE	W60
+	BYTE	PEND
+// 015   ----------------------------------------
+aa1_pursuit_1_015:
+	BYTE		N32     Dn3   v112
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N54     Dn3 
+	BYTE		N54     Fs3 
+	BYTE	W60
+	BYTE	PEND
+// 016   ----------------------------------------
+aa1_pursuit_1_016:
+	BYTE		N32     En3   v112
+	BYTE	W36
+	BYTE		N92   
+	BYTE		N92     Bn3 
+	BYTE	W60
+	BYTE	PEND
+// 017   ----------------------------------------
+aa1_pursuit_1_017:
+	BYTE	W36
+	BYTE		N32     En3   v112
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N20     An3 
+	BYTE	W24
+	BYTE	PEND
+// 018   ----------------------------------------
+aa1_pursuit_1_018:
+	BYTE		N90     Dn3   v112
+	BYTE		N90     Fs3 
+	BYTE		N90     Bn3 
+	BYTE	W96
+	BYTE	PEND
+// 019   ----------------------------------------
+aa1_pursuit_1_019:
+	BYTE	W12
+	BYTE		N11     Dn3   v112
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		N17     Dn3 
+	BYTE		N17     Fs3 
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		        En3 
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N11     Fs3 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+aa1_pursuit_1_020:
+	BYTE		N17     Gn3   v112
+	BYTE		N17     Bn3 
+	BYTE		N17     En4 
+	BYTE		N17     Gn4 
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE		N17     Bn3 
+	BYTE		N17     Fs4 
+	BYTE	W18
+	BYTE		N80     En3 
+	BYTE		N80     Bn3 
+	BYTE		N80     En4 
+	BYTE	W60
+	BYTE	PEND
+// 021   ----------------------------------------
+aa1_pursuit_1_021:
+	BYTE	W36
+	BYTE		N11     Gn3   v112
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		N17     Fs3 
+	BYTE		N17     Bn3 
+	BYTE		N17     Fs4 
+	BYTE	W18
+	BYTE		N24     En3 
+	BYTE		N24     Bn3 
+	BYTE		N24     En4 
+	BYTE	W30
+	BYTE	PEND
+// 022   ----------------------------------------
+aa1_pursuit_1_022:
+	BYTE		N17     Dn3   v112
+	BYTE		N17     Fs3 
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		        Dn3 
+	BYTE		N17     Fs3 
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		N54     Fs3 
+	BYTE		N54     Bn3 
+	BYTE	W60
+	BYTE	PEND
+// 023   ----------------------------------------
+aa1_pursuit_1_023:
+	BYTE		N17     Dn3   v112
+	BYTE		N17     An3 
+	BYTE	W18
+	BYTE		        Dn3 
+	BYTE		N17     An3 
+	BYTE	W18
+	BYTE		N32     Dn3 
+	BYTE		N32     Gs3 
+	BYTE	W36
+	BYTE		N20     Bn3 
+	BYTE	W24
+	BYTE	PEND
+// 024   ----------------------------------------
+aa1_pursuit_1_024:
+	BYTE		N17     En3   v112
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		N44     Cs3 
+	BYTE		N44     En3 
+	BYTE		N44     Gn3 
+	BYTE	W48
+	BYTE		N11     Cs3 
+	BYTE		N11     En3 
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+aa1_pursuit_1_025:
+	BYTE		N17     Dn3   v112
+	BYTE		N17     Fs3 
+	BYTE		N17     An3 
+	BYTE	W18
+	BYTE		        Dn3 
+	BYTE		N17     Bn3 
+	BYTE	W18
+	BYTE		N32     Cs3 
+	BYTE		N32     En3 
+	BYTE		N32     Gn3 
+	BYTE		N32     Cs4 
+	BYTE	W36
+	BYTE		N20     Gn3 
+	BYTE		N20     Gn4 
+	BYTE	W24
+	BYTE	PEND
+// 026   ----------------------------------------
+aa1_pursuit_1_026:
+	BYTE		N90     Gn3   v112
+	BYTE		N90     As3 
+	BYTE		N90     En4 
+	BYTE		N90     Gn4 
+	BYTE	W96
+	BYTE	PEND
+// 027   ----------------------------------------
+aa1_pursuit_1_027:
+	BYTE		N20     Fs3   v112
+	BYTE		N20     An3 
+	BYTE		N20     Ds4 
+	BYTE		N20     Fs4 
+	BYTE	W96
+	BYTE	PEND
+// 028   ----------------------------------------
+aa1_pursuit_1_028:
+	BYTE		N11     En4   v112
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		N20     Bn3 
+	BYTE		N20     En4 
+	BYTE	W24
+	BYTE		N17     En3 
+	BYTE		N17     Gn3 
+	BYTE		N17     Bn3 
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Fs3 
+	BYTE		N05     Bn3 
+	BYTE		N05     Fs4 
+	BYTE	W18
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE	PEND
+// 029   ----------------------------------------
+aa1_pursuit_1_029:
+	BYTE		N11     Bn3   v112
+	BYTE		N11     En4 
+	BYTE		N11     Gn4 
+	BYTE		N11     Bn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		N20     Gn3 
+	BYTE		N20     Bn3 
+	BYTE		N20     En4 
+	BYTE		N20     Gn4 
+	BYTE	W24
+	BYTE		N17     Gn3 
+	BYTE		N17     Cn4 
+	BYTE		N17     Gn4 
+	BYTE	W18
+	BYTE		N24     Fs3 
+	BYTE		N24     Dn4 
+	BYTE		N24     Fs4 
+	BYTE	W30
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_029
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_029
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 035   ----------------------------------------
+aa1_pursuit_1_035:
+	BYTE		N11     Bn3   v112
+	BYTE		N11     En4 
+	BYTE		N11     Gn4 
+	BYTE		N11     Bn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		N20     Gn3 
+	BYTE		N20     Bn3 
+	BYTE		N20     En4 
+	BYTE		N20     Gn4 
+	BYTE	W24
+	BYTE		N17     Gn3 
+	BYTE		N17     En4 
+	BYTE		N17     Gn4 
+	BYTE	W18
+	BYTE		N24     Fs3 
+	BYTE		N24     Dn4 
+	BYTE		N24     Fs4 
+	BYTE	W30
+	BYTE	PEND
+// 036   ----------------------------------------
+aa1_pursuit_1_036:
+	BYTE		TIE     En3   v112
+	BYTE		TIE     En4 
+	BYTE	W96
+	BYTE	PEND
+// 037   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT     En3 
+	BYTE		        En4 
+	BYTE	W06
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+aa1_pursuit_1_040:
+	BYTE		N17     Gn3   v112
+	BYTE		N17     Bn3 
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE		N17     Bn3 
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		N11     Gn3 
+	BYTE		N11     Cs4 
+	BYTE		N11     En4 
+	BYTE	W60
+	BYTE	PEND
+// 041   ----------------------------------------
+aa1_pursuit_1_041:
+	BYTE		N11     Cn3   v112
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N11     Fn3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE	PEND
+// 042   ----------------------------------------
+aa1_pursuit_1_042:
+	BYTE		N11     Dn3   v112
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N11     Gn3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N20     Dn4 
+	BYTE	W24
+	BYTE	PEND
+// 043   ----------------------------------------
+aa1_pursuit_1_043:
+	BYTE		N11     Dn3   v112
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     Fn3 
+	BYTE	W06
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE		N11     En3 
+	BYTE	W24
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		N20     Cn4 
+	BYTE	W24
+	BYTE	PEND
+// 044   ----------------------------------------
+aa1_pursuit_1_044:
+	BYTE		N11     Cn3   v112
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N11     Fn3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N20     Dn4 
+	BYTE	W24
+	BYTE	PEND
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_041
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_042
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_043
+// 048   ----------------------------------------
+aa1_pursuit_1_048:
+	BYTE		N11     Dn4   v112
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		N20     An3 
+	BYTE		N20     Dn4 
+	BYTE	W24
+	BYTE		N17     Dn3 
+	BYTE		N17     Fn3 
+	BYTE		N17     An3 
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		N05     En3 
+	BYTE		N05     An3 
+	BYTE		N05     En4 
+	BYTE	W18
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE	PEND
+// 049   ----------------------------------------
+aa1_pursuit_1_049:
+	BYTE		N11     An3   v112
+	BYTE		N11     Dn4 
+	BYTE		N11     Fn4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N11     An3 
+	BYTE		N11     Dn4 
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		N20     Fn3 
+	BYTE		N20     An3 
+	BYTE		N20     Dn4 
+	BYTE		N20     Fn4 
+	BYTE	W24
+	BYTE		N17     Fn3 
+	BYTE		N17     As3 
+	BYTE		N17     Fn4 
+	BYTE	W18
+	BYTE		N24     En3 
+	BYTE		N24     Cn4 
+	BYTE		N24     En4 
+	BYTE	W30
+	BYTE	PEND
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_048
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_049
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_029
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_035
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_036
+// 057   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT     En3 
+	BYTE		        En4 
+	BYTE	W06
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+aa1_pursuit_1_060:
+	BYTE	W48
+	BYTE		N17     En4   v112
+	BYTE		N17     En5 
+	BYTE	W18
+	BYTE		N05     En4 
+	BYTE		N05     En5 
+	BYTE	W18
+	BYTE		N11     En4 
+	BYTE		N11     En5 
+	BYTE	W12
+	BYTE	PEND
+// 061   ----------------------------------------
+aa1_pursuit_1_061:
+	BYTE		N17     Gn3   v112
+	BYTE		N17     Bn3 
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		N05     Gn3 
+	BYTE		N05     Bn3 
+	BYTE		N05     Dn4 
+	BYTE	W18
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		N17     En4 
+	BYTE		N17     En5 
+	BYTE	W18
+	BYTE		N05     En4 
+	BYTE		N05     En5 
+	BYTE	W18
+	BYTE		N11     En4 
+	BYTE		N11     En5 
+	BYTE	W12
+	BYTE	PEND
+// 062   ----------------------------------------
+aa1_pursuit_1_062:
+	BYTE		N17     En3   v112
+	BYTE		N17     Gn3 
+	BYTE		N17     Bn3 
+	BYTE	W18
+	BYTE		N05     En3 
+	BYTE		N05     Gn3 
+	BYTE		N05     Bn3 
+	BYTE	W18
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		N17     En4 
+	BYTE		N17     En5 
+	BYTE	W18
+	BYTE		N05     En4 
+	BYTE		N05     En5 
+	BYTE	W18
+	BYTE		N11     En4 
+	BYTE		N11     En5 
+	BYTE	W12
+	BYTE	PEND
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_006
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_007
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_008
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_009
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_010
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_011
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_012
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_013
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_014
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_015
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_016
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_017
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_018
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_019
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_020
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_021
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_022
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_023
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_024
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_025
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_026
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_027
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_029
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_029
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_029
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_035
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_036
+// 097   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT     En3 
+	BYTE		        En4 
+	BYTE	W06
+// 098   ----------------------------------------
+	BYTE	W96
+// 099   ----------------------------------------
+	BYTE	W96
+// 100   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_040
+// 101   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_041
+// 102   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_042
+// 103   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_043
+// 104   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_044
+// 105   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_041
+// 106   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_042
+// 107   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_043
+// 108   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_048
+// 109   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_049
+// 110   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_048
+// 111   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_049
+// 112   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 113   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_029
+// 114   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_028
+// 115   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_035
+// 116   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_036
+// 117   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT     En3 
+	BYTE		        En4 
+	BYTE	W06
+// 118   ----------------------------------------
+	BYTE	W96
+// 119   ----------------------------------------
+	BYTE	W96
+// 120   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_060
+// 121   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_061
+// 122   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_1_062
+// 123   ----------------------------------------
+	BYTE		N17     Gn3   v112
+	BYTE		N17     Bn3 
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		N05     Gn3 
+	BYTE		N05     Bn3 
+	BYTE		N05     Dn4 
+	BYTE	W18
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE		N11     Cs4 
+	BYTE	W56
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	aa1_pursuit_1_B1
+aa1_pursuit_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.8) ****************//
+
+aa1_pursuit_2:
+	BYTE	KEYSH   aa1_pursuit_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   3
+	BYTE		VOL     127*aa1_pursuit_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*aa1_pursuit_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N06     En3   v112
+	BYTE		N17     Gn3 
+	BYTE	W06
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06   
+	BYTE		N11     An3 
+	BYTE	W06
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE		N06   
+	BYTE		N17     Bn3 
+	BYTE	W06
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06   
+	BYTE		N11     An3 
+	BYTE	W06
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 002   ----------------------------------------
+aa1_pursuit_2_002:
+	BYTE		N17     En3   v112
+	BYTE		N17     Gn3 
+	BYTE	W18
+	BYTE		N05     En3 
+	BYTE		N05     Gn3 
+	BYTE	W18
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W60
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N17     En3 
+	BYTE		N17     Bn3 
+	BYTE		N17     Cs5 
+	BYTE	W18
+	BYTE		N05     En3 
+	BYTE		N05     Bn3 
+	BYTE		N17     Cs5 
+	BYTE	W18
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE		N11     Cs5 
+	BYTE	W12
+	BYTE		N02     An1 
+	BYTE	W03
+	BYTE		        En2 
+	BYTE	W03
+	BYTE		        An2 
+	BYTE	W03
+	BYTE		        Cs3 
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE		        En4 
+	BYTE	W03
+	BYTE		        An4 
+	BYTE	W03
+	BYTE		        Cs5 
+	BYTE	W03
+	BYTE		        En5 
+	BYTE	W03
+	BYTE		        An5 
+	BYTE	W03
+	BYTE		        Cs6 
+	BYTE	W03
+	BYTE		        An5 
+	BYTE	W03
+	BYTE		        En5 
+	BYTE	W03
+	BYTE		        Cs5 
+	BYTE	W03
+aa1_pursuit_2_B1:
+// 004   ----------------------------------------
+aa1_pursuit_2_004:
+	BYTE		N20     Bn2   v112
+	BYTE		N11     Dn3 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     Gn3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+aa1_pursuit_2_005:
+	BYTE		N11     En3   v112
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     An3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N20     En4 
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+aa1_pursuit_2_006:
+	BYTE		N11     En3   v112
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N11     Fs3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N20     Dn4 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+aa1_pursuit_2_007:
+	BYTE		N11     Dn3   v112
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     Gn3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N20     En4 
+	BYTE	W24
+	BYTE	PEND
+// 008   ----------------------------------------
+aa1_pursuit_2_008:
+	BYTE		N11     Dn3   v112
+	BYTE		N12     En3 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		N20     En3 
+	BYTE	W06
+	BYTE		N05     Dn3 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		N17     Bn3 
+	BYTE	W12
+	BYTE		N11     En3 
+	BYTE	W06
+	BYTE		N06     En4 
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N23     Gn4 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+aa1_pursuit_2_009:
+	BYTE		N11     En3   v112
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE		N23     Fs4 
+	BYTE	W06
+	BYTE		N05     En3 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     An3 
+	BYTE		N32     En4 
+	BYTE	W24
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		N20     En4 
+	BYTE	W24
+	BYTE	PEND
+// 010   ----------------------------------------
+aa1_pursuit_2_010:
+	BYTE		N11     En3   v112
+	BYTE		N11     Gn3 
+	BYTE		N17     Gn4 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     Gn3 
+	BYTE		N17     Gn4 
+	BYTE	W06
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N11     Fs3 
+	BYTE		N17     Fs4 
+	BYTE	W18
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		N20     Dn4 
+	BYTE	W24
+	BYTE	PEND
+// 011   ----------------------------------------
+aa1_pursuit_2_011:
+	BYTE		N11     Dn3   v112
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     Fs3 
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N20     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+aa1_pursuit_2_012:
+	BYTE		N12     En3   v112
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		N24     En3 
+	BYTE	W12
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		N24     En3 
+	BYTE	W06
+	BYTE		N05     En4 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N23     En3 
+	BYTE	W12
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		TIE     Gn4 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+aa1_pursuit_2_013:
+	BYTE		N11     En4   v112
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W06
+	BYTE	PEND
+	BYTE		EOT     Gn4 
+	BYTE	W06
+// 014   ----------------------------------------
+aa1_pursuit_2_014:
+	BYTE		N11     Dn4   v112
+	BYTE		N32     Fs4 
+	BYTE	W12
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N18   
+	BYTE	W06
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		N18     Dn4 
+	BYTE	W12
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+aa1_pursuit_2_015:
+	BYTE		N32     An3   v112
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE		N54     Bn3 
+	BYTE	W06
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+aa1_pursuit_2_016:
+	BYTE		N11     Cn4   v112
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE		N92     Gn3 
+	BYTE	W06
+	BYTE		N05     Cn4 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 017   ----------------------------------------
+aa1_pursuit_2_017:
+	BYTE		N11     Cn4   v112
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE		N32     Gn3 
+	BYTE	W06
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W12
+	BYTE		N20     Gn3 
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+aa1_pursuit_2_018:
+	BYTE		TIE     Fs3   v112
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE	PEND
+// 019   ----------------------------------------
+aa1_pursuit_2_019:
+	BYTE		N11     Dn4   v112
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		N17     Dn3 
+	BYTE	W12
+	BYTE	PEND
+	BYTE		EOT     Fs3 
+	BYTE	W06
+// 020   ----------------------------------------
+aa1_pursuit_2_020:
+	BYTE		N11     En4   v112
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N17     Bn3 
+	BYTE	W06
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W06
+	BYTE		N17     An3 
+	BYTE	W06
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N44     Gn3 
+	BYTE	W12
+	BYTE	PEND
+// 021   ----------------------------------------
+aa1_pursuit_2_021:
+	BYTE		N11     En4   v112
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE		N11     Bn3 
+	BYTE	W06
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N11     An3 
+	BYTE	W06
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE		N32     Gn3 
+	BYTE	W18
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		N24     En3 
+	BYTE	W06
+	BYTE	PEND
+// 022   ----------------------------------------
+aa1_pursuit_2_022:
+	BYTE		N17     Fs3   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N54     Dn3 
+	BYTE	W60
+	BYTE	PEND
+// 023   ----------------------------------------
+aa1_pursuit_2_023:
+	BYTE		N17     Fs3   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N54     En3 
+	BYTE	W60
+	BYTE	PEND
+// 024   ----------------------------------------
+aa1_pursuit_2_024:
+	BYTE		N11     En4   v112
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+aa1_pursuit_2_025:
+	BYTE		N11     Dn4   v112
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 026   ----------------------------------------
+aa1_pursuit_2_026:
+	BYTE		N11     Cs3   v112
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE		N42     En4 
+	BYTE	W06
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE	PEND
+// 027   ----------------------------------------
+aa1_pursuit_2_027:
+	BYTE		N20     Bn3   v112
+	BYTE		N20     Ds4 
+	BYTE	W48
+	BYTE		N05     Bn5 
+	BYTE	W06
+	BYTE		N02     An5 
+	BYTE	W03
+	BYTE		        Fs5 
+	BYTE	W03
+	BYTE		N05     Ds5 
+	BYTE	W06
+	BYTE		N02     Cs5 
+	BYTE	W03
+	BYTE		        Bn4 
+	BYTE	W03
+	BYTE		N05     An4 
+	BYTE	W06
+	BYTE		N02     Fs4 
+	BYTE	W03
+	BYTE		        En4 
+	BYTE	W03
+	BYTE		N05     Ds4 
+	BYTE	W06
+	BYTE		N02     Cs4 
+	BYTE	W03
+	BYTE		        Bn3 
+	BYTE	W03
+	BYTE	PEND
+// 028   ----------------------------------------
+aa1_pursuit_2_028:
+	BYTE		N11     En3   v112
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE		N17     Gn3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N17     Bn3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE	PEND
+// 029   ----------------------------------------
+aa1_pursuit_2_029:
+	BYTE		N11     En3   v112
+	BYTE		N11     Bn3 
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     An3 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     Gn3 
+	BYTE		N20     En4 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE		N17     En4 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N24     Dn4 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 036   ----------------------------------------
+aa1_pursuit_2_036:
+	BYTE		N17     Gn3   v112
+	BYTE		N17     Bn3 
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		N05     Gn3 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE		N11     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 037   ----------------------------------------
+aa1_pursuit_2_037:
+	BYTE		N17     Bn3   v112
+	BYTE		N11     Cn4 
+	BYTE		N17     Dn4 
+	BYTE	W12
+	BYTE		N11     Cn3 
+	BYTE	W06
+	BYTE		N05     Bn3 
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE		N11     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W18
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 038   ----------------------------------------
+aa1_pursuit_2_038:
+	BYTE		N17     Gn3   v112
+	BYTE		N17     Bn3 
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		N05     Gn3 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE		N11     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 039   ----------------------------------------
+aa1_pursuit_2_039:
+	BYTE		N17     Bn3   v112
+	BYTE		N11     Cn4 
+	BYTE		N17     Dn4 
+	BYTE	W12
+	BYTE		N11     Cn3 
+	BYTE	W06
+	BYTE		N05     Bn3 
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE		N11     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 040   ----------------------------------------
+aa1_pursuit_2_040:
+	BYTE		N17     Bn3   v112
+	BYTE		N17     Fn4 
+	BYTE	W18
+	BYTE		        Bn3 
+	BYTE		N17     Fn4 
+	BYTE	W18
+	BYTE		N11     Cs4 
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		N02     An1 
+	BYTE	W03
+	BYTE		        En2 
+	BYTE	W03
+	BYTE		        An2 
+	BYTE	W03
+	BYTE		        Cs3 
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE		        En4 
+	BYTE	W03
+	BYTE		        An4 
+	BYTE	W03
+	BYTE		        Cs5 
+	BYTE	W03
+	BYTE		        En5 
+	BYTE	W03
+	BYTE		        An5 
+	BYTE	W03
+	BYTE		        Cs6 
+	BYTE	W03
+	BYTE		        An5 
+	BYTE	W03
+	BYTE		        En5 
+	BYTE	W03
+	BYTE		        Cs5 
+	BYTE	W03
+	BYTE	PEND
+// 041   ----------------------------------------
+aa1_pursuit_2_041:
+	BYTE		N56     An3   v112
+	BYTE		N90     Bn3 
+	BYTE		N90     Bn4 
+	BYTE	W60
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		N78     Dn3 
+	BYTE	W12
+	BYTE	PEND
+// 042   ----------------------------------------
+aa1_pursuit_2_042:
+	BYTE	W72
+	BYTE		N05     Dn3   v112
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE	PEND
+// 043   ----------------------------------------
+aa1_pursuit_2_043:
+	BYTE		N17     An3   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N23     Gn3 
+	BYTE	W24
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N54     Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 044   ----------------------------------------
+aa1_pursuit_2_044:
+	BYTE	W60
+	BYTE		N23     Gn2   v112
+	BYTE	W24
+	BYTE		N11     Gs2 
+	BYTE	W12
+	BYTE	PEND
+// 045   ----------------------------------------
+aa1_pursuit_2_045:
+	BYTE		N32     Dn3   v112
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N17     An3 
+	BYTE	W18
+	BYTE		        Dn4 
+	BYTE	W18
+	BYTE		N23     Fn4 
+	BYTE	W12
+	BYTE	PEND
+// 046   ----------------------------------------
+aa1_pursuit_2_046:
+	BYTE	W12
+	BYTE		N23     En4   v112
+	BYTE	W24
+	BYTE		N32     Dn4 
+	BYTE	W60
+	BYTE	PEND
+// 047   ----------------------------------------
+aa1_pursuit_2_047:
+	BYTE		N17     Fn4   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        En4 
+	BYTE	W18
+	BYTE		        Dn4 
+	BYTE	W18
+	BYTE		N44     Cn4 
+	BYTE	W24
+	BYTE	PEND
+// 048   ----------------------------------------
+aa1_pursuit_2_048:
+	BYTE		N11     En3   v112
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE		N17     Fn3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N17     An3 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE	PEND
+// 049   ----------------------------------------
+aa1_pursuit_2_049:
+	BYTE		N11     En3   v112
+	BYTE		N11     Bn3 
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     An3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     Gn3 
+	BYTE		N20     Dn4 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE		N17     Dn4 
+	BYTE	W12
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N24     Cn4 
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_048
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_049
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_036
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_037
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_038
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_039
+// 060   ----------------------------------------
+aa1_pursuit_2_060:
+	BYTE		N05     En2   v112
+	BYTE		N17     En3 
+	BYTE		N17     Gn3 
+	BYTE	W06
+	BYTE		N05     En2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     En3 
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W06
+	BYTE		N05     En2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+// 061   ----------------------------------------
+aa1_pursuit_2_061:
+	BYTE		N05     En2   v112
+	BYTE		N17     En3 
+	BYTE		N17     Bn3 
+	BYTE	W06
+	BYTE		N05     En2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     En3 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W06
+	BYTE		N05     En2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_002
+// 063   ----------------------------------------
+	BYTE		N17     Bn3   v112
+	BYTE		N17     Cn5 
+	BYTE	W18
+	BYTE		N05     Bn3 
+	BYTE		N17     Cn5 
+	BYTE	W18
+	BYTE		N11     An3 
+	BYTE		N11     Cn5 
+	BYTE	W12
+	BYTE		N02     An1 
+	BYTE	W03
+	BYTE		        En2 
+	BYTE	W03
+	BYTE		        An2 
+	BYTE	W03
+	BYTE		        Cs3 
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE		        En4 
+	BYTE	W03
+	BYTE		        An4 
+	BYTE	W03
+	BYTE		        Cs5 
+	BYTE	W03
+	BYTE		        En5 
+	BYTE	W03
+	BYTE		        An5 
+	BYTE	W03
+	BYTE		        Cs6 
+	BYTE	W03
+	BYTE		        An5 
+	BYTE	W03
+	BYTE		        En5 
+	BYTE	W03
+	BYTE		        Cs5 
+	BYTE	W03
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_006
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_007
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_008
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_009
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_010
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_011
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_012
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_013
+	BYTE		EOT     Gn4 
+	BYTE	W06
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_014
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_015
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_016
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_017
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_018
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_019
+	BYTE		EOT     Fs3 
+	BYTE	W06
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_020
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_021
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_022
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_023
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_024
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_025
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_026
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_027
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_036
+// 097   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_037
+// 098   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_038
+// 099   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_039
+// 100   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_040
+// 101   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_041
+// 102   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_042
+// 103   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_043
+// 104   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_044
+// 105   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_045
+// 106   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_046
+// 107   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_047
+// 108   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_048
+// 109   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_049
+// 110   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_048
+// 111   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_049
+// 112   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 113   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 114   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_028
+// 115   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_029
+// 116   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_036
+// 117   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_037
+// 118   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_038
+// 119   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_039
+// 120   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_060
+// 121   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_061
+// 122   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_2_002
+// 123   ----------------------------------------
+	BYTE		N17     Bn3   v112
+	BYTE		N17     Cn5 
+	BYTE	W18
+	BYTE		N05     Bn3 
+	BYTE		N17     Cn5 
+	BYTE	W18
+	BYTE		N11     An3 
+	BYTE		N11     Cn5 
+	BYTE	W12
+	BYTE		N02     An1 
+	BYTE	W03
+	BYTE		        En2 
+	BYTE	W03
+	BYTE		        An2 
+	BYTE	W03
+	BYTE		        Cs3 
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        Cs4 
+	BYTE	W03
+	BYTE		        En4 
+	BYTE	W03
+	BYTE		        An4 
+	BYTE	W03
+	BYTE		        Cs5 
+	BYTE	W03
+	BYTE		        En5 
+	BYTE	W03
+	BYTE		        An5 
+	BYTE	W03
+	BYTE		        Cs6 
+	BYTE	W03
+	BYTE		        An5 
+	BYTE	W03
+	BYTE		        En5 
+	BYTE	W03
+	BYTE		        Cs5 
+	BYTE	W02
+	BYTE	GoTo
+	 POIN2	aa1_pursuit_2_B1
+aa1_pursuit_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.9) ****************//
+
+aa1_pursuit_3:
+	BYTE	KEYSH   aa1_pursuit_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   40
+	BYTE		VOL     127*aa1_pursuit_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N17     Bn3   v112
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Bn3 
+	BYTE		N05     En4 
+	BYTE	W18
+	BYTE		N11     Cs4 
+	BYTE		N11     En4 
+	BYTE	W60
+// 001   ----------------------------------------
+aa1_pursuit_3_001:
+	BYTE		N17     Dn4   v112
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Dn4 
+	BYTE		N05     En4 
+	BYTE	W18
+	BYTE		N11     Cs4 
+	BYTE		N11     En4 
+	BYTE	W60
+	BYTE	PEND
+// 002   ----------------------------------------
+aa1_pursuit_3_002:
+	BYTE		N17     Bn3   v112
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		N05     Bn3 
+	BYTE		N05     En4 
+	BYTE	W18
+	BYTE		N11     Cs4 
+	BYTE		N11     En4 
+	BYTE	W60
+	BYTE	PEND
+// 003   ----------------------------------------
+aa1_pursuit_3_003:
+	BYTE		N17     Dn4   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N11     Cs4 
+	BYTE	W60
+	BYTE	PEND
+aa1_pursuit_3_B1:
+// 004   ----------------------------------------
+	BYTE		N20     En3   v112
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+aa1_pursuit_3_008:
+	BYTE		N32     Bn3   v112
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N17     En4 
+	BYTE	W18
+	BYTE		        Fs4 
+	BYTE	W18
+	BYTE		N23     Bn4 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+aa1_pursuit_3_009:
+	BYTE	W12
+	BYTE		N23     An4   v112
+	BYTE	W24
+	BYTE		N32     Gn4 
+	BYTE	W36
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE	PEND
+// 010   ----------------------------------------
+aa1_pursuit_3_010:
+	BYTE		N17     Bn4   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N23     An4 
+	BYTE	W24
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		TIE     En4 
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 012   ----------------------------------------
+aa1_pursuit_3_012:
+	BYTE		N20     Bn3   v112
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		N17     Fs4 
+	BYTE	W18
+	BYTE		        En4 
+	BYTE	W18
+	BYTE		N44     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+aa1_pursuit_3_013:
+	BYTE	W36
+	BYTE		N32     An3   v112
+	BYTE	W36
+	BYTE		N20     Bn3 
+	BYTE	W24
+	BYTE	PEND
+// 014   ----------------------------------------
+aa1_pursuit_3_014:
+	BYTE		N32     Dn4   v112
+	BYTE	W36
+	BYTE		N54     An3 
+	BYTE	W60
+	BYTE	PEND
+// 015   ----------------------------------------
+aa1_pursuit_3_015:
+	BYTE		N32     Gn3   v112
+	BYTE	W36
+	BYTE		N54     Fs3 
+	BYTE	W60
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	W36
+	BYTE		N92     En3 
+	BYTE	W60
+// 017   ----------------------------------------
+aa1_pursuit_3_017:
+	BYTE	W36
+	BYTE		N32     En3   v112
+	BYTE	W36
+	BYTE		N20   
+	BYTE	W24
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE		TIE     Dn3 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 020   ----------------------------------------
+aa1_pursuit_3_020:
+	BYTE	W48
+	BYTE		N17     Gn4   v112
+	BYTE	W18
+	BYTE		        Fs4 
+	BYTE	W18
+	BYTE		N44     En4 
+	BYTE	W12
+	BYTE	PEND
+// 021   ----------------------------------------
+aa1_pursuit_3_021:
+	BYTE	W36
+	BYTE		N11     Gn4   v112
+	BYTE	W12
+	BYTE		N17     Fs4 
+	BYTE	W18
+	BYTE		N24     En4 
+	BYTE	W30
+	BYTE	PEND
+// 022   ----------------------------------------
+aa1_pursuit_3_022:
+	BYTE		N17     Dn4   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N54     Bn3 
+	BYTE	W60
+	BYTE	PEND
+// 023   ----------------------------------------
+aa1_pursuit_3_023:
+	BYTE		N17     An3   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N32     Gs3 
+	BYTE	W36
+	BYTE		N20     Bn3 
+	BYTE	W24
+	BYTE	PEND
+// 024   ----------------------------------------
+aa1_pursuit_3_024:
+	BYTE		N17     En3   v112
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		N44     Gn3 
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+aa1_pursuit_3_025:
+	BYTE		N17     An3   v112
+	BYTE	W18
+	BYTE		        Bn3 
+	BYTE	W18
+	BYTE		N32     Cs4 
+	BYTE	W36
+	BYTE		N20     Gn4 
+	BYTE	W24
+	BYTE	PEND
+// 026   ----------------------------------------
+aa1_pursuit_3_026:
+	BYTE		N20     Gn4   v112
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE	PEND
+// 027   ----------------------------------------
+	BYTE		        Fs4 
+	BYTE	W96
+// 028   ----------------------------------------
+aa1_pursuit_3_028:
+	BYTE	W48
+	BYTE		N17     En4   v112
+	BYTE	W18
+	BYTE		        Fs4 
+	BYTE	W18
+	BYTE		N05     Gn4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE	PEND
+// 029   ----------------------------------------
+aa1_pursuit_3_029:
+	BYTE		N11     Bn4   v112
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N20     Gn4 
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N24     Fs4 
+	BYTE	W30
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 036   ----------------------------------------
+	BYTE		TIE     En4   v112
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 040   ----------------------------------------
+aa1_pursuit_3_040:
+	BYTE		N17     Dn4   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N11     En4 
+	BYTE	W60
+	BYTE	PEND
+// 041   ----------------------------------------
+aa1_pursuit_3_041:
+	BYTE		N56     An4   v112
+	BYTE	W60
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		N78     Dn4 
+	BYTE	W12
+	BYTE	PEND
+// 042   ----------------------------------------
+aa1_pursuit_3_042:
+	BYTE	W72
+	BYTE		N05     Dn4   v112
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE	PEND
+// 043   ----------------------------------------
+aa1_pursuit_3_043:
+	BYTE		N17     An4   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N23     Gn4 
+	BYTE	W24
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N54     Fn4 
+	BYTE	W12
+	BYTE	PEND
+// 044   ----------------------------------------
+aa1_pursuit_3_044:
+	BYTE	W60
+	BYTE		N23     Gn3   v112
+	BYTE	W24
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 045   ----------------------------------------
+aa1_pursuit_3_045:
+	BYTE		N32     An3   v112
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N17     Dn4 
+	BYTE	W18
+	BYTE		        En4 
+	BYTE	W18
+	BYTE		N23     An4 
+	BYTE	W12
+	BYTE	PEND
+// 046   ----------------------------------------
+aa1_pursuit_3_046:
+	BYTE	W12
+	BYTE		N23     Gn4   v112
+	BYTE	W24
+	BYTE		N32     Fn4 
+	BYTE	W36
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE	PEND
+// 047   ----------------------------------------
+aa1_pursuit_3_047:
+	BYTE		N17     An4   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N23     Gn4 
+	BYTE	W24
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		N20     En4 
+	BYTE	W24
+	BYTE	PEND
+// 048   ----------------------------------------
+aa1_pursuit_3_048:
+	BYTE		N20     Dn4   v112
+	BYTE	W48
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        En4 
+	BYTE	W18
+	BYTE		N05     Fn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE	PEND
+// 049   ----------------------------------------
+aa1_pursuit_3_049:
+	BYTE		N11     An4   v112
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N20     Fn4 
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N24     En4 
+	BYTE	W30
+	BYTE	PEND
+// 050   ----------------------------------------
+aa1_pursuit_3_050:
+	BYTE	W48
+	BYTE		N17     Dn4   v112
+	BYTE	W18
+	BYTE		        En4 
+	BYTE	W18
+	BYTE		N05     Fn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE	PEND
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_049
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 056   ----------------------------------------
+	BYTE		TIE     En4   v112
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_002
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_001
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_003
+// 064   ----------------------------------------
+	BYTE		N20     En3   v112
+	BYTE	W96
+// 065   ----------------------------------------
+	BYTE	W96
+// 066   ----------------------------------------
+	BYTE	W96
+// 067   ----------------------------------------
+	BYTE	W96
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_008
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_009
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_010
+// 071   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT     En4 
+	BYTE	W06
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_012
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_013
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_014
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_015
+// 076   ----------------------------------------
+	BYTE	W36
+	BYTE		N92     En3   v112
+	BYTE	W60
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_017
+// 078   ----------------------------------------
+	BYTE		TIE     Dn3   v112
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_020
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_021
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_022
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_023
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_024
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_025
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_026
+// 087   ----------------------------------------
+	BYTE		N20     Fs4   v112
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 096   ----------------------------------------
+	BYTE		TIE     En4   v112
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W96
+// 098   ----------------------------------------
+	BYTE	W96
+// 099   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 100   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_040
+// 101   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_041
+// 102   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_042
+// 103   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_043
+// 104   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_044
+// 105   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_045
+// 106   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_046
+// 107   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_047
+// 108   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_048
+// 109   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_049
+// 110   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_050
+// 111   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_049
+// 112   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 113   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 114   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_028
+// 115   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_029
+// 116   ----------------------------------------
+	BYTE		TIE     En4   v112
+	BYTE	W96
+// 117   ----------------------------------------
+	BYTE	W96
+// 118   ----------------------------------------
+	BYTE	W96
+// 119   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 120   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_002
+// 121   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_001
+// 122   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_3_002
+// 123   ----------------------------------------
+	BYTE		N17     Dn4   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N11     Cs4 
+	BYTE	W56
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	aa1_pursuit_3_B1
+aa1_pursuit_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.11) ****************//
+
+aa1_pursuit_4:
+	BYTE	KEYSH   aa1_pursuit_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   71
+	BYTE		VOL     127*aa1_pursuit_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N17     Gn2   v112
+	BYTE		N17     Bn2 
+	BYTE	W18
+	BYTE		N05     Gn2 
+	BYTE		N05     Bn2 
+	BYTE	W18
+	BYTE		N11     An2 
+	BYTE		N11     Cs3 
+	BYTE	W60
+// 001   ----------------------------------------
+aa1_pursuit_4_001:
+	BYTE		N17     Bn2   v112
+	BYTE		N17     Dn3 
+	BYTE	W18
+	BYTE		N05     Bn2 
+	BYTE		N05     Dn3 
+	BYTE	W18
+	BYTE		N11     An2 
+	BYTE		N11     Cs3 
+	BYTE	W60
+	BYTE	PEND
+// 002   ----------------------------------------
+aa1_pursuit_4_002:
+	BYTE		N17     Gn2   v112
+	BYTE		N17     Bn2 
+	BYTE	W18
+	BYTE		N05     Gn2 
+	BYTE		N05     Bn2 
+	BYTE	W18
+	BYTE		N11     An2 
+	BYTE		N11     Cs3 
+	BYTE	W60
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_001
+aa1_pursuit_4_B1:
+// 004   ----------------------------------------
+	BYTE		N20     Bn2   v112
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+aa1_pursuit_4_008:
+	BYTE		N32     Bn2   v112
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N17     En3 
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		N23     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+aa1_pursuit_4_009:
+	BYTE	W12
+	BYTE		N23     An3   v112
+	BYTE	W24
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE	PEND
+// 010   ----------------------------------------
+aa1_pursuit_4_010:
+	BYTE		N17     Bn3   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		TIE     En3 
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 012   ----------------------------------------
+aa1_pursuit_4_012:
+	BYTE		N80     Bn2   v112
+	BYTE	W84
+	BYTE		TIE     En4 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 014   ----------------------------------------
+aa1_pursuit_4_014:
+	BYTE		N32     Dn4   v112
+	BYTE	W36
+	BYTE		N54     An3 
+	BYTE	W60
+	BYTE	PEND
+// 015   ----------------------------------------
+aa1_pursuit_4_015:
+	BYTE		N32     Fs3   v112
+	BYTE	W36
+	BYTE		N54   
+	BYTE	W60
+	BYTE	PEND
+// 016   ----------------------------------------
+aa1_pursuit_4_016:
+	BYTE		N32     Cn3   v112
+	BYTE	W36
+	BYTE		N92   
+	BYTE	W60
+	BYTE	PEND
+// 017   ----------------------------------------
+aa1_pursuit_4_017:
+	BYTE	W36
+	BYTE		N32     Cn3   v112
+	BYTE	W36
+	BYTE		N20   
+	BYTE	W24
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE		TIE     Bn2 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 020   ----------------------------------------
+aa1_pursuit_4_020:
+	BYTE	W48
+	BYTE		N17     Gn3   v112
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		N32     En3 
+	BYTE	W12
+	BYTE	PEND
+// 021   ----------------------------------------
+aa1_pursuit_4_021:
+	BYTE	W36
+	BYTE		N11     Gn3   v112
+	BYTE	W12
+	BYTE		N17     Fs3 
+	BYTE	W18
+	BYTE		N24     En3 
+	BYTE	W30
+	BYTE	PEND
+// 022   ----------------------------------------
+aa1_pursuit_4_022:
+	BYTE		N17     Dn3   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N54     Bn2 
+	BYTE	W60
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_022
+// 024   ----------------------------------------
+aa1_pursuit_4_024:
+	BYTE		N17     Cn3   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N54     Gn2 
+	BYTE	W60
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W24
+	BYTE		N66     Gn3 
+	BYTE	W72
+// 027   ----------------------------------------
+aa1_pursuit_4_027:
+	BYTE		N20     Fs3   v112
+	BYTE	W84
+	BYTE		N11     Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 028   ----------------------------------------
+aa1_pursuit_4_028:
+	BYTE		N42     En3   v112
+	BYTE	W48
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE	PEND
+// 029   ----------------------------------------
+aa1_pursuit_4_029:
+	BYTE		N11     Bn3   v112
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N20     Gn3 
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		N11     Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_028
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_029
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_028
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_029
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_028
+// 035   ----------------------------------------
+aa1_pursuit_4_035:
+	BYTE		N11     Bn3   v112
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N20     Gn3 
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N24     Fs3 
+	BYTE	W30
+	BYTE	PEND
+// 036   ----------------------------------------
+aa1_pursuit_4_036:
+	BYTE		N17     Bn2   v112
+	BYTE		N17     Fn3 
+	BYTE	W18
+	BYTE		N05     Bn2 
+	BYTE		N05     Fn3 
+	BYTE	W18
+	BYTE		N11     Cn3 
+	BYTE		N11     Fn3 
+	BYTE	W60
+	BYTE	PEND
+// 037   ----------------------------------------
+aa1_pursuit_4_037:
+	BYTE		N17     Dn3   v112
+	BYTE		N17     Fn3 
+	BYTE	W18
+	BYTE		N05     Dn3 
+	BYTE		N05     Fn3 
+	BYTE	W18
+	BYTE		N11     Cn3 
+	BYTE		N11     Fn3 
+	BYTE	W60
+	BYTE	PEND
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_036
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_037
+// 040   ----------------------------------------
+aa1_pursuit_4_040:
+	BYTE		N17     An2   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W60
+	BYTE	PEND
+// 041   ----------------------------------------
+	BYTE		N20   
+	BYTE		N20     Dn3 
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+aa1_pursuit_4_045:
+	BYTE		N32     An2   v112
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N17     Dn3 
+	BYTE	W18
+	BYTE		        En3 
+	BYTE	W18
+	BYTE		N23     An3 
+	BYTE	W12
+	BYTE	PEND
+// 046   ----------------------------------------
+aa1_pursuit_4_046:
+	BYTE	W12
+	BYTE		N23     Gn3   v112
+	BYTE	W24
+	BYTE		N32     Fn3 
+	BYTE	W36
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE	PEND
+// 047   ----------------------------------------
+aa1_pursuit_4_047:
+	BYTE		N17     An3   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N23     Gn3 
+	BYTE	W24
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		N20     En3 
+	BYTE	W24
+	BYTE	PEND
+// 048   ----------------------------------------
+aa1_pursuit_4_048:
+	BYTE		N20     Dn3   v112
+	BYTE	W48
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        En3 
+	BYTE	W18
+	BYTE		N05     Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE	PEND
+// 049   ----------------------------------------
+aa1_pursuit_4_049:
+	BYTE		N11     An3   v112
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		N20     Fn3 
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        En3 
+	BYTE	W18
+	BYTE		N11     An2 
+	BYTE	W12
+	BYTE	PEND
+// 050   ----------------------------------------
+aa1_pursuit_4_050:
+	BYTE		N42     Dn3   v112
+	BYTE	W48
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        En3 
+	BYTE	W18
+	BYTE		N05     Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE	PEND
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_049
+// 052   ----------------------------------------
+aa1_pursuit_4_052:
+	BYTE		N42     Dn3   v112
+	BYTE	W48
+	BYTE		N17     En3 
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE	PEND
+// 053   ----------------------------------------
+aa1_pursuit_4_053:
+	BYTE		N11     Bn3   v112
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N20     Gn3 
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		N11     An2 
+	BYTE	W12
+	BYTE	PEND
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_052
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_035
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_036
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_037
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_036
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_037
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_002
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_001
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_002
+// 063   ----------------------------------------
+	BYTE		N17     Bn2   v112
+	BYTE		N17     Dn3 
+	BYTE	W18
+	BYTE		N05     Bn2 
+	BYTE		N05     Dn3 
+	BYTE	W18
+	BYTE		N11     An2 
+	BYTE		N11     Cs3 
+	BYTE	W48
+	BYTE		        Bn2 
+	BYTE	W12
+// 064   ----------------------------------------
+	BYTE		N20   
+	BYTE	W96
+// 065   ----------------------------------------
+	BYTE	W96
+// 066   ----------------------------------------
+	BYTE	W96
+// 067   ----------------------------------------
+	BYTE	W96
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_008
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_009
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_010
+// 071   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT     En3 
+	BYTE	W06
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_012
+// 073   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT     En4 
+	BYTE	W06
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_014
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_015
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_016
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_017
+// 078   ----------------------------------------
+	BYTE		TIE     Bn2   v112
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_020
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_021
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_022
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_022
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_024
+// 085   ----------------------------------------
+	BYTE	W96
+// 086   ----------------------------------------
+	BYTE	W24
+	BYTE		N66     Gn3   v112
+	BYTE	W72
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_027
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_028
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_029
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_028
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_029
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_028
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_029
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_028
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_035
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_036
+// 097   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_037
+// 098   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_036
+// 099   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_037
+// 100   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_040
+// 101   ----------------------------------------
+	BYTE		N20     An2   v112
+	BYTE		N20     Dn3 
+	BYTE	W96
+// 102   ----------------------------------------
+	BYTE	W96
+// 103   ----------------------------------------
+	BYTE	W96
+// 104   ----------------------------------------
+	BYTE	W96
+// 105   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_045
+// 106   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_046
+// 107   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_047
+// 108   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_048
+// 109   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_049
+// 110   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_050
+// 111   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_049
+// 112   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_052
+// 113   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_053
+// 114   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_052
+// 115   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_035
+// 116   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_036
+// 117   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_037
+// 118   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_036
+// 119   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_037
+// 120   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_002
+// 121   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_001
+// 122   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_4_002
+// 123   ----------------------------------------
+	BYTE		N17     Bn2   v112
+	BYTE		N17     Dn3 
+	BYTE	W18
+	BYTE		N05     Bn2 
+	BYTE		N05     Dn3 
+	BYTE	W18
+	BYTE		N11     An2 
+	BYTE		N11     Cs3 
+	BYTE	W48
+	BYTE		        Bn2 
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	aa1_pursuit_4_B1
+aa1_pursuit_4_B2:
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.12) ****************//
+
+aa1_pursuit_5:
+	BYTE	KEYSH   aa1_pursuit_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   101
+	BYTE		VOL     127*aa1_pursuit_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N17     En2   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W60
+// 001   ----------------------------------------
+aa1_pursuit_5_001:
+	BYTE		N17     En2   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W60
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_001
+aa1_pursuit_5_B1:
+// 004   ----------------------------------------
+aa1_pursuit_5_004:
+	BYTE		N42     Bn2   v112
+	BYTE	W84
+	BYTE		N54     An2 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+aa1_pursuit_5_005:
+	BYTE	W60
+	BYTE		N11     An2   v112
+	BYTE	W12
+	BYTE		N05     En2 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE	W06
+	BYTE	PEND
+// 006   ----------------------------------------
+aa1_pursuit_5_006:
+	BYTE		N17     Bn2   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N23     An2 
+	BYTE	W24
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		N54     Gn2 
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+aa1_pursuit_5_007:
+	BYTE	W48
+	BYTE		N11     Bn2   v112
+	BYTE	W12
+	BYTE		N23     An2 
+	BYTE	W24
+	BYTE		N11     As2 
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE		N42     Bn2 
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+aa1_pursuit_5_011:
+	BYTE	W12
+	BYTE		N11     Bn1   v112
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+aa1_pursuit_5_012:
+	BYTE		N80     Gn1   v112
+	BYTE	W84
+	BYTE		TIE     Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT   
+	BYTE	W06
+// 014   ----------------------------------------
+aa1_pursuit_5_014:
+	BYTE		N32     An2   v112
+	BYTE	W36
+	BYTE		N54     Fs2 
+	BYTE	W60
+	BYTE	PEND
+// 015   ----------------------------------------
+aa1_pursuit_5_015:
+	BYTE		N32     Dn2   v112
+	BYTE	W36
+	BYTE		N54   
+	BYTE	W60
+	BYTE	PEND
+// 016   ----------------------------------------
+aa1_pursuit_5_016:
+	BYTE		N32     En2   v112
+	BYTE	W36
+	BYTE		N92     Bn2 
+	BYTE	W60
+	BYTE	PEND
+// 017   ----------------------------------------
+aa1_pursuit_5_017:
+	BYTE	W36
+	BYTE		N32     Gn2   v112
+	BYTE	W36
+	BYTE		N20     An2 
+	BYTE	W24
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE		N90     Bn2 
+	BYTE	W96
+// 019   ----------------------------------------
+aa1_pursuit_5_019:
+	BYTE	W12
+	BYTE		N11     Fs2   v112
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		N17     Dn2 
+	BYTE	W18
+	BYTE		        En2 
+	BYTE	W18
+	BYTE		N11     Fs2 
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+aa1_pursuit_5_020:
+	BYTE		N17     Gn2   v112
+	BYTE	W18
+	BYTE		        Fs2 
+	BYTE	W18
+	BYTE		N54     En2 
+	BYTE	W60
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+aa1_pursuit_5_022:
+	BYTE		N17     Bn1   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N54   
+	BYTE	W60
+	BYTE	PEND
+// 023   ----------------------------------------
+aa1_pursuit_5_023:
+	BYTE		N17     Bn1   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N20   
+	BYTE	W24
+	BYTE	PEND
+// 024   ----------------------------------------
+aa1_pursuit_5_024:
+	BYTE		N17     En2   v112
+	BYTE	W18
+	BYTE		        Fs2 
+	BYTE	W18
+	BYTE		N44     Gn2 
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+aa1_pursuit_5_025:
+	BYTE		N17     An2   v112
+	BYTE	W18
+	BYTE		N24     Bn2 
+	BYTE	W78
+	BYTE	PEND
+// 026   ----------------------------------------
+	BYTE		N90     Fs1 
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE		N20     Bn1 
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+aa1_pursuit_5_029:
+	BYTE	W48
+	BYTE		N17     Cn2   v112
+	BYTE	W18
+	BYTE		N24     Dn2 
+	BYTE	W30
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 036   ----------------------------------------
+aa1_pursuit_5_036:
+	BYTE		N17     Fn1   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W60
+	BYTE	PEND
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 040   ----------------------------------------
+aa1_pursuit_5_040:
+	BYTE		N17     An1   v112
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N32   
+	BYTE	W60
+	BYTE	PEND
+// 041   ----------------------------------------
+	BYTE		N20     Dn1 
+	BYTE		N20     Dn2 
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+aa1_pursuit_5_049:
+	BYTE	W48
+	BYTE		N17     As1   v112
+	BYTE	W18
+	BYTE		N24     Cn2 
+	BYTE	W30
+	BYTE	PEND
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_049
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_001
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_001
+// 062   ----------------------------------------
+aa1_pursuit_5_062:
+	BYTE		N17     En1   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W60
+	BYTE	PEND
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_062
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_006
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_007
+// 068   ----------------------------------------
+	BYTE		N42     Bn2   v112
+	BYTE	W96
+// 069   ----------------------------------------
+	BYTE	W96
+// 070   ----------------------------------------
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_011
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_012
+// 073   ----------------------------------------
+	BYTE	W90
+	BYTE		EOT     Bn2 
+	BYTE	W06
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_014
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_015
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_016
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_017
+// 078   ----------------------------------------
+	BYTE		N90     Bn2   v112
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_019
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_020
+// 081   ----------------------------------------
+	BYTE	W96
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_022
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_023
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_024
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_025
+// 086   ----------------------------------------
+	BYTE		N90     Fs1   v112
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE		N20     Bn1 
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	W96
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 090   ----------------------------------------
+	BYTE	W96
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 092   ----------------------------------------
+	BYTE	W96
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 097   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 098   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 099   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 100   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_040
+// 101   ----------------------------------------
+	BYTE		N20     Dn1   v112
+	BYTE		N20     Dn2 
+	BYTE	W96
+// 102   ----------------------------------------
+	BYTE	W96
+// 103   ----------------------------------------
+	BYTE	W96
+// 104   ----------------------------------------
+	BYTE	W96
+// 105   ----------------------------------------
+	BYTE	W96
+// 106   ----------------------------------------
+	BYTE	W96
+// 107   ----------------------------------------
+	BYTE	W96
+// 108   ----------------------------------------
+	BYTE	W96
+// 109   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_049
+// 110   ----------------------------------------
+	BYTE	W96
+// 111   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_049
+// 112   ----------------------------------------
+	BYTE	W96
+// 113   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 114   ----------------------------------------
+	BYTE	W96
+// 115   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_029
+// 116   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 117   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 118   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 119   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_036
+// 120   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_001
+// 121   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_001
+// 122   ----------------------------------------
+	BYTE	PATT
+	 POIN2	aa1_pursuit_5_062
+// 123   ----------------------------------------
+	BYTE		N17     En1   v112
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W56
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	aa1_pursuit_5_B1
+aa1_pursuit_5_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+aa1_pursuit:
+	BYTE	5	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	aa1_pursuit_pri	// Priority
+	BYTE	aa1_pursuit_rev	// Reverb.
+
+	POIN2	aa1_pursuit_grp
+
+	POIN2	aa1_pursuit_1
+	POIN2	aa1_pursuit_2
+	POIN2	aa1_pursuit_3
+	POIN2	aa1_pursuit_4
+	POIN2	aa1_pursuit_5
+
+	

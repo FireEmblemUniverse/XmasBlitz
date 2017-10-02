@@ -1,0 +1,108 @@
+##BQ_Eliwood
+[ML][LoadEliwood]
+Murderers[Beat] I will[N]
+never forgive you![A][X]
+
+##BQ_Lyn
+[ML][LoadLyn]
+I will avenge Dorcas and[N]
+all the others you've killed![A][X]
+
+##BQ_Hector
+[ML][LoadHector]
+I don't know what your[N]
+plot was, but you'll pay.[A][X]
+
+##DQ_Anna
+[MR][LoadAnna]
+Urgh[Beat] Sisters,[N]
+wait for me[Beat][A][CloseEyes][X]
+
+##DQ_Alfonse
+[MR][LoadAlfonse]
+Everyone[Beat] forgive me[Beat][A][CloseEyes][X]
+
+##DQ_Sharena
+[MR][LoadSharena]
+It can't[Beat] end [CloseEyes]like this[Beat][A][X]
+
+##DQ_Norne
+[MR][LoadNorne]
+Heh[Beat] Oops[Beat] [CloseEyes]unnh[Beat][A][X]
+
+##DQ_Narcian
+[MR][LoadNarcian]
+No[Beat] No[Beat]![N]
+I will not be defeated[Beat]![AN]
+Not by you[Beat] worthless[Beat][N]
+Gaaaaaaahhhhh!!![A][CloseEyes][X]
+
+##DQ_Mia
+[MR][LoadMia]
+If only I hadn't been[Beat][N]
+lost in my books[Beat][A][CloseEyes][X]
+
+##DQ_Linde
+[MR][LoadLinde]
+Father[Beat] I'll[N]
+be with you soon[Beat][A][CloseEyes][X]
+
+##DQ_Olivia
+[MR][LoadOlivia]
+The curtain's closing on me[Beat][N]
+Up to you to[Beat]finish the show[Beat][A][CloseEyes][X]
+
+##DQ_Camus
+[MR][LoadCamus]
+Who am I[Beat]?[N]
+Here, at the end[Beat][A][CloseEyes][X]
+
+##DQ_Reinhardt
+[MR][LoadReinhardt]
+So this[Beat] is the end[Beat][A][CloseEyes][X]
+
+##DQ_Elise
+[MR][LoadElise]
+Hee[Beat] hee[Beat] yay[Beat][A][CloseEyes][X]
+
+##DQ_Sigurd
+[MR][LoadSigurd]
+This[Beat] was always my fate.[A][CloseEyes][X]
+
+##DQ_Deirdre
+[MR][LoadDeirdre]
+Who's there?[.4] I know your face[Beat][N]
+Ah[Beat] It's you[Beat][A][CloseEyes][X]
+
+##DQ_Quan
+[MR][LoadQuan]
+So[Beat] the curse was[Beat] real[Beat][A][CloseEyes][X]
+
+##DQ_Ethlyn
+[MR][LoadQuan]
+I hate[Beat] sand[Beat][A][CloseEyes][X]
+
+##DQ_Amelia
+[OpenMidRight][LoadFace][0x19][0x01][OpenMidRight]I[.][ToggleMouthMove]... [ToggleMouthMove]I did well, didn't I?[.][A][OpenMidRight][CloseEyes][X]
+
+##DQ_Eliwood
+[MR][LoadEliwood]Hector[Beat] Lyn[Beat][N]
+Please[Beat] forgive me[Beat][A][CloseEyes][X]
+
+##DQ_Lyn
+[ML][LoadLyn]This was[Beat] supposed[N]
+to be the happiest[Beat][A][CloseEyes][X]
+
+##DQ_Hector
+[ML][LoadHector]No![.4] Not here![.4] Not now[Beat][N]
+Eliwood[Beat] Lyn[Beat] I love[Beat][A][CloseEyes][X]
+
+##DQ_Markyjoe
+[ML][LoadFace][0x16][0x1]
+Urgh[Beat] Grraaaaahh[Beat][N]
+You fools[Beat] think you've won?[A][CloseEyes][X]
+
+##DQ_Veronica
+[MR][LoadVeronica]
+N-no[Beat] is this[Beat][N]
+the end? Did I[Beat][A][CloseEyes][X]

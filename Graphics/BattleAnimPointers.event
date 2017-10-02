@@ -1,0 +1,58 @@
+#define animSword 0
+#define animLance 1
+#define animAxe 2
+#define animBow 3
+#define animStaff 4
+#define animAnima 5
+#define animLight 6
+#define animDark 7
+#define animNone 9
+#define weaponTypeAnim(weaponType, ID) "BYTE weaponType 1 ID 0;"
+#define weaponAnim(weaponID, ID) "BYTE weaponID 0 ID 0;"
+#define weaponAnimEnd "WORD 0"
+#define SetAnimationPointers(class, pointer) "PUSH; ORG 0x807110 + (class*84) + 52; POIN pointer; POP"
+
+SetAnimationPointers(Manakete_2, ManaketeAnims)
+ManaketeAnims:
+weaponTypeAnim(animNone, 0xc9)
+weaponAnim(WretchedAir,0xc9)
+weaponAnim(HolyDragonStone,0xc9)
+weaponAnimEnd
+
+SetAnimationPointers(Dancer, DancerAnims)
+DancerAnims:
+weaponTypeAnim(animNone, 0x91)
+weaponTypeAnim(animSword, 0xa0)
+weaponTypeAnim(animLight, 0x91)
+weaponTypeAnim(animAnima, 0x91)
+weaponTypeAnim(animDark, 0x91)
+weaponAnimEnd
+
+SetAnimationPointers(Hero_F, Hero_FAnims)
+Hero_FAnims:
+weaponTypeAnim(animSword, 0xa2)
+weaponTypeAnim(animAxe, 0xa3)
+weaponAnim(HandAxe, 0xa4)
+weaponAnim(Tomahawk, 0xa4)
+weaponAnim(Hatchet, 0xa4)
+weaponTypeAnim(animNone, 0xa1)
+weaponAnimEnd
+
+SetAnimationPointers(Swordmaster_F, Swordmaster_FAnims)
+Swordmaster_FAnims:
+weaponAnim(ManiKatti, 0xa6)
+weaponTypeAnim(animSword, 0x17)
+weaponTypeAnim(animNone, 0x18)
+weaponAnimEnd
+
+SetAnimationPointers(General, GeneralAnims)
+GeneralAnims:
+weaponTypeAnim(animSword, 0x44)
+weaponTypeAnim(animLance, 0x45)
+weaponTypeAnim(animAxe, 0x46)
+weaponAnim(HandAxe, 0x47)
+weaponAnim(Tomahawk, 0x47)
+weaponAnim(Hatchet, 0x47)
+weaponAnim(Armads, 0xa5)
+weaponTypeAnim(animNone, 0x48)
+weaponAnimEnd

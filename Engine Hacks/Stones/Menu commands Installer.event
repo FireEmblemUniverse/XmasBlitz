@@ -1,0 +1,65 @@
+
+PUSH
+	ORG 0x9F36A8
+    POIN SplitMenuTable
+
+  ORG 0x9f36a0
+  BYTE 07 05 16 //x, y, width
+POP
+//x8086515
+	#define MenuCommand2(apsString, aprUsability, aprEffect) "POIN (apsString); WORD 0 0; POIN (aprUsability); WORD 0; POIN (aprEffect); WORD 0 0 0"
+    #define MenuCommandEnd "WORD 0 0 0 0 0 0 0 0 0"
+	SplitMenuTable:
+	MenuCommand2(RedOption, 0x04F448+1, RedOrb+1)
+	MenuCommand2(BlueOption, 0x04F448+1, BlueOrb+1)
+	MenuCommand2(GreenOption, 0x04F448+1, GreenOrb+1)
+	MenuCommand2(ColourlessOption, 0x04F448+1, ColourlessOrb+1)
+	MenuCommandEnd
+	
+	RedOption:
+	String(Summon a red unit.)
+	// String(Red)
+	// BYTE $20
+	// String(orb)
+	BYTE 0
+	ALIGN 4
+
+	BlueOption:
+	String(Summon a blue unit.)
+	// String(Blue)
+	// BYTE $20
+	// String(orb)
+	BYTE 0
+	ALIGN 4
+	
+	GreenOption:
+	String(Summon a green unit.)
+	// String(Green)
+	// BYTE $20
+	// String(orb)
+	BYTE 0
+	ALIGN 4
+
+	ColourlessOption:
+	String(Summon a colourless unit.)
+	// String(Colourless)
+	// BYTE $20
+	// String(orb)
+	BYTE 0
+	ALIGN 4
+
+RedOrb:
+#incbin "Red.dmp"
+WORD textChoseRed
+
+GreenOrb:
+#incbin "Green.dmp"
+WORD textChoseGreen
+
+ColourlessOrb:
+#incbin "Colourless.dmp"
+WORD textChoseColourless
+
+BlueOrb:
+#incbin "Blue.dmp"
+WORD textChoseBlue

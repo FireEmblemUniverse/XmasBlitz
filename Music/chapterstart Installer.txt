@@ -1,0 +1,53 @@
+#define SongTableOffset  0x224470
+#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+SongTable(0x316,chapterstart,1)
+
+    #include "MPlayDef.event"
+
+    #define    loop_sfx_grp_chapterstart  chapterstart_map
+    #define    loop_sfx_pri_chapterstart  0
+    #define    loop_sfx_rev_chapterstart  0
+    #define    loop_sfx_mvl_chapterstart  127
+    #define    loop_sfx_key_chapterstart  0
+    #define    loop_sfx_tbs_chapterstart  1
+    #define    loop_sfx_exg_chapterstart  0
+    #define    loop_sfx_cmp_chapterstart  1
+
+    ALIGN 4
+
+loop_sfx_1:
+    BYTE        VOL     127*loop_sfx_mvl_chapterstart/mxv
+    BYTE    KEYSH   loop_sfx_key_chapterstart+0
+    BYTE        VOICE   0
+    BYTE        TIE     Cn3   v064
+    BYTE    W96
+loop_sfx_1_B1:
+    BYTE    W96
+    BYTE    W96
+    BYTE    GoTo
+     POIN2    loop_sfx_1_B1
+loop_sfx_1_B2:
+    BYTE    W06
+    BYTE        EOT     Cn3 
+    BYTE    FINE
+
+    ALIGN 4
+
+chapterstart:
+    BYTE    1    // NumTrks
+    BYTE    0    // NumBlks
+    BYTE    loop_sfx_pri_chapterstart    // Priority
+    BYTE    loop_sfx_rev_chapterstart    // Reverb.
+
+    POIN2    loop_sfx_grp_chapterstart
+
+    POIN2    loop_sfx_1
+
+    
+chapterstart_map:
+WORD $3c00
+POIN chapterstart_wav
+WORD $FF00FF
+
+chapterstart_wav:
+#incbin "chapterstart.bin"

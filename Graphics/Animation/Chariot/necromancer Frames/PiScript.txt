@@ -1,0 +1,366 @@
+
+07
+03
+1   frame000.png
+8   frame001.png
+10   frame002.png
+25
+4   frame003.png
+3   frame004.png
+3   frame005.png
+4   frame006.png
+4   frame007.png
+4   frame008.png
+6   frame009.png
+30   frame010.png
+3   frame011.png
+2E
+49
+25
+2   frame012.png
+2   frame013.png
+3   frame014.png
+4   frame015.png
+6   frame016.png
+4   frame017.png
+4   frame018.png
+4   frame019.png
+4   frame020.png
+6   frame021.png
+40   frame022.png
+2   frame023.png
+05
+4   frame024.png
+3   frame025.png
+2   frame026.png
+2   frame027.png
+2   frame028.png
+2   frame029.png
+01
+2   frame030.png
+6   frame031.png
+6   frame032.png
+4   frame033.png
+4   frame034.png
+4   frame035.png
+4   frame036.png
+4   frame037.png
+4   frame038.png
+4   frame039.png
+4   frame040.png
+06
+4   frame041.png
+1   frame000.png
+0D
+~~~
+
+07
+03
+1   frame000.png
+6   frame042.png
+6   frame043.png
+6   frame044.png
+3   frame045.png
+3   frame046.png
+3   frame047.png
+3   frame048.png
+3   frame049.png
+3   frame050.png
+4   frame051.png
+6   frame052.png
+3   frame053.png
+3   frame050.png
+3   frame054.png
+3   frame052.png
+3   frame053.png
+3   frame050.png
+3   frame054.png
+3   frame052.png
+6   frame059.png
+6   frame042.png
+8   frame001.png
+10   frame002.png
+25
+4   frame003.png
+3   frame004.png
+3   frame005.png
+4   frame006.png
+4   frame007.png
+4   frame008.png
+6   frame009.png
+30   frame010.png
+3   frame011.png
+2F
+25
+2   frame012.png
+2   frame013.png
+3   frame014.png
+4   frame015.png
+6   frame016.png
+4   frame017.png
+4   frame018.png
+4   frame019.png
+4   frame020.png
+6   frame021.png
+40   frame022.png
+2   frame023.png
+05
+L
+4   frame024.png
+3   frame025.png
+2   frame026.png
+2   frame027.png
+2   frame028.png
+2   frame029.png
+01
+2   frame030.png
+6   frame031.png
+6   frame032.png
+4   frame033.png
+4   frame034.png
+4   frame035.png
+4   frame036.png
+4   frame037.png
+4   frame038.png
+4   frame039.png
+4   frame040.png
+06
+4   frame041.png
+1   frame000.png
+0D
+~~~
+
+07
+03
+1   frame000.png
+8   frame001.png
+10   frame002.png
+25
+4   frame003.png
+3   frame004.png
+3   frame005.png
+4   frame006.png
+4   frame007.png
+4   frame008.png
+6   frame009.png
+30   frame010.png
+3   frame011.png
+2E
+49
+25
+2   frame012.png
+2   frame013.png
+3   frame014.png
+4   frame015.png
+6   frame016.png
+4   frame017.png
+4   frame018.png
+4   frame019.png
+4   frame020.png
+6   frame021.png
+40   frame022.png
+2   frame023.png
+05
+4   frame024.png
+3   frame025.png
+2   frame026.png
+2   frame027.png
+2   frame028.png
+2   frame029.png
+01
+2   frame030.png
+6   frame031.png
+6   frame032.png
+4   frame033.png
+4   frame034.png
+4   frame035.png
+4   frame036.png
+4   frame037.png
+4   frame038.png
+4   frame039.png
+4   frame040.png
+06
+4   frame041.png
+1   frame000.png
+0D
+~~~
+
+07
+03
+1   frame000.png
+6   frame042.png
+6   frame043.png
+6   frame044.png
+3   frame045.png
+3   frame046.png
+3   frame047.png
+3   frame048.png
+3   frame049.png
+3   frame050.png
+4   frame051.png
+6   frame052.png
+3   frame053.png
+3   frame050.png
+3   frame054.png
+3   frame052.png
+3   frame053.png
+3   frame050.png
+3   frame054.png
+3   frame052.png
+6   frame059.png
+6   frame042.png
+8   frame001.png
+10   frame002.png
+25
+4   frame003.png
+3   frame004.png
+3   frame005.png
+4   frame006.png
+4   frame007.png
+4   frame008.png
+6   frame009.png
+30   frame010.png
+3   frame011.png
+2F
+25
+2   frame012.png
+2   frame013.png
+3   frame014.png
+4   frame015.png
+6   frame016.png
+4   frame017.png
+4   frame018.png
+4   frame019.png
+4   frame020.png
+6   frame021.png
+40   frame022.png
+2   frame023.png
+05
+4   frame024.png
+3   frame025.png
+2   frame026.png
+2   frame027.png
+2   frame028.png
+2   frame029.png
+01
+2   frame030.png
+6   frame031.png
+6   frame032.png
+4   frame033.png
+4   frame034.png
+4   frame035.png
+4   frame036.png
+4   frame037.png
+4   frame038.png
+4   frame039.png
+4   frame040.png
+06
+4   frame041.png
+1   frame000.png
+0D
+~~~
+
+02
+1   frame000.png
+0E
+3   frame060.png
+2   frame061.png
+3   frame062.png
+3   frame063.png
+3   frame064.png
+4   frame065.png
+1   frame066.png
+01
+4   frame067.png
+4   frame068.png
+4   frame069.png
+4   frame070.png
+1   frame000.png
+0D
+~~~
+
+02
+1   frame000.png
+0E
+3   frame060.png
+2   frame061.png
+3   frame062.png
+3   frame063.png
+3   frame064.png
+4   frame065.png
+1   frame066.png
+01
+4   frame067.png
+4   frame068.png
+4   frame069.png
+4   frame070.png
+1   frame000.png
+0D
+~~~
+
+1   frame000.png
+01
+~~~
+
+1   frame000.png
+01
+~~~
+
+1   frame000.png
+01
+~~~
+
+07
+03
+1   frame000.png
+8   frame001.png
+10   frame002.png
+25
+4   frame003.png
+3   frame004.png
+3   frame005.png
+4   frame006.png
+4   frame007.png
+4   frame008.png
+6   frame009.png
+30   frame010.png
+3   frame011.png
+2E
+49
+25
+2   frame012.png
+2   frame013.png
+3   frame014.png
+4   frame015.png
+6   frame016.png
+4   frame017.png
+4   frame018.png
+4   frame019.png
+4   frame020.png
+6   frame021.png
+40   frame022.png
+2   frame023.png
+05
+4   frame024.png
+3   frame025.png
+2   frame026.png
+2   frame027.png
+2   frame028.png
+2   frame029.png
+01
+2   frame030.png
+6   frame031.png
+6   frame032.png
+4   frame033.png
+4   frame034.png
+4   frame035.png
+4   frame036.png
+4   frame037.png
+4   frame038.png
+4   frame039.png
+4   frame040.png
+06
+4   frame041.png
+1   frame000.png
+0D
+~~~

@@ -1,0 +1,65 @@
+0
+1	Plains			平原
+2	Road			道路
+3	Village Entrance	村子入口
+4	Village Entrance (Closed)村子入口（关闭）
+5	House			民家
+6	Armory			武器屋
+7	Vendor			道具屋
+8	Arena			斗技场
+9	C. Room			？
+10	Fortress		砦
+11	Gate			大门
+12	Forest			森林
+13	Thicket			深森
+14	Sand			沙地
+15	Desert			沙漠
+16	River			河流
+17	Mountain		山
+18	Peak			高山
+19	Bridge			桥
+20	Bridge			桥？
+21	Sea			海
+22	Lake			湖
+23	Floor			床
+24	Floor			床？
+25	Fence			围墙
+26	Wall			墙壁
+27	Cracked Wall		裂墙
+28	Rubble			碎石
+29	Pillar			柱子
+30	Door			扉
+31	Throne			王座
+32	Chest			宝箱？
+33	Chest			宝箱
+34	Roof			屋顶
+35	Gate (Castle)		城门
+36	Church			教堂
+37	Ruins			废墟
+38	Cliff			悬崖
+39	Ballista		弩
+40	Long Ballista		长弩
+41	Killer Balista		必杀弩
+42	Flat Tile (Ship)	？
+43	Wreck Tile (Ship)	船只遗骸？
+44	Building 1		--
+45	Stairs			楼梯
+46	Building 2		--
+47	Glacier			冰川
+48	Arena			斗技场
+49	Valley			溪谷
+50	Fence 2			围墙2
+51	Snag			古木
+52	Snag Bridge		古木倒下搭成的桥
+53	Sky			天空
+54	Deeps			深海？
+55	Ruins 2			废墟2
+56	Inn			酒馆
+57	Barrel			木桶
+58	Bone			骨头
+59	Dark			闇
+60	Water			水
+61	Gunnel 			船舷
+62	Deck			甲板
+63	Brace			支柱
+64	Mast			桅杆

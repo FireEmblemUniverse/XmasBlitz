@@ -1,0 +1,5654 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	cornered_grp  voicegroup000
+	#define	cornered_pri  0
+	#define	cornered_rev  0
+	#define	cornered_mvl  67
+	#define	cornered_key  0
+	#define	cornered_tbs  1
+	#define	cornered_exg  0
+	#define	cornered_cmp  1
+
+	// .rodata
+	//	cornered
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+cornered_1:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   150*cornered_tbs/2
+	BYTE		VOICE   45
+	BYTE	W96
+cornered_1_B1:
+// 001   ----------------------------------------
+cornered_1_001:
+	BYTE		VOL     105*cornered_mvl/mxv
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+cornered_1_002:
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+cornered_1_003:
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+cornered_1_004:
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+cornered_1_005:
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 012   ----------------------------------------
+cornered_1_012:
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W60
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 022   ----------------------------------------
+cornered_1_022:
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 024   ----------------------------------------
+cornered_1_024:
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_024
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_022
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_024
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_001
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_012
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_002
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_004
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_005
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_022
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_003
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_1_024
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_1_B1
+cornered_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+cornered_2:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   45
+	BYTE	W96
+cornered_2_B1:
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		VOL     58*cornered_mvl/mxv
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+// 002   ----------------------------------------
+cornered_2_002:
+	BYTE		N06     Fs4   v100
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+cornered_2_003:
+	BYTE		N06     Ds4   v100
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+cornered_2_004:
+	BYTE		N06     Fs4   v100
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+cornered_2_005:
+	BYTE		N06     Ds4   v100
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 012   ----------------------------------------
+cornered_2_012:
+	BYTE		N06     Fs4   v100
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W48
+	BYTE	PEND
+// 013   ----------------------------------------
+cornered_2_013:
+	BYTE	W12
+	BYTE		N06     Fn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 023   ----------------------------------------
+cornered_2_023:
+	BYTE		N06     En4   v100
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 025   ----------------------------------------
+cornered_2_025:
+	BYTE		N06     En4   v100
+	BYTE	W12
+	BYTE		VOL     58*cornered_mvl/mxv
+	BYTE		N06     Fn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_013
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_025
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_013
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_023
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_025
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_012
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_013
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_003
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_005
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_002
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_023
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_2_004
+// 097   ----------------------------------------
+	BYTE		N06     En4   v100
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_2_B1
+cornered_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+cornered_3:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   45
+	BYTE	W96
+cornered_3_B1:
+// 001   ----------------------------------------
+cornered_3_001:
+	BYTE		VOL     71*cornered_mvl/mxv
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+cornered_3_002:
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+cornered_3_003:
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+cornered_3_004:
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+cornered_3_005:
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 012   ----------------------------------------
+cornered_3_012:
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W60
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 022   ----------------------------------------
+cornered_3_022:
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 024   ----------------------------------------
+cornered_3_024:
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_024
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_022
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_024
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_001
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_012
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_002
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_004
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_005
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_022
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_003
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_3_024
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_3_B1
+cornered_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+cornered_4:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   45
+	BYTE	W96
+cornered_4_B1:
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		VOL     29*cornered_mvl/mxv
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+// 002   ----------------------------------------
+cornered_4_002:
+	BYTE		N06     Cs4   v100
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+cornered_4_003:
+	BYTE		N06     As3   v100
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+cornered_4_004:
+	BYTE		N06     Cs4   v100
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+cornered_4_005:
+	BYTE		N06     As3   v100
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 012   ----------------------------------------
+cornered_4_012:
+	BYTE		N06     Cs4   v100
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W48
+	BYTE	PEND
+// 013   ----------------------------------------
+cornered_4_013:
+	BYTE	W12
+	BYTE		N06     Cn4   v100
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 023   ----------------------------------------
+cornered_4_023:
+	BYTE		N06     Bn3   v100
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 025   ----------------------------------------
+cornered_4_025:
+	BYTE		N06     Bn3   v100
+	BYTE	W12
+	BYTE		VOL     29*cornered_mvl/mxv
+	BYTE		N06     Cn4 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_013
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_025
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_013
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_023
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_025
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_012
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_013
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_003
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_005
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_002
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_023
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_4_004
+// 097   ----------------------------------------
+	BYTE		N06     Bn3   v100
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_4_B1
+cornered_4_B2:
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+cornered_5:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   19
+	BYTE	W96
+cornered_5_B1:
+// 001   ----------------------------------------
+cornered_5_001:
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE		N09     Fn1   v100
+	BYTE	W01
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE	W17
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+cornered_5_002:
+	BYTE		N09     Gs1   v100
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+cornered_5_003:
+	BYTE		N09     Cs1   v100
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+cornered_5_004:
+	BYTE		N09     Ds1   v100
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+cornered_5_005:
+	BYTE		N09     Fn1   v100
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 010   ----------------------------------------
+cornered_5_010:
+	BYTE		N09     Cn1   v100
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 012   ----------------------------------------
+cornered_5_012:
+	BYTE		N09     Ds1   v100
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N12     Cn1 
+	BYTE	W16
+	BYTE		        Ds1 
+	BYTE	W16
+	BYTE		        En1 
+	BYTE	W16
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 022   ----------------------------------------
+cornered_5_022:
+	BYTE		N09     Gn1   v100
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 024   ----------------------------------------
+cornered_5_024:
+	BYTE		N09     Ds1   v100
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_010
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_024
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_010
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_022
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_024
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_001
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_010
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_012
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_002
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_004
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_005
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_022
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_003
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_5_024
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_5_B1
+cornered_5_B2:
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+cornered_6:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   19
+	BYTE	W96
+cornered_6_B1:
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		VOL     71*cornered_mvl/mxv
+	BYTE		N09     Fn1   v100
+	BYTE	W01
+	BYTE		VOL     71*cornered_mvl/mxv
+	BYTE	W17
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+// 002   ----------------------------------------
+cornered_6_002:
+	BYTE		N09     Fn1   v100
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+cornered_6_003:
+	BYTE		N09     Gs1   v100
+	BYTE	W12
+	BYTE		        Cs1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+cornered_6_004:
+	BYTE		N09     Cs1   v100
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+cornered_6_005:
+	BYTE		N09     Ds1   v100
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 010   ----------------------------------------
+cornered_6_010:
+	BYTE		N09     Fn1   v100
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+cornered_6_011:
+	BYTE		N09     Dn1   v100
+	BYTE	W12
+	BYTE		        Cs1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+cornered_6_012:
+	BYTE		N09     Cs1   v100
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N12     Cn1 
+	BYTE	W16
+	BYTE		        Ds1 
+	BYTE	W16
+	BYTE		        En1 
+	BYTE	W04
+	BYTE	PEND
+// 013   ----------------------------------------
+cornered_6_013:
+	BYTE	W12
+	BYTE		N09     Fn1   v100
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 022   ----------------------------------------
+cornered_6_022:
+	BYTE		N09     Fn1   v100
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+cornered_6_023:
+	BYTE		N09     Gn1   v100
+	BYTE	W12
+	BYTE		        Cs1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 025   ----------------------------------------
+cornered_6_025:
+	BYTE		N09     En1   v100
+	BYTE	W12
+	BYTE		VOL     71*cornered_mvl/mxv
+	BYTE		N09     Fn1 
+	BYTE	W01
+	BYTE		VOL     71*cornered_mvl/mxv
+	BYTE	W17
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE	PEND
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_010
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_013
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_025
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_010
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_013
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_022
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_023
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_025
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_010
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_011
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_012
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_013
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_002
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_003
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_005
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_022
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_023
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_6_004
+// 097   ----------------------------------------
+	BYTE		N09     En1   v100
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_6_B1
+cornered_6_B2:
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+cornered_7:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   30
+	BYTE	W96
+cornered_7_B1:
+// 001   ----------------------------------------
+cornered_7_001:
+	BYTE		VOL     111*cornered_mvl/mxv
+	BYTE		N78     Cn5   v100
+	BYTE	W84
+	BYTE		N06     As4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+cornered_7_002:
+	BYTE		N78     Fn4   v100
+	BYTE	W84
+	BYTE		N06     Gn4 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N92     As4 
+	BYTE	W96
+// 004   ----------------------------------------
+cornered_7_004:
+	BYTE		N44     Gn4   v100
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+	BYTE	PEND
+// 005   ----------------------------------------
+cornered_7_005:
+	BYTE		N68     Fn4   v100
+	BYTE	W72
+	BYTE		N21     Cn5 
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+cornered_7_006:
+	BYTE		N44     Cs5   v100
+	BYTE	W48
+	BYTE		N21     Cn5 
+	BYTE	W24
+	BYTE		        Gs4 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+cornered_7_007:
+	BYTE		N44     As4   v100
+	BYTE	W48
+	BYTE		        Ds5 
+	BYTE	W48
+	BYTE	PEND
+// 008   ----------------------------------------
+cornered_7_008:
+	BYTE		N44     Cn5   v100
+	BYTE	W48
+	BYTE		N21     As4 
+	BYTE	W24
+	BYTE		        Gs4 
+	BYTE	W24
+	BYTE	PEND
+// 009   ----------------------------------------
+cornered_7_009:
+	BYTE		N44     Gn4   v100
+	BYTE	W48
+	BYTE		        Gs4 
+	BYTE	W48
+	BYTE	PEND
+// 010   ----------------------------------------
+cornered_7_010:
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE		N12     Fn4   v112
+	BYTE	W18
+	BYTE		        Fn4   v072
+	BYTE	W18
+	BYTE		        Fn4   v092
+	BYTE	W18
+	BYTE		        Fn4   v052
+	BYTE	W18
+	BYTE		        Fn4   v072
+	BYTE	W18
+	BYTE		        Fn4   v032
+	BYTE	W06
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+cornered_7_021:
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE		N08     Fn4   v112
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Fn4   v080
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Fn4   v060
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Fn4   v040
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE	PEND
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_002
+// 027   ----------------------------------------
+	BYTE		N92     As4   v100
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_009
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_010
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_021
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_002
+// 051   ----------------------------------------
+	BYTE		N92     As4   v100
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_010
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE	W96
+// 064   ----------------------------------------
+	BYTE	W96
+// 065   ----------------------------------------
+	BYTE	W96
+// 066   ----------------------------------------
+	BYTE	W96
+// 067   ----------------------------------------
+	BYTE	W96
+// 068   ----------------------------------------
+	BYTE	W96
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_021
+// 070   ----------------------------------------
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE	W96
+// 072   ----------------------------------------
+	BYTE	W96
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_001
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_002
+// 075   ----------------------------------------
+	BYTE		N92     As4   v100
+	BYTE	W96
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_006
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_007
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_008
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_009
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_010
+// 083   ----------------------------------------
+	BYTE	W96
+// 084   ----------------------------------------
+	BYTE	W96
+// 085   ----------------------------------------
+	BYTE	W96
+// 086   ----------------------------------------
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	W96
+// 089   ----------------------------------------
+	BYTE	W96
+// 090   ----------------------------------------
+	BYTE	W96
+// 091   ----------------------------------------
+	BYTE	W96
+// 092   ----------------------------------------
+	BYTE	W96
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_7_021
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	W96
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_7_B1
+cornered_7_B2:
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+cornered_8:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   30
+	BYTE	W96
+cornered_8_B1:
+// 001   ----------------------------------------
+cornered_8_001:
+	BYTE		VOL     103*cornered_mvl/mxv
+	BYTE		N78     Cn4   v100
+	BYTE	W84
+	BYTE		N06     As3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+cornered_8_002:
+	BYTE		N78     Fn3   v100
+	BYTE	W84
+	BYTE		N06     Gn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N92     As3 
+	BYTE	W96
+// 004   ----------------------------------------
+cornered_8_004:
+	BYTE		N44     Gn3   v100
+	BYTE	W48
+	BYTE		        Ds3 
+	BYTE	W48
+	BYTE	PEND
+// 005   ----------------------------------------
+cornered_8_005:
+	BYTE		N68     Fn3   v100
+	BYTE	W72
+	BYTE		N21     Cn4 
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+cornered_8_006:
+	BYTE		N44     Cs4   v100
+	BYTE	W48
+	BYTE		N21     Cn4 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+cornered_8_007:
+	BYTE		N44     As3   v100
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+	BYTE	PEND
+// 008   ----------------------------------------
+cornered_8_008:
+	BYTE		N44     Cn4   v100
+	BYTE	W48
+	BYTE		N21     As3 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 009   ----------------------------------------
+cornered_8_009:
+	BYTE		N44     Gn3   v100
+	BYTE	W48
+	BYTE		        Gs3 
+	BYTE	W48
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+cornered_8_013:
+	BYTE		VOL     111*cornered_mvl/mxv
+	BYTE		N44     Cn4   v100
+	BYTE	W01
+	BYTE		VOL     111*cornered_mvl/mxv
+	BYTE	W44
+	BYTE	W03
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE	PEND
+// 014   ----------------------------------------
+cornered_8_014:
+	BYTE		N80     Gs3   v100
+	BYTE	W84
+	BYTE		N06     As3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE		N92     As3 
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_004
+// 017   ----------------------------------------
+cornered_8_017:
+	BYTE		N44     Fn3   v100
+	BYTE	W48
+	BYTE		        Cn3 
+	BYTE	W48
+	BYTE	PEND
+// 018   ----------------------------------------
+cornered_8_018:
+	BYTE		N44     Cs3   v100
+	BYTE	W48
+	BYTE		N21     Ds3 
+	BYTE	W24
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE	PEND
+// 019   ----------------------------------------
+cornered_8_019:
+	BYTE		N44     Gs3   v100
+	BYTE	W48
+	BYTE		        Fn3 
+	BYTE	W48
+	BYTE	PEND
+// 020   ----------------------------------------
+cornered_8_020:
+	BYTE		N44     As3   v100
+	BYTE	W48
+	BYTE		N21     Gn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W24
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_002
+// 027   ----------------------------------------
+	BYTE		N92     As3   v100
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_009
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_013
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_014
+// 039   ----------------------------------------
+	BYTE		N92     As3   v100
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_017
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_018
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_019
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_020
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_002
+// 051   ----------------------------------------
+	BYTE		N92     As3   v100
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_009
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_013
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_014
+// 063   ----------------------------------------
+	BYTE		N92     As3   v100
+	BYTE	W96
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_017
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_018
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_019
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_020
+// 069   ----------------------------------------
+	BYTE	W96
+// 070   ----------------------------------------
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE	W96
+// 072   ----------------------------------------
+	BYTE	W96
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_001
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_002
+// 075   ----------------------------------------
+	BYTE		N92     As3   v100
+	BYTE	W96
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_006
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_007
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_008
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_009
+// 082   ----------------------------------------
+	BYTE	W96
+// 083   ----------------------------------------
+	BYTE	W96
+// 084   ----------------------------------------
+	BYTE	W96
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_013
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_014
+// 087   ----------------------------------------
+	BYTE		N92     As3   v100
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_004
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_017
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_018
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_019
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_8_020
+// 093   ----------------------------------------
+	BYTE	W96
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	W96
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_8_B1
+cornered_8_B2:
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.9) ****************//
+
+cornered_9:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   19
+	BYTE	W96
+cornered_9_B1:
+// 001   ----------------------------------------
+cornered_9_001:
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE		N92     Fn3   v100
+	BYTE	W01
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE	W01
+	BYTE		        127*cornered_mvl/mxv
+	BYTE	W92
+	BYTE	W02
+	BYTE	PEND
+// 002   ----------------------------------------
+cornered_9_002:
+	BYTE		N44     Cn3   v100
+	BYTE	W48
+	BYTE		N06     Fn3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+cornered_9_003:
+	BYTE		N12     As3   v100
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+cornered_9_004:
+	BYTE		N12     Gn3   v100
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+cornered_9_005:
+	BYTE		N06     Fn3   v100
+	BYTE	W06
+	BYTE		        Fn2 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		N12     Cn4 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+cornered_9_006:
+	BYTE		N12     Cs4   v100
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE	PEND
+// 007   ----------------------------------------
+cornered_9_007:
+	BYTE		N12     As3   v100
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+cornered_9_008:
+	BYTE		N12     Cn4   v100
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+cornered_9_009:
+	BYTE		N12     Gn3   v100
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+cornered_9_010:
+	BYTE		VOL     116*cornered_mvl/mxv
+	BYTE		N12     Fn4   v112
+	BYTE	W18
+	BYTE		        Fn4   v072
+	BYTE	W18
+	BYTE		        Fn4   v092
+	BYTE	W18
+	BYTE		        Fn4   v052
+	BYTE	W18
+	BYTE		        Fn4   v072
+	BYTE	W18
+	BYTE		        Fn4   v032
+	BYTE	W06
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+cornered_9_013:
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE		N44     Fn3   v100
+	BYTE	W01
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE	W01
+	BYTE		        127*cornered_mvl/mxv
+	BYTE	W44
+	BYTE	W02
+	BYTE		N44     Gs3 
+	BYTE	W48
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE		N92     Cn3 
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W96
+// 016   ----------------------------------------
+cornered_9_016:
+	BYTE		N12     Cn3   v100
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE	PEND
+// 017   ----------------------------------------
+cornered_9_017:
+	BYTE		N12     Fn3   v100
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+cornered_9_018:
+	BYTE		N12     Cs3   v100
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE	PEND
+// 019   ----------------------------------------
+cornered_9_019:
+	BYTE		N12     Gs3   v100
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+cornered_9_020:
+	BYTE		N12     As3   v100
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE	PEND
+// 021   ----------------------------------------
+cornered_9_021:
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE		N08     Fn4   v112
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Fn4   v080
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Fn4   v060
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Fn4   v040
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE	PEND
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_009
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_010
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_013
+// 038   ----------------------------------------
+	BYTE		N92     Cn3   v100
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_016
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_017
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_018
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_019
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_020
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_021
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_010
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_013
+// 062   ----------------------------------------
+	BYTE		N92     Cn3   v100
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W96
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_016
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_017
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_018
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_019
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_020
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_021
+// 070   ----------------------------------------
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE	W96
+// 072   ----------------------------------------
+	BYTE	W96
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_001
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_002
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_003
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_006
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_007
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_008
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_009
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_010
+// 083   ----------------------------------------
+	BYTE	W96
+// 084   ----------------------------------------
+	BYTE	W96
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_013
+// 086   ----------------------------------------
+	BYTE		N92     Cn3   v100
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_016
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_017
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_018
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_019
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_020
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_9_021
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	W96
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_9_B1
+cornered_9_B2:
+	BYTE	FINE
+
+//**************** Track 10 (Midi-Chn.11) ****************//
+
+cornered_10:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   4
+	BYTE	W96
+cornered_10_B1:
+// 001   ----------------------------------------
+cornered_10_001:
+	BYTE		VOL     103*cornered_mvl/mxv
+	BYTE		N09     Cn3   v100
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE		N09     Ds3 
+	BYTE		N09     Gn3 
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+cornered_10_002:
+	BYTE		N09     Cn3   v100
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE		N09     Ds3 
+	BYTE		N09     Gn3 
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+cornered_10_003:
+	BYTE		N09     Cs3   v100
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W18
+	BYTE		        Cs3 
+	BYTE		N09     Ds3 
+	BYTE		N09     Gn3 
+	BYTE	W18
+	BYTE		        Cs3 
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W18
+	BYTE		        Cs3 
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W18
+	BYTE		        Cs3 
+	BYTE		N09     Fn3 
+	BYTE		N09     Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 004   ----------------------------------------
+cornered_10_004:
+	BYTE		N09     Ds3   v100
+	BYTE		N09     Gn3 
+	BYTE		N09     As3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE		N09     Gn3 
+	BYTE		N09     As3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE		N09     Gn3 
+	BYTE		N09     As3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE		N09     Gn3 
+	BYTE		N09     As3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE		N09     Gn3 
+	BYTE		N09     As3 
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 012   ----------------------------------------
+cornered_10_012:
+	BYTE		N09     Ds3   v100
+	BYTE		N09     Gn3 
+	BYTE		N09     As3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE		N09     Gn3 
+	BYTE		N09     As3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE		N09     Gn3 
+	BYTE		N09     As3 
+	BYTE	W60
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 021   ----------------------------------------
+cornered_10_021:
+	BYTE		N09     Fn3   v100
+	BYTE		N09     Gs3 
+	BYTE		N09     Cn4 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE		N09     Gn3 
+	BYTE		N09     Cn4 
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE		N09     Gs3 
+	BYTE		N09     Cn4 
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE		N09     Gs3 
+	BYTE		N09     Cn4 
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE		N09     Gs3 
+	BYTE		N09     Cn4 
+	BYTE	W24
+	BYTE	PEND
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_021
+// 023   ----------------------------------------
+cornered_10_023:
+	BYTE		N09     Fn3   v100
+	BYTE		N09     Gs3 
+	BYTE		N09     Cs4 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE		N09     Gn3 
+	BYTE		N09     Cs4 
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE		N09     Gs3 
+	BYTE		N09     Cs4 
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE		N09     Gs3 
+	BYTE		N09     Cs4 
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE		N09     Gs3 
+	BYTE		N09     Cs4 
+	BYTE	W24
+	BYTE	PEND
+// 024   ----------------------------------------
+cornered_10_024:
+	BYTE		N09     Gn3   v100
+	BYTE		N09     As3 
+	BYTE		N09     Ds4 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE		N09     As3 
+	BYTE		N09     Ds4 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE		N09     As3 
+	BYTE		N09     Ds4 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE		N09     As3 
+	BYTE		N09     Ds4 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE		N09     As3 
+	BYTE		N09     Ds4 
+	BYTE	W24
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_021
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_021
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_024
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_021
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_021
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_023
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_024
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_001
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_012
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_002
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_003
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_004
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_021
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_021
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_023
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_10_024
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_10_B1
+cornered_10_B2:
+	BYTE	FINE
+
+//**************** Track 11 (Midi-Chn.12) ****************//
+
+cornered_11:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   106
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE	W48
+	BYTE		N16     Cn4   v127
+	BYTE	W16
+	BYTE		        Ds4 
+	BYTE	W16
+	BYTE		        En4 
+	BYTE	W16
+cornered_11_B1:
+// 001   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+cornered_11_012:
+	BYTE	W48
+	BYTE		N16     Cn4   v127
+	BYTE	W16
+	BYTE		        Ds4 
+	BYTE	W16
+	BYTE		        En4 
+	BYTE	W16
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE		N24     Fn4 
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Ds4 
+	BYTE	W12
+// 017   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W96
+// 018   ----------------------------------------
+cornered_11_018:
+	BYTE	W48
+	BYTE		N18     Ds4   v127
+	BYTE	W18
+	BYTE		N18   
+	BYTE	W18
+	BYTE		N12     En4 
+	BYTE	W12
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE		N24     Fn4 
+	BYTE	W96
+// 020   ----------------------------------------
+cornered_11_020:
+	BYTE	W48
+	BYTE		N24     Cn4   v127
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Ds4 
+	BYTE	W12
+// 023   ----------------------------------------
+cornered_11_023:
+	BYTE		N12     Fn4   v127
+	BYTE	W84
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+cornered_11_024:
+	BYTE		N12     Ds4   v127
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W18
+	BYTE		N12   
+	BYTE	W18
+	BYTE		        En4 
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE		N24     Fn4 
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_012
+// 037   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Ds4 
+	BYTE	W12
+// 041   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_018
+// 043   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_020
+// 045   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Ds4 
+	BYTE	W12
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_024
+// 049   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_012
+// 061   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE	W96
+// 064   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Ds4 
+	BYTE	W12
+// 065   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W96
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_018
+// 067   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_020
+// 069   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 070   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Ds4 
+	BYTE	W12
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_023
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_024
+// 073   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 074   ----------------------------------------
+	BYTE	W96
+// 075   ----------------------------------------
+	BYTE	W96
+// 076   ----------------------------------------
+	BYTE	W96
+// 077   ----------------------------------------
+	BYTE	W96
+// 078   ----------------------------------------
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W96
+// 080   ----------------------------------------
+	BYTE	W96
+// 081   ----------------------------------------
+	BYTE	W96
+// 082   ----------------------------------------
+	BYTE	W96
+// 083   ----------------------------------------
+	BYTE	W96
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_012
+// 085   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 086   ----------------------------------------
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Ds4 
+	BYTE	W12
+// 089   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W96
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_018
+// 091   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_020
+// 093   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W96
+// 094   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Ds4 
+	BYTE	W12
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_023
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_11_024
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_11_B1
+cornered_11_B2:
+	BYTE	FINE
+
+//**************** Track 12 (Midi-Chn.13) ****************//
+
+cornered_12:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   30
+	BYTE	W96
+cornered_12_B1:
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE		VOL     116*cornered_mvl/mxv
+	BYTE		N44     Cn4   v127
+	BYTE	W01
+	BYTE		VOL     116*cornered_mvl/mxv
+	BYTE	W44
+	BYTE	W03
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+// 014   ----------------------------------------
+cornered_12_014:
+	BYTE		N80     Gs3   v127
+	BYTE	W84
+	BYTE		N06     As3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE		N92     As3 
+	BYTE	W96
+// 016   ----------------------------------------
+cornered_12_016:
+	BYTE		N44     Gn3   v127
+	BYTE	W48
+	BYTE		        Ds3 
+	BYTE	W48
+	BYTE	PEND
+// 017   ----------------------------------------
+cornered_12_017:
+	BYTE		N44     Fn3   v127
+	BYTE	W48
+	BYTE		        Cn3 
+	BYTE	W48
+	BYTE	PEND
+// 018   ----------------------------------------
+cornered_12_018:
+	BYTE		N44     Cs3   v127
+	BYTE	W48
+	BYTE		N21     Ds3 
+	BYTE	W24
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE	PEND
+// 019   ----------------------------------------
+cornered_12_019:
+	BYTE		N44     Gs3   v127
+	BYTE	W48
+	BYTE		        Fn3 
+	BYTE	W48
+	BYTE	PEND
+// 020   ----------------------------------------
+cornered_12_020:
+	BYTE		N44     As3   v127
+	BYTE	W48
+	BYTE		N21     Gn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W24
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+cornered_12_037:
+	BYTE		N44     Cn4   v127
+	BYTE	W48
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE	PEND
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_014
+// 039   ----------------------------------------
+	BYTE		N92     As3   v127
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_016
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_017
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_018
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_019
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_020
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_037
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_014
+// 063   ----------------------------------------
+	BYTE		N92     As3   v127
+	BYTE	W96
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_016
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_017
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_018
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_019
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_020
+// 069   ----------------------------------------
+	BYTE	W96
+// 070   ----------------------------------------
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE	W96
+// 072   ----------------------------------------
+	BYTE	W96
+// 073   ----------------------------------------
+	BYTE	W96
+// 074   ----------------------------------------
+	BYTE	W96
+// 075   ----------------------------------------
+	BYTE	W96
+// 076   ----------------------------------------
+	BYTE	W96
+// 077   ----------------------------------------
+	BYTE	W96
+// 078   ----------------------------------------
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W96
+// 080   ----------------------------------------
+	BYTE	W96
+// 081   ----------------------------------------
+	BYTE	W96
+// 082   ----------------------------------------
+	BYTE	W96
+// 083   ----------------------------------------
+	BYTE	W96
+// 084   ----------------------------------------
+	BYTE	W96
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_037
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_014
+// 087   ----------------------------------------
+	BYTE		N92     As3   v127
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_016
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_017
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_018
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_019
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_12_020
+// 093   ----------------------------------------
+	BYTE	W96
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	W96
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_12_B1
+cornered_12_B2:
+	BYTE	FINE
+
+//**************** Track 13 (Midi-Chn.14) ****************//
+
+cornered_13:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   119
+	BYTE	W96
+cornered_13_B1:
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+cornered_13_020:
+	BYTE		VOL     127*cornered_mvl/mxv
+	BYTE	W01
+	BYTE		        127*cornered_mvl/mxv
+	BYTE	W44
+	BYTE	W03
+	BYTE		N48     Cn4   v100
+	BYTE		N48     Fn4   v127
+	BYTE	W48
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_13_020
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE	W96
+// 064   ----------------------------------------
+	BYTE	W96
+// 065   ----------------------------------------
+	BYTE	W96
+// 066   ----------------------------------------
+	BYTE	W96
+// 067   ----------------------------------------
+	BYTE	W96
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_13_020
+// 069   ----------------------------------------
+	BYTE	W96
+// 070   ----------------------------------------
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE	W96
+// 072   ----------------------------------------
+	BYTE	W96
+// 073   ----------------------------------------
+	BYTE	W96
+// 074   ----------------------------------------
+	BYTE	W96
+// 075   ----------------------------------------
+	BYTE	W96
+// 076   ----------------------------------------
+	BYTE	W96
+// 077   ----------------------------------------
+	BYTE	W96
+// 078   ----------------------------------------
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W96
+// 080   ----------------------------------------
+	BYTE	W96
+// 081   ----------------------------------------
+	BYTE	W96
+// 082   ----------------------------------------
+	BYTE	W96
+// 083   ----------------------------------------
+	BYTE	W96
+// 084   ----------------------------------------
+	BYTE	W96
+// 085   ----------------------------------------
+	BYTE	W96
+// 086   ----------------------------------------
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	W96
+// 089   ----------------------------------------
+	BYTE	W96
+// 090   ----------------------------------------
+	BYTE	W96
+// 091   ----------------------------------------
+	BYTE	W96
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_13_020
+// 093   ----------------------------------------
+	BYTE	W96
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	W96
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_13_B1
+cornered_13_B2:
+	BYTE	FINE
+
+//**************** Track 14 (Midi-Chn.15) ****************//
+
+cornered_14:
+	BYTE	KEYSH   cornered_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE	W96
+cornered_14_B1:
+// 001   ----------------------------------------
+cornered_14_001:
+	BYTE		VOL     124*cornered_mvl/mxv
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+cornered_14_002:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		N03   
+	BYTE		N03     En1 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+cornered_14_003:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+cornered_14_004:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		N03   
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		N03   
+	BYTE		N03     En1 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_004
+// 009   ----------------------------------------
+cornered_14_009:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+cornered_14_010:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		N03   
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1   v092
+	BYTE		N03     As1   v100
+	BYTE	W06
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE		        Bn0   v100
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1   v092
+	BYTE		N03     As1   v100
+	BYTE	W06
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE	PEND
+// 011   ----------------------------------------
+cornered_14_011:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		N03   
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     As1 
+	BYTE	W06
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE		        Bn0   v100
+	BYTE	W12
+	BYTE		N03   
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        En1   v092
+	BYTE		N03     As1   v100
+	BYTE	W06
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE	PEND
+// 012   ----------------------------------------
+cornered_14_012:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W36
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE		        En1   v092
+	BYTE	W06
+	BYTE		        En1   v096
+	BYTE	W06
+	BYTE		        En1   v100
+	BYTE	W06
+	BYTE	PEND
+// 013   ----------------------------------------
+cornered_14_013:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+cornered_14_014:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 016   ----------------------------------------
+cornered_14_016:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        En1 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W06
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE		        Bn0   v100
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1   v092
+	BYTE		N03     As1   v100
+	BYTE	W06
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 020   ----------------------------------------
+cornered_14_020:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE	PEND
+// 021   ----------------------------------------
+cornered_14_021:
+	BYTE		N03     Bn0   v100
+	BYTE		N24     Gn2 
+	BYTE		N24     An2 
+	BYTE	W12
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE	PEND
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 024   ----------------------------------------
+cornered_14_024:
+	BYTE		N03     Bn0   v100
+	BYTE	W12
+	BYTE		        En1 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        En1   v092
+	BYTE		N03     As1   v100
+	BYTE	W06
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE		        Bn0   v100
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE		N03     As1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE		N03     En1   v092
+	BYTE		N03     As1   v100
+	BYTE	W06
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_009
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_010
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_016
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_020
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_021
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_024
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_010
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_016
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_020
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_021
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_024
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_001
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_002
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_002
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_003
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_009
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_010
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_011
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_012
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 087   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 088   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_016
+// 089   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 090   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 091   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_020
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_021
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_014
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_013
+// 096   ----------------------------------------
+	BYTE	PATT
+	 POIN2	cornered_14_024
+// 097   ----------------------------------------
+	BYTE	W09
+	BYTE	GoTo
+	 POIN2	cornered_14_B1
+cornered_14_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+cornered:
+	BYTE	14	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	cornered_pri	// Priority
+	BYTE	cornered_rev	// Reverb.
+
+	POIN2	cornered_grp
+
+	POIN2	cornered_1
+	POIN2	cornered_2
+	POIN2	cornered_3
+	POIN2	cornered_4
+	POIN2	cornered_5
+	POIN2	cornered_6
+	POIN2	cornered_7
+	POIN2	cornered_8
+	POIN2	cornered_9
+	POIN2	cornered_10
+	POIN2	cornered_11
+	POIN2	cornered_12
+	POIN2	cornered_13
+	POIN2	cornered_14
+
+	

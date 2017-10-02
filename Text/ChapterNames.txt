@@ -1,0 +1,93 @@
+
+# 0x160 PrologueChName
+Turnabout Recollection[X]
+
+#0x161
+Turnabout Rage[X]
+
+#0x162
+2: The Bone Hole[X]
+
+#0x163
+3: Compile Proyect[X]
+
+#0x164
+4: Monkey Business[X]
+
+#0x166
+5: Winter Invasion[X]
+
+#0x167
+6: Fort of Bad[X]
+
+#0x168
+7: Port of Bad[X]
+
+#0x169
+8: Yet Another Chapter[X]
+
+#0x16a
+9: Tragic Backstory[X]
+
+# 0x016B
+10: here you like Men[X]
+
+# 0x019a
+11: Factory Gold[X]
+
+# 0x016c
+12: I Felt Sadistic[X]
+
+# 0x016d
+13: Coarse. Rough. Irritating.[X]
+
+# 0x016e
+14: Attack on Basement[X]
+
+# 0x016f
+15: The Shark Straits[X]
+
+# 0x0170
+16: Dead Valley[X]
+
+# 0x0171
+17: 'Slowly' Corrupting[X]
+
+# 0x0172
+18: Island Clash[X]
+
+# 0x0173
+19: Lit Chapter[X]
+
+# 0x0174
+20: Great Rivalry[X]
+
+# 0x0175
+21: Doot Doot[X]
+
+# 0x0176
+22: N i c e B o a t s[X]
+
+# 0x0177
+23: Flesh and Bone[X]
+
+# 0x0178
+24: River Rush[X]
+
+# 0x019B
+25: Shrine of Meals[X]
+
+# 0x0179
+26: Darrman's Lakes[X]
+
+# 0x017A
+27: Convenient Lake[X]
+
+# 0x017B
+28: Mess.jpg[X]
+
+# 0x0182
+29: Let It Be[X]
+
+# 0x0183
+Final: End of All[X]

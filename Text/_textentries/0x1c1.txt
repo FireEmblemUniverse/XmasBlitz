@@ -1,0 +1,6 @@
+The body does not appear[N]
+to have any external wounds.[AN]
+He appears to have just[N]
+finished eating some mutton.[AN]
+Near his hand, there is[N]
+a mysterious device.[A][X]

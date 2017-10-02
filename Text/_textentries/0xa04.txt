@@ -1,0 +1,8 @@
+Dorcas has been murdered, and our[N]
+heroes are the prime suspects.[AN]
+[Red]Examine[Red] the crime scene to[N]
+find evidence pointing to[N]
+true killer's identity.[AN]
+[Red]Talk[Red] to Eliwood to show him[N]
+the truth, before [Red]Veronica[Red][N]
+arrives with Emblian forces.[A][X]

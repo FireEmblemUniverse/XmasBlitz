@@ -1,0 +1,233 @@
+##nameSharena
+Sharena[X]
+
+##descSharena
+The princess of Askr.[N]
+Good at making friends.[X]
+
+##nameAlfonse
+Alfonse[X]
+
+##descAlfonse
+The prince of Askr.[N]
+Bad with directions.[X]
+
+##nameVeronica
+Veronica[X]
+
+##descVeronica
+Ruler of Embla.[N]
+Likes cute things.[X]
+
+##nameAnna
+Anna[X]
+
+##descAnna
+The commander of the[N]
+Order of Heroes.[X]
+
+##nameNorne
+Norne[X]
+
+##descNorne
+A volunteer archer in[N]
+the Altean army.[X]
+
+##nameMia
+Mia[X]
+
+##descMia
+An energetic member of[N]
+the Greil Mercenaries.[X]
+
+##nameNarcian
+Narcian[X]
+
+##descNarcian
+Strong, wise, beautiful, and[N]
+always right (self-declared).[X]
+
+##nameLinde
+Linde[X]
+
+##descLinde
+A light mage from Archanea.[N]
+The best at laser tag.[X]
+
+##nameCamus
+Camus[X]
+
+##nameZeke
+Zeke[X]
+
+##nameSirius
+Sirius[X]
+
+##descCamus
+A valorous knight going[N]
+through an identity crisis.[X]
+
+##nameElise
+Elise[X]
+
+##descElise
+Claims to be an adult.[N]
+Not fooling anyone.[X]
+
+##nameReinhardt
+Reinhardt[X]
+
+##descReinhardt
+Leader of the Gelben Ritter.[N]
+Enjoys long walks on the beach.[X]
+
+##nameOlivia
+Olivia[X]
+
+##descOlivia
+A talented dancer with[N]
+a bad case of stage fright.[X]
+
+##nameEliwood
+Eliwood[X]
+
+##descEliwood
+Marquess Pherae's young[N]
+son. Just and honorable.[X]
+
+##nameLyn
+Lyn[X]
+
+##descLyn
+A young girl from the Lorca[N]
+tribe. Stouthearted and kind.[X]
+
+##nameHector
+Hector[X]
+
+##descHector
+Marquess Ostia's younger[N]
+brother. Reckless, but loyal.[X]
+
+##nameLowen
+Lowen[X]
+
+##descLowen
+A knight in service to House[N]
+Pherae. A fresh recruit.[X]
+
+##nameBartre
+Bartre[X]
+
+##descBartre
+One of Eliwood's guardsmen.[N]
+Duty is everything to him.[X]
+
+##nameMarcus
+Marcus[X]
+
+##descMarcus
+A paladin serving House[N]
+Pherae. A skilled veteran.[X]
+
+##nameJaffar
+Jaffar[X]
+
+##descJaffar
+The Black Fang's Angel of[N]
+Death. Once served Nergal.[X]
+
+##nameErk
+Erk[X]
+
+##descErk
+A young mage from Etruria.[N]
+Charming, but uptight.[X]
+
+##nameOswin
+Oswin[X]
+
+##descOswin
+A knight in service to House[N]
+Ostia. Hector's sworn man.[X]
+
+##nameWallace
+Wallace[X]
+
+##descWallace
+A retired knight of Caelin.[N]
+Constantly testing himself.[X]
+
+##nameKent
+Kent[X]
+
+##descKent
+A knight in service to house[N]
+Caelin. Virtuous to a fault.[X]
+
+##nameSain
+Sain[X]
+
+##descSain
+A knight in service to house[N]
+Caelin. A bit of a scoundrel.[X]
+
+##nameIsadora
+Isadora[X]
+
+##descIsadora
+A paladin in service to House[N]
+Pherae. Modest and polite.[X]
+
+##nameHarken
+Harken[X]
+
+##descHarken
+The sole survivor of the[N]
+Knights of Pherae.[X]
+
+##nameLycia
+Lycia[X]
+
+##descLycia
+A knight of Lycia, sworn in service[N]
+to the HectEliLyn Triumvirate.[X]
+
+##nameDorcas
+Dorcas[X]
+
+##descDorcas
+He died as he lived:[N]
+the Lord of Mutton.[X]
+
+##nameSigurd
+Sigurd[X]
+
+##descSigurd
+Voted Grannvale's Hottest[N]
+Man Alive for 761.[X]
+
+##nameDeirdre
+Deirdre[X]
+
+##descDeirdre
+Girl Zeke, feat.[N]
+magic super blood.[X]
+
+##nameQuan
+Quan[X]
+
+##descQuan
+Has a full body pillow[N]
+bearing a G[0xE1]e Bolg design.[X]
+
+##nameEthlyn
+Ethlyn[X]
+
+##descEthlyn
+Has a full body pillow[N]
+bearing a Sigurd design.[X]
+
+## descMarkyjoe
+Rage fills his soul.[N]
+Will he ever know peace?[X]

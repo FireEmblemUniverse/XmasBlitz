@@ -1,0 +1,51 @@
+SongTable(0x43,silence,0)
+
+    #include "MPlayDef.event"
+
+    #define    silence_grp  silence_map
+    #define    silence_pri  0
+    #define    silence_rev  0
+    #define    silence_mvl  0
+    #define    silence_key  0
+    #define    silence_tbs  1
+    #define    silence_exg  0
+    #define    silence_cmp  1
+
+    ALIGN 4
+
+silence_1:
+    BYTE        VOL     0*silence_mvl/mxv
+    BYTE    KEYSH   silence_key+0
+    BYTE        VOICE   0
+    BYTE        TIE     Cn3   v064
+    BYTE    W96
+silence_1_B1:
+    BYTE    W96
+    BYTE    W96
+    BYTE    GoTo
+     POIN2    silence_1_B1
+silence_1_B2:
+    BYTE    W06
+    BYTE        EOT     Cn3 
+    BYTE    FINE
+
+    ALIGN 4
+
+silence:
+    BYTE    1    // NumTrks
+    BYTE    0    // NumBlks
+    BYTE    silence_pri    // Priority
+    BYTE    silence_rev    // Reverb.
+
+    POIN2    silence_grp
+
+    POIN2    silence_1
+
+    
+silence_map:
+WORD $3c00
+POIN silence_wav
+WORD $FF00FF
+
+silence_wav:
+#incbin "gavel.bin"

@@ -1,0 +1,37 @@
+//begin Mode 1
+4  p- frame000.png
+~~~
+//begin Mode 2
+4  p- frame000.png
+~~~
+//begin Mode 3
+4  p- frame000.png
+~~~
+//begin Mode 4
+4  p- frame000.png
+~~~
+//begin Mode 5
+4  p- frame000.png
+~~~
+//begin Mode 6
+4  p- frame000.png
+~~~
+//begin Mode 7
+4  p- frame000.png
+~~~
+//begin Mode 8
+4  p- frame000.png
+~~~
+//begin Mode 9
+4  p- frame000.png
+~~~
+//begin Mode 10
+4  p- frame000.png
+~~~
+//begin Mode 11
+4  p- frame000.png
+~~~
+//begin Mode 12
+4  p- frame000.png
+~~~
+//End of animation script

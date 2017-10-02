@@ -1,0 +1,6 @@
+Strange glowing crystals[N]
+appeared on the ground.[AN]
+Were they always there,[N]
+waiting to be revealed?[AN]
+It seems like they will[N]
+fit snugly in the device.[A][X]

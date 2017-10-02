@@ -1,0 +1,134 @@
+_ChariotAnimframe000_png:
+	#incbin bin/frame000_png.bin
+_ChariotAnimframe001_png:
+	#incbin bin/frame001_png.bin
+_ChariotAnimframe002_png:
+	#incbin bin/frame002_png.bin
+_ChariotAnimframe003_png:
+	#incbin bin/frame003_png.bin
+_ChariotAnimframe004_png:
+	#incbin bin/frame004_png.bin
+_ChariotAnimframe005_png:
+	#incbin bin/frame005_png.bin
+_ChariotAnimframe006_png:
+	#incbin bin/frame006_png.bin
+_ChariotAnimframe007_png:
+	#incbin bin/frame007_png.bin
+_ChariotAnimframe008_png:
+	#incbin bin/frame008_png.bin
+_ChariotAnimframe009_png:
+	#incbin bin/frame009_png.bin
+_ChariotAnimframe010_png:
+	#incbin bin/frame010_png.bin
+_ChariotAnimframe011_png:
+	#incbin bin/frame011_png.bin
+_ChariotAnimframe012_png:
+	#incbin bin/frame012_png.bin
+_ChariotAnimframe013_png:
+	#incbin bin/frame013_png.bin
+_ChariotAnimframe014_png:
+	#incbin bin/frame014_png.bin
+_ChariotAnimframe015_png:
+	#incbin bin/frame015_png.bin
+_ChariotAnimframe016_png:
+	#incbin bin/frame016_png.bin
+_ChariotAnimframe017_png:
+	#incbin bin/frame017_png.bin
+_ChariotAnimframe018_png:
+	#incbin bin/frame018_png.bin
+_ChariotAnimframe019_png:
+	#incbin bin/frame019_png.bin
+_ChariotAnimframe020_png:
+	#incbin bin/frame020_png.bin
+_ChariotAnimframe021_png:
+	#incbin bin/frame021_png.bin
+_ChariotAnimframe022_png:
+	#incbin bin/frame022_png.bin
+_ChariotAnimframe023_png:
+	#incbin bin/frame023_png.bin
+_ChariotAnimframe024_png:
+	#incbin bin/frame024_png.bin
+_ChariotAnimframe025_png:
+	#incbin bin/frame025_png.bin
+_ChariotAnimframe026_png:
+	#incbin bin/frame026_png.bin
+_ChariotAnimframe027_png:
+	#incbin bin/frame027_png.bin
+_ChariotAnimframe028_png:
+	#incbin bin/frame028_png.bin
+_ChariotAnimframe029_png:
+	#incbin bin/frame029_png.bin
+_ChariotAnimframe030_png:
+	#incbin bin/frame030_png.bin
+_ChariotAnimframe031_png:
+	#incbin bin/frame031_png.bin
+_ChariotAnimframe032_png:
+	#incbin bin/frame032_png.bin
+_ChariotAnimframe033_png:
+	#incbin bin/frame033_png.bin
+_ChariotAnimframe034_png:
+	#incbin bin/frame034_png.bin
+_ChariotAnimframe035_png:
+	#incbin bin/frame035_png.bin
+_ChariotAnimframe036_png:
+	#incbin bin/frame036_png.bin
+_ChariotAnimframe037_png:
+	#incbin bin/frame037_png.bin
+_ChariotAnimframe038_png:
+	#incbin bin/frame038_png.bin
+_ChariotAnimframe039_png:
+	#incbin bin/frame039_png.bin
+_ChariotAnimframe040_png:
+	#incbin bin/frame040_png.bin
+_ChariotAnimframe041_png:
+	#incbin bin/frame041_png.bin
+_ChariotAnimframe042_png:
+	#incbin bin/frame042_png.bin
+_ChariotAnimframe043_png:
+	#incbin bin/frame043_png.bin
+_ChariotAnimframe044_png:
+	#incbin bin/frame044_png.bin
+_ChariotAnimframe045_png:
+	#incbin bin/frame045_png.bin
+_ChariotAnimframe046_png:
+	#incbin bin/frame046_png.bin
+_ChariotAnimframe047_png:
+	#incbin bin/frame047_png.bin
+_ChariotAnimframe048_png:
+	#incbin bin/frame048_png.bin
+_ChariotAnimframe049_png:
+	#incbin bin/frame049_png.bin
+_ChariotAnimframe050_png:
+	#incbin bin/frame050_png.bin
+_ChariotAnimframe051_png:
+	#incbin bin/frame051_png.bin
+_ChariotAnimframe052_png:
+	#incbin bin/frame052_png.bin
+_ChariotAnimframe053_png:
+	#incbin bin/frame053_png.bin
+_ChariotAnimframe054_png:
+	#incbin bin/frame054_png.bin
+_ChariotAnimframe059_png:
+	#incbin bin/frame059_png.bin
+_ChariotAnimframe060_png:
+	#incbin bin/frame060_png.bin
+_ChariotAnimframe061_png:
+	#incbin bin/frame061_png.bin
+_ChariotAnimframe062_png:
+	#incbin bin/frame062_png.bin
+_ChariotAnimframe063_png:
+	#incbin bin/frame063_png.bin
+_ChariotAnimframe064_png:
+	#incbin bin/frame064_png.bin
+_ChariotAnimframe065_png:
+	#incbin bin/frame065_png.bin
+_ChariotAnimframe066_png:
+	#incbin bin/frame066_png.bin
+_ChariotAnimframe067_png:
+	#incbin bin/frame067_png.bin
+_ChariotAnimframe068_png:
+	#incbin bin/frame068_png.bin
+_ChariotAnimframe069_png:
+	#incbin bin/frame069_png.bin
+_ChariotAnimframe070_png:
+	#incbin bin/frame070_png.bin

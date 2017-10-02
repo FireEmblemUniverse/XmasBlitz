@@ -1,0 +1,51 @@
+SongTable(0x6d,gavel,6)
+
+    #include "MPlayDef.event"
+
+    #define    gavel_grp  gavel_map
+    #define    gavel_pri  0
+    #define    gavel_rev  0
+    #define    gavel_mvl  127
+    #define    gavel_key  0
+    #define    gavel_tbs  1
+    #define    gavel_exg  0
+    #define    gavel_cmp  1
+
+    ALIGN 4
+
+gavel_1:
+    BYTE        VOL     127*gavel_mvl/mxv
+    BYTE    KEYSH   gavel_key+0
+    BYTE        VOICE   0
+    BYTE        TIE     Cn3   v064
+    BYTE    W96
+gavel_1_B1:
+    BYTE    W96
+    BYTE    W96
+    BYTE    GoTo
+     POIN2    gavel_1_B1
+gavel_1_B2:
+    BYTE    W06
+    BYTE        EOT     Cn3 
+    BYTE    FINE
+
+    ALIGN 4
+
+gavel:
+    BYTE    1    // NumTrks
+    BYTE    0    // NumBlks
+    BYTE    gavel_pri    // Priority
+    BYTE    gavel_rev    // Reverb.
+
+    POIN2    gavel_grp
+
+    POIN2    gavel_1
+
+    
+gavel_map:
+WORD $3c00
+POIN gavel_wav
+WORD $FF00FF
+
+gavel_wav:
+#incbin "gavel.bin"

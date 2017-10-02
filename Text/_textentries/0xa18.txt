@@ -1,0 +1,3 @@
+[SetName]???[.][NL]
+Tell me... Have you ever[NL]
+heard of a blood pact?[A][X]

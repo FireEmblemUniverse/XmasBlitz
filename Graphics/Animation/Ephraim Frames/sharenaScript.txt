@@ -1,0 +1,228 @@
+//begin Mode 1
+C03
+C07
+1  p- sharena000.png
+2  p- sharena001.png
+C1B
+2  p- sharena002.png
+2  p- sharena003.png
+2  p- sharena004.png
+15  p- sharena005.png
+4  p- sharena006.png
+4  p- sharena007.png
+C21
+C04
+C1A
+2  p- sharena008p.png
+4  p- sharena009p.png
+6  p- sharena010p.png
+5  p- sharena011p.png
+4  p- sharena012p.png
+3  p- sharena013p.png
+2  p- sharena014p.png
+C01
+2  p- sharena015p.png
+C22
+2  p- sharena016.png
+2  p- sharena017.png
+3  p- sharena018.png
+3  p- sharena019.png
+3  p- sharena020.png
+C06
+3  p- sharena021.png
+3  p- sharena022.png
+C0D
+~~~
+//begin Mode 3
+C03
+C07
+1  p- sharena033.png
+3  p- sharena034.png
+C22
+2  p- sharena035.png
+2  p- sharena036.png
+2  p- sharena037.png
+15  p- sharena038.png
+C38
+2  p- sharena039.png
+2  p- sharena040.png
+2  p- sharena041.png
+2  p- sharena042.png
+C38
+2  p- sharena043.png
+2  p- sharena044.png
+2  p- sharena045.png
+2  p- sharena046.png
+C38
+3  p- sharena047.png
+3  p- sharena048.png
+3  p- sharena049.png
+3  p- sharena050.png
+C38
+3  p- sharena051.png
+3  p- sharena052.png
+3  p- sharena053.png
+3  p- sharena054.png
+4  p- sharena055.png
+4  p- sharena056.png
+4  p- sharena057.png
+4  p- sharena054.png
+C04
+C21
+C0C
+2  p- sharena008p.png
+4  p- sharena009p.png
+6  p- sharena010p.png
+5  p- sharena011p.png
+4  p- sharena012p.png
+3  p- sharena013p.png
+2  p- sharena014p.png
+C01
+2  p- sharena015p.png
+C22
+2  p- sharena016.png
+2  p- sharena017.png
+3  p- sharena018.png
+3  p- sharena019.png
+3  p- sharena020.png
+C06
+3  p- sharena021.png
+3  p- sharena022.png
+C0D
+~~~
+//begin Mode 5
+C03
+C07
+1  p- sharena096.png
+C22
+2  p- sharena079.png
+3  p- sharena080.png
+4  p- sharena081.png
+2  p- sharena082.png
+C25
+2  p- sharena083.png
+C05
+2  p- sharena084.png
+2  p- sharena085.png
+3  p- sharena086.png
+3  p- sharena087.png
+C01
+3  p- sharena088.png
+3  p- sharena089.png
+C06
+3  p- sharena090.png
+C1B
+2  p- sharena079.png
+1  p- sharena078.png
+C0D
+~~~
+//begin Mode 6
+C03
+C07
+1  p- sharena096.png
+C38
+2  p- sharena091.png
+2  p- sharena092.png
+2  p- sharena093.png
+2  p- sharena094.png
+C38
+2  p- sharena091.png
+2  p- sharena092.png
+2  p- sharena093.png
+2  p- sharena094.png
+20  p- sharena095.png
+C22
+2  p- sharena079.png
+3  p- sharena080.png
+4  p- sharena081.png
+2  p- sharena082.png
+C25
+2  p- sharena083.png
+C05
+2  p- sharena084.png
+2  p- sharena085.png
+3  p- sharena086.png
+3  p- sharena087.png
+C01
+3  p- sharena088.png
+3  p- sharena089.png
+C06
+3  p- sharena090.png
+C1B
+2  p- sharena079.png
+1  p- sharena078.png
+C0D
+~~~
+//begin Mode 7
+C02
+1  p- sharena000.png
+C0E
+2  p- sharena023.png
+2  p- sharena024.png
+1  p- sharena025.png
+C01
+2  p- sharena024.png
+2  p- sharena023.png
+1  p- sharena000.png
+C0D
+~~~
+//begin Mode 8
+C02
+1  p- sharena096.png
+C0E
+2  p- sharena026.png
+2  p- sharena027.png
+1  p- sharena028.png
+C01
+2  p- sharena027.png
+2  p- sharena026.png
+1  p- sharena096.png
+C0D
+~~~
+//begin Mode 9
+1  p- sharena000.png
+C01
+~~~
+//begin Mode 10
+1  p- sharena000.png
+C01
+~~~
+//begin Mode 11
+1  p- sharena096.png
+C01
+~~~
+//begin Mode 12
+C03
+C07
+1  p- sharena000.png
+2  p- sharena001.png
+C1B
+2  p- sharena002.png
+2  p- sharena003.png
+2  p- sharena004.png
+15  p- sharena005.png
+4  p- sharena006.png
+4  p- sharena007.png
+C04
+C23
+2  p- sharena058.png
+4  p- sharena059.png
+6  p- sharena060.png
+5  p- sharena061.png
+4  p- sharena062.png
+3  p- sharena063.png
+2  p- sharena064.png
+C01
+2  p- sharena065.png
+C22
+2  p- sharena016.png
+2  p- sharena017.png
+3  p- sharena018.png
+3  p- sharena019.png
+3  p- sharena020.png
+C06
+3  p- sharena021.png
+3  p- sharena022.png
+C0D
+~~~
+//End of animation script

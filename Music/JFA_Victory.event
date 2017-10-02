@@ -1,0 +1,3178 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	JFA_Victory_grp  voicegroup000
+	#define	JFA_Victory_pri  0
+	#define	JFA_Victory_rev  0
+	#define	JFA_Victory_mvl  67
+	#define	JFA_Victory_key  0
+	#define	JFA_Victory_tbs  1
+	#define	JFA_Victory_exg  0
+	#define	JFA_Victory_cmp  1
+
+	// .rodata
+	//	JFA_Victory
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+JFA_Victory_1:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   89*JFA_Victory_tbs/2
+	BYTE		VOICE   80
+	BYTE		VOL     113*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N06     An4   v072
+	BYTE	W06
+	BYTE		PAN     c_v-57
+	BYTE		N06     An4   v044
+	BYTE	W06
+	BYTE		PAN     c_v+62
+	BYTE		N06     An4   v036
+	BYTE	W06
+	BYTE		PAN     c_v-61
+	BYTE		N30     An4   v024
+	BYTE	W30
+	BYTE		PAN     c_v-2
+	BYTE		N06     Gn4   v080
+	BYTE	W06
+	BYTE		PAN     c_v-63
+	BYTE		N06     Gn4   v048
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     Gn4   v040
+	BYTE	W06
+	BYTE		        Gn4   v036
+	BYTE	W06
+	BYTE		PAN     c_v-5
+	BYTE		N06     Cn5   v076
+	BYTE	W06
+	BYTE		PAN     c_v-64
+	BYTE		N06     Cn5   v044
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     Cn5   v040
+	BYTE	W06
+	BYTE		        Cn5   v036
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE		PAN     c_v-4
+	BYTE		N06     An4   v080
+	BYTE	W06
+	BYTE		PAN     c_v-64
+	BYTE		N06     An4   v048
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     An4   v040
+	BYTE	W06
+	BYTE		PAN     c_v-64
+	BYTE		N06     An4   v036
+	BYTE	W06
+	BYTE		PAN     c_v-6
+	BYTE		N06     Fn4   v080
+	BYTE	W06
+	BYTE		PAN     c_v-58
+	BYTE		N06     Fn4   v040
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     Fn4   v032
+	BYTE	W06
+	BYTE		PAN     c_v-64
+	BYTE		N06     Fn4   v028
+	BYTE	W06
+	BYTE		PAN     c_v+0
+	BYTE		N06     Gn4   v080
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     Gn4   v044
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     Gn4   v036
+	BYTE	W06
+	BYTE		PAN     c_v-64
+	BYTE		N30   
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE	W24
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        c_v-3
+	BYTE		N06     Gs4   v076
+	BYTE	W06
+	BYTE		PAN     c_v-60
+	BYTE		N06     Gs4   v056
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     Gs4   v052
+	BYTE	W06
+	BYTE		PAN     c_v-57
+	BYTE		N06     Gs4   v048
+	BYTE	W06
+	BYTE		PAN     c_v-2
+	BYTE		N06     Fn4   v084
+	BYTE	W06
+	BYTE		PAN     c_v-62
+	BYTE		N06     Fn4   v056
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     Fn4   v052
+	BYTE	W06
+	BYTE		PAN     c_v-61
+	BYTE		N06     Fn4   v048
+	BYTE	W06
+	BYTE		PAN     c_v+0
+	BYTE		N06     Gn4   v084
+	BYTE	W06
+	BYTE		PAN     c_v-63
+	BYTE		N06     Gn4   v056
+	BYTE	W06
+	BYTE		PAN     c_v+61
+	BYTE		N06     Gn4   v048
+	BYTE	W06
+	BYTE		PAN     c_v-63
+	BYTE		N06   
+	BYTE	W06
+	BYTE		PAN     c_v-2
+	BYTE		N06     As4   v076
+	BYTE	W06
+	BYTE		PAN     c_v-64
+	BYTE		N06     As4   v060
+	BYTE	W06
+	BYTE		PAN     c_v+62
+	BYTE		N06     As4   v052
+	BYTE	W06
+	BYTE		PAN     c_v-62
+	BYTE		N06     As4   v048
+	BYTE	W06
+// 021   ----------------------------------------
+	BYTE		PAN     c_v-3
+	BYTE		N06     Gs4   v084
+	BYTE	W06
+	BYTE		PAN     c_v-64
+	BYTE		N06     Gs4   v060
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     Gs4   v052
+	BYTE	W06
+	BYTE		PAN     c_v-63
+	BYTE		N30     Gs4   v048
+	BYTE	W06
+	BYTE		PAN     c_v-3
+	BYTE	W06
+	BYTE		        c_v-62
+	BYTE	W06
+	BYTE		        c_v+63
+	BYTE	W06
+	BYTE		        c_v-63
+	BYTE	W06
+	BYTE		        c_v-3
+	BYTE		N06     Gn4   v084
+	BYTE	W06
+	BYTE		PAN     c_v-64
+	BYTE		N06     Gn4   v060
+	BYTE	W06
+	BYTE		PAN     c_v+63
+	BYTE		N06     Gn4   v052
+	BYTE	W06
+	BYTE	TEMPO   77*JFA_Victory_tbs/2
+	BYTE		PAN     c_v-64
+	BYTE		N30     Gn4   v048
+	BYTE	W18
+	BYTE	TEMPO   89*JFA_Victory_tbs/2
+	BYTE	W12
+	BYTE	GoTo
+	 POIN2	JFA_Victory_1_B1
+JFA_Victory_1_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+JFA_Victory_2:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   33
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N90     Fn2   v120
+	BYTE	W96
+// 001   ----------------------------------------
+JFA_Victory_2_001:
+	BYTE		N30     Fn2   v120
+	BYTE	W36
+	BYTE		N54   
+	BYTE	W60
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_001
+// 003   ----------------------------------------
+JFA_Victory_2_003:
+	BYTE		N30     En2   v120
+	BYTE	W36
+	BYTE		N54   
+	BYTE	W60
+	BYTE	PEND
+// 004   ----------------------------------------
+JFA_Victory_2_004:
+	BYTE		N30     Dn2   v120
+	BYTE	W36
+	BYTE		N54   
+	BYTE	W60
+	BYTE	PEND
+// 005   ----------------------------------------
+JFA_Victory_2_005:
+	BYTE		N30     Cn2   v120
+	BYTE	W36
+	BYTE		N54   
+	BYTE	W60
+	BYTE	PEND
+// 006   ----------------------------------------
+JFA_Victory_2_006:
+	BYTE		N30     As1   v120
+	BYTE	W36
+	BYTE		N54   
+	BYTE	W60
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_005
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_004
+// 009   ----------------------------------------
+	BYTE		N30     Cn2   v120
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N42   
+	BYTE	W48
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_005
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_2_004
+// 017   ----------------------------------------
+	BYTE		N30     Bn1   v120
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N42   
+	BYTE	W48
+// 018   ----------------------------------------
+	BYTE		N84     As1 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		        Cn2 
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        Cs2 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        Ds2 
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	JFA_Victory_2_B1
+JFA_Victory_2_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+JFA_Victory_3:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   110
+	BYTE		VOL     1*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v-30
+	BYTE		TIE     Fn3   v076
+	BYTE	W02
+	BYTE		VOL     4*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        7*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        10*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        13*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        16*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        19*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        22*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        25*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        29*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        32*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        35*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        38*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        41*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        44*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        47*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        50*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        53*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        57*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        60*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        63*JFA_Victory_mvl/mxv
+	BYTE	W24
+	BYTE	W01
+	BYTE		        63*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        62*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        61*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        60*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        58*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        57*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        56*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        55*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        54*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        53*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        51*JFA_Victory_mvl/mxv
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W01
+	BYTE		        50*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        49*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        48*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        47*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        46*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        44*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        43*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        42*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        41*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        40*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        39*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        38*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        36*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        35*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        34*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        33*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        32*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        31*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        29*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        28*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        27*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        26*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        25*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        24*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        22*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        20*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        27*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        34*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        41*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        48*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        55*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        62*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        69*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        77*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        84*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        91*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        112*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		EOT   
+	BYTE		VOL     119*JFA_Victory_mvl/mxv
+	BYTE		N03     As3   v048
+	BYTE	W02
+	BYTE		VOL     115*JFA_Victory_mvl/mxv
+	BYTE	W01
+// 002   ----------------------------------------
+JFA_Victory_3_002:
+	BYTE		N06     Cn4   v064
+	BYTE	W06
+	BYTE		        Cn4   v048
+	BYTE	W06
+	BYTE		        As3   v064
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N72     Cn4   v048
+	BYTE	W48
+	BYTE	PEND
+// 003   ----------------------------------------
+JFA_Victory_3_003:
+	BYTE	W32
+	BYTE	W01
+	BYTE		N03     En3   v064
+	BYTE	W03
+	BYTE		N06     Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		N12     Fn3   v048
+	BYTE	W15
+	BYTE		N03     As3 
+	BYTE	W03
+	BYTE	PEND
+// 004   ----------------------------------------
+JFA_Victory_3_004:
+	BYTE		N06     Cn4   v064
+	BYTE	W06
+	BYTE		        Cn4   v048
+	BYTE	W06
+	BYTE		        As3   v064
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N24     Cn4   v048
+	BYTE	W24
+	BYTE		N06     Fn4   v064
+	BYTE	W06
+	BYTE		        Fn4   v048
+	BYTE	W06
+	BYTE		        En4   v064
+	BYTE	W06
+	BYTE		N30     En4   v048
+	BYTE	W06
+	BYTE	PEND
+// 005   ----------------------------------------
+JFA_Victory_3_005:
+	BYTE	W32
+	BYTE	W01
+	BYTE		N03     Gn3   v048
+	BYTE	W03
+	BYTE		N06     An3   v064
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N12     An3   v048
+	BYTE	W18
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W92
+	BYTE	W01
+	BYTE		N03     As3 
+	BYTE	W03
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_3_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_3_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_3_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_3_005
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W24
+	BYTE		N06     An4   v052
+	BYTE	W06
+	BYTE		N18     An4   v040
+	BYTE	W18
+	BYTE		N06     Gn4   v052
+	BYTE	W06
+	BYTE		N18     Gn4   v040
+	BYTE	W18
+	BYTE		N06     Fn4   v052
+	BYTE	W06
+	BYTE		N12     Fn4   v040
+	BYTE	W18
+// 019   ----------------------------------------
+	BYTE		N06     Fn4   v056
+	BYTE	W06
+	BYTE		N24     Fn4   v044
+	BYTE	W30
+	BYTE		N06     En4   v056
+	BYTE	W06
+	BYTE		N48     En4   v044
+	BYTE	W54
+// 020   ----------------------------------------
+	BYTE		N06     Fn4   v056
+	BYTE	W06
+	BYTE		N84     Fn4   v044
+	BYTE	W90
+// 021   ----------------------------------------
+	BYTE		N06     Fn4   v056
+	BYTE	W06
+	BYTE		N24     Fn4   v044
+	BYTE	W30
+	BYTE		N06     Ds4   v056
+	BYTE	W06
+	BYTE		N48     Ds4   v044
+	BYTE	W48
+	BYTE	W03
+	BYTE		N03     As3   v048
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	JFA_Victory_3_B1
+JFA_Victory_3_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+JFA_Victory_4:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   80
+	BYTE		VOL     109*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+20
+	BYTE		N03     An3   v044
+	BYTE	W03
+	BYTE		        As3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        As3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        As3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        As3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        As3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        As3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        As3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		        As3 
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+// 001   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+	BYTE		        Fn4 
+	BYTE	W03
+	BYTE		        Gn4 
+	BYTE	W03
+// 002   ----------------------------------------
+JFA_Victory_4_002:
+	BYTE		N06     An3   v060
+	BYTE	W06
+	BYTE		        An3   v048
+	BYTE	W06
+	BYTE		        Gn3   v060
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N72     An3   v048
+	BYTE	W48
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+JFA_Victory_4_004:
+	BYTE		N06     Fn3   v060
+	BYTE	W06
+	BYTE		        Fn3   v048
+	BYTE	W06
+	BYTE		        Fn3   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		N24     Fn3   v048
+	BYTE	W24
+	BYTE		N06     An3   v060
+	BYTE	W06
+	BYTE		        An3   v048
+	BYTE	W06
+	BYTE		        Gn3   v060
+	BYTE	W06
+	BYTE		N30     Gn3   v048
+	BYTE	W06
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_4_002
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_4_004
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W24
+	BYTE		N06     Fn4   v052
+	BYTE	W06
+	BYTE		N18     Fn4   v040
+	BYTE	W18
+	BYTE		N06     En4   v052
+	BYTE	W06
+	BYTE		N18     En4   v040
+	BYTE	W18
+	BYTE		N06     Dn4   v052
+	BYTE	W06
+	BYTE		N12     Dn4   v040
+	BYTE	W18
+// 019   ----------------------------------------
+	BYTE		N06     An3   v056
+	BYTE	W06
+	BYTE		N24     An3   v044
+	BYTE	W30
+	BYTE		N06     Gn3   v056
+	BYTE	W06
+	BYTE		N48     Gn3   v044
+	BYTE	W54
+// 020   ----------------------------------------
+	BYTE		N06     Cs4   v056
+	BYTE	W06
+	BYTE		N84     Cs4   v044
+	BYTE	W90
+// 021   ----------------------------------------
+	BYTE		N06     Cn4   v056
+	BYTE	W06
+	BYTE		N24     Cn4   v044
+	BYTE	W30
+	BYTE		N06     Gn3   v056
+	BYTE	W06
+	BYTE		N48     Gn3   v044
+	BYTE	W54
+	BYTE	GoTo
+	 POIN2	JFA_Victory_4_B1
+JFA_Victory_4_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+JFA_Victory_5:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   92
+	BYTE		VOL     1*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		TIE     Cn4   v096
+	BYTE	W02
+	BYTE		VOL     4*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        7*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        10*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        13*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        16*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        19*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        22*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        25*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        29*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        32*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        35*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        38*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        41*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        44*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        47*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        50*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        53*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        57*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        60*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        63*JFA_Victory_mvl/mxv
+	BYTE	W24
+	BYTE	W01
+	BYTE		        63*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        62*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        61*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        60*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        58*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        57*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        56*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        55*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        54*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        53*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        51*JFA_Victory_mvl/mxv
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W01
+	BYTE		        50*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        49*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        48*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        47*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        46*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        44*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        43*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        42*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        41*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        40*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        39*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        38*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        36*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        35*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        34*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        33*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        32*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        31*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        29*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        28*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        27*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        26*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        25*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        24*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        22*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        20*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        27*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        34*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        41*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        48*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        55*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        62*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        69*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        77*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        84*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        91*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        112*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        119*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE	W01
+	BYTE		EOT   
+// 002   ----------------------------------------
+JFA_Victory_5_002:
+	BYTE	W60
+	BYTE		N06     Fn3   v072
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N12     Fn3 
+	BYTE	W12
+	BYTE		N06     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+JFA_Victory_5_003:
+	BYTE		N12     Gn3   v072
+	BYTE	W12
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N66     An3 
+	BYTE	W72
+	BYTE	PEND
+// 004   ----------------------------------------
+JFA_Victory_5_004:
+	BYTE	W60
+	BYTE		N06     An3   v072
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N12     An3 
+	BYTE	W12
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE	PEND
+// 005   ----------------------------------------
+JFA_Victory_5_005:
+	BYTE		N12     Cn4   v072
+	BYTE	W12
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		N66     Cn4 
+	BYTE	W72
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_5_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_5_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_5_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_5_005
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE		N96     As3   v068
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	JFA_Victory_5_B1
+JFA_Victory_5_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+JFA_Victory_6:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   102
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+14
+	BYTE		TIE     Cn3   v048
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE		N08     Fn3   v068
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Gn4   v064
+	BYTE	W08
+	BYTE		N42     Fn4 
+	BYTE	W48
+	BYTE		N24   
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE		N06     En4   v068
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N54     Cn4 
+	BYTE	W60
+	BYTE		N24     Gn4   v064
+	BYTE	W24
+// 008   ----------------------------------------
+	BYTE		N08     Fn4 
+	BYTE	W08
+	BYTE		        En4   v060
+	BYTE	W08
+	BYTE		        Cn5   v064
+	BYTE	W08
+	BYTE		N42     An4 
+	BYTE	W48
+	BYTE		N32     Fn4 
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE	W08
+	BYTE		N08     Gn4 
+	BYTE	W08
+	BYTE		        Fn4 
+	BYTE	W08
+	BYTE		N66     En4   v068
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		N08     Fn3   v048
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Gn4   v040
+	BYTE	W08
+	BYTE		N42     Fn4 
+	BYTE	W48
+	BYTE		N24   
+	BYTE	W24
+// 015   ----------------------------------------
+	BYTE		N06     En4   v048
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N54     Cn4 
+	BYTE	W60
+	BYTE		N24     Gn4   v040
+	BYTE	W24
+// 016   ----------------------------------------
+	BYTE		N08     Fn4 
+	BYTE	W08
+	BYTE		        En4   v048
+	BYTE	W08
+	BYTE		        Cn5   v040
+	BYTE	W08
+	BYTE		N42     An4 
+	BYTE	W48
+	BYTE		N32     Fn4 
+	BYTE	W24
+// 017   ----------------------------------------
+	BYTE	W08
+	BYTE		N08   
+	BYTE	W08
+	BYTE		        En4   v048
+	BYTE	W08
+	BYTE		N66     Dn4 
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	JFA_Victory_6_B1
+JFA_Victory_6_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+JFA_Victory_7:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   80
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+JFA_Victory_7_006:
+	BYTE		N08     Fn3   v076
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W08
+	BYTE		        Gn4   v072
+	BYTE	W08
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N42     Fn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W01
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N24   
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 007   ----------------------------------------
+JFA_Victory_7_007:
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N06     En4   v076
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N54     Cn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W13
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N24     Gn4   v072
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N08     Fn4 
+	BYTE	W08
+	BYTE		        En4   v068
+	BYTE	W08
+	BYTE		        Cn5   v072
+	BYTE	W08
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N42     An4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W01
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N32     Fn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+// 009   ----------------------------------------
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W01
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N08     Gn4 
+	BYTE	W08
+	BYTE		        Fn4 
+	BYTE	W08
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N66     En4   v076
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W21
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE	W04
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_7_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_7_007
+// 016   ----------------------------------------
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N08     Fn4   v072
+	BYTE	W08
+	BYTE		        En4   v076
+	BYTE	W08
+	BYTE		        Cn5   v072
+	BYTE	W08
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N42     An4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W01
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N32     Fn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+// 017   ----------------------------------------
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W01
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N08   
+	BYTE	W08
+	BYTE		        En4   v076
+	BYTE	W08
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N66     Dn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W21
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE	W04
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	JFA_Victory_7_B1
+JFA_Victory_7_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+JFA_Victory_8:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_8_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   101
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v-13
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+JFA_Victory_8_006:
+	BYTE	W24
+	BYTE		N18     As2   v052
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N30   
+	BYTE	W36
+	BYTE	PEND
+// 007   ----------------------------------------
+JFA_Victory_8_007:
+	BYTE	W24
+	BYTE		N18     Gn2   v052
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N30   
+	BYTE	W36
+	BYTE	PEND
+// 008   ----------------------------------------
+JFA_Victory_8_008:
+	BYTE	W24
+	BYTE		N18     Dn3   v052
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N30   
+	BYTE	W36
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_8_006
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_8_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_8_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_8_008
+// 017   ----------------------------------------
+	BYTE	W24
+	BYTE		N18     Bn2   v052
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N30   
+	BYTE	W36
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	JFA_Victory_8_B1
+JFA_Victory_8_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.9) ****************//
+
+JFA_Victory_9:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_9_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   80
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W92
+	BYTE	W01
+	BYTE		N03     As3   v056
+	BYTE	W03
+// 002   ----------------------------------------
+JFA_Victory_9_002:
+	BYTE		N12     Cn4   v068
+	BYTE	W12
+	BYTE		N06     As3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N78     Cn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W07
+	BYTE	PEND
+// 003   ----------------------------------------
+JFA_Victory_9_003:
+	BYTE	W30
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		N03     En3   v056
+	BYTE	W03
+	BYTE		N06     Fn3   v068
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		N18     Fn3 
+	BYTE	W21
+	BYTE		N03     As3   v056
+	BYTE	W03
+	BYTE	PEND
+// 004   ----------------------------------------
+JFA_Victory_9_004:
+	BYTE		N12     Cn4   v068
+	BYTE	W12
+	BYTE		N06     As3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N30     Cn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N12     Fn4 
+	BYTE	W12
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N36     En4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 005   ----------------------------------------
+JFA_Victory_9_005:
+	BYTE		VOL     111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W09
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		N03     Gn3   v056
+	BYTE	W03
+	BYTE		N06     An3   v068
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N18     An3 
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_9_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_9_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_9_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_9_005
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W24
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		N24     An4   v060
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N24     Gn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N18     Fn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+// 019   ----------------------------------------
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N30     Fn4   v064
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N54     En4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W13
+// 020   ----------------------------------------
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N90     Fn4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W48
+	BYTE	W01
+// 021   ----------------------------------------
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N30   
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE		N54     Ds4 
+	BYTE	W02
+	BYTE		VOL     123*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        120*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        117*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        114*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        111*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        108*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        105*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        101*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        98*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        95*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        92*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        89*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        86*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        83*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        79*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        76*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        73*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        67*JFA_Victory_mvl/mxv
+	BYTE	W02
+	BYTE		        64*JFA_Victory_mvl/mxv
+	BYTE	W07
+	BYTE		        127*JFA_Victory_mvl/mxv
+	BYTE	W03
+	BYTE		N03     As3   v052
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	JFA_Victory_9_B1
+JFA_Victory_9_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 10 (Midi-Chn.11) ****************//
+
+JFA_Victory_10:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_10_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   104
+	BYTE		VOL     122*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+JFA_Victory_10_006:
+	BYTE		N04     Dn3   v060
+	BYTE	W04
+	BYTE		N36     Dn3   v044
+	BYTE	W44
+	BYTE		N04     Dn3   v060
+	BYTE	W04
+	BYTE		        Dn3   v044
+	BYTE	W04
+	BYTE		        En3   v060
+	BYTE	W04
+	BYTE		        En3   v044
+	BYTE	W04
+	BYTE		        Fn3   v060
+	BYTE	W04
+	BYTE		        Fn3   v044
+	BYTE	W04
+	BYTE		        Gn3   v060
+	BYTE	W04
+	BYTE		N60     Gn3   v044
+	BYTE	W20
+	BYTE	PEND
+// 007   ----------------------------------------
+JFA_Victory_10_007:
+	BYTE	W48
+	BYTE		N04     En3   v060
+	BYTE	W04
+	BYTE		        En3   v044
+	BYTE	W04
+	BYTE		        Fn3   v060
+	BYTE	W04
+	BYTE		        Fn3   v044
+	BYTE	W04
+	BYTE		        Gn3   v060
+	BYTE	W04
+	BYTE		        Gn3   v044
+	BYTE	W04
+	BYTE		        An3   v060
+	BYTE	W04
+	BYTE		N60     An3   v044
+	BYTE	W20
+	BYTE	PEND
+// 008   ----------------------------------------
+JFA_Victory_10_008:
+	BYTE	W48
+	BYTE		N04     An3   v060
+	BYTE	W04
+	BYTE		        An3   v044
+	BYTE	W04
+	BYTE		        Gn3   v060
+	BYTE	W04
+	BYTE		        Gn3   v044
+	BYTE	W04
+	BYTE		        Fn3   v060
+	BYTE	W04
+	BYTE		        Fn3   v044
+	BYTE	W04
+	BYTE		        Cn4   v060
+	BYTE	W04
+	BYTE		N28     Cn4   v044
+	BYTE	W20
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	W08
+	BYTE		N04     As3   v060
+	BYTE	W04
+	BYTE		        As3   v044
+	BYTE	W04
+	BYTE		        An3   v060
+	BYTE	W04
+	BYTE		        An3   v044
+	BYTE	W04
+	BYTE		        Gn3   v060
+	BYTE	W04
+	BYTE		N60     Gn3   v044
+	BYTE	W68
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_10_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_10_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_10_008
+// 017   ----------------------------------------
+	BYTE	W08
+	BYTE		N04     An3   v060
+	BYTE	W04
+	BYTE		        An3   v044
+	BYTE	W04
+	BYTE		        Gn3   v060
+	BYTE	W04
+	BYTE		        Gn3   v044
+	BYTE	W04
+	BYTE		        Fn3   v060
+	BYTE	W04
+	BYTE		N60     Fn3   v044
+	BYTE	W68
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	JFA_Victory_10_B1
+JFA_Victory_10_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 11 (Midi-Chn.12) ****************//
+
+JFA_Victory_11:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_11_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     127*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W48
+	BYTE		N12     As1   v056
+	BYTE	W12
+	BYTE		N06     Fs1 
+	BYTE	W12
+	BYTE		N24     As1   v076
+	BYTE	W24
+// 002   ----------------------------------------
+JFA_Victory_11_002:
+	BYTE		N06     Cn1   v104
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W06
+	BYTE		        Fs1   v056
+	BYTE	W06
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE		        Cn1   v104
+	BYTE	W24
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE		        Cs1   v096
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 005   ----------------------------------------
+JFA_Victory_11_005:
+	BYTE		N06     Cn1   v104
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W06
+	BYTE		        Fs1   v056
+	BYTE	W06
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE		        Cn1   v104
+	BYTE	W24
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE		        Cs1   v096
+	BYTE	W12
+	BYTE		N12     As1   v080
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 009   ----------------------------------------
+	BYTE		N06     Cn1   v104
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W06
+	BYTE		        Fs1   v056
+	BYTE	W06
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE		        Cn1   v104
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE		        Cs1   v096
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Fs1   v080
+	BYTE	W06
+	BYTE		N12     As1 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	JFA_Victory_11_002
+// 017   ----------------------------------------
+	BYTE		N06     Cn1   v104
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W06
+	BYTE		        Fs1   v056
+	BYTE	W06
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE		        Cn1   v104
+	BYTE	W12
+	BYTE		        Cs1   v096
+	BYTE	W06
+	BYTE		        Cs1   v052
+	BYTE	W06
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE		        Cs1   v096
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W12
+// 018   ----------------------------------------
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE		        As1   v052
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As1   v044
+	BYTE	W60
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W24
+	BYTE		        As1   v064
+	BYTE	W48
+	BYTE		N12   
+	BYTE	W24
+// 021   ----------------------------------------
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W36
+	BYTE		N36     As1   v072
+	BYTE	W36
+	BYTE	GoTo
+	 POIN2	JFA_Victory_11_B1
+JFA_Victory_11_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 12 (Midi-Chn.13) ****************//
+
+JFA_Victory_12:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_12_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   41
+	BYTE		VOL     4*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v-64
+	BYTE		TIE     Cn4   v072
+	BYTE		TIE     Cn5   v080
+	BYTE	W06
+	BYTE		VOL     9*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        14*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        19*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        24*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        29*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        34*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        39*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        45*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        50*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        55*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        60*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        65*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        75*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        80*JFA_Victory_mvl/mxv
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		EOT     Cn4 
+// 002   ----------------------------------------
+	BYTE		TIE     Cn4   v072
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W23
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N23     En4   v076
+	BYTE	W24
+	BYTE		        Cn4   v072
+	BYTE	W24
+	BYTE		        Gn3   v080
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE		N92     An3   v072
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE		        Cn4   v076
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE		        As3   v084
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE		        Cn4   v068
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE		N44     Dn4   v076
+	BYTE	W48
+	BYTE		N23     Cn4   v080
+	BYTE	W24
+	BYTE		        An3 
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE		N92     Gn3 
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		TIE     Cn4   v092
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 012   ----------------------------------------
+	BYTE		N92     Dn4   v072
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE		        Cn4 
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		        As3   v076
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE		        Cn4   v080
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE		N90     Bn3   v092
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE		N88     As3   v084
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		N92     Cn4   v088
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        Ds4   v084
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	JFA_Victory_12_B1
+JFA_Victory_12_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 13 (Midi-Chn.14) ****************//
+
+JFA_Victory_13:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_13_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   41
+	BYTE		VOL     4*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+63
+	BYTE		TIE     Fn4   v080
+	BYTE	W06
+	BYTE		VOL     9*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        14*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        19*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        24*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        29*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        34*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        39*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        45*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        50*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        55*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        60*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        65*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        70*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        75*JFA_Victory_mvl/mxv
+	BYTE	W06
+	BYTE		        80*JFA_Victory_mvl/mxv
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 002   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W19
+	BYTE		EOT   
+	BYTE	W05
+	BYTE		N23     An4   v076
+	BYTE	W24
+	BYTE		        En4   v064
+	BYTE	W24
+	BYTE		        Cn4   v068
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE		N92     Dn4   v076
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE		        En4   v080
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE		        En4   v076
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE		N44     Fn4 
+	BYTE	W48
+	BYTE		N23     En4   v068
+	BYTE	W24
+	BYTE		        Dn4   v072
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE		N92     Cn4   v068
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		        Fn4   v076
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE		        En4   v088
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE		        Fn4   v076
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE		        En4   v088
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		        Dn4   v084
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE		        En4   v092
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE		        Fn4   v096
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE		TIE     Dn4   v080
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE		N32     Fn4   v076
+	BYTE	W36
+	BYTE		N56     En4 
+	BYTE	W60
+// 020   ----------------------------------------
+	BYTE		N92     Fn4   v092
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		N44     Gs4   v080
+	BYTE	W48
+	BYTE		        Gn4 
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	JFA_Victory_13_B1
+JFA_Victory_13_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 14 (Midi-Chn.15) ****************//
+
+JFA_Victory_14:
+	BYTE	KEYSH   JFA_Victory_key+0
+JFA_Victory_14_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   80
+	BYTE		VOL     108*JFA_Victory_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W30
+	BYTE		MOD     1
+	BYTE	W60
+	BYTE	W03
+	BYTE		N04     An4   v064
+	BYTE	W01
+	BYTE		        Bn4   v088
+	BYTE	W02
+// 002   ----------------------------------------
+	BYTE		N05     Cn5   v108
+	BYTE	W12
+	BYTE		N04     As4   v092
+	BYTE	W12
+	BYTE		N08     An4   v096
+	BYTE	W06
+	BYTE		N04     As4   v104
+	BYTE	W12
+	BYTE		N80     Cn5   v096
+	BYTE	W54
+// 003   ----------------------------------------
+	BYTE	W36
+	BYTE		N08     Fn4   v116
+	BYTE	W06
+	BYTE		        Gn4   v092
+	BYTE	W06
+	BYTE		N05     An4   v096
+	BYTE	W12
+	BYTE		N04     Gn4   v112
+	BYTE	W12
+	BYTE		N23     Fn4   v092
+	BYTE	W21
+	BYTE		N03     Bn4   v096
+	BYTE	W02
+	BYTE		N04     Cn5   v120
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     As4   v096
+	BYTE	W12
+	BYTE		N09     An4   v092
+	BYTE	W06
+	BYTE		N05     As4   v104
+	BYTE	W12
+	BYTE		N28     Cn5   v092
+	BYTE	W28
+	BYTE		N03     En5   v080
+	BYTE	W02
+	BYTE		N11     Fn5   v108
+	BYTE	W12
+	BYTE		N44     En5   v084
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE	W36
+	BYTE		N09     An4   v100
+	BYTE	W06
+	BYTE		N07     As4   v092
+	BYTE	W06
+	BYTE		N05     Cn5   v112
+	BYTE	W12
+	BYTE		N04     As4   v104
+	BYTE	W12
+	BYTE		N24     An4   v076
+	BYTE	W24
+// 006   ----------------------------------------
+	BYTE		N11     Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v080
+	BYTE	W12
+	BYTE		        Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v072
+	BYTE	W12
+	BYTE		        Fn4   v096
+	BYTE	W12
+	BYTE		        Dn4   v080
+	BYTE	W12
+	BYTE		        Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v076
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE		        En4   v072
+	BYTE	W12
+	BYTE		        Cn4   v056
+	BYTE	W12
+	BYTE		        En4   v076
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        En4   v072
+	BYTE	W12
+	BYTE		        Cn4   v076
+	BYTE	W12
+	BYTE		        En4   v084
+	BYTE	W12
+	BYTE		        Cn4   v068
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE		        Fn4   v084
+	BYTE	W12
+	BYTE		        Dn4   v076
+	BYTE	W12
+	BYTE		        Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v080
+	BYTE	W12
+	BYTE		        Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v076
+	BYTE	W12
+	BYTE		        Fn4   v084
+	BYTE	W12
+	BYTE		        Dn4   v076
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE		        Gn4   v080
+	BYTE	W12
+	BYTE		        En4   v076
+	BYTE	W12
+	BYTE		        Gn4   v060
+	BYTE	W12
+	BYTE		        En4   v072
+	BYTE	W12
+	BYTE		        Gn4   v068
+	BYTE	W12
+	BYTE		        En4   v072
+	BYTE	W12
+	BYTE		        Gn4   v092
+	BYTE	W12
+	BYTE		        En4   v080
+	BYTE	W10
+	BYTE		N04     Bn4   v092
+	BYTE	W02
+// 010   ----------------------------------------
+	BYTE		N01     An4   v056
+	BYTE		N06     Cn5   v100
+	BYTE	W12
+	BYTE		N04     As4   v104
+	BYTE	W12
+	BYTE		N08     An4   v088
+	BYTE	W06
+	BYTE		N05     As4   v092
+	BYTE	W12
+	BYTE		N88     Cn5   v100
+	BYTE	W54
+// 011   ----------------------------------------
+	BYTE	W36
+	BYTE		N05     Fn4   v096
+	BYTE	W06
+	BYTE		N08     Gn4 
+	BYTE	W06
+	BYTE		N07     An4   v092
+	BYTE	W12
+	BYTE		N05     Gn4   v096
+	BYTE	W12
+	BYTE		N23     Fn4   v072
+	BYTE	W18
+	BYTE		N05     As4   v088
+	BYTE	W06
+// 012   ----------------------------------------
+	BYTE		N06     Cn5   v092
+	BYTE	W12
+	BYTE		N05     As4   v096
+	BYTE	W12
+	BYTE		N08     An4   v088
+	BYTE	W06
+	BYTE		N05     As4   v092
+	BYTE	W12
+	BYTE		N28     Cn5   v104
+	BYTE	W28
+	BYTE		N03     En5   v068
+	BYTE	W02
+	BYTE		N11     Fn5   v104
+	BYTE	W12
+	BYTE		N48     En5   v096
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE	W36
+	BYTE		N08     An4   v092
+	BYTE	W06
+	BYTE		        As4   v088
+	BYTE	W06
+	BYTE		N07     Cn5   v104
+	BYTE	W12
+	BYTE		N04     As4   v092
+	BYTE	W12
+	BYTE		N24     An4   v088
+	BYTE	W24
+// 014   ----------------------------------------
+	BYTE		N11     Fn4   v076
+	BYTE	W12
+	BYTE		        Dn4   v072
+	BYTE	W12
+	BYTE		        Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v076
+	BYTE	W12
+	BYTE		        Fn4   v084
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Fn4   v080
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+// 015   ----------------------------------------
+	BYTE		        En4   v072
+	BYTE	W12
+	BYTE		        Cn4   v080
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Cn4   v076
+	BYTE	W12
+	BYTE		        En4   v080
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        En4   v076
+	BYTE	W12
+	BYTE		        Cn4   v072
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE		        Fn4   v092
+	BYTE	W12
+	BYTE		        Dn4   v076
+	BYTE	W12
+	BYTE		        Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v076
+	BYTE	W12
+	BYTE		        Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v076
+	BYTE	W12
+	BYTE		        Fn4   v084
+	BYTE	W12
+	BYTE		        Dn4   v064
+	BYTE	W12
+// 017   ----------------------------------------
+	BYTE		        Fn4   v080
+	BYTE	W12
+	BYTE		        Dn4   v076
+	BYTE	W12
+	BYTE		        Fn4   v080
+	BYTE	W12
+	BYTE		        Dn4   v072
+	BYTE	W12
+	BYTE		        Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v080
+	BYTE	W12
+	BYTE		        Fn4   v088
+	BYTE	W12
+	BYTE		        Dn4   v072
+	BYTE	W12
+// 018   ----------------------------------------
+	BYTE		N92     Dn4   v084
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		N32     Fn4   v072
+	BYTE	W36
+	BYTE		N56     En4 
+	BYTE	W60
+// 020   ----------------------------------------
+	BYTE		N92     Fn4   v084
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		N84     Ds4   v052
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	JFA_Victory_14_B1
+JFA_Victory_14_B2:
+// 022   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+JFA_Victory:
+	BYTE	14	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	JFA_Victory_pri	// Priority
+	BYTE	JFA_Victory_rev	// Reverb.
+
+	POIN2	JFA_Victory_grp
+
+	POIN2	JFA_Victory_1
+	POIN2	JFA_Victory_2
+	POIN2	JFA_Victory_3
+	POIN2	JFA_Victory_4
+	POIN2	JFA_Victory_5
+	POIN2	JFA_Victory_6
+	POIN2	JFA_Victory_7
+	POIN2	JFA_Victory_8
+	POIN2	JFA_Victory_9
+	POIN2	JFA_Victory_10
+	POIN2	JFA_Victory_11
+	POIN2	JFA_Victory_12
+	POIN2	JFA_Victory_13
+	POIN2	JFA_Victory_14
+
+	

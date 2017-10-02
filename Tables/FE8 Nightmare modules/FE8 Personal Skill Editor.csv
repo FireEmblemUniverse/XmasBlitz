@@ -1,0 +1,257 @@
+INLINE PersonalSkillTable,Skill
+None,0x0
+Sharena,RallyStrID
+Anna,AstraID
+Norne,BowbreakerID
+Mia,LungeID
+Narcian,SavageBlowID
+Linde,BreathOfLifeID
+-,RallySpectrumID
+-,AdeptID
+Camus,ChivalryID
+Reinhardt,DeathBlowID
+Sigurd,QuickBurnID
+Deirdre,NihilID
+Quan,WrathID
+Ethlyn,CritUpID
+Alfonse,SolID
+Markyjoe,FuryID
+Veronica,NihilID
+-,RallyMovID
+-,AcrobatID
+-,SealLukID
+Olivia,SpurStrID
+-,RenewalID
+-,ArmsthriftID
+-,RallySpectrumID
+Elise,LilysPoiseID
+-,LungeID
+[Enemy],MiracleID
+Rennac,NiceThighsID
+Duessel,LifetakerID
+Myrrh,SavageBlowID
+Knoll,LiveToServeID
+Eliwood,CharmID
+Lyn,DazzleID
+Hector,CounterMagicID
+Lowen,PaviseID
+Bartre,IntimidateID
+Marcus,CertainBlowID
+Jaffar,PassID
+Erk,AdeptID
+Florina?,0x0
+Oswin,SpurDefID
+Wallace,SpurStrID
+Kent,EvenRhythmID
+Sain,OddRhythmID
+Isadora,DemoiselleID
+Harken,DesperationID
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+Summon (Lyon),0x0
+Summon (Unknown),0x0
+Summon (Unknown),0x0
+Summon (Knoll),SealStrID
+Summon (Ewan),SealDefID
+Lyon (Ch17 Boss),0x0
+Morva (Ch20 Boss),FrenzyID
+Orson (Ch5x Ally),0x0
+Valter (Ch15 Boss),QuickDrawID
+Selena (Ch10&13 Boss),VantageID
+Valter (Prologue),0x0
+[Enemy],PatienceID
+[Enemy],AxefaireID
+[Enemy],SwordbreakerID
+[Enemy],SealSklID
+[Enemy],MiracleID
+[Enemy],IgnisID
+[Enemy],LifeAndDeathID
+[Enemy],SealDefID
+[Enemy],FocusID
+[Enemy],DartingBlowID
+[Enemy],0x0
+[Enemy],SavageBlowID
+Carlyle (Ch14A Boss),SealSpdID
+Caellach (Ch15 Boss),0x0
+Pablo (Ch13A Boss),0x0
+[Enemy],0x0
+Gorgon (Ch18 Boss),0x0
+Riev (Ch19&20 Boss),0x0
+[Enemy],0x0
+[Enemy],0x0
+Gheb (Ch9B Boss),VantageID
+Beran (Ch10B Boss),ImpaleID
+Cyclops (Ch12B Boss),ColossusID
+Wight (Ch11A Boss),FrenzyID
+Deathgoyle (Ch11B Boss),0x0
+Entombed,0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Hunter],0x0
+[Bandit],0x0
+[Bandit],0x0
+[Bandit],0x0
+O'Neill (Prologue Boss),CounterID
+Glen (Cutscene),0x0
+Zonta (Ch5x Boss),0x0
+Vigarde (Ch14B Boss),RenewalID
+Lyon (ChFinal Boss),0x0
+Orson (Ch16 Boss),0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Soldier],0x0
+[Remnant],0x0
+[Cutthroat],0x0
+[Remnant],0x0
+[Remnant],0x0
+[Remnant],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Mercenary],0x0
+[Sellsword],0x0
+[Remnant],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],LungeID
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+[Monster],0x0
+Formortiis,NihilID
+[Enemy],0x0
+[Frelian],0x0
+[Frelian],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+Fado (Prologue),0x0
+[Enemy],0x0
+Hayden (Frelia),0x0
+Mansel (Rausten),0x0
+Klimt (Carcino),0x0
+Dara (Caer Pelyn),0x0
+Ismaire (Jehanna),0x0
+[Pegasus Messenger],0x0
+BasicGeneric,0x0
+LungeGeneric,LungeID
+SealDefGeneric,SealDefID
+SealSpdGeneric,SealSpdID
+SealStrGeneric,SealStrID
+SealResGeneric,SealResID
+CounterGeneric,CounterID
+CountermagicGeneric,CounterMagicID
+PassGeneric,PassID
+SwordbreakerGeneric,SwordbreakerID
+AxebreakerGeneric,AxebreakerID
+LancebreakerGeneric,LancebreakerID
+BowbreakerGeneric,BowbreakerID
+TomebreakerGeneric,TomebreakerID
+RenewalGeneric,RenewalID
+GambleGeneric,GambleID
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[Enemy],0x0
+[River Folk (Child F)],0x0
+[River Folk (F)],0x0
+[River Folk],0x0
+[River Folk (F)],0x0
+[River Folk (Child)],0x0
+[Renais Civilian (Child F)],0x0
+[Renais Civilian],0x0
+[Renais Civilian (F)],0x0
+[Old Civilian],0x0
+[Enemy],0x0
+WALL,0x0
+SNAG,0x0

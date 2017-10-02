@@ -1,0 +1,105 @@
+#include "Stones/Menu commands Installer.event"
+
+  Orb_Usability:
+  #incbin "orbusability.dmp"
+  WORD Orbs
+
+  Orb_Effect:
+  #incbin "orbeffect.dmp"
+  POIN Orb_Event
+  WORD Orbs
+
+  Orb_Event:
+  MUSS 0x30 //recruitment
+  SetBackground(0x35)
+  TUTORIALTEXTBOXSTART
+  CenterTutorialTextBox
+  TEXTSHOW SummonChoice //show text summoning
+  TEXTEND
+  REMA
+  LABEL 0x0
+  ASMC 0x864CD //show choices
+  SADD 0xC2
+  TUTORIALTEXTBOXSTART
+  CenterTutorialTextBox
+  TEXTSHOW 0xFFFF
+  TEXTEND
+  REMA
+  SVAL 0x7 0x1
+  BNE 0x0 0xC 0x7
+  CHECK_MODE
+  SVAL r1 1
+  BNE 0x9 r12 r1
+    //events if red chosen
+    ClearBackgroundSmooth
+    LOAD1 0x1 SummonedRed
+    SVAL 2 Sigurd
+    ASMC MoveToNearestSquare|1
+    CALL WarpInEvent
+    SetSkills(Sigurd, AdeptID, WardingBlowID, GaleforceID, IgnisID) //set personal to resolve
+    GOTO 0x3
+  LABEL 0x9
+  SVAL r1 2
+  BNE 0xA r12 r1
+    //events if blue chosen
+    ClearBackgroundSmooth
+    LOAD1 0x1 SummonedBlue
+    SVAL 2 Quan
+    ASMC MoveToNearestSquare|1
+    CALL WarpInEvent
+    SetSkills(Quan, AdeptID, VantageID, DesperationID, FieryBloodID) //set personal to wrath
+    GOTO 0x3
+  LABEL 0xA
+  SVAL r1 3
+  BNE 0xB r12 r1
+    //events if green chosen
+    ClearBackgroundSmooth
+    LOAD1 0x1 SummonedGreen
+    SVAL 2 Deirdre
+    ASMC MoveToNearestSquare|1
+    CALL WarpInEvent
+    SetSkills(Deirdre, BondID, RallySpdID, RallyDefID, RallyResID) //personal is Nihil
+    GOTO 0x3
+  LABEL 0xB
+  //defaults to colourless
+    ClearBackgroundSmooth
+    LOAD1 0x1 SummonedColourless
+    SVAL 2 Ethlyn
+    ASMC MoveToNearestSquare|1
+    CALL WarpInEvent
+    SetSkills(Ethlyn, MiracleID, RenewalID, DemoiselleID, CharmID) //Personal is crit up lol
+  LABEL 0x3
+  Write_Byte(1, $202bd0b) //set it back to pre-split
+  MURE 2
+  NoFade
+  ENDA
+
+  WarpInEvent:
+    REMU 0xFFFD
+    CAM1 0xFFFD
+    CHECK_COORDS 0xFFFD
+    SADD 0xCB
+    WARP_IN
+    STAL2 0xA
+    REVEAL 0xFFFD
+    _0x412F 0x0
+    ENDA
+
+  SummonedRed:
+  UNIT Sigurd Paladin 0 Level(19, Ally, 1) [26,27] 0 0 0 0 [Tyrfing, Elixir] NoAI
+  UNIT 
+
+  SummonedBlue:
+  UNIT Quan Paladin 0 Level(19, Ally, 1) [26,27] 0 0 0 0 [GaeBolg, Elixir] NoAI
+  UNIT
+
+  SummonedGreen:
+  UNIT Deirdre Sage_F 0 Level(19, Ally, 1) [26,27] 0 0 0 0 [Naga, Elixir] NoAI
+  UNIT
+
+  SummonedColourless:
+  UNIT Ethlyn Valkyrie 0 Level(19, Ally, 1) [26,27] 0 0 0 0 [Latona, Berserk, Elixir] NoAI
+  UNIT
+
+  MoveToNearestSquare:
+  #incbin "MoveToNearestSquare.dmp"

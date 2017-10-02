@@ -1,0 +1,171 @@
+#include "Tools/Tool Helpers.txt"
+
+#define ShiftPortraitUp(index) "PUSH; ORG PortraitShiftEdit+index; BYTE 1; POP"
+
+//amelia:
+ShiftPortraitUp(0x19)
+
+Sharena_Mug:
+#incext PortraitFormatter "sharena.png"
+setMugEntry(0x02, Sharena_Mug,2,6,2,4)
+
+// AnnaWyv_Mug:
+// #incext PortraitFormatter "AnnaWyv.png"
+// setMugEntry(0x4, AnnaWyv_Mug, 2,6,3,4)
+
+Norne_Mug:
+#incext PortraitFormatter "norne.png"
+setMugEntry(0x5, Norne_Mug, 2, 6, 2, 4)
+ShiftPortraitUp(0x5)
+
+// Gwendy_Mug:
+// #incext PortraitFormatter "Wendy.png"
+// setMugEntry(0x39, Gwendy_Mug, 3,6,3,4)
+
+// AnnaRogue_Mug:
+// #incext PortraitFormatter "fe6_anna.png"
+// setMugEntry(0x56, AnnaRogue_Mug, 2,5,3,3)
+
+Anna_Mug:
+#incext PortraitFormatter "feh_anna.png"
+setMugEntry(0x4, Anna_Mug, 3,6,3,4)
+
+Alfonse_Mug:
+#incext PortraitFormatter "al.png"
+setMugEntry(0x14, Alfonse_Mug, 4,5,4,3)
+
+Narcian_Mug:
+#incext PortraitFormatter "narcian.png"
+setMugEntry(0x7, Narcian_Mug, 2,5,2,3)
+
+Mia_Mug:
+#incext PortraitFormatter "mia.png"
+setMugEntry(0x6, Mia_Mug, 3,6,3,4)
+ShiftPortraitUp(0x6)
+
+Reinhardt_Mug:
+#incext PortraitFormatter "reinhardt_glac.png"
+setMugEntry(0xe, Reinhardt_Mug, 3,5,3,3)
+
+//olivia
+// ShiftPortraitUp(0x1c)
+Olivia_Mug:
+#incext PortraitFormatter "olivia2.png"
+setMugEntry(0x1c, Olivia_Mug, 2,6,2,4)
+
+ShiftPortraitUp(0x22)
+Elise_Mug:
+#incext PortraitFormatter "elise.png"
+setMugEntry(0x22, Elise_Mug, 2,6,2,4)
+
+Camus_Mug:
+#incext PortraitFormatter "Camus_blaze.png"
+setMugEntry(0xc, Camus_Mug, 2,5,2,3)
+
+Zeke_Mug:
+#incext PortraitFormatter "zeke.png"
+setMugEntry(0x9, Zeke_Mug, 3,5,3,3)
+
+Sirius_Mug:
+#incext PortraitFormatter "sirius.png"
+setMugEntry(0xa, Sirius_Mug, 4,5,4,3)
+
+Linde_Mug:
+#incext PortraitFormatter "linde_mk404.png"
+setMugEntry(0x8, Linde_Mug, 3,6,3,4)
+
+Lowen_Mug:
+#incext PortraitFormatter "lowen.png"
+setMugEntry(0x31, Lowen_Mug, 2,5,3,3)
+
+Bartre_Mug:
+#incext PortraitFormatter "bartre.png"
+setMugEntry(0x32, Bartre_Mug, 2,5,2,3)
+
+Marcus_Mug:
+#incext PortraitFormatter "marcus.png"
+setMugEntry(0x33, Marcus_Mug, 2,5,3,3)
+
+Jaffar_Mug:
+#incext PortraitFormatter "jaffar.png"
+setMugEntry(0x36, Jaffar_Mug, 2,5,2,3)
+
+Erk_Mug:
+#incext PortraitFormatter "erk.png"
+setMugEntry(0x34, Erk_Mug, 2,6,2,4)
+
+Oswin_Mug:
+#incext PortraitFormatter "Oswin.png"
+setMugEntry(0x37, Oswin_Mug, 2,4,2,2)
+
+Wallace_Mug:
+#incext PortraitFormatter "Wallace.png"
+setMugEntry(0x38, Wallace_Mug, 2,4,2,2)
+
+Kent_Mug:
+#incext PortraitFormatter "Kent.png"
+setMugEntry(0x39, Kent_Mug, 2,5,3,3)
+
+Sain_Mug:
+#incext PortraitFormatter "Sain.png"
+setMugEntry(0x3a, Sain_Mug, 2,5,3,3)
+
+Isadora_Mug:
+#incext PortraitFormatter "Isadora.png"
+setMugEntry(0x3c, Isadora_Mug, 2,6,2,4)
+ShiftPortraitUp(0x3c)
+
+Harken_Mug:
+#incext PortraitFormatter "Harken.png"
+setMugEntry(0x3b, Harken_Mug, 2,5,2,3)
+
+Eliwood_Mug:
+#incext PortraitFormatter "Eliwood.png"
+setMugEntry(0x30, Eliwood_Mug, 2,5,3,3)
+
+Lyn_Mug:
+#incext PortraitFormatter "Lyn_eise.png"
+setMugEntry(0x4b, Lyn_Mug, 3,6,3,4)
+
+Hector_Mug:
+#incext PortraitFormatter "Hector.png"
+setMugEntry(0x35, Hector_Mug, 2,4,3,2)
+
+Deadcas_Mug:
+#incext PortraitFormatter "deadcas.png"
+setMugEntry(0x3d, Deadcas_Mug, 2,4,3,2)
+
+Dorcas_Mug:
+#incext PortraitFormatter "dorcas.png"
+setMugEntry(0x3e, Dorcas_Mug, 2,4,3,2)
+
+Nino_Mug:
+#incext PortraitFormatter "nino.png"
+setMugEntry(0x3f, Nino_Mug, 2,6,3,4)
+
+Sigurd_Mug:
+#incext PortraitFormatter "sigurd.png"
+setMugEntry(0xf, Sigurd_Mug, 3,5,3,3)
+
+Deirdre_Mug:
+#incext PortraitFormatter "deirdre.png"
+setMugEntry(0x10, Deirdre_Mug, 3,6,3,4)
+ShiftPortraitUp(0x10)
+
+Quan_Mug:
+#incext PortraitFormatter "quan.png"
+setMugEntry(0x11, Quan_Mug, 2,5,3,3)
+
+Ethlyn_Mug:
+#incext PortraitFormatter "ethlyn.png"
+setMugEntry(0x13, Ethlyn_Mug, 3,5,3,3)
+ShiftPortraitUp(0x13)
+
+Marc_Mug:
+#incext PortraitFormatter "Marc.png"
+setMugEntry(0x16, Marc_Mug, 4,6,3,4)
+
+Veronica_Mug:
+#incext PortraitFormatter "Veronica.png"
+setMugEntry(0x18, Veronica_Mug, 2,7,2,5)
+ShiftPortraitUp(0x18)

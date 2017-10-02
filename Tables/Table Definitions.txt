@@ -1,0 +1,21 @@
+#ifndef TABLE_DEFINITIONS_TXT
+#define TABLE_DEFINITIONS_TXT
+
+#include "FE8 Vanilla Definitions.event"
+#include "Constant Definitions.event"
+
+#define ptr(aOffset) "((aOffset) | 0x80000000)"
+#define ChapterDifficulty(aEasy, aNormal, aHard) "((aEasy) | ((aHard)<<4) | ((aNormal)<<8))"
+
+
+#define negateByte(byte) "0x100-byte"
+#define IsPointer 0x8000000
+
+  #define defWTAAdvantage(attackingType, defendingType) "BYTE attackingType defendingType"//"BYTE attackingType defendingType 0x0F 0x01"
+  #define defWTADisadvantage(attackingType, defendingType) "BYTE defendingType attackingType" //"BYTE attackingType defendingType 0xF1 0xFF"
+  #define endWTATable "BYTE 0xFF 0xFF"
+
+  #define defStatBoosts(hp, str, mag, skl, spd, luk, def, res) "BYTE hp str skl spd def res luk mag"
+  #define defWeaponDebuffs(str, mag, skl, spd, luk, def, res) "BYTE (str|(skl<<4)) (spd|(def<<4)) (res|(luk<<4)) mag"
+
+#endif // TABLE_DEFINITIONS_TXT

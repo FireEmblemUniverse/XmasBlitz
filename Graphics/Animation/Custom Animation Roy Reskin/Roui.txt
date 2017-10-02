@@ -1,0 +1,223 @@
+//begin Mode 1
+C03
+C07
+1  p- A001.png
+3  p- A002.png
+3  p- A003.png
+3  p- A004.png
+3  p- A005.png
+C04
+C24
+C20
+C1A
+3  p- ACR001 - Copy.png
+C1B
+3  p- ACR002 - Copy.png
+5  p- ACR003 - Copy.png
+3  p- ACR004 - Copy.png
+3  p- ACR005 - Copy.png
+2  p- ACR006 - Copy.png
+1  p- ACR007 - Copy.png
+C01
+2  p- ACR008 - Copy.png
+3  p- ACR009 - Copy.png
+4  p- ACR010.png
+6  p- ACR011.png
+3  p- ACR012.png
+3  p- ACR013.png
+3  p- ACR014.png
+2  p- ACR015.png
+2  p- ACR016.png
+5  p- ACR017.png
+1  p- ACR018.png
+2  p- ACR019.png
+1  p- ACR020.png
+1  p- ACR021.png
+C34
+2  p- ACR022.png
+2  p- ACR023.png
+3  p- ACR024.png
+2  p- ACR025.png
+C06
+2  p- ACR025.png
+2  p- ACR026.png
+C0D
+~~~
+//begin Mode 3
+C03
+C07
+1  p- A001.png
+C1B
+2  p- C001.png
+4  p- C002.png
+6  p- C003.png
+4  p- C004.png
+4  p- C005.png
+4  p- C006.png
+4  p- C007.png
+C22
+C1B
+3  p- C008.png
+3  p- C009.png
+3  p- C010.png
+3  p- C011.png
+C23
+2  p- C012.png
+C1B
+5  p- C013.png
+6  p- C014.png
+10  p- C015.png
+3  p- C016.png
+3  p- C017.png
+3  p- C018.png
+C04
+3  p- ACR001 - Copy.png
+C09
+C20
+C1B
+3  p- ACR002 - Copy.png
+5  p- ACR003 - Copy.png
+3  p- ACR004 - Copy.png
+3  p- ACR005 - Copy.png
+2  p- ACR006 - Copy.png
+1  p- ACR007 - Copy.png
+C01
+2  p- ACR008 - Copy.png
+3  p- ACR009 - Copy.png
+4  p- ACR010.png
+6  p- ACR011.png
+3  p- ACR012.png
+3  p- ACR013.png
+3  p- ACR014.png
+2  p- ACR015.png
+2  p- ACR016.png
+5  p- ACR017.png
+1  p- ACR018.png
+2  p- ACR019.png
+1  p- ACR020.png
+1  p- ACR021.png
+C34
+2  p- ACR022.png
+2  p- ACR023.png
+3  p- ACR024.png
+2  p- ACR025.png
+C06
+2  p- ACR025.png
+2  p- ACR026.png
+C0D
+~~~
+//begin Mode 5
+C03
+C07
+1  p- A001.png
+C22
+2  p- M001.png
+3  p- M002.png
+C05
+1  p- M003.png
+C01
+C23
+3  p- MR001.png
+C06
+2  p- MR002.png
+3  p- A001.png
+C0D
+~~~
+//begin Mode 6
+C03
+C07
+1  p- A001.png
+C22
+2  p- M001.png
+3  p- M002.png
+2  p- M003.png
+4  p- MC002.png
+2  p- M003.png
+3  p- MC002.png
+2  p- M003.png
+4  p- MC002.png
+C05
+1  p- M003.png
+C01
+C23
+3  p- MR001.png
+C06
+2  p- MR002.png
+3  p- A001.png
+C0D
+~~~
+//begin Mode 7
+C18
+1  p- A001.png
+C0E
+3  p- D001.png
+1  p- D002.png
+C01
+3  p- D001.png
+C0D
+~~~
+//begin Mode 8
+C18
+1  p- A001.png
+C0E
+3  p- D001.png
+1  p- D002.png
+C01
+3  p- D001.png
+C0D
+~~~
+//begin Mode 9
+4  p- A001.png
+C01
+~~~
+//begin Mode 10
+4  p- A001.png
+C01
+~~~
+//begin Mode 11
+4  p- A001.png
+~~~
+//begin Mode 12
+C03
+C07
+1  p- A001.png
+3  p- A002.png
+3  p- A003.png
+3  p- A004.png
+3  p- A005.png
+C04
+C25
+3  p- ACR001-miss.png
+C1B
+3  p- ACR002-miss.png
+5  p- ACR003-miss.png
+3  p- ACR004-miss.png
+3  p- ACR005-miss.png
+2  p- ACR006-miss.png
+1  p- ACR007-miss.png
+C01
+2  p- ACR008-miss.png
+3  p- ACR009-miss.png
+4  p- ACR010.png
+6  p- ACR011.png
+3  p- ACR012.png
+3  p- ACR013.png
+3  p- ACR014.png
+2  p- ACR015.png
+2  p- ACR016.png
+5  p- ACR017.png
+1  p- ACR018.png
+2  p- ACR019.png
+1  p- ACR020.png
+1  p- ACR021.png
+C34
+2  p- ACR022.png
+2  p- ACR023.png
+3  p- ACR024.png
+2  p- ACR025.png
+C06
+2  p- ACR025.png
+2  p- ACR026.png
+C0D
+~~~
+//End of animation script

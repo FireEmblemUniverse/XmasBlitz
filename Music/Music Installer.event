@@ -1,0 +1,91 @@
+#include "drumfix_fe8.event"
+
+// PUSH
+// ORG 0x1001860
+// #incbin "bin/custom_piano.bin"
+// POP
+#include "itemget Installer.txt"
+#include "chapterstart Installer.txt"
+voicegroup000:
+// #incbin "FE8_NI_Map_custompiano.bin"
+#incbin "FE8_NI_Map_nocustompiano.bin"
+
+SongTable(0x19,objection2002,0) //player phase attack
+#include "objection2002.event"
+
+SongTable(0x1a,fe7attack,0) //enemy phase attack 1
+#include "fe7attack.event"
+
+SongTable(0x1b,cornered, 0) //boss theme/enemy phase attack 2
+#include "cornered.event"
+
+SongTable(0x57, PWTT_begin, 1) //player phase theme 1
+#include "PWTT_begin.event"
+
+SongTable(0x59, JFA_Victory, 1) //final victory theme
+#include "JFA_Victory.event"
+
+#include "gavel.event"
+#include "silence.event" //no menu theme
+
+SongTable(0x34,fe_heroes_menu_0, 1) //used in intro
+#include "fe_heroes_menu_0.event"
+
+SongTable(0x45, findthetruth,1) //final chapter map theme
+#include "findthetruth.event"
+
+SongTable(0x90, aa1_pursuit, 1) //player phase theme 2
+#include "aa1_pursuit.event"
+
+SongTable(0x58, watp, 1) //enemy phase theme 1
+#include "watp.event"
+
+SongTable(0x3f, detention, 1)
+#include "detention.event"
+
+SongTable(0x25, Suspense, 1)
+#include "Suspense.event"
+
+// SongTable(0x59, Enemy_Phase_1_Alm, 1)
+// #include "Enemy_Phase_1_Alm.event"
+
+SongTable(0x30, togetherweride, 1)
+#include "togetherweride.event"
+
+SongTable(0x5D, Inform_the_Truth, 1) //change to celica player phase 1
+#include "Inform_the_Truth.event"
+
+SongTable(0x5F, Alm_Phase, 1) //change to alm player phase 1
+#include "Alm_Phase.event"
+
+SongTable(0xc6, fe7wedding,1)
+#include "fe7wedding.event"
+
+SongTable(0x3e, gameover, 1)
+#include "gameover.event"
+
+SongTable(0x16, fe7distanttravels, 1)
+#include "fe7distanttravels.event"
+
+SongTable(0x62, confirm, 6)
+#include "confirm.event"
+
+SongTable(0x92, AthObjection, 6)
+#include "AthObjection.event"
+
+PUSH
+ORG $a95e4 //sound to play at chapter select
+BYTE 0x62
+ORG $a93bc //when restarting with a resume
+BYTE 0x62
+ORG $a963a //when starting new game
+BYTE 0x62
+POP
+
+//takes too long to assemble tbh
+#include "mj1990 Installer.txt" //0x93
+
+SongTable(721,0x57ebec,6) //brigand yell instead of horse neigh lol
+
+SongTable(0x94, examination_allegro, 1)
+#include "examination_allegro.event" //victory theme 1

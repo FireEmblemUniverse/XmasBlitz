@@ -1,0 +1,156 @@
+EventPointerTable(0xA, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Sharena Recruit_1 0x00 Level(20, Ally, 0) [10,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Alfonse Recruit_1 0x00 Level(20, Ally, 0) [9,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Anna Recruit_1 0x00 Level(20, Ally, 0) [11,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Norne Manakete_2 0x00 Level(20, Ally, 0) [5,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Mia Manakete_2 0x00 Level(20, Ally, 0) [6,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Narcian Manakete_2 0x00 Level(20, Ally, 0) [7,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Linde Manakete_2 0x00 Level(20, Ally, 0) [13,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Amelia Manakete_2 0x00 Level(20, Ally, 0) [14,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Reinhardt Manakete_2 0x00 Level(20, Ally, 0) [15,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Camus Manakete_2 0x00 Level(20, Ally, 0) [9,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Olivia Manakete_2 0x00 Level(20, Ally, 0) [11,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Elise Manakete_2 0x00 Level(20, Ally, 0) [7,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+Summons:
+UNIT Sigurd Manakete_2 0x00 Level(20, Ally, 0) [13,14] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Deirdre Manakete_2 0x00 Level(20, Ally, 0) [13,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Quan Manakete_2 0x00 Level(20, Ally, 0) [13,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Ethlyn Manakete_2 0x00 Level(20, Ally, 0) [13,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+NewAllies:
+UNIT Eliwood EirikaMasterLord 0x00 Level(20, Ally, 0) [8,12] 0x00 0x00 0x0 0x00 [Durandal, Elixir] NoAI 
+UNIT Veronica Druid_F 0x00 Level(20, Ally, 0) [12,12] 0x00 0x00 0x0 0x00 [Naglfar, HoplonShield] NoAI 
+UNIT
+
+TurnBasedEvents:
+TurnEventPlayer(0, SpawnReinforcements, 2, 15)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 Units
+ENUN
+LOAD2 0x1 Summons
+ENUN
+LOAD1 0x1 NewAllies
+ENUN
+LOAD1 0x1 Enemies
+ENUN
+  SetSkills(Eliwood, DeathBlowID, AegisID, SpurResID, 0)
+  SetSkills(Veronica, RallyResID, WardingBlowID, SealStrID, 0)
+  SetSkills(Markyjoe, AnathemaID, MaleficAuraID, SavageBlowID, 0)
+Text(0x14, Ch1Flashback) //sepia BG
+NoFade
+ENDA
+
+EndingScene:
+MNTS 0x0
+ENDA
+
+// Events
+SpawnReinforcements:
+  CHECK_TURNS //store current turn to slot c
+  //Now get remainder mod 4
+  SMOV r1 0x4
+  SDIV slotsParam(r2, rC, r1) //r2 = rC/4
+  SMUL slotsParam(r1, r2)     //r1 = r2*4
+  SSUB slotsParam(r1, rC, r1)     //r1 -= rC, r1 = remainder
+  BNE 0x0 r1 0
+  ReinforcementEvent(Reinforcements_A)    //Remainder was 0 (right)
+  LABEL 0x0
+  SMOV r2 1
+  BNE 0x1 r1 r2
+  ReinforcementEvent(Reinforcements_B)
+  LABEL 0x1
+  SMOV r2 2
+  BNE 0x2 r1 r2
+  ReinforcementEvent(Reinforcements_C)
+  LABEL 0x2
+  ReinforcementEvent(Reinforcements_D)
+  NoFade
+  ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+
+Enemies:
+UNIT Markyjoe Necromancer 0x00 Level(20, Enemy, 0) [10,2] 0x00 0x00 0x0 0x00 [Naglfar] NeverMoveAI 
+UNIT BasicGeneric2 GreatKnight 0x00 Level(20, Enemy, 1) [8, 2] 0x00 0x00 0x0 0x00 [SilverAxe, SilverLance, SilverSword] AttackInRangeAI
+UNIT BasicGeneric2 GreatKnight_F 0x00 Level(20, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [SilverAxe, SilverLance, SilverSword] AttackInRangeAI 
+UNIT BasicGeneric2 WyvernLord 0x00 Level(20, Enemy, 1) [6, 8] 0x00 0x00 0x0 0x00 [SilverSword, Spear] PursueWithoutHeedAI 
+UNIT BasicGeneric2 Paladin 0x00 Level(20, Enemy, 1) [6, 7] 0x00 0x00 0x0 0x00 [SilverSword, Spear] AttackInRangeAI
+UNIT BasicGeneric2 WyvernLord_F 0x00 Level(20, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [Spear, SilverSword] PursueWithoutHeedAI 
+UNIT BasicGeneric2 Paladin 0x00 Level(20, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [Spear, SilverLance] AttackInRangeAI 
+UNIT BasicGeneric2 Sage_F 0x00 Level(20, Enemy, 1) [9, 8] 0x00 0x00 0x0 0x00 [Fimbulvetr, Recover] HealUnits 
+UNIT BasicGeneric2 Bishop_F 0x00 Level(20, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [Divine, Physic] HealUnits 
+UNIT BasicGeneric2 Druid_F 0x00 Level(20, Enemy, 1) [10,6] 0x00 0x00 0x0 0x00 [Nosferatu, Recover] HealUnits 
+UNIT BasicGeneric2 General_F 0x00 Level(20, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [Horseslayer, Wyrmslayer, Hammer] ChaseOnceApproachedAI 
+UNIT BasicGeneric2 General 0x00 Level(20, Enemy, 1) [6, 4] 0x00 0x00 0x0 0x00 [KillingEdge, KillerAxe, KillerLance] ChaseOnceApproachedAI
+UNIT
+
+Reinforcements_A:
+UNIT BasicGeneric2 MageKnight 0x00 Level(20, Enemy, 1) [1,2] 0 0 0 0 [Fimbulvetr] NoAI
+UNIT BasicGeneric2 MageKnight_F 0x00 Level(20, Enemy, 1) [19,2] 0 0 0 0 [Fimbulvetr] NoAI
+UNIT
+
+Reinforcements_B:
+UNIT BasicGeneric2 Hero 0x00 Level(20, Enemy, 1) [1,13] 0 0 0 0 [SilverAxe, Runesword] NoAI
+UNIT BasicGeneric2 Hero_F 0x00 Level(20, Enemy, 1) [19,13] 0 0 0 0 [SilverSword, Tomahawk] NoAI
+UNIT
+
+Reinforcements_C:
+UNIT BasicGeneric2 Warrior 0x00 Level(20, Enemy, 1) [1,2] 0 0 0 0 [SilverAxe, Tomahawk] NoAI
+UNIT BasicGeneric2 Berserker 0x00 Level(20, Enemy, 1) [19,2] 0 0 0 0 [Tomahawk, SilverAxe] NoAI
+UNIT
+
+Reinforcements_D:
+UNIT BasicGeneric2 Ranger 0x00 Level(20, Enemy, 1) [1,13] 0 0 0 0 [SilverSword, SilverBow] NoAI
+UNIT BasicGeneric2 Ranger_F 0x00 Level(20, Enemy, 1) [19,13] 0 0 0 0 [SilverBow, SilverSword] NoAI
+UNIT
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset

@@ -1,0 +1,49 @@
+    #include "MPlayDef.event"
+
+    #define    confirm_grp_confirm  confirm_map
+    #define    confirm_pri_confirm  0
+    #define    confirm_rev_confirm  0
+    #define    confirm_mvl_confirm  127
+    #define    confirm_key_confirm  0
+    #define    confirm_tbs_confirm  1
+    #define    confirm_exg_confirm  0
+    #define    confirm_cmp_confirm  1
+
+    ALIGN 4
+
+confirm_1:
+    BYTE        VOL     127*confirm_mvl_confirm/mxv
+    BYTE    KEYSH   confirm_key_confirm+0
+    BYTE        VOICE   0
+    BYTE        TIE     Cn3   v064
+    BYTE    W96
+confirm_1_B1:
+    BYTE    W96
+    BYTE    W96
+    BYTE    GoTo
+     POIN2    confirm_1_B1
+confirm_1_B2:
+    BYTE    W06
+    BYTE        EOT     Cn3 
+    BYTE    FINE
+
+    ALIGN 4
+
+confirm:
+    BYTE    1    // NumTrks
+    BYTE    0    // NumBlks
+    BYTE    confirm_pri_confirm    // Priority
+    BYTE    confirm_rev_confirm    // Reverb.
+
+    POIN2    confirm_grp_confirm
+
+    POIN2    confirm_1
+
+    
+confirm_map:
+WORD $3c00
+POIN confirm_wav
+WORD $FF00FF
+
+confirm_wav:
+#incbin "confirm.bin"

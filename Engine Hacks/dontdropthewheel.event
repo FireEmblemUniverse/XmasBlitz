@@ -1,0 +1,7 @@
+PUSH //game over if you drop the wheel
+ORG $3292c
+jumpToHack(dontdropthewheel)
+POP
+
+dontdropthewheel:
+#incbin "dontdropthewheel.dmp"

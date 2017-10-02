@@ -1,0 +1,58 @@
+#FE8 Stat Bonuses Editor by SpyroDi
+#edited by circleseverywhere
+
+1
+FE8 Stat Bonuses Editor by SpyroDi (please consult Stat Bonuses.txt)
+0x8AEED0
+128
+8
+Class List.txt
+NULL
+
+STR Bonus
+0
+1
+NEDS
+NULL
+
+MAG Bonus
+6
+1
+NEDS
+NULL
+
+SKL Bonus
+1
+1
+NEDS
+NULL
+
+SPD Bonus
+2
+1
+NEDS
+NULL
+
+LCK Bonus
+5
+1
+NEDS
+NULL
+
+DEF Bonus
+3
+1
+NEDS
+NULL
+
+RES Bonus
+4
+1
+NEDS
+NULL
+
+MOV Bonus
+7
+1
+NEDS
+NULL

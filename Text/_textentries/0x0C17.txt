@@ -1,0 +1,2 @@
+Will you summon a red unit?[NL]
+[Yes][X]

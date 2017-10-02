@@ -1,0 +1,3266 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	Suspense_grp  voicegroup000
+	#define	Suspense_pri  0
+	#define	Suspense_rev  0
+	#define	Suspense_mvl  67
+	#define	Suspense_key  0
+	#define	Suspense_tbs  1
+	#define	Suspense_exg  0
+	#define	Suspense_cmp  1
+
+	// .rodata
+	//	Suspense
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+Suspense_1:
+	BYTE	KEYSH   Suspense_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   143*Suspense_tbs/2
+	BYTE		VOICE   33
+	BYTE		VOL     127*Suspense_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*Suspense_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE		N06     Cn1   v100
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     65*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W03
+	BYTE		VOL     68*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        69*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     70*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        71*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     73*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     75*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        76*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     86*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W03
+	BYTE		VOL     89*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        90*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     91*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     94*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     96*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        97*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE	W03
+// 001   ----------------------------------------
+Suspense_1_001:
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE		N06     Cn1   v100
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     107*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        108*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        109*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W03
+	BYTE		VOL     110*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        111*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     112*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        113*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        114*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     115*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        116*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     117*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        118*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        119*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     120*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        121*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        122*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     123*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        124*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     125*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        126*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        127*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     126*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        125*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        124*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W03
+	BYTE		VOL     123*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        122*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     121*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        120*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        119*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     118*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        117*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     116*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        115*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        114*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     113*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        112*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        111*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     110*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        109*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     108*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        107*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 002   ----------------------------------------
+Suspense_1_002:
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE		N06     Cn1   v100
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     105*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        104*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W03
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     100*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     97*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     95*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        94*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        90*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     89*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     84*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        83*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W03
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     79*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        78*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     74*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        73*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        69*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     68*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 003   ----------------------------------------
+Suspense_1_003:
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE		N06     Cn1   v100
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     65*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W03
+	BYTE		VOL     68*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        69*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     70*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        71*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     73*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     75*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        76*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     86*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W03
+	BYTE		VOL     89*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        90*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     91*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     94*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     96*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        97*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W02
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Cn1 
+	BYTE		N06     Cn2 
+	BYTE	W01
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+Suspense_1_B1:
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_002
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 008   ----------------------------------------
+Suspense_1_008:
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE		N06     Ds1   v100
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     105*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        104*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W03
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     100*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     97*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     95*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        94*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        90*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     89*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     84*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        83*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W03
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     79*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        78*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     74*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        73*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        69*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     68*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 009   ----------------------------------------
+Suspense_1_009:
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE		N06     Ds1   v100
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     65*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W03
+	BYTE		VOL     68*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        69*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     70*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        71*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     73*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     75*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        76*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     86*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W03
+	BYTE		VOL     89*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        90*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     91*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     94*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     96*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        97*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 010   ----------------------------------------
+Suspense_1_010:
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE		N06     Fn1   v100
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     107*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        108*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        109*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W03
+	BYTE		VOL     110*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        111*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     112*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        113*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        114*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     115*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        116*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     117*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        118*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        119*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     120*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        121*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        122*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     123*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        124*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     125*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        126*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        127*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     126*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        125*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        124*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W03
+	BYTE		VOL     123*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        122*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     121*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        120*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        119*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     118*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        117*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     116*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        115*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        114*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     113*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        112*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        111*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     110*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        109*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     108*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        107*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 011   ----------------------------------------
+Suspense_1_011:
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE		N06     Fn1   v100
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     105*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        104*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W03
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     100*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     97*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     95*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        94*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        90*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     89*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     84*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        83*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W03
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     79*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        78*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     74*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        73*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        69*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     68*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 016   ----------------------------------------
+Suspense_1_016:
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE		N06     Ds1   v100
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     107*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        108*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        109*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W03
+	BYTE		VOL     110*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        111*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     112*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        113*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        114*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     115*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        116*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     117*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        118*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        119*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     120*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        121*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        122*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     123*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        124*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     125*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        126*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        127*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     126*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        125*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        124*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W03
+	BYTE		VOL     123*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        122*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     121*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        120*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        119*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     118*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        117*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     116*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        115*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        114*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     113*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        112*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        111*Suspense_mvl/mxv
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W02
+	BYTE		VOL     110*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        109*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Ds1 
+	BYTE		N06     Ds2 
+	BYTE	W01
+	BYTE		VOL     108*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        107*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_008
+// 018   ----------------------------------------
+Suspense_1_018:
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE		N06     Fn1   v100
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     65*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W03
+	BYTE		VOL     68*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        69*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     70*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        71*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     73*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     75*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        76*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     86*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W03
+	BYTE		VOL     89*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        90*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     91*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     94*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     96*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        97*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W02
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06     Fn1 
+	BYTE		N06     Fn2 
+	BYTE	W01
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_010
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_002
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_009
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_010
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_011
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_016
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_008
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_018
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_010
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_002
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_009
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_010
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_011
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_002
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_016
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_008
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_018
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_010
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_002
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_010
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_001
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_016
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_008
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_018
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_1_010
+	BYTE	GoTo
+	 POIN2	Suspense_1_B1
+Suspense_1_B2:
+// 068   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+Suspense_2:
+	BYTE	KEYSH   Suspense_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   81
+	BYTE		VOL     112*Suspense_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     112*Suspense_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     56*Suspense_mvl/mxv
+	BYTE		N06     Cn2   v100
+	BYTE	W02
+	BYTE		VOL     57*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        58*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     59*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        60*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        61*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     62*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        63*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     66*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        68*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     69*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     73*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     80*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        81*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     85*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     87*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        89*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     90*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE	W01
+// 001   ----------------------------------------
+Suspense_2_001:
+	BYTE		N06     Cn2   v100
+	BYTE	W01
+	BYTE		VOL     94*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        96*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     97*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     101*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        102*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        107*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     108*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        109*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        110*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     111*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        112*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     111*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        110*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     109*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        108*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        107*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     97*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     95*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        94*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE	PEND
+// 002   ----------------------------------------
+Suspense_2_002:
+	BYTE		VOL     93*Suspense_mvl/mxv
+	BYTE		N06     Cn2   v100
+	BYTE	W03
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     90*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     88*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     85*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     74*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        73*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     69*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        68*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     67*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        63*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     62*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        61*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     60*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        59*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        58*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     57*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 003   ----------------------------------------
+Suspense_2_003:
+	BYTE		VOL     56*Suspense_mvl/mxv
+	BYTE		N06     Cn2   v100
+	BYTE	W02
+	BYTE		VOL     57*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        58*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     59*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        60*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        61*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     62*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        63*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     66*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        68*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     69*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     73*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     80*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        81*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     85*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     87*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        89*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     90*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE	PEND
+Suspense_2_B1:
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_002
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 008   ----------------------------------------
+Suspense_2_008:
+	BYTE		VOL     93*Suspense_mvl/mxv
+	BYTE		N06     Ds2   v100
+	BYTE	W03
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     90*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     88*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     85*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     74*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        73*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     69*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        68*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     67*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        63*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     62*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        61*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     60*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        59*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        58*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     57*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 009   ----------------------------------------
+Suspense_2_009:
+	BYTE		VOL     56*Suspense_mvl/mxv
+	BYTE		N06     Ds2   v100
+	BYTE	W02
+	BYTE		VOL     57*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        58*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     59*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        60*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        61*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     62*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        63*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     66*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        68*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     69*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     73*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     80*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        81*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     85*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     87*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        89*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     90*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE	PEND
+// 010   ----------------------------------------
+Suspense_2_010:
+	BYTE		N06     Fn2   v100
+	BYTE	W01
+	BYTE		VOL     94*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        96*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     97*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     101*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        102*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        107*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     108*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        109*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        110*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     111*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        112*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     111*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        110*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     109*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        108*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        107*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     97*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     95*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        94*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE	PEND
+// 011   ----------------------------------------
+Suspense_2_011:
+	BYTE		VOL     93*Suspense_mvl/mxv
+	BYTE		N06     Fn2   v100
+	BYTE	W03
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     90*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     88*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        87*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     85*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     81*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        80*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     74*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        73*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     69*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        68*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     67*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        66*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        63*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     62*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        61*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     60*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        59*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        58*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     57*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 016   ----------------------------------------
+Suspense_2_016:
+	BYTE		N06     Ds2   v100
+	BYTE	W01
+	BYTE		VOL     94*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        96*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     97*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     101*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        102*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        107*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     108*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        109*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        110*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     111*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        112*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     111*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        110*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     109*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        108*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        107*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     106*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     104*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     102*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        101*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        100*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     99*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     97*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     95*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        94*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_008
+// 018   ----------------------------------------
+Suspense_2_018:
+	BYTE		VOL     56*Suspense_mvl/mxv
+	BYTE		N06     Fn2   v100
+	BYTE	W02
+	BYTE		VOL     57*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        58*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     59*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        60*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        61*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     62*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        63*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     64*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        65*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     66*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        67*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        68*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     69*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        70*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     71*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        72*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     73*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        75*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     76*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        77*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     78*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        79*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     80*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        81*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        82*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     83*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        84*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     85*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        86*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     87*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Suspense_mvl/mxv
+	BYTE	W02
+	BYTE		        89*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W03
+	BYTE		VOL     90*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Suspense_mvl/mxv
+	BYTE		N06   
+	BYTE	W02
+	BYTE		VOL     92*Suspense_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Suspense_mvl/mxv
+	BYTE	W01
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_010
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_002
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_009
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_010
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_011
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_016
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_008
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_018
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_010
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_002
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_009
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_010
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_011
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_002
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_016
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_008
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_018
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_010
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_002
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_010
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_001
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_016
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_008
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_018
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_2_010
+	BYTE	GoTo
+	 POIN2	Suspense_2_B1
+Suspense_2_B2:
+// 068   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+Suspense_3:
+	BYTE	KEYSH   Suspense_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   119
+	BYTE		VOL     0*Suspense_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+Suspense_3_B1:
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+Suspense_3_012:
+	BYTE	W24
+	BYTE		VOL     0*Suspense_mvl/mxv
+	BYTE	W21
+	BYTE		N24     Cn4   v127
+	BYTE	W15
+	BYTE		VOL     127*Suspense_mvl/mxv
+	BYTE	W36
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_3_012
+	BYTE	GoTo
+	 POIN2	Suspense_3_B1
+Suspense_3_B2:
+// 068   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.9) ****************//
+
+Suspense_4:
+	BYTE	KEYSH   Suspense_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   121
+	BYTE		VOL     127*Suspense_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W84
+	BYTE		N06     Cn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+Suspense_4_B1:
+// 004   ----------------------------------------
+Suspense_4_004:
+	BYTE		N06     Cn1   v127
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE	PEND
+// 005   ----------------------------------------
+Suspense_4_005:
+	BYTE		N06     Gs1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 007   ----------------------------------------
+Suspense_4_007:
+	BYTE		N06     Gs1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_007
+// 012   ----------------------------------------
+Suspense_4_012:
+	BYTE		N06     Cn1   v127
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Ds1 
+	BYTE		N06     As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Ds1 
+	BYTE		N06     As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 015   ----------------------------------------
+Suspense_4_015:
+	BYTE		N06     Cn1   v127
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Ds1 
+	BYTE		N06     As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Ds1 
+	BYTE		N06     As1 
+	BYTE	W12
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_015
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_007
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_005
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_007
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_015
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_015
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_005
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_007
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_005
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_007
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_015
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_015
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_004
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_007
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_012
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Suspense_4_015
+	BYTE	GoTo
+	 POIN2	Suspense_4_B1
+Suspense_4_B2:
+// 068   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+Suspense:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	Suspense_pri	// Priority
+	BYTE	Suspense_rev	// Reverb.
+
+	POIN2	Suspense_grp
+
+	POIN2	Suspense_1
+	POIN2	Suspense_2
+	POIN2	Suspense_3
+	POIN2	Suspense_4
+
+	

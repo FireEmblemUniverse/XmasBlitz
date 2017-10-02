@@ -1,0 +1,11 @@
+POIN ChargeFrames
+POIN ChargeFrames+8
+POIN ChargeFrames+16
+POIN ChargeFrames+24
+POIN ChargeFrames+32
+POIN ChargeFrames+40
+POIN ChargeFrames+48
+POIN ChargeFrames+56
+POIN ChargeFrames+64
+POIN ChargeFrames+72
+POIN ChargeFrames+80
