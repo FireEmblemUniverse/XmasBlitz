@@ -1,11 +1,14 @@
-Despoil:
-CAM1 0xFFFF
-CUMO 0xFFFF
-STAL 0x24
-CURE
-SMOV 0x3 RedGem
-GIVEITEMTO 0xFFFF
-NoFade
+#ifndef HAX_SKILL_DESPOIL_EVENT
+#define HAX_SKILL_DESPOIL_EVENT
+
+DespoilEvent:
+  CAM1 0xFFFF
+  CUMO 0xFFFF
+  STAL 0x24
+  CURE
+  SMOV 0x3 RedGem
+  GIVEITEMTO 0xFFFF
+  NoFade
 ENDA
 
 //PlayerDespoil:
@@ -34,3 +37,5 @@ ldr	r0,=#0x30004C4		@this event is going to be just "flash cursor"
 mov	r1, #0x01		@0x01 = wait for events
 .short	0xF800
 */
+
+#endif // HAX_SKILL_DESPOIL_EVENT

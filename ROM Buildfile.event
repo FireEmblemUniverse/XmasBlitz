@@ -2,12 +2,18 @@
     #include "eastdlib.event"
     #include "Custom Definitions.event"
 	
+	// Definitions Passed from the base buildfile
+	#include "_Base Definitions.event"
+	
 	#define __DEBUG__ //allow seizes at start of chapters
 
-    ORG FreeSpace
-    //Text first for Text ID definitions
-    #include "Text/Install Text Data.event"
-    MESSAGE Used text space ends at currentOffset
+    ORG FreeSpace_Hack
+	
+    // Text was already built in base, we only need the definitions here
+	#include "Text/Text Definitions.event"
+	
+    // #include "Text/Install Text Data.event"
+    // MESSAGE Used text space ends at currentOffset
 
     //CSV tables
     #include "Tables/Table Installer.event"
@@ -64,13 +70,6 @@
     //Engine Hacks
     #include "Engine Hacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
-
-    //Graphics
-    #include "Mugs/Mug Installer.event"
-    #include "Graphics/Master Graphics Installer.event"
-
-    //Music
-    #include "Music/Music Installer.event"
 
     //Events
     #include "Events/Master Events Installer.event"

@@ -1,3 +1,5 @@
+#include "Tools/Tool Helpers.txt"
+
 #define Skl_Arrow_X 0x78
 #define Skl_Arrow_Y 0x28
 #define Spd_Arrow_X 0x78
