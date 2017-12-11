@@ -1,1 +1,2 @@
-One of the four Beatles.[X]
+Paragon: Experience gain[N]
+is doubled.[X]

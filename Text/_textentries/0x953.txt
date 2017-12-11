@@ -1,2 +1,2 @@
-A general of the Donatenaries.[N]
-She can control the weather.[X]
+Bow Range +1: Maximum range[N]
+of equipped bows is increased.[X]

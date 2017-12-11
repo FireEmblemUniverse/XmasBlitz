@@ -361,8 +361,9 @@ POIN SkillTester
 WORD TraceID
 POIN Skill_Getter
 
-#include "Other Skills/RandomMugs.event"
-
+// #define IdentityProblemsMugList "0xDE 0xAD 0x42"
+// #define IdentityProblemsNameList "textNameTim textNameTam textNameTom"
+// #include "Other Skills/RandomMugs.event"
 
 #include "Aura Skills/Aura Skills Installer.event"
 #include "Proc Skills/Proc Skills Installer.event"

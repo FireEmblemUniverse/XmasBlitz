@@ -1,2 +1,2 @@
-A monster controlling the Travel[N]
-System. Surprisingly intelligent.[X]
+Shove: Allows unit to push[N]
+other units one tile away.[X]

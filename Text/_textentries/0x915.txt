@@ -1,2 +1,2 @@
-His divine lightning[N]
-will pierce your face.[X]
+Sol: Restore damage dealt as HP.[N]
+(Skill % activation)[X]

@@ -1,6 +1,5 @@
 //ifndef guards
 #ifndef TABLE_DEFINITIONS
-
 #define TABLE_DEFINITIONS
 
 #ifndef CharacterTable
@@ -18,6 +17,11 @@
 //#ifndef PersonalMusicTable
   //#define PersonalMusicTable 0x758a60
 //#endif
+
+#include "Constant Definitions.event"
+#include "FE8 Vanilla Definitions.event"
+
+#define ChapterDifficulty(aEasy, aNormal, aHard) "((aEasy) | ((aHard)<<4) | ((aNormal)<<8))"
 
 //Weapon Ability 1 definitions:
 #define IsWeapon 0x1

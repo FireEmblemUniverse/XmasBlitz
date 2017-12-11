@@ -1,0 +1,92 @@
+#ifndef GRAPHICS_CGS
+#define GRAPHICS_CGS
+
+// ALIGN 4
+// IMG_BloodPact:
+  // #incbin "bloodpact.img.bin"
+
+// ALIGN 4
+// TSA_BloodPact:
+  // #incbin "bloodpact.map.bin"
+
+// ALIGN 4
+// PAL_BloodPact:
+  // #incbin "bloodpact.pal.bin"
+
+// ALIGN 4
+// IMG_summoning_GR:
+  // #incbin "summonfed.img.bin"
+
+// ALIGN 4
+// TSA_summoning_GR:
+  // #incbin "summonfed.map.bin"
+
+// ALIGN 4
+// PAL_summoning_GR:
+  // #incbin "summonfed.pal.bin"
+
+// ALIGN 4
+// IMG_Objection:
+  // #incbin "Objection.img.bin"
+
+// ALIGN 4
+// TSA_Objection:
+  // #incbin "Objection.map.bin"
+
+// ALIGN 4
+// PAL_Objection:
+  // #incbin "Objection.pal.bin"
+
+// ALIGN 4
+// IMG_Veronica: //0x33
+  // #incbin "veronica.img.bin"
+
+// ALIGN 4
+// TSA_Veronica:
+  // #incbin "veronica.map.bin"
+
+// ALIGN 4
+// PAL_Veronica:
+  // #incbin "veronica.pal.bin"
+
+// ALIGN 4
+// IMG_Credits: //0x32
+  // #incbin "credits.img.bin"
+
+// ALIGN 4
+// TSA_Credits:
+  // #incbin "credits.map.bin"
+
+// ALIGN 4
+// PAL_Credits:
+  // #incbin "credits.pal.bin"
+
+// FIN Graphics: (CG format)
+// img at a405d4 (ORG $b7498)
+// tsa at a409d0 (ORG $b74a0)
+// pal at a405b4 (ORG $b7494)
+
+// PUSH
+  // ORG $b7498
+    // POIN EndingImg
+
+  // ORG $b74a0
+    // POIN EndingMap
+
+  // ORG $b7494
+    // POIN EndingPal
+// POP
+
+// ALIGN 4
+// EndingImg:
+  // #incbin "Ending.img.bin"
+  // ALIGN 4
+
+// EndingMap:
+  // #incbin "Ending.map_comp.dmp"
+  // ALIGN 4
+
+// EndingPal:
+  // #incbin "Ending.pal.bin"
+
+#endif // GRAPHICS_CGS

@@ -1,7 +1,8 @@
 #ifdef _FE8_
-    #include "EAstdlib.event"
+    #include "eastdlib.event"
     #include "Custom Definitions.event"
-        // #define __DEBUG__ //allow seizes at start of chapters
+	
+	#define __DEBUG__ //allow seizes at start of chapters
 
     ORG FreeSpace
     //Text first for Text ID definitions

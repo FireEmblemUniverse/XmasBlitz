@@ -1,1 +1,2 @@
-Zigludo[X]
+Swordfaire: +4 damage[N]
+when equipping a sword.[X]

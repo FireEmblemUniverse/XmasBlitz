@@ -1,2 +1,2 @@
-A mountain man, now assigned to the[N]
-desert after being beaten by Void.[X]
+Quick Draw: +4 Damage[N]
+when initiating battle.[X]

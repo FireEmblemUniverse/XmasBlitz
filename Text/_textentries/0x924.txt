@@ -1,1 +1,2 @@
-Celicia[X]
+Certain Blow: +40 Hit[N]
+when initiating battle.[X]

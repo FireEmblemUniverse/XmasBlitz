@@ -1,134 +1,73 @@
-EventPointerTable(0xd,ThisChapter)
+EventPointerTable(0xD, ThisChapter)
 
 ThisChapter:
-POIN TurnBasedEvents
-POIN CharacterBasedEvents
-POIN LocationBasedEvents
-POIN MiscBasedEvents
-POIN Dunno Dunno Dunno
-POIN Tutorial
-POIN TrapData TrapData
-POIN Units Units
-POIN $0 $0 $0 $0 $0 $0
-POIN BeginningScene EndingScene
-
-ALIGN 4
+  POIN TurnBasedEvents
+  POIN CharacterBasedEvents
+  POIN LocationBasedEvents
+  POIN MiscBasedEvents
+  POIN Dunno1 Dunno2 Dunno3 Tutorial
+  POIN Traps1 Traps2
+  POIN AlliedUnits AlliedUnits // This unit group determines the number and position of deployment slots when there is a prep screen
+  POIN $0 $0 $0
+  POIN $0 $0 $0
+  POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TURN 0x0 BrigandReinforcement [5,0] 0x0
-TURN 0x0 MageReinforcement [9,0] 0x0
-TURN 0x0 SoldierReinforcement [13,0] 0x0
 END_MAIN
 
-ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Village(0x8,VillageBerserk,14,2)
-Village(0x9,VillageEnergyRing,14,11)
-Vendor(ShopList,6,12)
-//Seize
-Seize(7,8)
-#ifdef __DEBUG__
-Seize(1,1)
-#endif
+  #ifdef __DEBUG__
+    Seize(0, 0)
+  #endif
 END_MAIN
-
-ShopList:
-SHLI Vulnerary PureWater ChestKey DoorKey Unlock Rescue Heal Stone
-ALIGN 4
-
-VillageEnergyRing:
-VillageEventItem(Ch2ArchRant, Village, EnergyRing) //Gives item to the active character (the one visiting)
-ENDA //Just use these for good measure
-
-VillageBerserk:
-VillageEventItem(Ch2VillageConvo1, Village, Berserk) //Gives item to the active character (the one visiting)
-ENDA //Just use these for good measure
-
-BrigandReinforcement:
-ReinforcementEvent(BrigandReinforcementUnit)
-ENDA
-
-MageReinforcement:
-ReinforcementEvent(MageReinforcementUnit)
-ENDA
-
-SoldierReinforcement:
-ReinforcementEvent(SoldierReinforcementUnit)
-ENDA
-
-BrigandReinforcementUnit:
-UNIT 0x80 Thief 0x00 Level(1, Enemy, 0) [7,11] 0x00 0x00 0x0 0x00 [SlimSword] BrigandAI
-UNIT
-
-MageReinforcementUnit:
-UNIT 0x80 Mage_F 0x00 Level(4, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI
-UNIT
-
-SoldierReinforcementUnit:
-UNIT 0x80 Soldier 0x00 Level(2, Enemy, 1) [4,6] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI
-UNIT
 
 MiscBasedEvents:
-CauseGameOverIfLordDies
+  CauseGameOverIfLordDies
 END_MAIN
 
-Dunno:
-WORD $00
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
 
 Tutorial:
-WORD $00
-
-TrapData:
 END_MAIN
 
-Units:
-UNIT Void EirikaLord 0x00 Level(1, Ally, 0) [1,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Leeroy Paladin Void Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Anna Myrmidon_F Void Level(1, Ally, 0) [1,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Jerome Soldier Void Level(1, Ally, 0) [1,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Tim Fighter Void Level(1, Ally, 0) [2,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Tam Fighter Void Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [0x00] NoAI
+AlliedUnits:
+  UNIT Eirika EirikaLord 0 Level(1, Ally, False) [0, 0] 0x00 0x00 0 0x00000000 [Rapier, Vulnerary] NoAI
 UNIT
 
-SexyPriest:
-UNIT Bede Priest Void Level(1, Ally, 0) [0,2] 0x00 0x00 0x0 0x00 [Heal, RedGem] NoAI 
+EnemyUnits:
+  UNIT 0x80 Priest 0 Level(0, Enemy, False) [1, 0] 0x00 0x00 0 0x00000000 [0] NoAI
 UNIT
 
-Bad: 
-UNIT 0x80 Fighter Bone Level(2, Enemy, 1) [8,2] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
-UNIT 0x80 Fighter Bone Level(2, Enemy, 1) [7,1] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
-UNIT 0x80 Knight Bone Level(3, Enemy, 1) [6,3] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
-UNIT 0x80 Cavalier Bone Level(4, Enemy, 1) [12,4] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] AttackInRangeAI 
-UNIT 0x80 Cavalier Bone Level(4, Enemy, 1) [14,6] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] AttackInRangeAI 
-UNIT 0x80 Mage Bone Level(4, Enemy, 1) [12,7] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Pirate Bone Level(3, Enemy, 1) [9,9] 0x00 0x00 0x0 0x00 [Hatchet, IronAxe] AttackInRangeAI 
-UNIT 0x80 Pirate Bone Level(3, Enemy, 1) [5,9] 0x00 0x00 0x0 0x00 [Hatchet, IronAxe] AttackInRangeAI 
-UNIT 0x80 Knight Bone Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [SteelLance, Axereaver] NeverMoveAI 
-UNIT 0x80 Archer Bone Level(4, Enemy, 1) [3,7] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
-UNIT 0x80 Cavalier Bone Level(3, Enemy, 1) [14,13] 0x00 0x00 0x0 0x00 [IronBlade, Horseslayer] AttackInRangeAI 
-UNIT 0x80 WyvernRider Bone Level(2, Enemy, 1) [3,13] 0x00 0x00 0x0 0x00 [Spear, Horseslayer] AttackInRangeAI 
-UNIT Bone Shaman 0x00 Level(5, Enemy, 0) [7,8] 0x00 0x00 0x0 0x00 [Flux, Nosferatu] NeverMoveAI 
-UNIT
+Traps1:
+ENDTRAP
+ALIGN 4
 
+Traps2:
+ENDTRAP
 ALIGN 4
 
 BeginningScene:
-LOAD2 0x1 Units
-ENUN
-LOAD1 0x1 SexyPriest
-ENUN
-LOAD1 0x1 Bad
-ENUN
-Text(Ch2Opening)
-NoFade
+  LOAD2 0x1 AlliedUnits // 0x0 instead of 0x1 seems to be for allies on maps with prep screens
+  ENUN
+
+  LOAD1 0x1 EnemyUnits
+  ENUN
+  
+  NoFade
+  // GotoPrepScreen
 ENDA
 
 EndingScene:
-Text(Ch2Ending)
-MNCH 3
+  MNCH 0x3
+  NoFade
 ENDA
-
-MESSAGE Events end at offset CURRENTOFFSET

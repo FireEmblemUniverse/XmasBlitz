@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pConModifiers: // Consitition
-	POIN prAddUnitBaseCon prAddUnitConBonus prPairUpCon
+	POIN prAddUnitBaseCon prAddUnitConBonus // prPairUpCon
 WORD 0
 
 prAddUnitBaseCon:
@@ -21,8 +21,8 @@ _prAddCharConBonus: // byte 0x13 in ROM char data is personal consition bonus
 prAddUnitConBonus:
 	rAdd(rSByteAt(UNIT_CON_BONUS))
 
-prPairUpCon:
-  #incbin "_asm/PairUpCon.bin"
-  POIN PairUpBonusesTable
+// prPairUpCon:
+  // #incbin "_asm/PairUpCon.bin"
+  // POIN PairUpBonusesTable
 
 #endif // MODULAR_GETTER_CONSITUTION_EVENT

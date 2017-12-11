@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pSkillModifiers: // Skill
-	POIN prAddUnitSkill prDebuffSkl prAddEquipSkill prRallySkl prPairUpSkl
+	POIN prAddUnitSkill prDebuffSkl prAddEquipSkill prRallySkl // prPairUpSkl
 WORD 0
 
 prAddUnitSkill:
@@ -21,8 +21,8 @@ prRallySkl:
 	#incbin "_asm/RallySkl.bin"
 	WORD DebuffTable
 
-prPairUpSkl:
-  #incbin "_asm/PairUpSkl.bin"
-  POIN PairUpBonusesTable
+// prPairUpSkl:
+  // #incbin "_asm/PairUpSkl.bin"
+  // POIN PairUpBonusesTable
 
 #endif // MODULAR_GETTER_SKILL_EVENT

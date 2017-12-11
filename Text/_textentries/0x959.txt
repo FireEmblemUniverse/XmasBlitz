@@ -1,2 +1,2 @@
-A visitor from beyond[N]
-the Outrealms.[X]
+Lunge: Swap places with the[N]
+opponent after combat.[X]

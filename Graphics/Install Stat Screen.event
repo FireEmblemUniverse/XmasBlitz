@@ -1,0 +1,28 @@
+#ifndef GRAPHICS_STAT_SCREEN
+#define GRAPHICS_STAT_SCREEN
+
+//Stat screen
+PUSH
+  ORG $88620
+    POIN RemoveGlowy
+
+  // ORG $88638
+    // POIN NewStatScreen
+
+  // ORG $88640
+    // POIN NewStatScreenPal
+POP
+
+ALIGN 4
+RemoveGlowy:
+  #incext Png2Dmp "RemoveGlowy.png" --lz77
+
+// ALIGN 4
+// NewStatScreen:
+  // #incext Png2Dmp "StatScreen_B.png" --lz77
+
+// ALIGN 4
+// NewStatScreenPal:
+  // #incext Png2Dmp "StatScreen_B.png" --palette-only
+
+#endif // GRAPHICS_STAT_SCREEN

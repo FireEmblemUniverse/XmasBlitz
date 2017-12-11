@@ -1,0 +1,22 @@
+#ifndef GRAPHICS_MAP_SPRITES
+#define GRAPHICS_MAP_SPRITES
+
+// SharenaLordStanding:
+  // #incext Png2Dmp "map sprites/Sharena Lord Standing.png" --lz77
+
+// SharenaLordMoving:
+  // #incext Png2Dmp "map sprites/Sharena Lord Moving.png" --lz77
+
+// AlfonseLordStanding:
+  // #incext Png2Dmp "map sprites/Alfonse_Standing2.png" --lz77
+
+// AlfonseLordMoving:
+  // #incext Png2Dmp "map sprites/Alfonse_Moving2.png" --lz77
+
+// EliwoodStanding:
+  // #incext Png2Dmp "map sprites/KnightLordStanding.png" --lz77
+
+// EliwoodMoving:
+  // #incext Png2Dmp "map sprites/KnightLordMoving.png" --lz77
+
+#endif // GRAPHICS_MAP_SPRITES

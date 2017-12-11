@@ -1,2 +1,2 @@
-A monster called from the darkness.[N]
-They bring ruin to wherever they go.[X]
+Swap: Allows unit to swap positions[N]
+with an adjacent ally.[X]

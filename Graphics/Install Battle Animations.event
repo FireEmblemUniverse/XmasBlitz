@@ -1,0 +1,20 @@
+#ifndef GRAPHICS_BATTLE_ANIMS
+#define GRAPHICS_BATTLE_ANIMS
+
+// #include "LanceVoidPromo.event"
+// #include "Roui Installer.event"
+// #include "RouiNoWpn Installer.event"
+// #include "DancerSword Installer.event"
+// #include "fhero_none Installer.event"
+// #include "fhero_sw Installer.event"
+// #include "fhero_axe Installer.event"
+// #include "fhero_handaxe Installer.event"
+// #include "hector Installer.event"
+// #include "Lyn Installer.event"
+// #include "Eliwood Installer.event"
+// #include "sharenaAnim Installer.event"
+// #include "sharenadis Installer.event"
+
+// #include "Animation\Chariot\necromancer Frames\output\ChariotInstaller.event"
+
+#endif // GRAPHICS_BATTLE_ANIMS

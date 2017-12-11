@@ -1,0 +1,25 @@
+#ifndef GRAPHICS_TILESETS
+#define GRAPHICS_TILESETS
+
+SnowObjectType:
+  #incbin "SnowObject_LZ.bin"
+  ALIGN 4
+
+SnowPalette:
+  #incbin "SnowPalette_FE8.bin"
+  ALIGN 4
+
+SnowTileConfig:
+  #incbin "SnowTileConfig_LZ.bin"
+  ALIGN 4
+
+CastlePalette:
+  #incbin "CastlePalette_FE8.bin"
+  ALIGN 4
+
+EventPointerTable(0x8B, SnowObjectType)
+EventPointerTable(0x8C, SnowPalette)
+EventPointerTable(0x8D, SnowTileConfig)
+EventPointerTable(0x48, CastlePalette)
+
+#endif // GRAPHICS_TILESETS

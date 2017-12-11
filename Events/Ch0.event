@@ -1,16 +1,16 @@
-EventPointerTable(0x7, PointerList)
+EventPointerTable(0x7, ThisChapter)
 
-PointerList:
-POIN TurnBasedEvents
-POIN CharacterBasedEvents
-POIN LocationBasedEvents
-POIN MiscBasedEvents
-POIN Dunno1 Dunno2 Dunno3 Tutorial
-POIN Traps1 Traps2
-POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
-POIN $0 $0 $0
-POIN $0 $0 $0
-POIN BeginningScene EndingScene
+ThisChapter:
+  POIN TurnBasedEvents
+  POIN CharacterBasedEvents
+  POIN LocationBasedEvents
+  POIN MiscBasedEvents
+  POIN Dunno1 Dunno2 Dunno3 Tutorial
+  POIN Traps1 Traps2
+  POIN AlliedUnits AlliedUnits // This unit group determines the number and position of deployment slots when there is a prep screen
+  POIN $0 $0 $0
+  POIN $0 $0 $0
+  POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 END_MAIN
@@ -19,14 +19,13 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Seize(15,1)
-#ifdef __DEBUG__
-  Seize(13,12)
-#endif
+  #ifdef __DEBUG__
+    Seize(0, 0)
+  #endif
 END_MAIN
 
 MiscBasedEvents:
-CauseGameOverIfLordDies
+  CauseGameOverIfLordDies
 END_MAIN
 
 Dunno1:
@@ -41,27 +40,12 @@ END_MAIN
 Tutorial:
 END_MAIN
 
-Units1:
-UNIT Void EirikaLord 0x00 Level(1, Ally, 1) [13,12] 0x00 0x00 0x0 0x00 [Rapier, Vulnerary, MoonBracelet] NoAI 
-UNIT Tim Fighter 0x00 Level(1, Ally, 1) [12,13] 0x00 0x00 0x0 0x00 [IronAxe, HandAxe] NoAI 
-UNIT Tam Fighter 0x00 Level(1, Ally, 1) [14,13] 0x00 0x00 0x0 0x00 [SteelAxe, Hatchet] NoAI 
-UNIT Jerome Soldier 0x00 Level(1, Ally, 1) [15,13] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
-UNIT Leeroy Paladin 0x00 Level(1, Ally, 1) [11,13] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword, Elixir] NoAI 
+AlliedUnits:
+  UNIT Eirika EirikaLord 0 Level(1, Ally, False) [0, 0] 0x00 0x00 0 0x00000000 [Rapier, Vulnerary] NoAI
 UNIT
 
-
 EnemyUnits:
-UNIT ONeill Knight 0x00 Level(3, Enemy, 1) [15,1] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI
-UNIT 0x80 Soldier ONeill Level(1, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00  [Javelin] NeverMoveAI 
-UNIT 0x80 Soldier ONeill Level(1, Enemy, 1) [16,3] 0x00 0x00 0x0 0x00  [Javelin] NeverMoveAI 
-UNIT 0x80 Soldier ONeill Level(1, Enemy, 1) [13,8] 0x00 0x00 0x0 0x00  [IronLance] NoAI 
-UNIT 0x80 Soldier ONeill Level(1, Enemy, 1) [15,9] 0x00 0x00 0x0 0x00  [IronLance] NoAI 
-UNIT 0x80 Soldier ONeill Level(1, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00   [IronLance] NoAI 
-UNIT 0x80 Fighter ONeill Level(1, Enemy, 1) [22,11] 0x00 0x00 0x0 0x00 [IronAxe] NoAI 
-UNIT 0x80 Fighter ONeill Level(1, Enemy, 1) [20,3] 0x00 0x00 0x0 0x00  [IronAxe] NoAI 
-UNIT 0x80 Fighter ONeill Level(1, Enemy, 1) [15,5] 0x00 0x00 0x0 0x00  [IronAxe] NoAI 
-UNIT 0x80 Fighter ONeill Level(1, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00  [IronAxe] NoAI 
-UNIT 0x80 Fighter ONeill Level(1, Enemy, 1) [7,11] 0x00 0x00 0x0 0x00  [IronAxe] NoAI 
+  UNIT 0x80   Priest     0 Level(0, Enemy, False) [1, 0] 0x00 0x00 0 0x00000000 [0] NoAI
 UNIT
 
 Traps1:
@@ -73,20 +57,23 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-CHECK_TUTORIAL
-BEQ 0x0 0xC 0x0
-ENUT 0xb0 //turn on casual mode if easy
-LABEL 0x0
-Text(Ch0IntroTalk)
-LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
-ENUN
-LOAD1 0x1 EnemyUnits
-ENUN
-// GotoPrepScreen
+  CHECK_TUTORIAL // slot C = 1 if easy
+  
+  BEQ 0 0xC 0x0
+    ENUT 0xB0 // turn on casual mode if easy
+  LABEL 0
+  
+  // Loading Units
+  LOAD1 0x1 AlliedUnits
+  ENUN
+  
+  LOAD1 0x1 EnemyUnits
+  ENUN
+  
+  // GotoPrepScreen
 ENDA
 
 EndingScene:
-Text(PrologueEnding)
-MNC2 0x1 //go to ch1
-NoFade
+  MNC2 0x1 //go to ch1
+  NoFade
 ENDA

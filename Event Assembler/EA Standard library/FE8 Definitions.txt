@@ -469,3 +469,10 @@
 #define rD 0xD
 #define r13 0xD
 #define QP 0xD	//QueuePointer
+
+#define ActiveUnit (-1)        // 0xFFFF
+#define UnitAtCoordsSlotB (-2) // 0xFFFE
+#define UnitInSlot2 (-3)       // 0xFFFD
+
+#define CurrentUnit ActiveUnit
+#define UnitAtCoords UnitAtCoordsSlotB

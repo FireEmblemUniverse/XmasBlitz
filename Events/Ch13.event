@@ -1,132 +1,73 @@
-EventPointerTable(0x3B,ThisChapter)
+EventPointerTable(0x3B, ThisChapter)
 
 ThisChapter:
-POIN TurnBasedEvents
-POIN CharacterBasedEvents
-POIN LocationBasedEvents
-POIN MiscBasedEvents
-POIN Dunno Dunno Dunno
-POIN Tutorial
-POIN TrapData TrapData
-POIN Units Units
-POIN $0 $0 $0 $0 $0 $0
-POIN BeginningScene EndingScene
-
-Units:
-UNIT Eirika EphraimLord 0x00 Level(1, Ally, 0) [10,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [12,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [8,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [10,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [6,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [14,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [13,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [7,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [10,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT
-
+  POIN TurnBasedEvents
+  POIN CharacterBasedEvents
+  POIN LocationBasedEvents
+  POIN MiscBasedEvents
+  POIN Dunno1 Dunno2 Dunno3 Tutorial
+  POIN Traps1 Traps2
+  POIN AlliedUnits AlliedUnits // This unit group determines the number and position of deployment slots when there is a prep screen
+  POIN $0 $0 $0
+  POIN $0 $0 $0
+  POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(8, RecruitCelicia, Void, Celicia)
 END_MAIN
 
 LocationBasedEvents:
-Village(10, OasisVillage, 5,9)
-#ifdef __DEBUG__
-Seize(10,17)
-#endif
+  #ifdef __DEBUG__
+    Seize(0, 0)
+  #endif
 END_MAIN
 
 MiscBasedEvents:
-CauseGameOverIfLordDies
-DefeatAll(EndingScene)
+  CauseGameOverIfLordDies
 END_MAIN
 
-Dunno:
-//DO NOT TOUCH
-WORD $00
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
 
 Tutorial:
-//DO NOT TOUCH
-WORD $00
-
-TrapData:
 END_MAIN
 
+AlliedUnits:
+  UNIT Eirika EirikaLord 0 Level(1, Ally, False) [0, 0] 0x00 0x00 0 0x00000000 [Rapier, Vulnerary] NoAI
+UNIT
+
+EnemyUnits:
+  UNIT 0x80 Priest 0 Level(0, Enemy, False) [1, 0] 0x00 0x00 0 0x00000000 [0] NoAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
 ALIGN 4
 
 BeginningScene:
-VCWF 8
-WEA1 6
-LOAD2 0x1 Units
-ENUN
-LOAD1 0x1 CeliciaGroup
-ENUN
-LOAD1 0x1 Enemies
-ENUN
-LOAD1 0x1 Enemies2
-ENUN
-Text(Ch13Opening)
-GotoPrepScreen
+  LOAD2 0x1 AlliedUnits // 0x0 instead of 0x1 seems to be for allies on maps with prep screens
+  ENUN
+
+  LOAD1 0x1 EnemyUnits
+  ENUN
+  
+  NoFade
+  // GotoPrepScreen
 ENDA
 
 EndingScene:
-Text(Ch13Ending)
-MNCH 14
+  MNCH 14
+  NoFade
 ENDA
-
-// Events
-RecruitCelicia:
-Text(RecruitingCelicia) //No recruitment convo yet. Gaiden jokes about desert maps is what I'll probably do. Don't ya love mages being slow?
-CUSA Celicia
-NoFade
-ENDA
-
-OasisVillage:
-VillageEventItem(Ch13VillageText, HouseBG, Boots)
-
-// Manual Movement
-
-// Scripted Fights
-
-// Units
-Enemies:
-UNIT Aias Warrior 0x00 Level(6, Enemy, 1) [23,5] 0x2 0x00 0x0 0x00 [KillerBow, Halberd, HoplonShield] AttackInRangeAI 
-UNIT Pablo_2 Warrior 0x00 Level(6, Enemy, 1) [0,8] 0x2 0x00 0x0 0x00 [SilverBow, BraveAxe, MasterProof] AttackInRangeAI 
-UNIT 0x80 Brigand Aias Level(16, Enemy, 1) [16,3] 0x0 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Brigand Aias Level(16, Enemy, 1) [20,8] 0x0 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Brigand Aias Level(16, Enemy, 1) [19,0] 0x0 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Brigand Aias Level(16, Enemy, 1) [16,10] 0x0 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Brigand Aias Level(16, Enemy, 1) [21,13] 0x0 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 PegasusKnight Aias Level(16, Enemy, 1) [23,4] 0x0 0x00 0x0 0x00 [PoisonLance] AttackInRangeAI 
-UNIT 0x80 PegasusKnight Aias Level(16, Enemy, 1) [22,5] 0x0 0x00 0x0 0x00 [PoisonLance] AttackInRangeAI 
-UNIT 0x80 PegasusKnight Aias Level(16, Enemy, 1) [23,6] 0x0 0x00 0x0 0x00 [PoisonLance] AttackInRangeAI 
-UNIT 0x80 Mercenary Aias Level(16, Enemy, 1) [14,14] 0x0 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
-UNIT 0x80 Mercenary Aias Level(16, Enemy, 1) [12,8] 0x0 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
-UNIT
-
-CeliciaGroup:
-UNIT Celicia MageKnight_F 0x00 Level(6, NPC, 1) [10,4] 0x0 0x00 0x0 0x00 [Elfire, Physic, TorchStaff, Elixir] HealUnits 
-UNIT
-
-Enemies2:
-UNIT 0x80 Mercenary Aias Level(16, Enemy, 1) [13,2] 0x0 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
-UNIT 0x80 Mercenary Pablo_2 Level(16, Enemy, 1) [3,15] 0x0 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
-UNIT 0x80 Mercenary Pablo_2 Level(16, Enemy, 1) [4,3] 0x0 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
-UNIT 0x80 Mercenary Pablo_2 Level(16, Enemy, 1) [1,12] 0x0 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
-UNIT 0x80 Archer Pablo_2 Level(16, Enemy, 1) [1,4] 0x0 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Archer Pablo_2 Level(16, Enemy, 1) [6,13] 0x0 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Archer Pablo_2 Level(16, Enemy, 1) [7,7] 0x0 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 WyvernRider Pablo_2 Level(16, Enemy, 1) [0,7] 0x0 0x00 0x0 0x00 [PoisonLance] AttackInRangeAI 
-UNIT 0x80 WyvernRider Pablo_2 Level(16, Enemy, 1) [1,8] 0x0 0x00 0x0 0x00 [PoisonLance] AttackInRangeAI 
-UNIT 0x80 WyvernRider Pablo_2 Level(16, Enemy, 1) [0,9] 0x0 0x00 0x0 0x00 [PoisonLance] AttackInRangeAI 
-UNIT 0x80 Mage Pablo_2 Level(16, Enemy, 1) [10,9] 0x0 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Pablo_2 Level(16, Enemy, 1) [4,11] 0x0 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT
-
-
-// Shop Data
-
-MESSAGE Events end at offset currentOffset

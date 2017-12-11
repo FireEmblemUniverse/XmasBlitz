@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pPowerModifiers: // Power
-	POIN prAddUnitPower prDebuffStr prAddEquipPower prRallyStr prPairUpStr prSkillFury
+	POIN prAddUnitPower prDebuffStr prAddEquipPower prRallyStr prSkillFury // prPairUpStr
 WORD 0
 
 prAddUnitPower:
@@ -21,12 +21,8 @@ prRallyStr:
 	#incbin "_asm/RallyStr.bin"
 	WORD DebuffTable
 
-prPairUpStr:
-  #incbin "_asm/PairUpStr.bin"
-  POIN PairUpBonusesTable
-
-prSkillFury:
-  rIfUnitHasSkill(FuryID)
-    rAddConst(2)
+// prPairUpStr:
+  // #incbin "_asm/PairUpStr.bin"
+  // POIN PairUpBonusesTable
 
 #endif // MODULAR_GETTER_POWER_EVENT
