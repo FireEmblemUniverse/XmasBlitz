@@ -1,3 +1,2 @@
-[SetName]???[.][NL]
-Tell me... Have you ever[NL]
-heard of a blood pact?[A][X]
+Rightful Arch: Sets Skill[N]
+activation rate to 100%.[X]

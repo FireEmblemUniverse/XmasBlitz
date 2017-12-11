@@ -1,2 +1,2 @@
-Malefic Aura: Enemies within 2[N]
-tiles receive +2 magic damage.[X]
+Canto+: Can move again after[N]
+attacking and other actions.[X]

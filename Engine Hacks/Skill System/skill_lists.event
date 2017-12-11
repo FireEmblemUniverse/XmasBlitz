@@ -21,7 +21,7 @@ BYTE 00 00
 
 PaladinSkillList:
 BYTE 255 ElbowRoomID
-BYTE 255 AegisID
+BYTE 255 CamaraderieID
 BYTE 00 00
 ALIGN 4
 
@@ -33,10 +33,10 @@ BYTE 00 00
 ALIGN 4
 
 GeneralSkillList:
-// BYTE 255 SlowBurnID
+BYTE 255 SlowBurnID
 BYTE 255 NaturalCoverID
 BYTE 255 WaryFighterID
-BYTE 255 PaviseID
+// BYTE 255 PaviseID
 BYTE 00 00
 ALIGN 4
 

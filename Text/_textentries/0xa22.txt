@@ -1,2 +1,2 @@
-[MR][LoadAlfonse]
-Everyone[Beat] forgive me[Beat][A][CloseEyes][X]
+Reposition: Allows unit to pull an[N]
+adjacent ally to its opposite side.[X]

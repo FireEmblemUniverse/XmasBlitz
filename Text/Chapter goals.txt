@@ -3,7 +3,7 @@ Find out who really[N]
 killed Dorcas[X]
 
 ## Ch1Goal
-Defeat [Tact] and[N]
+Defeat boss and[N]
 save everyone[X]
 
 ## Ch2Goal

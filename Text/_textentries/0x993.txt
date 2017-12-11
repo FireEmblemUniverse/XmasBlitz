@@ -1,2 +1,2 @@
-Tomefaire: +4 damage[N]
-when equipping a tome.[X]
+A member of the zombie colony.[N]
+Waging war with the skeletons.[X]

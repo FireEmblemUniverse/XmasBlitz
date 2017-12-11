@@ -18,6 +18,42 @@
 
 #include "FE8 Nightmare modules\Generic Music Editor.event"
 
+#include "FE8 Nightmare modules\Chapter data editor\Chapter Data Editor.event"
+
+#include "FE8 Nightmare modules\Chapter data editor\Character Forcer FE8.event"
+
+#include "FE8 Nightmare modules\Chapter data editor\Pointer table editor.event"
+
+#include "FE8 Nightmare modules\Chapter data editor\World Map Cutscene table editor.event"
+
+#include "FE8 Nightmare modules\Chapter data editor\World Map Event table editor.event"
+
+#include "FE8 Nightmare modules\Class & Character editors\FE8 Character Editor.event"
+
+#include "FE8 Nightmare modules\Class & Character editors\FE8 Class Editor.event"
+
+#include "FE8 Nightmare modules\Class & Character editors\FE8 Walking Sounds Editor.event"
+
+#include "FE8 Nightmare modules\Ending editor\Ending Title Editor.event"
+
+#include "FE8 Nightmare modules\Ending editor\EndingsEditor.event"
+
+#include "FE8 Nightmare modules\Item editors\FE8 Item Editor.event"
+
+#include "FE8 Nightmare modules\Item editors\FE8 Item Effect Pointer Editor.event"
+
+#include "FE8 Nightmare modules\Item editors\FE8 Item Target Pointer Editor.event"
+
+#include "FE8 Nightmare modules\Item editors\FE8 Item Usability Pointer Editor.event"
+
+#include "FE8 Nightmare modules\Item editors\FE8 Spell Association Editor.event"
+
+#include "FE8 Nightmare modules\Item editors\Ocean Seal Promotion Editor.event"
+
+#include "FE8 Nightmare modules\Item editors\Promotion Item Editor.event"
+
+#include "FE8 Nightmare modules\Item editors\Stat Bonuses Editor.event"
+
 #include "FE8 Nightmare modules\Map sprite editor\Misc map sprite editor.event"
 
 #include "FE8 Nightmare modules\Map sprite editor\Standing map sprite editor.event"
@@ -28,19 +64,15 @@
 
 #include "FE8 Nightmare modules\Promotion\Promotion Item Editor.event"
 
+#include "FE8 Nightmare modules\Quote editors\Boss music editor.event"
+
 #include "FE8 Nightmare modules\Quote editors\Boss Quote Editor.event"
 
 #include "FE8 Nightmare modules\Quote editors\Death Quote Editor.event"
 
-#include "FE8 Nightmare modules\StanLight\ChapterData.event"
+#include "FE8 Nightmare modules\Summon editors\Summon character editor.event"
 
-#include "FE8 Nightmare modules\StanLight\Character.event"
-
-#include "FE8 Nightmare modules\StanLight\Class.event"
-
-#include "FE8 Nightmare modules\StanLight\Item.event"
-
-#include "FE8 Nightmare modules\StanLight\ItemAnimAssociation.event"
+#include "FE8 Nightmare modules\Summon editors\Summon class editor.event"
 
 #include "FE8 Nightmare modules\World Map Editors\Path Connections Editor.event"
 

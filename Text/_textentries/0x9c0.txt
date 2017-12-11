@@ -1,2 +1,2 @@
-Camaraderie: Recover 10% HP each turn[N]
-if there are allies within 2 tiles.[X]
+Swordfaire: +4 damage[N]
+when equipping a sword.[X]

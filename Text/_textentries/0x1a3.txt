@@ -1,2 +1,2 @@
-Defeat [Tact] and[N]
-save everyone[X]
+Get the kid to the[N]
+village, then seize[X]

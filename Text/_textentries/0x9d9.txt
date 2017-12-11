@@ -1,2 +1,2 @@
-Strong Riposte: When under[N]
-attack, damage +3. [X]
+Nihil: Cancels the opponent's[N]
+skills in combat.[X]

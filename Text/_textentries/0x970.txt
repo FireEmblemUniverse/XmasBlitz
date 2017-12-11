@@ -1,2 +1,2 @@
-Provoke: Enemies are more[N]
-likely to target this unit.[X]
+A captain of the Donateenaries.[N]
+Obsessed with collecting donations.[X]

@@ -1,2 +1,2 @@
-Lancebreaker: +50 Hit/Avo when[N]
-enemy has a lance equipped.[X]
+Freshened up and ready for a rematch,[N]
+he once again blocks Void's path.[X]

@@ -1,2 +1,2 @@
-Opportunist: +4 damage[N]
-if the foe cannot counter.[X]
+Countermagic: Reflect magic damage[N]
+when attacked at 1-2 range.[X]

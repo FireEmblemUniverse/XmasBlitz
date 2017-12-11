@@ -1,0 +1,402 @@
+#include EAstdlib.event
+
+EventPointerTable(0x71,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapDataHard
+POIN NormUnits HardUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+NormUnits:
+UNIT 0x01 0x02 0x00 Level(1, Ally, 0) [13,16] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [14,17] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [12,17] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [12,15] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [14,15] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [13,15] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [11,17] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [11,14] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [12,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [14,13] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [14,11] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [12,13] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [13,11] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+HardUnits:
+UNIT 0x01 0x02 0x00 Level(1, Ally, 0) [13,16] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [11,17] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [12,17] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [14,17] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [12,16] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [14,16] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 0) [14,15] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [13,14] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [12,13] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [14,13] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [13,11] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x07 0x44 Level(7, Ally, 0) [14,11] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+
+TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingPrepScreen,1)
+//TurnEventPlayer(0x0,LoadKnights,1)
+//TurnEventPlayer(0x0,LoadAxeKidz,3)
+TurnEventPlayer(0x0,LoadPegsH, 3)
+TurnEventPlayer(0x0,killtowns,3,2)
+TurnEventPlayer(0x0,LoadArchers,4)
+//TurnEventPlayer(0x0,RecruitSpawn,5)
+TurnEventPlayer(0x0,SpawnSwords, 5)
+TurnEventPlayer(0x0,LoadPegsH, 6)
+TurnEventPlayer(0x0,LoadArchersH, 7)
+TurnEventPlayer(0x0,killtowns,8,2)
+TurnEventPlayer(0x0,LoadPegsH, 9)
+TurnEventPlayer(0x0,LoadPupils,9)
+//TurnEventPlayer(0x0,LoadArchersH, 10)
+TurnEventPlayer(0x0,RecruitSpawn,12)
+//TurnEventPlayer(0x0,LoadPegsH, 12)
+TurnEventPlayer(0x0,killtowns,12,2)
+TurnEventPlayer(0x0,LoadAxeKidz,14)
+TurnEventPlayer(0x0,RecruitSpawn,15)
+TurnEventPlayer(0x0,SpawnSwords,16)
+TurnEventPlayer(0x0,LoadPegsH,18)
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0x9,GetUnit,Void,EvilFlorina)
+END_MAIN
+
+LocationBasedEvents:
+Armory(weaponlist, 2,13)
+Village(0x7, TopVill, 13,2)
+Village(0x8, LeftVill, 1,8)
+Vendor(itemlist, 10,10)
+SecretShop(Ch24SecretShop,5,12)
+#ifdef __DEBUG__
+Seize(13,16)
+#endif
+END_MAIN
+
+itemlist:
+SHLI Fimbulvetr Aura Nosferatu Luna Elixir PureWater Recover Restore Barrier Fortify
+weaponlist:
+SHLI SilverSword SilverLance SilverAxe SilverBow HandAxe Javelin LightBrand
+ALIGN 4
+
+Ch24SecretShop:
+SHLI 0x9b 0x9c IronSword Armorslayer IronLance HeavySpear IronAxe Hammer IronBow Lightning Fire Flux Heal 0x9 HoplonShield Talisman BodyRing
+ALIGN 4
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+BLST [3,9] Ballista 
+BLST [8,11] Ballista 
+BLST [9,13] IronBallista
+BLST [10,6] IronBallista 
+BLST [14,12] Ballista 
+// <a href="javascript:removeCondition(6,&quot;traps&quot;);">Delete</a>BLST [14,16] 0x35
+// <a href="javascript:removeCondition(7,&quot;traps&quot;);">Delete</a>END_MAIN
+ENDTRAP
+ALIGN 4
+
+TrapDataHard:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+	LOAD1 0x1 Gwendy_Squad
+	ENUN
+	LOAD1 0x1 Enemies
+	ENUN
+	LOAD1 0x1 Enemies2
+	ENUN
+
+	CHECK_HARD
+	BEQ 0 rC r0
+	LoadReinforcements(HardEnemies)
+	LOAD2 0x1 HardUnits
+	ENUN
+	GOTO 1
+Label 0
+	LoadReinforcements(NormEnemies)
+	LOAD2 0x1 NormUnits
+	ENUN
+	
+Label 1
+	Text(Ch24Opening)
+	FADI 10
+	GotoPrepScreen
+ENDA
+
+EndingScene:
+	Text(Ch24Ending)
+	CAM1 Void
+	FlashCursor(Void,60)
+	SVAL 3 Ivaldi
+	GIVEITEMTO Void
+	MNCH 0x3e
+ENDA
+
+// Events
+TopVill:
+	VillageEventItem(Ch24TopVill, Village, DragonSpear)
+
+LeftVill:
+	VillageEventItem(Ch24LeftVill, Village, Wyrmslayer)
+
+EventAfterExitingPrepScreen:
+	ReinforcementEvent(NewAlly)
+
+RecruitSpawn:
+	ReinforcementEvent(Corner_Recruits)
+
+killtowns:
+	ReinforcementEvent(some_bandits)
+
+LoadPupils:
+	LoadReinforcements(Corner_Pupils)
+	LoadReinforcements(Side_Pupils)
+	NoFade
+	ENDA
+
+LoadPegsH: //hard mode only
+	CHECK_HARD
+	BEQ 2 rC r0
+	LoadReinforcements(Spawn_Pegs)
+	LABEL 2
+	NoFade
+	ENDA
+
+LoadArchersH: 
+	CHECK_HARD
+	BEQ 3 rC r0
+	LoadReinforcements(Fort_Snipers) //hard mode only
+	Label 3
+LoadArchers:
+	LoadReinforcements(Spawn_Archers)
+	NoFade
+	ENDA
+
+//LoadKnights:
+//	ReinforcementEvent(Spawn_Knights)
+
+LoadAxeKidz:
+/*
+	CHECK_HARD
+	BEQ 4 rC r0
+	LoadReinforcements(Fort_AxeHeroes)
+	Label 4
+*/
+	LoadReinforcements(Coner_AxeBoyz)
+	LoadReinforcements(Side_AxeBoyz)
+	NoFade
+	ENDA
+	
+SpawnSwords:
+	LoadReinforcements(Fort_Swdmasters)
+	LoadReinforcements(Side_Myrms)
+	NoFade
+	ENDA
+
+GetUnit:
+TEXTSTART
+TEXTSHOW Ch24RecruitEvilFlorina
+TEXTEND
+TEXTSHOW Ch24RecruitEvilFlorina2
+TEXTEND
+SVAL r7 True
+BEQ 0 rC r7
+  TEXTSHOW Ch24FlorinaNo
+  TEXTEND
+  REMA
+  ENUF 0x9
+  GOTO 1
+LABEL 0
+  TEXTSHOW Ch24FlorinaYes
+  TEXTEND
+  REMA
+  TurnAlly(0x1E)
+  SVAL 3 10000
+  GIVEITEMTOMAIN 0
+LABEL 1
+NoFade
+ENDA
+
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+// Units
+Gwendy_Squad:
+UNIT 0x44 GreatKnight_F 0x00 Level(16, Enemy, 0) [2,3] 0x2 0x00 0x0 0x00 [Tomahawk, SilverLance, KillerAxe, 0x9A] NeverMoveAI
+UNIT 0x9A General 0x44 Level(13, Enemy, 1) [5,5] 0x00 0x00 0x0 0x00 [BraveLance, Spear, BodyRing] NeverMoveAI
+UNIT 0x9A Journeyman_3 0x00 Level(12, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [Tomahawk] NeverMoveAI
+UNIT 0x9A Sniper 0x44 Level(13, Enemy, 1) [4,5] 0x00 0x00 0x0 0x00 [SteelBow, Longbow] NeverMoveAI
+UNIT 0x9A Sniper 0x44 Level(13, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [SteelBow, Longbow] NeverMoveAI
+UNIT 0x9A Swordmaster 0x44 Level(10, Enemy, 1) [11,6] 0x2 0x00 0x0 0x00 [Runesword, Armorslayer] AttackInRangeAI
+//UNIT 0x9A Hero_F 0x44 Level(12, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [HandAxe, SteelBlade] NoAI
+UNIT 0x9A Druid_F 0x00 Level(10, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [Eclipse, Luna] AttackInRangeAI
+UNIT 0x9A FalcoKnight 0x44 Level(12, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00  [IronBlade] AttackInRangeAI
+UNIT 0x9A General_F 0x44 Level(8, Enemy, 1) [6,14] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI
+UNIT
+
+Enemies:
+UNIT 0x9A General_F 0x00 Level(10, Enemy, 1) [11,10] 0x2 0x00 0x0 0x00 [BraveSword] AttackInRangeAI
+UNIT 0x9A Journeyman_3 0x00 Level(8, Enemy, 1) [5,2] 0x2 0x00 0x0 0x00 [Halberd,EnergyRing] ChaseOnceApproachedAI
+UNIT 0x9A Bishop 0x00 Level(8, Enemy, 1) [7,8] 0x00 0x00 0x0 0x00 [Heal, Shine, Talisman] AttackInRangeAI 
+UNIT 0x9A Priest 0x00 Level(18, Enemy, 1) [8,9] 0x2 0x00 0x0 0x00 [Physic, Stone, Purge] HealUnits
+UNIT 0x9A Cleric 0x00 Level(18, Enemy, 1) [5,12] 0x2 0x00 0x0 0x00 [Mend, Restore] HealUnits
+UNIT 0x9A PegasusKnight 0x44 Level(20, Enemy, 1) [2,5] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI
+//UNIT 0x9A Archer 0x00 Level(15, Enemy, 1) [7,12] 0x00 0x00 0x0 0x00 [SteelBow] NoAI
+UNIT 0x9A Archer_F 0x00 Level(18, Enemy, 1) [5,16] 0x00 0x00 0x0 0x00 [SteelBow] NoAI
+UNIT 0x9A Shaman_F 0x00 Level(18, Enemy, 1) [3,11] 0x00 0x00 0x0 0x00 [Nosferatu] PursueWithoutHeedAI
+UNIT 0x9A Archer_F 0x00 Level(18, Enemy, 1) [6,7] 0x00 0x00 0x0 0x00 [Longbow] NoAI
+UNIT 0x9A Recruit_3 0x00 Level(7, Enemy, 1) [6,17] 0x2 0x00 0x0 0x00 [SteelLance, Speedwings] AttackInRangeAI
+UNIT 0x9A Recruit_3 0x00 Level(8, Enemy, 1) [13,3] 0x2 0x00 0x0 0x00 [Spear, BraveLance] NeverMoveAI
+//UNIT 0x9A Myrmidon_F 0x00 Level(15, Enemy, 1) [4,16] 0x2 0x00 0x0 0x00[Armorslayer] PursueWithoutHeedAI
+UNIT
+
+Enemies2:
+UNIT 0x9A Druid_F 0x00 Level(8, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [Flux, Stone] AttackInRangeAI
+UNIT 0x9A Pupil_2 0x00 Level(18, Enemy, 1) [1,9] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI
+UNIT 0x9A Pupil_2 0x00 Level(16, Enemy, 1) [6,0] 0x2 0x00 0x0 0x00 [Bolting] ChaseOnceApproachedAI
+UNIT 0x9A Knight_F 0x00 Level(18, Enemy, 1) [1,2] 0x00 0x00 0x0 0x00 [Javelin] NoAI
+UNIT 0x9A Knight_F 0x00 Level(18, Enemy, 1) [1,3] 0x00 0x00 0x0 0x00 [Javelin] NoAI
+UNIT 0x9A Knight_F 0x00 Level(18, Enemy, 1) [4,9] 0x00 0x00 0x0 0x00 [SteelLance] ChaseOnceApproachedAI
+UNIT 0x9A Knight_F 0x00 Level(18, Enemy, 1) [11,4] 0x00 0x00 0x0 0x00 [SteelLance] ChaseOnceApproachedAI
+UNIT 0x9A Recruit_2 0x00 Level(18, Enemy, 1) [1,12] 0x2 0x00 0x0 0x00 [SlimLance, 0x9b] ChaseOnceApproachedAI
+UNIT 0x9A Recruit_2 0x00 Level(16, Enemy, 1) [10,15] 0x2 0x00 0x0 0x00 [Axereaver, 0x9b] PursueWithoutHeedAI
+UNIT 0x9A Recruit_2 0x00 Level(18, Enemy, 1) [14,7] 0x2 0x00 0x0 0x00 [SteelLance, 0x9b] ChaseOnceApproachedAI
+UNIT 0x9A Journeyman_2 0x00 Level(16, Enemy, 1) [7,15] 0x00 0x00 0x0 0x00 [SteelAxe] ChaseOnceApproachedAI
+UNIT 0x9A Journeyman_2 0x00 Level(15, Enemy, 1) [3,14] 0x00 0x00 0x0 0x00 [Hammer] ChaseOnceApproachedAI
+UNIT
+
+NormEnemies:
+UNIT 0x9A Archer 0x44 Level(20, Enemy, 1) [2,1] 0x2 0x00 0x0 0x00 [BraveBow] AttackInRangeAI
+UNIT 0x9A Bishop_F 0x00 Level(15, Enemy, 1) [2,4] 0x00 0x00 0x0 0x00 [Physic, Purge, Divine] NeverMoveAI 
+UNIT 0x9A Pupil_3 0x44 Level(8, Enemy, 1) [3,2] 0x00 0x00 0x0 0x00 [Stone, Elfire] AttackInRangeAI
+UNIT 0x9A Journeyman_3 0x00 Level(10, Enemy, 1) [5,8] 0x2 0x00 0x0 0x00 [BraveAxe] AttackInRangeAI
+UNIT 0x9A Bishop_F 0x00 Level(8, Enemy, 1) [9,3] 0x2 0x00 0x0 0x00 [Sleep, Physic, BlackGem] HealUnits
+UNIT 0x9A Shaman_F 0x00 Level(18, Enemy, 1) [11,5] 0x00 0x00 0x0 0x00 [Stone, Flux] AttackInRangeAI
+UNIT
+
+HardEnemies:
+UNIT 0x9A Sniper 0x44 Level(10, Enemy, 1) [1,0] 0x2 0x00 0x0 0x00 [BraveBow] AttackInRangeAI
+UNIT 0x9A Bishop_F 0x00 Level(13, Enemy, 1) [3,3] 0x00 0x00 0x0 0x00 [Physic, Shine, Sleep] NeverMoveAI 
+UNIT 0x9A Summoner_F 0x00 Level(13, Enemy, 1) [2,4] 0x00 0x00 0x0 0x00 [Fortify, Eclipse, Fenrir] NeverMoveAI 
+UNIT 0x9A Pupil_3 0x44 Level(8, Enemy, 1) [6,4] 0x00 0x00 0x0 0x00 [Stone, Elfire] AttackInRangeAI
+UNIT 0x9A Journeyman_3 0x00 Level(10, Enemy, 1) [5,9] 0x2 0x00 0x0 0x00 [Tomahawk, BraveAxe] NeverMoveAI
+UNIT 0x9A Bishop_F 0x00 Level(10, Enemy, 1) [9,3] 0x2 0x00 0x0 0x00 [Sleep, Silence, Physic, WhiteGem] HealUnits
+UNIT 0x9A Shaman_F 0x00 Level(20, Enemy, 1) [12,3] 0x00 0x00 0x0 0x00 [Stone, Flux, Eclipse] AttackInRangeAI
+UNIT
+
+some_bandits:
+UNIT 0x9A Brigand 0x00 Level(18, Enemy, 1) [4,1] 0x00 0x00 0x0 0x00 [DevilAxe] BrigandAI
+UNIT 0x9A Brigand 0x00 Level(18, Enemy, 1) [1,16] 0x00 0x00 0x0 0x00 [DevilAxe] BrigandAI
+UNIT
+
+Corner_Recruits:
+UNIT 0x9A Recruit_2 0x00 Level(7, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Javelin, Vulnerary] NoAI
+UNIT 0x9A Recruit_3 0x00 Level(7, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SteelLance, Vulnerary] NoAI
+UNIT
+
+Side_Recruits:
+UNIT 0x9A Recruit_2 0x00 Level(18, Enemy, 1) [0,10] 0x2 0x00 0x0 0x00 [SteelLance, 0x9b] PursueWithoutHeedAI
+UNIT 0x9A Recruit_2 0x00 Level(18, Enemy, 1) [0,12] 0x2 0x00 0x0 0x00 [SlimLance, 0x9b] PursueWithoutHeedAI
+UNIT
+
+Coner_AxeBoyz:
+//UNIT 0x9A Journeyman_2 0x00 Level(18, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI
+UNIT 0x9A Journeyman_2 0x00 Level(16, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI
+UNIT 0x9A Journeyman_3 0x00 Level(8, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT
+
+
+Side_AxeBoyz:
+UNIT 0x9A Journeyman_2 0x00 Level(18, Enemy, 1) [0,10] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x9A Journeyman_2 0x00 Level(18, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT
+
+Corner_Pupils:
+UNIT 0x9A Pupil_2 0x00 Level(7, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Thunder] NoAI
+UNIT 0x9A Pupil_3 0x00 Level(7, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [Elfire] NoAI
+UNIT
+
+Side_Pupils:
+UNIT 0x9A Pupil_2 0x00 Level(18, Enemy, 1) [0,10] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI
+UNIT 0x9A Pupil_2 0x00 Level(18, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI
+UNIT
+
+Side_Myrms:
+UNIT 0x9A Myrmidon_F 0x00 Level(15, Enemy, 1) [0,10] 0x0 0x00 0x0 0x00[IronBlade] PursueWithoutHeedAI
+UNIT 0x9A Myrmidon_F 0x00 Level(16, Enemy, 1) [0,11] 0x0 0x00 0x0 0x00[SteelBlade] PursueWithoutHeedAI
+UNIT 0x9A Myrmidon_F 0x00 Level(15, Enemy, 1) [0,12] 0x0 0x00 0x0 0x00[IronBlade] PursueWithoutHeedAI
+UNIT
+
+Spawn_Pegs:
+UNIT 0x9A PegasusKnight 0x00 Level(16, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [HeavySpear] NoAI
+UNIT 0x9A PegasusKnight 0x00 Level(18, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [Javelin] NoAI
+UNIT 0x9A PegasusKnight 0x00 Level(16, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [HeavySpear] NoAI
+UNIT
+
+Spawn_Archers:
+UNIT 0x9A Archer_F 0x00 Level(18, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelBow] NoAI
+UNIT 0x9A Archer_F 0x00 Level(18, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SteelBow] NoAI
+UNIT 0x9A Archer 0x00 Level(13, Enemy, 1) [3,17] 0x00 0x00 0x0 0x00 [SteelBow] NoAI 
+UNIT
+
+Fort_Snipers:
+UNIT 0x9A Sniper_F 0x00 Level(8, Enemy, 1) [9,0] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
+UNIT 0x9A Sniper 0x00 Level(10, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [SteelBow] NoAI
+UNIT 0x9A Sniper_F 0x00 Level(8, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT
+
+/*
+Corner_Knights:
+UNIT 0x9A Knight_F 0x00 Level(18, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Javelin] NoAI
+UNIT 0x9A Knight_F 0x00 Level(18, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [Javelin] NoAI
+UNIT
+*/
+/*
+Fort_AxeHeroes:
+UNIT 0x9A Hero 0x00 Level(8, Enemy, 1) [9,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x9A Hero_F 0x00 Level(9, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [Tomahawk] PursueWithoutHeedAI
+UNIT 0x9A Hero 0x00 Level(8, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 
+*/
+Fort_Swdmasters:
+UNIT 0x9A Swordmaster_F 0x00 Level(8, Enemy, 1) [9,0] 0x00 0x00 0x0 0x00 [IronBlade] PursueWithoutHeedAI
+UNIT 0x9A Swordmaster 0x00 Level(9, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [Runesword] PursueWithoutHeedAI
+UNIT 0x9A Swordmaster_F 0x00 Level(8, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [IronBlade] PursueWithoutHeedAI
+UNIT 
+
+NewAlly:
+UNIT 0x1E Shaman_F 0x00 Level(13, NPC, 1) [12,12] 0x00 0x00 0x0 0x00 [EvilEye, Stone, GuidingRing, Elixir] ChaseOnceApproachedAI
+UNIT
+
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset

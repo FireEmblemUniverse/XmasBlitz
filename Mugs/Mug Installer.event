@@ -92,11 +92,11 @@ setMugEntry(0x36, Jaffar_Mug, 2,5,2,3)
 
 Erk_Mug:
 #incext PortraitFormatter "erk.png"
-setMugEntry(0x34, Erk_Mug, 2,6,2,4)
+setMugEntry(0x34, Erk_Mug, 2,6,3,4)
 
 Oswin_Mug:
 #incext PortraitFormatter "Oswin.png"
-setMugEntry(0x37, Oswin_Mug, 2,4,2,2)
+setMugEntry(0x37, Oswin_Mug, 2,4,3,2)
 
 Wallace_Mug:
 #incext PortraitFormatter "Wallace.png"
@@ -112,12 +112,12 @@ setMugEntry(0x3a, Sain_Mug, 2,5,3,3)
 
 Isadora_Mug:
 #incext PortraitFormatter "Isadora.png"
-setMugEntry(0x3c, Isadora_Mug, 2,6,2,4)
+setMugEntry(0x3c, Isadora_Mug, 2,6,3,4)
 ShiftPortraitUp(0x3c)
 
 Harken_Mug:
 #incext PortraitFormatter "Harken.png"
-setMugEntry(0x3b, Harken_Mug, 2,5,2,3)
+setMugEntry(0x3b, Harken_Mug, 2,5,3,3)
 
 Eliwood_Mug:
 #incext PortraitFormatter "Eliwood.png"
@@ -158,7 +158,7 @@ setMugEntry(0x11, Quan_Mug, 2,5,3,3)
 
 Ethlyn_Mug:
 #incext PortraitFormatter "ethlyn.png"
-setMugEntry(0x13, Ethlyn_Mug, 3,5,3,3)
+setMugEntry(0x13, Ethlyn_Mug, 3,5,3,4)
 ShiftPortraitUp(0x13)
 
 Marc_Mug:

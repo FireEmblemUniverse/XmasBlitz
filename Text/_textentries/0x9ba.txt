@@ -1,2 +1,2 @@
-Life and Death: +10 to[N]
-damage dealt and taken.[X]
+Vantage: If HP < 50%,[N]
+strike first when attacked.[X]

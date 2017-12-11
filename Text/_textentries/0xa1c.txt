@@ -1,2 +1,2 @@
-[ML][LoadCurrent]
-I feel like green is my colour.[A][X]
+Odd Rhythm: +10 Hit and Avoid[N]
+on odd numbered turns.[X]

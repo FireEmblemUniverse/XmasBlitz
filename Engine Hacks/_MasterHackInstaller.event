@@ -12,7 +12,7 @@ PUSH
   //Include essential fixes and autopatches
   #include "_FE8EssentialFixes.event"
   ORG 0x18a58
-  #incbin "ASM/Melee and Magic Fix_fe8.dmp"
+  // #incbin "ASM/Melee and Magic Fix_fe8.dmp"
 POP
 
 
@@ -69,6 +69,9 @@ POP
   ORG $1e7fc
   BYTE 0xC
   POP
+
+  //fix prefixes
+  #include "prefixchanger.event"
 
   //game over if you drop the turnwheel
   #include "dontdropthewheel.event"
@@ -255,7 +258,7 @@ ALIGN 4
   UM_Play
   UM_Dance
   UM_Steal
-  MenuCommand(0x693, 0x6dd, GreenText, Orb_Usability, Orb_Effect)
+  // MenuCommand(0x693, 0x6dd, GreenText, Orb_Usability, Orb_Effect)
   UM_Summon
   UM_Summon_DK
   UM_Pick

@@ -7,9 +7,8 @@
 	#incbin "GetAdjacentUnits.dmp"
 	
   SupplyTable:
-	BYTE Anna
-	BYTE Alfonse
-	BYTE Sharena
+	BYTE Eirika
+	BYTE Ephraim
 	BYTE $00
 	
 	ALIGN 4

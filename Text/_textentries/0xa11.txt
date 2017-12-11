@@ -1,3 +1,2 @@
-[ML][LoadEliwood]
-You call this evidence?[N]
-Don't make me laugh, murderer![A][X]
+Pragmatic: When foe is not at full HP,[N]
+attack +3 and def/res+1.[X]

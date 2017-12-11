@@ -1,2 +1,2 @@
-Seal Luck: Debuff opponent's Luck[N]
-by 6 after combat. (Recover 1/turn)[X]
+Charm: Allies within 2[N]
+tiles deal +2 damage.[X]

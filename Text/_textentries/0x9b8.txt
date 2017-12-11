@@ -1,2 +1,2 @@
-Live to Serve: When healing[N]
-an ally, also heals self.[X]
+Certain Blow: +40 Hit[N]
+when initiating battle.[X]

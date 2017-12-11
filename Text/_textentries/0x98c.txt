@@ -1,4 +1,1 @@
-#Counter: Reflect physical damage[N]
-#when attacked at 1-2 range.
-Close Counter: Reflect damage[N]
-when attacked at 1 range.[X]
+D. Faithful[X]

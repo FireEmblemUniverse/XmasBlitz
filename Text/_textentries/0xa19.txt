@@ -1,4 +1,2 @@
-[ML][LoadVeronica]So, the Askrans arrived[N]
-before us, did they?[AN]
-No matter. Emblian troops,[N]
-destroy them all![A][X]
+Rightful King: +10% to[N]
+Skill activation rate.[X]

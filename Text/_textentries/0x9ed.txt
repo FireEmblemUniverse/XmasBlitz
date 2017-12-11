@@ -1,2 +1,2 @@
-Quick Burn: +15 Hit and Avoid.[N]
-This bonus decreases each turn.[X]
+Lunge: Swap places with the[N]
+opponent after combat.[X]

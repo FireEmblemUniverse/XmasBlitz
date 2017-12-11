@@ -31,76 +31,51 @@
 
 #include "Engine Hacks/Skill System/skill_definitions.event"
 
-#define Sharena Eirika
-#define Alfonse Ephraim
-#define Anna Seth
-#define Norne Gilliam
-#define Mia Franz
-#define Reinhardt Garcia
-#define Camus Colm
-#define Linde Vanessa
-#define Olivia Tethys
-#define Narcian Moulder
-#define Elise LArachel
-#define Sigurd 0xb
-#define Deirdre 0xc
-#define Quan 0xd
-#define Ethlyn 0xe
-#define Veronica 0x11
+#define Void 1
+#define Tim 2
+#define Tam 3
+#define Jerome 4
+#define Leeroy 5
+#define Anna 6
+#define Bede 7
+#define Jay 8
+#define NotArch 9
+#define Kirsten 10
+#define Bob 11
+#define Roshea 12
+#define Prine 13
+#define Edge 14
+//no ephraim replacement
+#define Samson 16
+#define Arve 17
+#define Tye 18
+#define Celicia 19
+#define Eevster 20
+#define AnnaWyv 21
+#define Nikita 22
+#define AnnaRogue 23
+#define Edgeworth 24
+#define Zigludo 25
+#define Kaga 26
+#define Doot 27
+#define Celica 28
+#define Doowile 29
+#define EvilFlorina 30
+#define Bjoern 31
+#define Jake 32
+#define Marf 33
+#define Tiki 34
 
-#define Eliwood 0x20
-#define Lyn 0x21
-#define Hector 0x22
-#define Lowen 0x23
-#define Bartre 0x24
-#define Marcus 0x25
-#define Jaffar 0x26
-#define Oswin 0x29
-#define Wallace 0x2a
-#define Kent 0x2b
-#define Sain 0x2c
-#define Isadora 0x2d
-#define Harken 0x2e
-#define Erk 0x27
+#define Mark 36
 
-#define Dorcas 0x2f
+#define Lyria 0x60
+#define Meriah 0x61
+#define Plum 0x62
+#define Yuni 0x63
 
-#define Markyjoe 0x10
-
-#define BasicGeneric 0xcd
-#define LungeGeneric 0xce
-#define SealDefGeneric 0xcf
-#define SealSpdGeneric 0xd0
-#define SealStrGeneric 0xd1
-#define SealResGeneric 0xd2
-#define CounterGeneric 0xd3
-#define CountermagicGeneric 0xd4
-#define PassGeneric 0xd5
-#define SwordbreakerGeneric 0xd6
-#define AxebreakerGeneric 0xd7
-#define LancebreakerGeneric 0xd8
-#define BowbreakerGeneric 0xd9
-#define TomebreakerGeneric 0xda
-#define RenewalGeneric 0xdb
-#define GambleGeneric 0xdc
-#define BasicGeneric2 0x7F
-
-#define Fensalir Reginleif
-#define Folkvangr Rapier
-#define Noatun Luce
-#define Durandal Sieglinde
-#define DireThunder Forblaze
-#define Parthia Nidhogg
-#define VagueKatti Audomra
-#define Gradivus Vidofnir
-#define Armads Siegmund
-#define Tyrfing Gleipnir
-#define Naga Excalibur
-#define GaeBolg Ivaldi
-
-#define Concoction Vulnerary
-#define Turnwheel 0x77
-#define Orbs RedGem
+#define Ch8Boss 0x4D
+#define Ch8Generic 0x99
+#define Ch21Boss 0xC5
+#define Ch21Generic 0x9A
 
 #endif
-

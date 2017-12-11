@@ -1,0 +1,81 @@
+/// - Mode 1
+C03
+C07
+8  p- 1.bmp
+C04
+C1A
+C1F
+8  p- 2.bmp
+C01
+C06
+C0D
+~~~
+/// - Mode 3
+C03
+C07
+8  p- 1.bmp
+C04
+C08
+C1F
+8  p- 2.bmp
+C01
+C06
+C0D
+~~~
+/// - Mode 5
+C03
+C07
+32 p- 1.bmp
+C05
+32 p- 2.bmp
+C01
+C06
+C0D
+~~~
+/// - Mode 6
+C03
+C07
+32 p- 1.bmp
+C05
+32 p- 2.bmp
+C01
+C06
+C0D
+~~~
+/// - Mode 7
+C02
+8  p- 3.bmp
+C0E
+C01
+C0D
+~~~
+/// - Mode 8
+C02
+8  p- 3.bmp
+C0E
+C01
+C0D
+~~~
+/// - Mode 9
+16 p- 4.bmp
+C01
+~~~
+/// - Mode 10
+16 p- 4.bmp
+C01
+~~~
+/// - Mode 11
+16 p- 4.bmp
+C01
+~~~
+/// - Mode 12
+C03
+C07
+8  p- 1.bmp
+C04
+8  p- 2.bmp
+C01
+C06
+C0D
+~~~
+/// - End of animation

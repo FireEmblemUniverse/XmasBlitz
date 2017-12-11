@@ -1,2 +1,2 @@
-Voice of Peace: Enemies within[N]
-2 tiles deal -2 damage.[X]
+Provoke: Enemies are more[N]
+likely to target this unit.[X]

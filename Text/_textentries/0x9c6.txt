@@ -1,2 +1,2 @@
-Bond: All allies within 3 tiles[N]
-recover 10% HP each turn.[X]
+Slayer: Deal effective damage[N]
+to monster units.[X]

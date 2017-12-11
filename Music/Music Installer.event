@@ -22,6 +22,10 @@ SongTable(0x1b,cornered, 0) //boss theme/enemy phase attack 2
 SongTable(0x57, PWTT_begin, 1) //player phase theme 1
 #include "PWTT_begin.event"
 
+// SongTable(0x57, AA5KPO, 1) //player phase theme 1
+// #include "AA5KPO.event"
+
+
 SongTable(0x59, JFA_Victory, 1) //final victory theme
 #include "JFA_Victory.event"
 
@@ -45,6 +49,9 @@ SongTable(0x3f, detention, 1)
 
 SongTable(0x25, Suspense, 1)
 #include "Suspense.event"
+
+SongTable(0x26, hotlineoffate, 1)
+#include "hotlineoffate.event"
 
 // SongTable(0x59, Enemy_Phase_1_Alm, 1)
 // #include "Enemy_Phase_1_Alm.event"
@@ -89,3 +96,9 @@ SongTable(721,0x57ebec,6) //brigand yell instead of horse neigh lol
 
 SongTable(0x94, examination_allegro, 1)
 #include "examination_allegro.event" //victory theme 1
+
+SongTable(0x95, bittertruth, 1)
+#include "bittertruth.event" //when mark is defeated
+
+SongTable(0x46, objection2004, 1)
+#include "objection2004.event" //credits theme

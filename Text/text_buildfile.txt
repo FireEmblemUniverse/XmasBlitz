@@ -4,36 +4,21 @@ HP Bars[.][X]
 #0x00B2
 Set health bar display[X]
 
+# 0x0448
+A stone imbued with mysterious might.[X]
+
+# 0x0478
+Freezes enemies in place[.][NL]
+for several turns.[X]
+
 #0x518
 #was 'sick'
 Freeze[X]
 
-#0x682
-#was visit
- Examine[X]
-
-#0x6cb
-Investigate a clue.[X]
-
-# 0x0C15 textChoseRed
-Will you summon a red unit?[NL]
-[Yes][X]
-
-## textChoseBlue
-Will you summon a blue unit?[NL]
-[Yes][X]
-
-## textChoseColourless
-Will you summon a colourless unit?[NL]
-[Yes][X]
-
-## textChoseGreen
-Will you summon a green unit?[.][NL]
-[Yes][X]
+# 0x03C9
+Freeze[.][X]
 
 #include "ChapterNames.txt"
-
-#include "Chapter goals.txt"
 
 #0x3A LearnedSkillText
 #first text ID in the free block
@@ -43,6 +28,7 @@ Learned  [X]
 
 #include "unitmenu_text.txt"
 
+
 #0x903 ControlONMessage
 #first text ID in the free block
 Control CPU Units: ON[X]
@@ -50,12 +36,29 @@ Control CPU Units: ON[X]
 ## ControlOFFMessage
 Control CPU Units: OFF[X]
 
-#include "unitnames.txt"
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
 
-#include "itemnames.txt"
+#include "unitnames.txt"
 
 #include "skilldesc_text.txt"
 
-#include "Chapter text.txt"
+#include "items.txt"
+#include "chaptertext.txt"
+#include "MCPlotStuff.txt"
+#include "villages and recruitments.txt"
+#include "ch1.txt"
+#include "ch15_text.txt"
+#include "DeathQuotes.txt"
+#include "Ending.txt"
 
-#include "quotes.txt"
+## Ch21Goal
+Slay Tatara of the Doma[N]
+Faithful, not Doot![X]
+
+## Ch22Goal
+Defeat Celica, lady[N]
+of the boats[X]
+
+#include "blitz chapter goals.txt"

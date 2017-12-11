@@ -1,2 +1,2 @@
-Impale: Deal 4x damage.[N]
+Astra: 5 attacks at half damage.[N]
 (Skill % activation)[X]

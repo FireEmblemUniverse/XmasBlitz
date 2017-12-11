@@ -1,2 +1,2 @@
-Dragon's Blood: Unit is able[N]
-to activate Dragon Veins.[X]
+Spur Magic: Adjacent allies[N]
+deal +4 magical damage.[X]

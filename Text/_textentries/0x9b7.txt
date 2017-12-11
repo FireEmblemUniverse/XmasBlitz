@@ -1,2 +1,2 @@
-Staff Savant: Maximum range[N]
-of staves is increased by 1.[X]
+Warding Blow: +20 Res[N]
+when initiating battle.[X]

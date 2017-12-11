@@ -1,5 +1,5 @@
-#define SongTableOffset  0x224470
-#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+//#define SongTableOffset  0x224470
+//#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
 SongTable(0x316,chapterstart,1)
 
     #include "MPlayDef.event"

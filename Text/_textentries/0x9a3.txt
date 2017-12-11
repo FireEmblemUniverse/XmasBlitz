@@ -1,2 +1,2 @@
-Spur Strength: Adjacent allies[N]
-deal +4 physical damage.[X]
+Frenzy: For every 4 damage[N]
+taken, +1 to damage dealt.[X]

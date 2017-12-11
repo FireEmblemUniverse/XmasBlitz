@@ -4,7 +4,7 @@
 	#define	togetherweride_grp  voicegroup000
 	#define	togetherweride_pri  0
 	#define	togetherweride_rev  0
-	#define	togetherweride_mvl  67
+	#define	togetherweride_mvl  97
 	#define	togetherweride_key  0
 	#define	togetherweride_tbs  1
 	#define	togetherweride_exg  0

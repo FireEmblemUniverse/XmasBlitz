@@ -1,1 +1,2 @@
-Celerity: Movement +2.[X]
+Galeforce: Move again after[N]
+attacking and defeating an enemy.[X]

@@ -1,3 +1,5 @@
-[ML][LoadFace][0x16][0x1]
-Urgh[Beat] Grraaaaahh[Beat][N]
-You fools[Beat] think you've won?[A][CloseEyes][X]
+[MidLeft][LoadFace][0x2][0x1]
+The Demon King killed my family[N]
+and took over my country![AN]
+To get to him I need[N]
+to go through you![A][X]

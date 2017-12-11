@@ -1,6 +1,6 @@
 #define csvmacro007(arg000,arg001) "BYTE arg000 arg001 "
 
-#inctext PFinder "C:\Users\bovie_000\Desktop\RFV\FE8_clean.gba" 0xe47940 GenericMusicTable
+#inctext PFinder "C:\Users\bovie_000\Documents\GitHub\XmasBlitz\FE8_clean.gba" 0xe47940 GenericMusicTable
 
 ALIGN 4
 GenericMusicTable:

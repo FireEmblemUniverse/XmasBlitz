@@ -91,3 +91,6 @@ Ethlyn_Valk:
 Markyjoe_Necromancer:
 	#incbin "./_palettes/Markyjoe_Necromancer.lzpal"
 
+Veronica_DruidF:
+	#incbin "./_palettes/Veronica_DruidF.lzpal"
+

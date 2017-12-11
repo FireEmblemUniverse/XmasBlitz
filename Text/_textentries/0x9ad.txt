@@ -1,2 +1,2 @@
-Rally Strength: +4 Str[N]
-to allies within 2 tiles.[X]
+Swordbreaker: +50 Hit/Avo when[N]
+enemy has a sword equipped.[X]

@@ -1,0 +1,48 @@
+//FE8 A/An/Some Table
+//By Tequila
+
+#ifdef _FE8_
+    
+    PUSH
+    
+    ORG $16198
+    BYTE 0x07 0x49 0x0A 0x78 0x90 0x42 0x04 0xD0 0x01 0x31 0x00 0x2A 0xF9 0xD1 0x02 0x48 0x00 0x47 0x02 0x48 0x00 0x47 0xC0 0x46 0xB1 0x63 0x01 0x08 0xA9 0x63 0x01 0x08
+    POIN NoPrefixList
+    
+    ALIGN 4
+    NoPrefixList:
+    BYTE Fimbulvetr Excalibur Fenrir Gleipnir Reginleif Sieglinde Ivaldi Latona Vidofnir Naglfar Audhulma Siegmund Garm Nidhogg MasterProof Orbs Turnwheel
+    BYTE 0
+    
+    POP
+    
+#else
+    ERROR "You're not assembling FE8 events!"
+#endif
+
+/* Source
+.thumb
+.org 0
+
+ldr        r1,NoPrefixList
+Loop1:
+ldrb    r2,[r1]
+cmp        r0,r2
+beq        NoPrefix
+add        r1,#1
+cmp        r2,#0
+bne        Loop1
+ldr        r0,PrefixAddr
+bx        r0
+NoPrefix:
+ldr        r0,NoPrefixAddr
+bx        r0
+
+.align
+PrefixAddr:
+.long 0x080163B0+1
+NoPrefixAddr:
+.long 0x080163A8+1
+NoPrefixList:
+@
+*/

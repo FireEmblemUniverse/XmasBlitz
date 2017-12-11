@@ -1,2 +1,2 @@
-Trace: During Battle, copies[N]
-the first Skill of the enemy.[X]
+Lily's Poise: Adjacent allies gain[N]
++1/-3 damage dealt/received.[X]

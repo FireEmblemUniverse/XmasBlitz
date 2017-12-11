@@ -1,2 +1,2 @@
-Expertise: Reduce bonus damage[N]
-from critical hits by 50%.[X]
+Lifetaker: Restore up to 50% HP after[N]
+attacking and defeating an enemy.[X]

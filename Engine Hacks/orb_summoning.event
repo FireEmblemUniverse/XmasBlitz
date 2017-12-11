@@ -36,7 +36,7 @@
     SVAL 2 Sigurd
     ASMC MoveToNearestSquare|1
     CALL WarpInEvent
-    SetSkills(Sigurd, AdeptID, WardingBlowID, GaleforceID, IgnisID) //set personal to resolve
+    SetSkills(Sigurd, AdeptID, WardingBlowID, GaleforceID, IgnisID) //set personal to quick burn
     GOTO 0x3
   LABEL 0x9
   SVAL r1 2

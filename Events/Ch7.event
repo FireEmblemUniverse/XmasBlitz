@@ -1,0 +1,147 @@
+EventPointerTable(0x27, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 T2SouthReinforce [2,0] 0x0
+TURN 0x0 T4Pirate [4,0] 0x0
+TURN 0x0 T6GetMoving [6,0] 0x0
+
+END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(0x9, RosheaJoins, 19,2)
+Village(0x7, LeftVillage, 23,8)
+Village(0x8, RightVillage, 25,8)
+// Seize(22,0)
+#ifdef __DEBUG__
+  Seize(2,7)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+Units:
+UNIT Void EirikaLord 0x0 Level(1,Ally,0) [2,7] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+//cbf doing the rest properly, but this should be fine with the prep screen
+UNIT 0x80 Mage 0x0 Level(4,Ally,1) [3,6] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+UNIT 0x80 Mage 0x0 Level(4,Ally,1) [3,8] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+UNIT 0x80 Mage 0x0 Level(4,Ally,1) [1,8] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+UNIT 0x80 Mage 0x0 Level(4,Ally,1) [1,6] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+UNIT 0x80 Mage 0x0 Level(4,Ally,1) [2,9] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+UNIT 0x80 Mage 0x0 Level(4,Ally,1) [2,5] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+UNIT 0x80 Mage 0x0 Level(4,Ally,1) [1,4] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+UNIT 0x80 Mage 0x0 Level(4,Ally,1) [4,7] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+
+UNIT
+
+BadDudes:
+UNIT 0x80 Mage 0x0 Level(4,Enemy,1) [16,8] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+UNIT 0x80 Myrmidon 0x0 Level(8,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
+UNIT 0x80 Fighter 0x0 Level(8, Enemy,1) [17,3] 0x0 0x0 0x0 0x0 [HandAxe] DefaultAI
+UNIT 0x80 Mage 0x0 Level(8, Enemy, 1) [18,3] 0x0 0x0 0x0 0x0 [Thunder] DefaultAI
+UNIT 0x80 Soldier 0x0 Level(8,Enemy,1) [9,5] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+UNIT 0x80 Soldier 0x0 Level(8,Enemy,1) [10,6] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+UNIT 0x80 Soldier 0x0 Level(8,Enemy,1) [11,5] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+UNIT 0x80 Archer 0x0 Level(8,Enemy,1) [13,4] 0x0 0x0 0x0 0x0 [SteelBow] DefaultAI
+UNIT 0x80 Warrior 0x0 Level(1,Enemy,1) [26,9] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT 0x80 Mercenary 0x0 Level(8,Enemy,1) [17,7] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
+UNIT 0x80 Cavalier 0x0 Level(11,Enemy,1) [21,2] DropItem 0x0 0x0 0x0 [IronSword] DefaultAI
+UNIT 0x80 Cavalier 0x0 Level(11,Enemy,1) [23,2] DropItem 0x0 0x0 0x0 [IronLance] DefaultAI
+UNIT Murray Cavalier 0x0 Level(12,Enemy,1) [22,0] DropItem 0x0 0x0 0x0 [SilverSword,Javelin,MasterProof] NeverMoveAI
+UNIT
+
+T2SouthReinforce:
+ReinforcementEvent(T2SouthReinfs)
+ENDA
+
+T2SouthReinfs:
+UNIT 0x80 Cavalier 0x0 Level(10,Enemy,1) [13,11] 0x0 0x0 0x0 0x0 [IronBlade] PursueWithoutHeedAI
+UNIT 0x80 Cavalier 0x0 Level(10,Enemy,1) [14,11] DropItem 0x0 0x0 0x0 [ShortSpear] PursueWithoutHeedAI
+UNIT
+
+T6GetMoving:
+ReinforcementEvent(T6Fleets)
+ENDA
+
+T6Fleets:
+UNIT 0x80 Fleet 0x0 Level(8,Enemy,1) [6,0] DropItem 0x0 0x0 0x0 [Ballista] PursueWithoutHeedAI
+UNIT 0x80 GreatKnight 0x0 Level(1,Enemy,1) [13,11] 0x0 0x0 0x0 0x0 [KillingEdge] DefaultAI
+UNIT 0x80 GreatKnight 0x0 Level(1,Enemy,1) [14,11] 0x0 0x0 0x0 0x0 [SilverAxe] DefaultAI
+UNIT
+
+T4Pirate:
+ReinforcementEvent(Pirates)
+ENDA
+
+Pirates:
+UNIT 0x80 Pirate 0x0 Level(10,Enemy,1) [15,11] 0x0 0x0 0x0 0x0 [Hammer] DefaultAI
+UNIT 0x80 Pirate 0x0 Level(10,Enemy,1) [14,11] DropItem 0x0 0x0 0x0 [IronAxe] DefaultAI
+UNIT
+
+LeftVillage:
+VillageEventMoney(Ch7MoneyVillage,HouseBG,5000)
+
+RightVillage:
+VillageEventItem(Ch7SwordVillage, HouseBG, SilverSword)
+
+RosheaJoins:
+TEXTSTART
+SetBackground(HouseBG)
+TEXTSHOW RecruitingRoshea
+TEXTEND
+ClearBackground
+REMA
+LOAD1 0x1 RosheaDoesHisBest
+NoFade
+//TILECHANGE whatever the tile change for this village is
+ENDA
+
+
+RosheaDoesHisBest:
+UNIT Roshea Cavalier 0x0 Level(8,Ally,0) [19,3] 0x0 0x0 0x0 0x0 [SilverLance, Elixir] NoAI
+UNIT
+
+BeginningScene:
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 BadDudes
+ENUN
+Text(Ch7Opening)
+GotoPrepScreen
+ENDA
+
+EndingScene:
+Text(Ch7Ending)
+MNCH 8
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

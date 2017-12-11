@@ -1,2 +1,2 @@
-Slayer: Deal effective damage[N]
-to monster units.[X]
+Eager young fighters who heard the[N]
+call to arms by Gwendolyn.[X]

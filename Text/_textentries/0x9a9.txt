@@ -1,2 +1,2 @@
-Nullify: Unit is protected[N]
-from all effective attacks.[X]
+Sol: Restore damage dealt as HP.[N]
+(Skill % activation)[X]

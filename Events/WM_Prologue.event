@@ -29,20 +29,8 @@ WorldMapPointerTable(0x1B,WM_12)
 WorldMapPointerTable(0x38,WM_B)
 WorldMapPointerTable(0x39,WM_10)
 
-PUSH
-  ORG $44800
-  BYTE 9 //max length
-  ORG $482bA
-  BYTE 9 //max cursor pos
-POP
-
 WM_1:
-    REMSPRITE 0
-    Write_Word(0x6172694b, 0x202bd10)
-    Write_Byte(0x6e, 0x202bd14) //Kiran as default name
-    // REMOVEPORTRAITS
-    ASMC 0x48281 //name selection
-    WorldMap1(0x0)
+WorldMap1(0x0)
 WM_2:
 WorldMap1(0x2)
 WM_3:

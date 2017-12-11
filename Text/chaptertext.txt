@@ -1,0 +1,417 @@
+## Ch0IntroTalk
+[MidLeft][LoadFace][0x2][0x1]
+The Demon King killed my family[N]
+and took over my country![AN]
+To get to him I need[N]
+to go through you![A][X]
+
+##Ch3Start
+[MidRight][LoadFace][0x14][0x1]
+[MidLeft][LoadFace][0x2][0x1]
+That village looks nice.[N]
+Those horses don't.[AN]
+[MidRight]
+And one of those horses[N]
+is looking fancy.[AN]
+LEEROY...[A][X]
+
+##Ch3SecondScene
+[MidLeft][LoadFace][0x33][0x1]
+Hehehe...[A]
+I see Void's army![N]
+Time to earn some gold![AN]
+I also have a horseslayer.[N]
+Leeroy is gonna be history![AN]
+I, Jenkins, will strike[N]
+him down![A][X]
+
+##GettingJay
+[MidLeft][LoadFace][0xF][0x1]
+What's all this racket?[N]
+I can't compile my project.[AN]
+I've still got some research[N]
+on this fair tale's graphic[AN]
+compression format, plus I still[N]
+need Boo's script. Who are you?[AN]
+You're fighting against the Demon[N]
+King? Maybe I'll run into my[AN]
+man on the way. Name's Jay,[N]
+by the way. Fear my Continue![A][X]
+
+##Ch3Ending
+[MidRight][LoadFace][0x02][0x01]
+[MidLeft][LoadFace][0x14][0x1]
+Idiotic Jenkins. I, Leeroy,[N]
+am the only person able to[AN]
+charge in without care![N]
+Your weapon is now mine.[AN]
+[MidRight]
+You should be more careful.[N]
+Horseslayers, knight killers,[AN]
+ridersbanes, beast killers,[N]
+halberds, poleaxes, and more[AN]
+cause lots of trouble for you.[N]
+No matter. Onwards we go![A][X]
+
+##Ch8Start1
+[MidLeft][LoadPrine]
+Okay, let's try one more time...[AN]
+[CloseEyes][Beat] [Beat][AN]
+[OpenEyes]Blast! Why can't I use this[N]
+Knight's Crest? I'm clearly qualified![AN]
+Whatever, maybe it'll work someday.[AN]
+[Beat] Is that soldiers I hear?[N]
+Ugh, oh no...[A][X]
+
+##Ch8Start2
+[MidLeft][LoadVoid]
+[MidRight][LoadPrine]
+Hey! You guys don't look like[N]
+the soldiers trying to kill me.[AN]
+Think you could help me out a bit[N]
+here? Though I'd like to think[AN]
+that I could hold my own...[A]
+[MidLeft]
+Of course. These soldiers are[N]
+in my way anyway. Disposing of[AN]
+them is only natural.[AN]
+Everyone, get ready![A][X]
+
+##Ch8Left
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5F][0x01]
+Whoa, whoa, don't point[N]
+that weapon at me![AN]
+Okay, okay, I'll give you[N]
+something nice, so just[AN]
+leave me alone, will you?[A][X]
+
+##Ch8Right
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5B][0x01]
+Aw man, did you mess up my garden[N]
+on your way in here?[AN]
+I spent so much time making[N]
+it look nice too...[AN]
+Well, I guess I won't need[N]
+this anymore. I was going to[AN]
+use it as an ornament...[A][X]
+
+##Ch9VillageText
+[MidLeft][LoadCurrent]
+Oh cool, I found a thing.[A][X]
+
+##EdgeJoins
+[MidLeft][LoadFace][0x13][0x1]
+[MidRight][LoadCurrent]
+I can see you have[N]
+a tragic backstory.[A]
+[MidLeft]
+[Beat]I don't want to talk about it.[A][X]
+
+##Ch10PreBattleText1
+[MidLeft][LoadFace][0x2][0x1]
+Hold! There are enemies nearby.[AN]
+They want to impede our progress.[AN]
+We will show them what our[N]
+army is made of.[AN]
+Form up and prepare to advance![A][X]
+
+##Ch10PostBattleText1
+[MidLeft][LoadFace][0x2][0x1]
+Phew. That was a tough battle.[N]
+But we got through it all the same.[AN]
+Alright everyone, it's time to go.[N]
+The Demon King won't slay himself![AN]
+[MidRight][LoadFace][0x16][0x1]
+You're going to slay the Demon King?[AN]
+[OpenMidLeft]
+Samson? Ah, yes. That is the plan.[AN]
+[OpenMidRight]
+I see. In that case, allow me to join[N]
+you and add my bow to this cause.[AN]
+[OpenMidLeft]
+You would help us? Really?[AN]
+[OpenMidRight]
+Of course. I hate the Demon King[N]
+as much as you do. I wish to have[AN]
+a hand in bringing about his end.[AN]
+[OpenMidLeft]
+Well, I don't see why not.[N]
+Welcome aboard, Samson![A][X]
+
+##Ch10House1Text
+[Right][LoadCurrent]
+[MidLeft][LoadFace][0x5E][0x1]
+That Samson fellow means well,[N]
+but he got confused and is with[AN]
+the Donateenaries. You might be[N]
+able to get him to stand down.[A][X]
+
+##Ch10House2Text
+[Right][LoadCurrent]
+Seems like nobody's home.[A][X]
+
+##SamsonRecText
+[MidLeft][LoadFace][0x2][0x1]
+[MidRight][LoadFace][0x16][0x1]
+[OpenMidLeft]
+Hey! Are you fighting those[N]
+people too?[AN]
+[OpenMidRight]
+Who asks?[A] Wait, that's not[N]
+important right now.[A] You're clearly[N]
+not one of those people.[AN]
+I will fight alongside you for[N]
+this battle.[A][X]
+
+##Arve_Event
+[MidRight][LoadFace][0x18][0x01]
+The Travel System will pull any enemies[N]
+from the throne room's gold tiles to the[A][N]
+main battleground, so make sure to check[N]
+out the threats that are up there too![A][X]
+
+##Ch12RecruitTalk
+[Right][LoadCurrent]
+[Left][LoadTye]
+Hey, you there! Do you know[N]
+know Tim and Tam? I hate them.[AN]
+I am their archenemy! And some[N]
+day, I will prove myself the[AN]
+strongest armour knight there[N]
+is in the world! What fools they[AN]
+are to become fighters. And I[N]
+thought Tam was going to be a[AN]
+shaman and Timathan something[N]
+interesting, but no. Boring[AN]
+fighters. Allow me to travel[N]
+with you, so I can one-up them.[AN][X]
+
+##Ch13VillageText
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5F][0x01]
+There used to be treasure in[N]
+this here desert.[AN]
+People came to this village[N]
+searching for a fortune.[AN]
+But I came too late, and[N]
+now there's nothing left.[AN]
+All I found were these[N]
+stupid old boots![AN]
+Forget this! I'm going home.[A][X]
+
+##Ch14TalkEvent
+[Right][LoadCurrent]
+[Left][LoadEevster]
+I am Eevster, the King of the Basement![AN]
+Or, I was. I got dethroned by that[N]
+Carlyle fool. Some loyal Basement men[AN]
+are fighting with me, but the rest of[N]
+those soldiers are traitors to the realm.[AN]
+Help me reclaim control of the Basement,[N]
+and I might help you out down the line.[A][X]
+
+##Ch16NikitaAppears
+[MidLeft][LoadVoid]
+[MidRight][LoadNikita]
+I'm Nikita. Don't get me mixed[N]
+up with that impostor there.[AN]
+Also there are enemies[N]
+approaching from the south.[A][X]
+
+##KagaJoins
+[MidRight][LoadFace][0x23][0x1]
+MAEDA! I have found you at last![N]
+Now pay for what you did to my series![A]
+[ClearFace]
+[MidLeft][LoadFace][0x48][0x1]
+What I did?[N]
+I SAVED your pathetic series![AN]
+I gave the people what they[N]
+wanted, nay, NEEDED![A]
+[ClearFace]
+[MidRight][LoadFace][0x23][0x1]
+Maybe you did,[N]
+but at what cost?[A]
+[ClearFace]
+[MidLeft][LoadFace][0x48][0x1]
+Is that including[N]
+DLC and amiibos?[A]
+[ClearFace]
+[MidRight][LoadFace][0x23][0x1]
+RRRRAAAAAAAGGGGHHHHH!!![A][X]
+
+
+##KagaMaeda
+[MidRight][LoadFace][0x23][0x01]
+Ryuu ga Kaga teki wo kurau![A]
+[ClearFace]
+[MidLeft][LoadFace][0x48][0x01]
+Maeda no ken wo kurae![A][X]
+
+##RecruitJakeTalk
+[MidLeft][LoadJake]
+I'm Jake, Anna's husband and[N]
+reclassing pioneer. What?[AN]
+You have three Annas in your[N]
+army? Then you will be able[AN]
+to perform the legendary...[N]
+[Red]Triangle Attack!![Red][A][X]
+
+##Ch21Start
+[MidLeft][LoadFace][0x2][0x1]
+Hmm, that girl...[A][NL]
+She doesn't look like she's[NL]
+in my way. Maybe I shouldn't[AN]
+kill her.[A][X]
+
+##Ch21End
+[MidRight][LoadDoot]
+Thanks for saving me![A][NL]
+I owe you a lot, so I guess[NL]
+I'll help you with whatever[A][NL]
+it is you're trying to do.[A][X]
+
+##Ch24RecruitEvilFlorina
+[MidRight][LoadCurrent]
+[MidLeft][LoadFlorina]
+[Invert]
+You there![N]
+You look like you can fight.[AN]
+That Gwendolyn's gone insane,[N]
+she thinks she's a GOOD unit.[AN]
+Help me correct that delusion,[N]
+and I'll help you in return.[A]
+[CloseSpeechSlow][MidLeft][Invert][X]
+
+##Ch24RecruitEvilFlorina2
+[MidLeft][Invert]
+10,000 Gold. What do you say?[N]
+[Yes][Invert][X]
+
+##Ch24FlorinaYes
+[MidLeft][Invert]
+I knew you'd see it my way.[AN]
+As agreed, 10,000 Gold.[N]
+Don't spend it all at once![A][Invert][X]
+
+##Ch24FlorinaNo
+[MidLeft][Invert]
+What, not enough? Too bad.[N]
+That's my final offer.[A][Invert][X]
+
+##Ch24TopVill
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5C][0x01]
+Everyone here has gone delusional.[N]
+Gwendolyn the Great Knight? Pah![AN]
+I remember her being Wendy the[N]
+Useless Armour Knight! Someone[AN]
+call Sophia in too, she'll want to[N]
+see this mess unfold as well.[AN][X]
+
+##Ch24LeftVill
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5D][0x01]
+Apparently Gwendy has gathered[N]
+an army of trainees. Do something[AN]
+about it! Appearences can be very[N]
+decieving; there's supers there![AN][X]
+
+##Ch26Village1
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5E][0x01]
+This place is named after one[N]
+of Kaga's decendants, Darrman.[AN]
+Legend has it he had five children[N]
+for his five Fire Emblem games.[AN]
+Darrman for Dark Dragon and the[N]
+Sword of Light, the first game.[AN]
+His alter ego, MCProductions, for[N]
+Mystery of the Emblem, the third.[AN]
+Bookofholsety, who caused waves[N]
+in Genealogy of the Holy War.[AN]
+Zane Avernanthy, a skeleton of[N]
+the legendary Thracia 776.[AN]
+However, the child of the oft[N]
+forgotten Gaiden has taken after[AN]
+the game and has been lost to[N]
+time. Who could she even be?[A][X]
+
+##Ch26Village2
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5F][0x01]
+Using notes from a Jugdralian hero,[N]
+Darrman then opened the first game's[AN]
+internals for the world to see. He[N]
+even discovered forgotten discussions[AN]
+about random things, and constructed[N]
+a brand new chapter. He worked with[AN]
+the other descendants of Kaga in his[N]
+endeavours, and he even stepped out[N]
+to translate modifications in other[AN]
+games. Recently, he left in order to[N]
+progress through "Fire Emblem Purgatory",[N]
+along with a girl called Lin. Now I[AN]
+don't know about you, but there's[N]
+something about her that reminds me[AN]
+of... Oh, I'm sorry for rambling for[N]
+so long. Take this as an apology.[AN][X]
+
+##Ch26Village3
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x61][0x01]
+The Donateenaries have trashed[N]
+the neighbourhood and are doing[AN]
+things that would make the boss[N]
+really, really annoyed. Stuff like[AN]
+renaming the castle the Central[N]
+Evil Domain. Come on, can't they[AN]
+at least pretend to act like good[N]
+people, instead of scum?[A][X]
+
+##Ch29IntroHelp
+The goddess of vengeance[N]
+lent your army her [Red]blessing[Red].[AN]
+Should your units fall in battle,[N]
+she will ensure their sacrifices[N]
+were not in vain.[A][X]
+
+##DVText_StopGargoyles
+Stop gargoyles[N]
+from spawning.[X]
+
+##DVText_FreezeDebuff
+Freeze and debuff[N]
+all enemies.[X]
+
+##FinalChapterIntro
+[MidLeft][LoadVoid]
+[MidRight][LoadFace][0x15][0x1]
+I am Mark.[AN]
+The Demon King killed my family[N]
+and took over my country.[AN]
+I will join you now.[AN]
+[ClearFace]
+[MidLeft]
+This is it. Our final battle![AN]
+You're one of us, Mark, and[N]
+no 'destiny' can change that.[AN]
+Now let's kill this dastard[N]
+and be done with it![A][X]
+
+##DemonKingDedText
+[MidLeft][LoadVoid]
+The Demon King has fallen![AN]
+His reign of terror has[N]
+come to an end at last.[AN]
+My family is avenged;[N]
+my country, restored.[AN]
+This land shall once[N]
+again know peace.[A][X]
+
+##ItsOverAnakin
+[MidRight][LoadVoid]
+It's over, Demon King![N]
+I have the high ground.[A][X]

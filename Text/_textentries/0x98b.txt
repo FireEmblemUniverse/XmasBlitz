@@ -1,2 +1,2 @@
-Wrath: If HP < 50%,[N]
-+20 critical rate.[X]
+Rebels against Maeda's rule.[N]
+They wish to return to Kaga.[X]

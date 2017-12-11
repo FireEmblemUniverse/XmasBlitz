@@ -1,2 +1,2 @@
-Gamble: A reckless attack with[N]
-halved hit but doubled crit.[X]
+Spur Strength: Adjacent allies[N]
+deal +4 physical damage.[X]

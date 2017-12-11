@@ -1,2 +1,2 @@
-[MR][LoadEliwood]Hector[Beat] Lyn[Beat][N]
-Please[Beat] forgive me[Beat][A][CloseEyes][X]
+Sets a trap that does damage[N]
+to anyone who steps on it.[X]

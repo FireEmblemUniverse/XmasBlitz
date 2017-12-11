@@ -1,2 +1,2 @@
-Intimidate: -10 Avoid to[N]
-all enemies within 2 tiles.[X]
+Counter: Reflect physical damage[N]
+when attacked at 1-2 range.[X]

@@ -1,2 +1,2 @@
-Gentilhomme: Female allies within[N]
-2 tiles receive -2 damage.[X]
+Pass: Can move through[N]
+enemy units.[X]

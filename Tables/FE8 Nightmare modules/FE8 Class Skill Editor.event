@@ -1,12 +1,12 @@
 #define csvmacro002(arg000) "BYTE arg000 "
 
-#inctext PFinder "C:\Users\bovie_000\Desktop\RFV\FE8_clean.gba" 0xe47180 ClassSkillTable
+#inctext PFinder "C:\Users\bovie_000\Documents\GitHub\XmasBlitz\FE8_clean.gba" 0xe47180 ClassSkillTable
 
 ALIGN 4
 ClassSkillTable:
 csvmacro002(0x0)
-csvmacro002(0x0)
-csvmacro002(0x0)
+csvmacro002(ShoveID)
+csvmacro002(ShoveID)
 csvmacro002(CantoID)
 csvmacro002(CantoID)
 csvmacro002(CantoID)

@@ -1,2 +1,2 @@
-Fiery Blood: +4 damage[N]
-when HP is not at max.[X]
+Renewal: Restore 30% of max HP[N]
+at the start of each turn.[X]

@@ -1,4 +1,2 @@
-#Countermagic: Reflect magic damage[N]
-#when attacked at 1-2 range.
-Distant Counter: Reflect damage[N]
-when attacked at 2+ range.[X]
+Cultists part of the Doma Faithful,[N]
+based in eastern Rigel. Cruel.[X]

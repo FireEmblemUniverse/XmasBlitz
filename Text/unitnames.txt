@@ -1,233 +1,508 @@
-##nameSharena
-Sharena[X]
+##Name_Void
+Void[X]
 
-##descSharena
-The princess of Askr.[N]
-Good at making friends.[X]
+##Desc_Void
+knoll much[X]
 
-##nameAlfonse
-Alfonse[X]
+##Name_Tim
+Tim[X]
 
-##descAlfonse
-The prince of Askr.[N]
-Bad with directions.[X]
+##Desc_Tim
+His friends call[N]
+him Timathan.[X]
 
-##nameVeronica
-Veronica[X]
+##Name_Tam
+Tam[X]
 
-##descVeronica
-Ruler of Embla.[N]
-Likes cute things.[X]
+##Desc_Tam
+Secretly wishes he[N]
+was a necromancer.[X]
 
-##nameAnna
+##Name_Jerome
+Jerome[X]
+
+##Desc_Jerome
+You want a playable soldier?[X]
+
+##Name_Leeroy
+Leeroy[X]
+
+##Desc_Leeroy
+At least I have chicken.[X]
+
+##Name_Bede
+Bede[X]
+
+##Desc_Bede
+sexy priest[X]
+
+##Name_Jay
+Jay[X]
+
+##Desc_Jay
+An old veteran of the Renegade[N]
+translation era. Got the tools down.[X]
+
+##Name_NotArch
+Not Arch[X]
+
+##Desc_NotArch
+His divine lightning[N]
+will pierce your face.[X]
+
+##Name_Kirsten
+Kirsten[X]
+
+##Desc_Kirsten
+oy u best lisen ere m8 il giv u[N]
+a proper bashin u cheeky bruv[X]
+
+##Name_Bob
+Bob[X]
+
+##Desc_Bob
+thief person[X]
+
+##Name_Roshea
+Roshea[X]
+
+##Desc_Roshea
+Deserted the Wolfguard to pursue[N]
+his dreams of being a dancer.[X]
+
+##Name_Edge
+Edge[X]
+
+##Desc_Edge
+Can handle the weight.[X]
+
+##Name_Samson
+Samson[X]
+
+##Desc_Samson
+Just generally confused.[X]
+
+##Name_Arve
+Arve[X]
+
+##Desc_Arve
+Elder. It's ELDER.[N]
+Not dark. E-L-D-E-R.[X]
+
+##Name_Tye
+Tye[X]
+
+##Desc_Tye
+Archenemy of Tim and Tam.[N]
+Or so he keeps claiming.[X]
+
+##Name_Celicia
+Celicia[X]
+
+##Desc_Celicia
+Prone to wandering off alone,[N]
+lost in thoughts of grey waves.[X]
+
+##Name_Eevster
+Eevster[X]
+
+##Desc_Eevster
+The (Former) King of[N]
+the Basement.[X]
+
+##Desc_WyvAnna
+How many Annas are[N]
+there, anyway?[X]
+
+##Name_Nikita
+Nikita[X]
+
+##Desc_Nikita
+Axe-focused GK[X]
+
+## EdgeworthName
+Edgeworth[X]
+
+## ZigludoName
+Zigludo[X]
+
+##KagaName
+Kaga[X]
+
+##MarfName
+Marf[X]
+
+##EdgeworthDesc
+HIS EDGE IS WORTH[X]
+
+##ZigludoDesc
+Haha Funny fire meme[N]
+wank Xdddd dab[X]
+
+##KagaDesc
+Creator of Fire Emblem, and[N]
+our lord and savior.[X]
+
+##MarfDesc
+Not amused[X]
+
+##Desc_RogueAnna
+A girl with a familiar face.[N]
+Her love of money is REALLY strong.[X]
+
+##Name_Doot
+Doot[X]
+
+##Desc_Doot
+DOOT DOOT[X]
+
+##Name_Celica
+Celica[X]
+
+##Desc_Celica
+Princess of the Pirates.[N]
+Hails from a distant land.[X]
+
+##Name_Doowile
+Doowile[X]
+
+##Desc_Doowile
+Consume thy enemy![X]
+
+##Name_EvilFlorina
+Evil Florina[X]
+
+##Desc_EvilFlorina
+uweeheehee[X]
+
+##Name_Jake
+Jake[X]
+
+##Desc_Jake
+Anna's boyfriend.[N]
+Beat Leeroy at Monopoly.[X]
+
+##Name_Tiki
+Tiki[X]
+
+##Desc_Tiki
+Pining for Mar-Mar.[X]
+
+##Name_Mark
+Mark[X]
+
+##Desc_Mark
+A mysterious person who[N]
+claims to be a tactician.[X]
+
+##Name_Bjoern
+Bj[0xf6]rn[X]
+
+##Desc_Bjoern
+His raison d'[0xea]tre: na[0xef]vet[0xe9] as[N]
+a fa[0xe7]ade for doppelg[0xe4]ngers.[X]
+
+##Name_EdgeAlly
+Edge's Ally[X]
+
+##Desc_EdgeAlly
+Edge's old friend, with him[N]
+through thick and thin.[X]
+
+##Name_Lennon
+Lennon[X]
+
+##Desc_Lennon
+One of the four Beatles.[X]
+
+##Name_Paul
+Paul[X]
+
+##Desc_Paul
+One of the four Beatles.[X]
+
+##Name_Ringo
+Ringo[X]
+
+##Desc_Ringo
+One of the four Beatles.[X]
+
+##Name_Harrison
+Harrison[X]
+
+##Desc_Harrison
+One of the four Beatles.[X]
+
+##Name_Prine
+Prine[X]
+
+##Desc_Prine
+onii-nyama sugoi~[X]
+
+##Name_Maeda
+Maeda[X]
+
+##Desc_Maeda
+Saved the series,[N]
+but at what cost?[X]
+
+##Name_Saara
+Saara[X]
+
+##Desc_Saara
+A general of the Donatenaries.[N]
+She can control the weather.[X]
+
+##Name_MrBones
+Mr. Bones[X]
+
+##Desc_MrBones
+Governor of the skeleton colony.[N]
+Detests all fleshy beings.[X]
+
+##Name_Banana
+Banana[X]
+
+##Desc_Banana
+A harbinger of this[N]
+universe's destruction.[X]
+
+##Name_Grit
+Grit[X]
+
+##Desc_Grit
+A visitor from beyond[N]
+the Outrealms.[X]
+
+##Name_Gwendy
+Gwendolyn[X]
+
+##Desc_Gwendy
+The basics are everything.[X]
+
+## Name_Jenkins
+Jenkins[X]
+
+## Desc_Jenkins
+Bazba Jenkins, the enemy[N]
+of Leeroy. Wants revenge.[X]
+
+## Name_Tatara
+Tatara[X]
+
+## Desc_Tatara
+Shaman of the Doma Faithful.[N]
+He has Doot under his control.[X]
+
+## Name_Feditor
+Feditor[X]
+
+## Desc_Feditor
+Faithful servant of the dark god[N]
+Hex, causing havoc across the land.[X]
+
+## LyriaName
+Lyria[X]
+
+## LyriaDesc
+Former priestess of the Church[N]
+of Blood. Now, she dances.[X]
+
+## MeriahName
+Meriah[X]
+
+## MeriahDesc
+Granddaughter of the Great Sage,[N]
+Maios. Wasting away as a dancer.[X]
+
+## PlumName
+Plum[X]
+
+## PlumDesc
+Daughter of Lionheart and Lan,[N]
+Barts's foster sister, now a slave.[X]
+
+## YuniName
+Yuni[X]
+
+## YuniDesc
+Holmes's friend. An energetic[N]
+female thief... in days gone by.[X]
+
+## Name_Anna
 Anna[X]
 
-##descAnna
-The commander of the[N]
-Order of Heroes.[X]
+## GenericName
+Donatenry[X]
 
-##nameNorne
-Norne[X]
+## GenericDesc
+A soldier of the Donateenaries, who[N]
+seek the revival of the Demon King.[X]
 
-##descNorne
-A volunteer archer in[N]
-the Altean army.[X]
+## ONeillDesc
+The commander of the mysterious[N]
+force that killed Void's family.[X]
 
-##nameMia
-Mia[X]
+## BoneDesc
+Ruler of the Bone Hole. A shaman[N]
+able to use an axe in a pinch.[X]
 
-##descMia
-An energetic member of[N]
-the Greil Mercenaries.[X]
+## ZontaDesc
+An incredibly powerful summoner,[N]
+commanding the Bad region's men.[X]
 
-##nameNarcian
-Narcian[X]
+## MurrayDesc
+A captain of the Donateenaries.[N]
+Obsessed with collecting donations.[X]
 
-##descNarcian
-Strong, wise, beautiful, and[N]
-always right (self-declared).[X]
+## TiradoDesc
+Yet another Donateenary commander,[N]
+who is attacking yet another town.[X]
 
-##nameLinde
-Linde[X]
+## SelenaDesc
+A powerful mage fighter lurking[N]
+among the Donateenary ranks.[X]
 
-##descLinde
-A light mage from Archanea.[N]
-The best at laser tag.[X]
+## PabloDesc
+A mountain man, commanding a[N]
+small expeditionary force.[X]
 
-##nameCamus
-Camus[X]
+## Pablo2Desc
+A mountain man, now assigned to the[N]
+desert after being beaten by Void.[X]
 
-##nameZeke
-Zeke[X]
+## GhebDesc
+Once a vile man and the "hero" of[N]
+GhebFE, now a simple card player.[X]
 
-##nameSirius
-Sirius[X]
+## BeranDesc
+A mage of the Donateenaries. A[N]
+sadistic man in a sadistic fort.[X]
 
-##descCamus
-A valorous knight going[N]
-through an identity crisis.[X]
+## AiasDesc
+A Donateenary commander assigned to[N]
+the desert. He is sick of all the sand.[X]
 
-##nameElise
-Elise[X]
+## CarlyleDesc
+The new King of the Basement, over-[N]
+-throwing Eevster in a coup.[X]
 
-##descElise
-Claims to be an adult.[N]
-Not fooling anyone.[X]
+## OrsonDesc
+A suspiciously similar substitute[N]
+for Nikita, who is also very tired.[X]
 
-##nameReinhardt
-Reinhardt[X]
+## LyonDesc
+A dracozombie guarding the lava cave.[N]
+As a human, he wielded dark magic.[X]
 
-##descReinhardt
-Leader of the Gelben Ritter.[N]
-Enjoys long walks on the beach.[X]
+## VigardeDesc
+The emperor of Grado, henchman of[N]
+Maeda, and forgot to put clothes on.[X]
 
-##nameOlivia
-Olivia[X]
+## CaellachDesc
+A Donateenary who controls Darrman's[N]
+Lakes. Obeys Maeda's names, like Ced.[X]
 
-##descOlivia
-A talented dancer with[N]
-a bad case of stage fright.[X]
+## Orson2Desc
+Freshened up and ready for a rematch,[N]
+he once again blocks Void's path.[X]
 
-##nameEliwood
-Eliwood[X]
+## MorvaDesc
+Commanding the Donateenaries' last[N]
+stand against Void, a loyal knight.[X]
 
-##descEliwood
-Marquess Pherae's young[N]
-son. Just and honorable.[X]
+## Lyon2Desc
+The King of the Donateenaries. He[N]
+will only fight Void in single combat.[X]
 
-##nameLyn
-Lyn[X]
+## Ch11BossDesc
+A monster controlling the Travel[N]
+System. Surprisingly intelligent.[X]
 
-##descLyn
-A young girl from the Lorca[N]
-tribe. Stouthearted and kind.[X]
+## BasementName
+Basement[X]
 
-##nameHector
-Hector[X]
+## AllyBasementDesc
+Soldiers still loyal to Eevster[N]
+after the Basement coup.[X]
 
-##descHector
-Marquess Ostia's younger[N]
-brother. Reckless, but loyal.[X]
+## EnemyBasementDesc
+Soldiers who believe in Carlyle,[N]
+and are fighting against the regime.[X]
 
-##nameLowen
-Lowen[X]
+## BlueMoonName
+Blue Moon[X]
 
-##descLowen
-A knight in service to House[N]
-Pherae. A fresh recruit.[X]
+## BlueMoonDesc
+A soldier of the Blue Moon Army,[N]
+under command of marksman Grit.[X]
 
-##nameBartre
-Bartre[X]
+## Ch15AllyName
+Anna's[X]
 
-##descBartre
-One of Eliwood's guardsmen.[N]
-Duty is everything to him.[X]
+## Ch15AllyDesc
+Fighters engaged in battle against[N]
+Blue Moon, commanded by Anna.[X]
 
-##nameMarcus
-Marcus[X]
+## MaedaGenericName
+Maeda's[X]
 
-##descMarcus
-A paladin serving House[N]
-Pherae. A skilled veteran.[X]
+## MaedaGenericDesc
+A man in the service of Maeda. They[N]
+want to preserve Fire Emblem...[X]
 
-##nameJaffar
-Jaffar[X]
+## Ch19AllyName
+Rebels[X]
 
-##descJaffar
-The Black Fang's Angel of[N]
-Death. Once served Nergal.[X]
+## Ch19AllyDesc
+Rebels against Maeda's rule.[N]
+They wish to return to Kaga.[X]
 
-##nameErk
-Erk[X]
+## DomaFaithfulName
+D. Faithful[X]
 
-##descErk
-A young mage from Etruria.[N]
-Charming, but uptight.[X]
+## DomaFaithfulDesc
+Cultists part of the Doma Faithful,[N]
+based in eastern Rigel. Cruel.[X]
 
-##nameOswin
-Oswin[X]
+## CelicaSummonName
+Summon[X]
 
-##descOswin
-A knight in service to House[N]
-Ostia. Hector's sworn man.[X]
+## CelicaSummonDesc
+A monster called from the darkness.[N]
+They bring ruin to wherever they go.[X]
 
-##nameWallace
-Wallace[X]
+## SkeletonName
+Skeleton[X]
 
-##descWallace
-A retired knight of Caelin.[N]
-Constantly testing himself.[X]
+## SkeletonDesc
+A member of the skeleton colony.[N]
+Waging war with the zombies.[X]
 
-##nameKent
-Kent[X]
+## ZombieName
+Zombie[X]
 
-##descKent
-A knight in service to house[N]
-Caelin. Virtuous to a fault.[X]
+## ZombieDesc
+A member of the zombie colony.[N]
+Waging war with the skeletons.[X]
 
-##nameSain
-Sain[X]
+## WendyGenericName
+Gwendy's[X]
 
-##descSain
-A knight in service to house[N]
-Caelin. A bit of a scoundrel.[X]
+## WendyGenericDesc
+Eager young fighters who heard the[N]
+call to arms by Gwendolyn.[X]
 
-##nameIsadora
-Isadora[X]
+## Ch25DragonName
+Dragon[X]
 
-##descIsadora
-A paladin in service to House[N]
-Pherae. Modest and polite.[X]
+## Ch25DragonDesc
+A dragon sealed away at the Shrine[N]
+of Meals. However, it's awakening...[X]
 
-##nameHarken
-Harken[X]
+## FinalMonsterName
+Monster[X]
 
-##descHarken
-The sole survivor of the[N]
-Knights of Pherae.[X]
-
-##nameLycia
-Lycia[X]
-
-##descLycia
-A knight of Lycia, sworn in service[N]
-to the HectEliLyn Triumvirate.[X]
-
-##nameDorcas
-Dorcas[X]
-
-##descDorcas
-He died as he lived:[N]
-the Lord of Mutton.[X]
-
-##nameSigurd
-Sigurd[X]
-
-##descSigurd
-Voted Grannvale's Hottest[N]
-Man Alive for 761.[X]
-
-##nameDeirdre
-Deirdre[X]
-
-##descDeirdre
-Girl Zeke, feat.[N]
-magic super blood.[X]
-
-##nameQuan
-Quan[X]
-
-##descQuan
-Has a full body pillow[N]
-bearing a G[0xE1]e Bolg design.[X]
-
-##nameEthlyn
-Ethlyn[X]
-
-##descEthlyn
-Has a full body pillow[N]
-bearing a Sigurd design.[X]
-
-## descMarkyjoe
-Rage fills his soul.[N]
-Will he ever know peace?[X]
+## FinalMonsterDesc
+Guardians of Demon King Feditor.[N]
+To this day, they worship him.[X]

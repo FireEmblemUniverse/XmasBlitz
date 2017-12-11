@@ -1,0 +1,316 @@
+#include EAstdlib.event
+
+EventPointerTable(0x87,ThisChapter)
+
+VeinEffect(0, StopGargoyles)
+VeinEffect(1, FreezeAndDebuff)
+
+ALIGN 4
+DebuffASMC:
+#incbin "DebuffEnemies.dmp"
+WORD DebuffTable
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData1 TrapData2
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Eirika EphraimLord 0x00 Level(1, Ally, 0) [11,38] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [10,37] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [12,37] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [9,38] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [13,38] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [8,39] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [14,39] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [10,39] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [12,39] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [9,40] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [13,40] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [11,36] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+
+TurnBasedEvents:
+TurnEventPlayer(0xa, SpawnGargoyles1, 4, 10)
+TurnEventPlayer(0x7, SpawnGargoyles2, 0, 200)
+TurnEventPlayer(0x9, SpawnPhantoms, 0, 200)
+TurnEventPlayer(0x11, SpawnMogalls, 0, 200)
+TurnEventPlayer(0x0, DKChai, 2)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Chest(Garm, 2, 38)
+Chest(Latona, 21,38)
+Door(4,39)
+Door(18,39)
+#ifdef __DEBUG__
+Seize(11,38)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+AREA 0x8 StartSpawningGargoyles [6,11] [16,19]
+AREA 0xF StartSpawningMogalls [0,0] [22,10]
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData1:
+Vein(11,15,0,DVText_StopGargoyles)
+Vein(11,31,1,DVText_FreezeDebuff)
+Vein(11,22,1,DVText_FreezeDebuff)
+ENDTRAP
+ALIGN 4
+
+TrapData2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+CAM1 [11,38]
+ENUT 0x7 //stop gargoyles spawning from top until area event is triggered
+ENUT 0x9 //same for phantoms
+ENUT 0x11 //and mogalls
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 NewUnit
+ENUN
+LOAD1 0x1 Enemies1
+ENUN
+LOAD1 0x1 Enemies2
+ENUN
+// FADU 10
+MUSC 0x2f
+Text(0x34, FinalChapterIntro)
+GotoPrepScreen
+ENDA
+
+EndingScene:
+CALL DemonKingDefeated
+MNC4 0x0
+// NoFade
+ENDA
+
+// Events
+DemonKingDefeated:
+MUSC 0x33
+Text(0x34, DemonKingDedText)
+FADI 4
+ENDA
+
+DKChai:
+SVAL 1 0x300 //attack in range
+CHAI Fomortiis
+NoFade
+ENDA
+
+SpawnGargoyles1:
+  CHECK_TURNS //store current turn to slot c
+  //Now get remainder mod 2
+  SMOV r1 2
+  SDIV slotsParam(r2, rC, r1) //r2 = rC/2
+  SMUL slotsParam(r1, r2)     //r1 = r2*2
+  SSUB slotsParam(r1, rC, r1)     //r1 -= rC, r1 = remainder
+  BNE 0x0 r1 0
+  LoadReinforcements(Reinforcements1)    //Remainder was 0 (right)
+  LABEL 0x0
+  ENUF 0xA
+  NoFade
+  ENDA
+
+StartSpawningGargoyles:
+  SVAL 0x2 0x0
+  CALL $9ee1b8 //checks allegiance
+  ENUF 0x7
+  EVBIT_T 0x7
+  ENDA
+
+StartSpawningMogalls:
+  SVAL 0x2 0x0
+  CALL $9ee1b8 //checks allegiance
+  ENUF 0x11
+  EVBIT_T 0x7
+  ENDA
+
+SpawnMogalls:
+LoadReinforcements(Mogalls)
+
+SpawnGargoyles2:
+  ENUF 0x7
+  ENUF 0x9
+  CHECK_TURNS //store current turn to slot c
+  //Now get remainder mod 2
+  SMOV r1 2
+  SDIV slotsParam(r2, rC, r1) //r2 = rC/2
+  SMUL slotsParam(r1, r2)     //r1 = r2*2
+  SSUB slotsParam(r1, rC, r1)     //r1 -= rC, r1 = remainder
+  BNE 0x0 r1 0
+  ReinforcementEvent(Reinforcements2)    //Remainder was 0 (right)
+  LABEL 0x0
+  NoFade
+  ENDA
+
+StopGargoyles:
+  ENUT 0x7
+  ENUT 0x8
+  ENUT 0xA
+  VeinActivation
+  NoFade
+  ENDA
+
+SpawnPhantoms:
+  ReinforcementEvent(CentreArea)
+
+FreezeAndDebuff:
+  VeinActivation
+  ASMC DebuffASMC|1
+  ENUN
+  ASMC FreezeAllASMC|1
+  ENUN
+  NoFade
+  ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+NewUnit:
+UNIT Mark Manakete_2 0x00 Level(20, Ally, 0) [10,37] 0 0 0 0 [HolyDragonStone] NoAI
+UNIT
+
+Enemies1:
+UNIT Fomortiis DemonKing 0x00 Level(20, Enemy, 0) [11,6] 0x00 0x00 0x0 0x00 [DemonLight, Ravager] DemonKingAI 
+UNIT 0xb8 Gorgon Fomortiis Level(5, Enemy, 1) [2,40] 0x02 0x00 0x0 0x00 [Shadowshot, Stone, DoorKey] AttackInRangeAI 
+UNIT 0xb8 Gorgon Fomortiis Level(5, Enemy, 1) [20,40] 0x02 0x00 0x0 0x00 [Shadowshot, Stone, DoorKey] AttackInRangeAI 
+UNIT 0xb8 Gorgon Fomortiis Level(5, Enemy, 1) [1,4] 0x00 0x00 0x0 0x00 [Shadowshot, Stone] AttackInRangeAI 
+UNIT 0xb8 Gorgon Fomortiis Level(5, Enemy, 1) [21,4] 0x00 0x00 0x0 0x00 [Shadowshot, Stone] AttackInRangeAI 
+UNIT 0xb8 Gorgon Fomortiis Level(5, Enemy, 1) [2,21] 0x00 0x00 0x0 0x00 [Shadowshot, Stone] AttackInRangeAI 
+UNIT 0xb8 Gorgon Fomortiis Level(5, Enemy, 1) [20,21] 0x00 0x00 0x0 0x00 [Shadowshot, Stone] AttackInRangeAI 
+UNIT 0xAE Cyclops Fomortiis Level(20, Enemy, 1) [5,28] 0x00 0x00 0x0 0x00 [BraveAxe, Tomahawk] AttackInRangeAI 
+UNIT 0xAE Cyclops Fomortiis Level(20, Enemy, 1) [17,28] 0x00 0x00 0x0 0x00 [BraveAxe, Tomahawk] AttackInRangeAI 
+UNIT 0xAE Cyclops Fomortiis Level(20, Enemy, 1) [10,24] 0x00 0x00 0x0 0x00 [BraveAxe, Tomahawk] NeverMoveAI 
+UNIT 0xAE Cyclops Fomortiis Level(20, Enemy, 1) [11,24] 0x00 0x00 0x0 0x00 [BraveAxe, Tomahawk] NeverMoveAI 
+UNIT 0xAE Cyclops Fomortiis Level(20, Enemy, 1) [12,24] 0x00 0x00 0x0 0x00 [BraveAxe, Tomahawk] NeverMoveAI 
+UNIT
+
+Enemies2:
+UNIT 0xAE DracoZombie Fomortiis Level(20, Enemy, 1) [2,23] 0x00 0x00 0x0 0x00 [WretchedAir] NeverMoveAI 
+UNIT 0xAE DracoZombie Fomortiis Level(20, Enemy, 1) [20,23] 0x00 0x00 0x0 0x00 [WretchedAir] NeverMoveAI 
+UNIT 0xAE DracoZombie Fomortiis Level(20, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [WretchedAir] NeverMoveAI 
+UNIT 0xAE DracoZombie Fomortiis Level(20, Enemy, 1) [11,11] 0x00 0x00 0x0 0x00 [WretchedAir] AttackInRangeAI 
+UNIT 0xAE DracoZombie Fomortiis Level(20, Enemy, 1) [12,11] 0x00 0x00 0x0 0x00 [WretchedAir] NeverMoveAI 
+UNIT 0xAE DracoZombie Fomortiis Level(20, Enemy, 1) [5,32] 0x00 0x00 0x0 0x00 [WretchedAir] AttackInRangeAI 
+UNIT 0xAE DracoZombie Fomortiis Level(20, Enemy, 1) [17,32] 0x00 0x00 0x0 0x00 [WretchedAir] AttackInRangeAI 
+UNIT 0xb9 Gwyllgi Fomortiis Level(20, Enemy, 1) [4,14] 0x00 0x00 0x0 0x00 [HellFang] PursueWithoutHeedAI 
+UNIT 0xb9 Gwyllgi Fomortiis Level(20, Enemy, 1) [18,14] 0x00 0x00 0x0 0x00 [HellFang] PursueWithoutHeedAI 
+UNIT 0xb9 Gwyllgi Fomortiis Level(20, Enemy, 1) [8,29] 0x00 0x00 0x0 0x00 [HellFang] PursueWithoutHeedAI 
+UNIT 0xb9 Gwyllgi Fomortiis Level(20, Enemy, 1) [14,29] 0x00 0x00 0x0 0x00 [HellFang] PursueWithoutHeedAI 
+UNIT 0xAE Wight_Bow Fomortiis Level(20, Enemy, 1) [9,15] 0x00 0x00 0x0 0x00 [SilverBow] ChaseOnceApproachedAI 
+UNIT 0xAE Wight_Bow Fomortiis Level(20, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [SilverBow] ChaseOnceApproachedAI 
+UNIT 0xAE Wight_Bow Fomortiis Level(20, Enemy, 1) [20,26] 0x00 0x00 0x0 0x00 [SilverBow] ChaseOnceApproachedAI 
+UNIT 0xAE Wight_Bow Fomortiis Level(20, Enemy, 1) [2,26] 0x00 0x00 0x0 0x00 [SilverBow] ChaseOnceApproachedAI 
+UNIT
+
+Reinforcements1:
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [0,19] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [22,19] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [22,17] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT
+
+Reinforcements2:
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [18,0] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [20,0] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [8,0] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT 0xAE Deathgoyle Fomortiis Level(20, Enemy, 1) [14,0] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT
+
+Mogalls:
+UNIT 0xAE ArchMogall Fomortiis Level(20, Enemy, 1) [8,8] 0x00 0x00 0x0 0x00 [Naglfar] PursueWithoutHeedAI 
+UNIT 0xAE ArchMogall Fomortiis Level(20, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [Naglfar] PursueWithoutHeedAI 
+UNIT 0xAE ArchMogall Fomortiis Level(20, Enemy, 1) [8,2] 0x00 0x00 0x0 0x00 [Naglfar] PursueWithoutHeedAI 
+UNIT 0xAE ArchMogall Fomortiis Level(20, Enemy, 1) [14,2] 0x00 0x00 0x0 0x00 [Naglfar] PursueWithoutHeedAI 
+UNIT
+
+CentreArea:
+UNIT 0xAE GhostFighter Fomortiis Level(20, Enemy, 1) [8,17] 0x00 0x00 0x0 0x00 [BattleAxe] PursueWithoutHeedAI 
+UNIT 0xAE GhostFighter Fomortiis Level(20, Enemy, 1) [14,17] 0x00 0x00 0x0 0x00 [BattleAxe] PursueWithoutHeedAI 
+UNIT 0xAE GhostFighter Fomortiis Level(20, Enemy, 1) [9,12] 0x00 0x00 0x0 0x00 [BattleAxe] PursueWithoutHeedAI 
+UNIT 0xAE GhostFighter Fomortiis Level(20, Enemy, 1) [13,12] 0x00 0x00 0x0 0x00 [BattleAxe] PursueWithoutHeedAI 
+UNIT 0xAE GhostFighter Fomortiis Level(20, Enemy, 1) [9,18] 0x00 0x00 0x0 0x00 [BattleAxe] PursueWithoutHeedAI 
+UNIT 0xAE GhostFighter Fomortiis Level(20, Enemy, 1) [13,18] 0x00 0x00 0x0 0x00 [BattleAxe] PursueWithoutHeedAI 
+UNIT
+
+PUSH
+ORG $8D1F54 //Demon King's summons
+UNIT 0xBD 0x65 0xBE 0xA4 [3,1] 0b 0x0 0x0 0x0 [0x90,0x0,0x0,0x0] [0x0,0x3,0x4,0x0]
+UNIT 0xAB 0x53 0xBE 0xA4 [1,2] 0b 0x0 0x0 0x0 [0x8B,0x0,0x0,0x0] [0x0,0x0,0x4,0x0]
+UNIT 0xAF 0x57 0xBE 0xA4 [1,0] 0b 0x0 0x0 0x0 [0x31,0x0,0x0,0x0] [0x0,0x0,0x4,0x0]
+UNIT 0xAE 0x56 0xBE 0xA4 [2,1] 0b 0x0 0x0 0x0 [0x11,0x0,0x0,0x0] [0x0,0x0,0x4,0x0]
+UNIT 0xAE 0x60 0xBE 0xA4 [0,2] 0b 0x0 0x0 0x0 [0xB4,0xAC,0x0,0x0] [0x0,0x3,0x4,0x0] //changed these to not have lunge
+UNIT 0xB6 0x5E 0xBE 0xA4 [0,0] 0b 0x0 0x0 0x0 [0x25,0x34,0x0,0x0] [0x0,0x0,0x4,0x0]
+UNIT 0xB1 0x59 0xBE 0xA4 [1,1] 0b 0x0 0x0 0x0 [0xB0,0x0,0x0,0x0] [0x0,0x0,0x4,0x0]
+UNIT 0xAE 0x56 0xBE 0xA4 [2,2] 0b 0x0 0x0 0x0 [0xD,0x0,0x0,0x0] [0x0,0x0,0x4,0x0]
+UNIT 0xB4 0x5C 0xBE 0xA4 [2,0] 0b 0x0 0x0 0x0 [0xB1,0x0,0x0,0x0] [0x0,0x0,0x4,0x0]
+UNIT 0xBC 0x64 0xBE 0xA4 [0,1] 0b 0x0 0x0 0x0 [0x95,0x1C,0x0,0x0] [0x0,0x0,0x4,0x0]
+UNIT 0xB9 0x61 0xBE 0xA4 [3,2] 0b 0x0 0x0 0x0 [0xB5,0xAB,0x0,0x0] [0x0,0x0,0x4,0x0]
+UNIT 0xB2 0x5A 0xBE 0xA4 [3,0] 0b 0x0 0x0 0x0 [0x86,0x0,0x0,0x0] [0x0,0x3,0x4,0x0]
+UNIT
+POP
+
+
+// Shop Data
+
+PUSH
+ORG $9ea8
+SHORT 0 0 $e00a
+ORG $9ed8
+POIN EpilogueEvents
+POP
+
+EpilogueEvents:
+SETVAL 0xB 0xC0011
+LOMA 0x1 //Load some map
+MUSC 0x42
+FADU 16
+Text(TrueEnding) //here as placeholder. 15 turn clear will be required.
+FADI 3
+_0x1328 0x7FFF //fade out music?
+REMOVEPORTRAITS
+ASMC 0x30185 //clears map tilesets?
+EVBIT_F 0x2
+STAL 120
+REMOVEPORTRAITS
+ASMC 0xB8175 //turn counts display
+REMOVEPORTRAITS
+STAL 1
+CALL 0xA0036C //Character Endings
+STAL 90
+MUSC 0x42 //Fly with the Breeze
+ASMC 0xC4879 //Roll Credits - CGs are borked when I try to use it normally?
+STAL 90
+
+MNTS 0x0 //return to title screen
+ENDA

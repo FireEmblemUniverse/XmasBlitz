@@ -1,3 +1,2 @@
-[MR][LoadAnna]
-Urgh[Beat] Sisters,[N]
-wait for me[Beat][A][CloseEyes][X]
+Pivot: Allows unit to move to the[N]
+opposite side of an adjacent ally.[X]

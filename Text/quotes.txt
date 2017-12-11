@@ -13,6 +13,10 @@ all the others you've killed![A][X]
 I don't know what your[N]
 plot was, but you'll pay.[A][X]
 
+##BQ_Markyjoe
+[ML][LoadFace][0x16][0x1]
+What the hell ya got!?[A][X]
+
 ##DQ_Anna
 [MR][LoadAnna]
 Urgh[Beat] Sisters,[N]
@@ -99,10 +103,64 @@ Eliwood[Beat] Lyn[Beat] I love[Beat][A][CloseEyes][X]
 
 ##DQ_Markyjoe
 [ML][LoadFace][0x16][0x1]
-Urgh[Beat] Grraaaaahh[Beat][N]
-You fools[Beat] think you've won?[A][CloseEyes][X]
+Urgh[Beat] Grraaaaahh[Beat][AN]
+So this[Beat] is it?[N]
+Why am I[Beat] happy?[A][CloseEyes][X]
 
 ##DQ_Veronica
 [MR][LoadVeronica]
 N-no[Beat] is this[Beat][N]
 the end? Did I[Beat][A][CloseEyes][X]
+
+##DQ_Lowen
+[ML][LoadLowen]
+B-but[Beat] my promotion[Beat][A][CloseEyes][X]
+
+##DQ_Bartre
+[ML][LoadBartre]
+Karla[Beat][A][CloseEyes][X]
+
+##DQ_Sain
+[ML][LoadSain]
+A knight does not fear[N]
+death[Beat][A][CloseEyes][X]
+
+##DQ_Kent
+[ML][LoadKent]
+Lady Lyndis[Beat] I was[N]
+too weak[Beat][A][CloseEyes][X]
+
+##DQ_Isadora
+[ML][LoadIsadora]
+Is this[Beat] my blood?[N]
+Ah[Beat][A][CloseEyes][ClearFace]
+[ML][LoadHarken]
+No! Isadora![A][X]
+
+##DQ_Harken
+[ML][LoadHarken]
+Isadora[Beat][N]
+I'm coming[Beat][A][CloseEyes][X]
+
+##DQ_Erk
+[ML][LoadErk]
+Why[Beat]?[A][CloseEyes][X]
+
+##DQ_Jaffar
+[ML][LoadJaffar]
+[Beat]Nino. [Beat]I'm sorry[Beat][A][CloseEyes][X]
+
+##DQ_Oswin
+[ML][LoadOswin]
+Nngh[Beat][N]
+Lord Hector[Beat][A][CloseEyes][X]
+
+##DQ_Wallace
+[ML][LoadWallace]
+Your eyes[Beat][N]
+Clear[Beat] How can[Beat][A][CloseEyes][X]
+
+##DQ_Marcus
+[ML][LoadMarcus]
+Lord Eliwood[Beat] they are[N]
+too strong[Beat][A][CloseEyes][X]

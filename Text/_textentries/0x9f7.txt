@@ -1,2 +1,2 @@
-Supply: This unit has[N]
-access to the convoy.[X]
+Bond: All allies within 3 tiles[N]
+recover 10% HP each turn.[X]

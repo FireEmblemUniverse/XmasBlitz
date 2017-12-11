@@ -85,6 +85,10 @@ PUSH
   ORG 0x2C474
   WORD 0
 
+//Skip Intro and Class Roll (otherwise pre-battle anims will crash this)
+  ORG $c63ad
+  BYTE $e0
+
 #include "Extensions/Hack Installation.txt"
 //Anti-Huffman Patch, by Hextator and Nintenlord
 {

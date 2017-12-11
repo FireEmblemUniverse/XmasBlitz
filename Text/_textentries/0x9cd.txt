@@ -1,2 +1,2 @@
-Natural Cover: -3 damage taken[N]
-when on terrain with effects.[X]
+Demoiselle: Male allies within[N]
+2 tiles receive -2 damage.[X]

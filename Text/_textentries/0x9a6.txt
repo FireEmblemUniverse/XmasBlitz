@@ -1,2 +1,2 @@
-Spur Defense: Adjacent allies[N]
-take -4 physical damage.[X]
+Lethality: Instantly kill opponent.[N]
+(Skill/2 % activation)[X]

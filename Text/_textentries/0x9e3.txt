@@ -1,2 +1,2 @@
-Shove: Allows unit to push[N]
-other units one tile away.[X]
+Rally Defense: +4 Def to[N]
+allies within 2 tiles.[X]

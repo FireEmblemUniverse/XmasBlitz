@@ -1,6 +1,6 @@
 #define csvmacro001(arg000,arg001,arg002) "WORD arg000 arg001 arg002 "
 
-#inctext PFinder "C:\Users\bovie_000\Desktop\RFV\FE8_clean.gba" 0x95dd1c NewCGTable
+#inctext PFinder "C:\Users\bovie_000\Documents\GitHub\XmasBlitz\FE8_clean.gba" 0x95dd1c NewCGTable
 
 ALIGN 4
 NewCGTable:
@@ -54,8 +54,8 @@ csvmacro001(0x893f888,0x8942b38,0x8942fec)
 csvmacro001(0x89430ec,0x8947398,0x894784c)
 csvmacro001(0x894794c,0x8949f70,0x894a424)
 csvmacro001(0x894a524,0x894eef8,0x894f3ac)
-csvmacro001(0x894f4ac,0x8953538,0x89539ec)
-csvmacro001(0x8953aec,0x89584a4,0x8958958)
+csvmacro001(IMG_Credits|IsPointer,TSA_Credits|IsPointer,PAL_Credits|IsPointer)
+csvmacro001(IMG_Veronica|IsPointer,TSA_Veronica|IsPointer,PAL_Veronica|IsPointer)
 csvmacro001(IMG_Objection|IsPointer,TSA_Objection|IsPointer,PAL_Objection|IsPointer)
 csvmacro001(IMG_summoning_GR|IsPointer,TSA_summoning_GR|IsPointer,PAL_summoning_GR|IsPointer)
 csvmacro001(IMG_BloodPact|IsPointer,TSA_BloodPact|IsPointer,PAL_BloodPact|IsPointer)

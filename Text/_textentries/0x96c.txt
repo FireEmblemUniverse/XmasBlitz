@@ -1,2 +1,2 @@
-Pass: Can move through[N]
-enemy units.[X]
+A soldier of the Donateenaries, who[N]
+seek the revival of the Demon King.[X]

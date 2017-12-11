@@ -1,6 +1,6 @@
 #define csvmacro006(arg000) "SHORT arg000 "
 
-#inctext PFinder "C:\Users\bovie_000\Desktop\RFV\FE8_clean.gba" 0xe47180 SkillDescTable
+#inctext PFinder "C:\Users\bovie_000\Documents\GitHub\XmasBlitz\FE8_clean.gba" 0xe47180 SkillDescTable
 
 ALIGN 4
 SkillDescTable:
@@ -143,15 +143,15 @@ csvmacro006(SD_Despoil)
 csvmacro006(SD_Pivot)
 csvmacro006(SD_Reposition)
 csvmacro006(SD_Swap)
-csvmacro006(SD_BreathOfLife)
-csvmacro006(SD_Fury)
-csvmacro006(SD_Dazzle)
-csvmacro006(SD_TriAdept)
-csvmacro006(SD_Supply)
-csvmacro006(SD_Roll12)
-csvmacro006(SD_Trace)
-csvmacro006(SD_RandomMug)
-csvmacro006(SD_IdentityProblems)
+csvmacro006(0x0)
+csvmacro006(0x0)
+csvmacro006(0x0)
+csvmacro006(0x0)
+csvmacro006(0x0)
+csvmacro006(0x0)
+csvmacro006(0x0)
+csvmacro006(0x0)
+csvmacro006(0x0)
 csvmacro006(0x0)
 csvmacro006(0x0)
 csvmacro006(0x0)

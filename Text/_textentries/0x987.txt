@@ -1,2 +1,2 @@
-Certain Blow: +40 Hit[N]
-when initiating battle.[X]
+Fighters engaged in battle against[N]
+Blue Moon, commanded by Anna.[X]

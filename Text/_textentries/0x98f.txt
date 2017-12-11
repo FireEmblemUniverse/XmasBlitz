@@ -1,2 +1,2 @@
-Swordfaire: +4 damage[N]
-when equipping a sword.[X]
+A monster called from the darkness.[N]
+They bring ruin to wherever they go.[X]

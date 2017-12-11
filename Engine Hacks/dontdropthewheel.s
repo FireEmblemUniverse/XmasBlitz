@@ -17,8 +17,8 @@ cmp r1, #10
 bgt NoGear
 b NextSlot
 YesGear:
-@set event ID 65 - Game Over
-mov r0, #0x65
+@set event ID 0x30 - then use AFEV
+mov r0, #0x30
 ldr r1, =0x8083d81
 mov lr, r1
 .short 0xf800

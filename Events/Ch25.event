@@ -1,0 +1,254 @@
+EventPointerTable(0xd5, PointerList)
+EventPointerTable(0xcc, NewPalette)
+NewPalette:
+#incbin "b25palette.bin"
+ALIGN 4
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT 0x01 0x02 0x00 Level(1, Ally, 1) [11,15] 0x00 0x00 0x0 0x00 [0x01] NoAI
+UNIT 0x02 0x07 0x00 Level(1, Ally, 1) [10,15] 0x00 0x00 0x0 0x00 [0x01] NoAI
+UNIT 0x03 0x09 0x00 Level(1, Ally, 1) [12,15] 0x00 0x00 0x0 0x00 [0x14] NoAI
+UNIT 0x04 0x0b 0x00 Level(1, Ally, 1) [11,16] 0x00 0x00 0x0 0x00 [0x01, 0x14] NoAI
+UNIT
+//feel free to un-comment the fourth unit if only allowing three units seems unfair
+
+TurnBasedEvents:
+TurnEventPlayer(0x0,Phago1,1)
+TurnEventPlayer(0x0,Phago2,3)
+TurnEventPlayer(0x0,RegoE,4)
+TurnEventPlayer(0x0,Phago3,5)
+TurnEventPlayer(0x0,RegoE2,6)
+TurnEventPlayer(0x0,Phago1,7)
+TurnEventPlayer(0x0,RegoPe,2)//changed from turn 8
+TurnEventPlayer(0x0,Phago2,9)
+TurnEventPlayer(0x0,RegoS,10)
+TurnEventPlayer(0x0,Phago3,11)
+TurnEventPlayer(0x0,RegoW,12)
+TurnEventPlayer(0x0,Phago4,13)
+TurnEventPlayer(0x0,RegoE2,14)
+TurnEventPlayer(0x0,RegoS,16)
+TurnEventPlayer(0x0,Phago4,17)
+TurnEventPlayer(0x0,RegoW,20)
+TurnEventPlayer(0x0,RegoE2,20)
+TurnEventPlayer(0x0,RegoS,20)
+TurnEventPlayer(0x0,RegoW,21)
+TurnEventPlayer(0x0,RegoE2,21)
+TurnEventPlayer(0x0,RegoS,21)
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0x7,DruidWalksIntoaBar,Void,Bjoern)
+END_MAIN
+
+LocationBasedEvents:
+Seize(0x0,EndingScene,3,15)
+Chest(0x8D,7,1)
+Chest(0x88,0,5)
+#ifdef __DEBUG__
+Seize(11,15)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 Bad
+ENUN
+FADU 10
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+TEXTSHOW Ch25Opening
+TEXTEND
+GotoPrepScreen
+ENDB
+
+EndingScene:
+Text(Ch25Ending)
+CHECK_ALIVE Bjoern
+IFNOTEQUAL 0x01 0xC 0x0
+Text(Ch25EndingBjornAlive)
+TurnAlly(Bjoern)
+ENIF 0x01
+
+FADI 5
+MNC2 25 //change to whatever
+NoFade
+ENDA
+
+// Events
+RegoE:
+LOAD1 0x1 ReinE
+ENUN
+NoFade
+ENDA
+
+RegoE2:
+LOAD1 0x1 ReinE2
+ENUN
+NoFade
+ENDA
+
+RegoS:
+LOAD1 0x1 ReinS
+ENUN
+NoFade
+ENDA
+
+RegoW:
+LOAD1 0x1 ReinW
+ENUN
+NoFade
+ENDA
+
+RegoPe:
+CAM1 [7,6]
+STAL 10
+LOAD1 0x1 ReinPe
+ENUN
+STAL 10
+FlashCursor(Bjoern,50)
+Text(BjornSpawns)
+//Bjoern mutters to himself that he's killed the rest of the sages and needs to kill Banana before more come
+NoFade
+ENDA
+
+Phago1:
+CAM1 [7,4]
+MUSI
+STAL 20
+SOUN 0x00BE
+LOAD1 0x1 Phan1
+ENUN
+STAL 30
+MUNO
+NoFade
+ENDA
+
+Phago2:
+CAM1 [7,4]
+MUSI
+STAL 20
+SOUN 0x00BE
+LOAD1 0x1 Phan2
+ENUN
+STAL 30
+MUNO
+NoFade
+ENDA
+
+Phago3:
+CAM1 [7,4]
+MUSI
+STAL 20
+SOUN 0x00BE
+LOAD1 0x1 Phan3
+ENUN
+STAL 30
+MUNO
+NoFade
+ENDA
+
+Phago4:
+CAM1 [7,11]
+MUSI
+STAL 20
+SOUN 0x00BE
+LOAD1 0x1 Phan4
+ENUN
+STAL 30
+MUNO
+NoFade
+ENDA
+
+DruidWalksIntoaBar:
+MUSC 0x2b
+Text(RecruitingBjorn)
+//Void talks to Bjoern; Bjoern says that he will join you after Banana is defeated and the shrine is secured
+//in the meantime, he gives you an elixir
+SVAL 0x3 0x6d //give elixir
+GIVEITEMTO 0xFFFF //give it to the current unit
+STAL 30
+NoFade
+ENDA
+
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Bad:
+UNIT 0xCA 0x0C 0x00 Level(20, Enemy, 0) [3,15] 0x02 0x00 0x0 0x00 [0x1D, 0x29, Gleipnir] NeverMoveAI
+UNIT 0xab 0x03 0xCA Level(15, Enemy, 1) [4,15] 0x00 0x00 0x0 0x00 [0x1D, 0x1A] AttackInRangeAI
+UNIT 0xab 0x04 0xCA Level(15, Enemy, 1) [2,15] 0x00 0x00 0x0 0x00 [0x1D, 0x17] AttackInRangeAI
+UNIT 0xab 0x02 0xCA Level(20, Enemy, 1) [10,9] 0x00 0x00 0x0 0x00 [0x17] AttackInRangeAI
+UNIT 0xab 0x01 0xCA Level(20, Enemy, 1) [13,9] 0x00 0x00 0x0 0x00 [0x17] AttackInRangeAI
+UNIT 0xab 0x01 0xCA Level(20, Enemy, 1) [7,6] 0x2 0x00 0x0 0x00 [0x17, 0x69] AttackInRangeAI
+UNIT 0xab 0x02 0xCA Level(20, Enemy, 1) [1,7] 0x00 0x00 0x0 0x00 [0x17] AttackInRangeAI
+UNIT
+
+Phan1:
+UNIT 0xad 0x3c 0xCA Level(15, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [0xab] PursueWithoutHeedAI
+UNIT
+
+Phan2:
+UNIT 0xad 0x3c 0xCA Level(15, Enemy, 1) [7,2] 0x00 0x00 0x0 0x00 [0xab] PursueWithoutHeedAI
+UNIT
+
+Phan3:
+UNIT 0xad 0x3c 0xCA Level(15, Enemy, 1) [2,2] 0x00 0x00 0x0 0x00 [0xab] PursueWithoutHeedAI
+UNIT
+
+Phan4:
+UNIT 0xad 0x3c 0xCA Level(20, Enemy, 1) [3,13] 0x00 0x00 0x0 0x00 [0xab] PursueWithoutHeedAI
+UNIT
+
+ReinE:
+UNIT 0xab 0x28 0xCA Level(15, Enemy, 1) [14,6] 0x2 0x00 0x0 0x00 [0x3C] PursueWithoutHeedAI
+UNIT
+
+ReinS:
+UNIT 0xab 0x03 0xCA Level(20, Enemy, 1) [11,16] 0x00 0x00 0x0 0x00 [0x1E, 0x19] PursueWithoutHeedAI
+UNIT 0xab 0x04 0xCA Level(20, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [0x1E, 0x19] PursueWithoutHeedAI
+UNIT
+
+ReinE2:
+UNIT 0xab 0x28 0xCA Level(15, Enemy, 1) [14,6] 0x00 0x00 0x0 0x00 [0x43] PursueWithoutHeedAI
+UNIT
+
+ReinW:
+UNIT 0xab 0x28 0xCA Level(20, Enemy, 1) [0,16] 0x00 0x00 0x0 0x00 [0x43, 0x51] PursueWithoutHeedAI
+UNIT
+
+ReinPe:
+UNIT Bjoern 0x2F 0x00 Level(10, NPC, 0) [14,6] 0x00 0x00 0x0 0x00 [0x47, 0x4E] [HealAllies, RossMovementAI, 0, 0]
+UNIT

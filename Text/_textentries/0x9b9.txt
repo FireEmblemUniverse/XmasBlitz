@@ -1,3 +1,2 @@
-Ignis: Add Def/2 and Res/2[N]
-to damage dealt.[N]
-(Skill % activation)[X]
+Armored Blow: +10 Def[N]
+when initiating battle.[X]

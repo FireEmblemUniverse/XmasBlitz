@@ -1,2 +1,2 @@
-Odd Rhythm: +10 Hit and Avoid[N]
-on odd numbered turns.[X]
+Life and Death: +10 to[N]
+damage dealt and taken.[X]
