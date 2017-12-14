@@ -1,0 +1,48 @@
+#ifndef BASE
+#define BASE
+
+#ifdef _FE8_
+
+	/*
+
+	This is the buildfile for the "base" ROM. This will be built on top of a vanilla ROM, and will contain all the big assets (graphics, music, text), that way we won't need to insert those every time.
+
+	I would include Tables & Maps here too, but Tables are pretty dependant on stuff from the main buildfile, and Maps need to overwrite stuff from tables. So those aren't quite an option yet.
+
+	This works because of a feature introduced in EA 11.1: since we can use the "-symOutput=..." option to output labels to a file, we can "share" those labels with other buildfiles (ROM Buildfile.event in our case).
+
+	*/
+
+	#include "eastdlib.event"
+	#include "Custom Definitions.event"
+	
+	ORG FreeSpace_Base
+	
+	// Text
+	
+	MESSAGE Start of free space at currentOffset
+	
+	#include "Text/Install Text Data.event"
+    MESSAGE Used text space ends at currentOffset
+
+    // Graphics
+	
+    #include "Mugs/Mug Installer.event"
+	MESSAGE Used mug space ends at currentOffset
+	
+    #include "Graphics/Master Graphics Installer.event"
+	MESSAGE Used graphics space ends at currentOffset
+
+	// Music
+	
+	ORG FreeSpace // For music, we're going in general free space (after the end of the ROM that is), since that's a lot more data than everything else (I think?)
+	MESSAGE Music and sounds start at currentOffset
+	
+    #include "Music/Music Installer.event"
+	MESSAGE Used music and sound space ends at currentOffset
+
+#else
+	ERROR fe8 pls
+#endif // _FE8_
+
+#endif // BASE

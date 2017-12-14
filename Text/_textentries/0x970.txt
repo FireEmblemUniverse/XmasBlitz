@@ -1,2 +1,2 @@
-A captain of the Donateenaries.[N]
-Obsessed with collecting donations.[X]
+Seal Resistance: Debuff opponent's Res[N]
+by 6 after combat. (Recover 1/turn)[X]

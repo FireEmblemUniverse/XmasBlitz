@@ -1,0 +1,68 @@
+#ifndef GRAPHICS_TITLE_SCREEN
+#define GRAPHICS_TITLE_SCREEN
+
+PUSH
+  ORG $AC188
+    POIN NewDifficultyButtons
+POP
+
+NewDifficultyButtons:
+  #incext Png2Dmp "difficulty.png" --lz77
+  ALIGN 4
+
+// PUSH
+  // ORG $c5830
+  // POIN NewTitleScroll
+
+  // ORG $c5808
+  // POIN NewTitleText
+
+  // ORG $a16dec
+  // #incext Png2Dmp "edited status names_a16dec.png"
+
+  // ORG $c57e4
+  // POIN NewEmblem //replace dragons
+
+  // ORG $c57ec
+  // POIN NewEmblemMap
+
+
+  // ORG $aac58c // dragon palette
+  // #incbin "emblem.pal.bin"
+  // BYTE $90 $42 $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A
+// POP
+
+// NewTitleText:
+  // #incext Png2Dmp "FE_Title_heroes.png" --lz77
+
+// NewEmblem:
+  // #incbin "emblem.img.bin"
+
+// NewEmblemMap:
+  // #incbin "emblem.map.bin"
+
+// NewTitleScroll:
+  // #incext Png2Dmp "TitleScroll.png" --lz77
+
+// PUSH
+  // ORG 0xaab3f4
+  // TitlePalette:
+    // #incext Png2Dmp "title_bg_1.png" --palette-only
+    // ALIGN 4
+
+  // ORG $c5730
+  // POIN TitlePt1
+
+  // ORG $c5780
+  // POIN TitlePt2
+// POP
+
+// TitlePt1:
+  // #incext Png2Dmp "title_bg_1.png" --lz77
+  // ALIGN 4
+
+// TitlePt2:
+  // #incext Png2Dmp "title_bg_2.png" --lz77
+  // ALIGN 4
+
+#endif // GRAPHICS_TITLE_SCREEN

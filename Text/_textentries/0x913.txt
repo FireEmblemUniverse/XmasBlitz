@@ -1,2 +1,2 @@
-An old veteran of the Renegade[N]
-translation era. Got the tools down.[X]
+Bane: Leave the opponent at 1 HP.[N]
+(Skill/2 % activation)[X]

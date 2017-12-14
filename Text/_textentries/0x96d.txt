@@ -1,2 +1,2 @@
-The commander of the mysterious[N]
-force that killed Void's family.[X]
+Seal Speed: Debuff opponent's Spd[N]
+by 6 after combat. (Recover 1/turn)[X]

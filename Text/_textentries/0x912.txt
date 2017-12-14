@@ -1,1 +1,2 @@
-Jay[X]
+Lethality: Instantly kill opponent.[N]
+(Skill/2 % activation)[X]

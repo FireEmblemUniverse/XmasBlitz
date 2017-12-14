@@ -1,2 +1,2 @@
-A suspiciously similar substitute[N]
-for Nikita, who is also very tired.[X]
+Light Weight: When holding three[N]
+or less items, attack speed +3.[X]

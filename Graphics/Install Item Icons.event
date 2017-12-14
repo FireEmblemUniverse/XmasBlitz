@@ -1,0 +1,56 @@
+#ifndef GRAPHICS_ITEM_ICONS
+#define GRAPHICS_ITEM_ICONS
+
+PUSH
+  #define ItemIconLocation(index) "ORG (0x5926F4 + (0x80 * (index)))"
+  
+  // ItemIconLocation(0x42) //noatun
+    // #incext Png2Dmp "NoatunIcon.png"
+
+  // ItemIconLocation(8) //folkvangr icon
+    // #incext Png2Dmp "Folkvangr.png"
+
+  // ItemIconLocation(0xb3) //fensalir icon
+    // #incext Png2Dmp "Fensalir.png"
+
+  // ItemIconLocation(0x6a)
+    // #incext Png2Dmp "concoction.png"
+
+  // ItemIconLocation(0x89)//turnwheel
+    // #incext Png2Dmp "milagear.png"
+
+  // ItemIconLocation(0x3b)
+    // #incext Png2Dmp "direthunder.png"
+
+  // ItemIconLocation(0xb4)
+    // #incext Png2Dmp "armads.png"
+
+  // ItemIconLocation(0xb0)
+    // #incext Png2Dmp "durandal.png"
+
+  // ItemIconLocation(0x88) //was red gem
+    // #incext Png2Dmp "orb.png"
+
+  // ItemIconLocation(0xb1) //vague katti
+    // #incext Png2Dmp "VagueKatti.png"
+
+  // ItemIconLocation(0xba) //parthia
+    // #incext Png2Dmp "Parthia.png"
+
+  // ItemIconLocation(0xb5) //Gradivus
+    // #incext Png2Dmp "Gradivus.png"
+  
+  // ItemIconLocation(0xbb) //gae bolg
+    // #incext Png2Dmp "gaebolg.png" //temp
+
+  // ItemIconLocation(0xbc) //tyrfing
+    // #incext Png2Dmp "tyrfing.png" //temp
+
+  // ItemIconLocation(0x3c) //naga
+    // #incext Png2Dmp "naga.png"
+
+  // ItemIconLocation(0x5c) //feathers
+    // #incext Png2Dmp "feather.png"
+POP
+
+#endif // GRAPHICS_ITEM_ICONS

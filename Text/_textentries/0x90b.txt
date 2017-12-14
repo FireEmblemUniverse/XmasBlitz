@@ -1,2 +1,2 @@
-Secretly wishes he[N]
-was a necromancer.[X]
+Wary Fighter: Unit cannot[N]
+double or be doubled.[X]

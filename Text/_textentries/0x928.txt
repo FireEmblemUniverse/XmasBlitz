@@ -1,2 +1,2 @@
-How many Annas are[N]
-there, anyway?[X]
+Wrath: If HP < 50%,[N]
++20 critical rate.[X]

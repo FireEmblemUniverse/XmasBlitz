@@ -1,1 +1,2 @@
-Mr. Bones[X]
+Staff Savant: Maximum range[N]
+of staves is increased by 1.[X]

@@ -16,7 +16,6 @@ _0x1320, 0x1320, 8, -game:FE8 -indexMode:8
 #Music to change to.
 	Music ID, 4, 2
 
-
 _0x1A22, 0x1A22, 4, -game:FE8 -indexMode:8
 
 _0x1A25, 0x1A25, 4, -game:FE8 -indexMode:8
@@ -57,22 +56,6 @@ _0x2D20, 0x2D20, 4, -game:FE8 -indexMode:8
 #0x2 is red
 #0x3 is other
 #0x4 is gold
-
-_0x3240, 0x3240, 8, -game:FE8 -indexMode:8
-	Unit, 2, 2
-	Space ??, 4, 2
-
-_0x3242, 0x3242, 8, -game:FE8 -indexMode:8
-	Value1, 2, 2
-	Value2, 4, 2
-
-
-_0x3640, 0x3640, 8, -game:FE8 -indexMode:8
-	Value1, 2, 2
-	Value2, 4, 2
-	Value3, 6, 2
-
-
 
 _0x412F, 0x412F, 4, -game:FE8 -indexMode:8
 	Value1, 2, 2
@@ -137,7 +120,7 @@ _0xC220, 0xC220, 4, -game:FE8 -indexMode:8
 _0x3427, 0x3427, 4, -game:FE8 -indexMode:8
 	Character, 2, 2
 
-
+#backwards compatibility, use SMOD instead
 SLOTS_UNKNOWN, 0x0624, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
 

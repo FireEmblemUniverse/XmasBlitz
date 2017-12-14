@@ -1,2 +1,2 @@
-Governor of the skeleton colony.[N]
-Detests all fleshy beings.[X]
+Live to Serve: When healing[N]
+an ally, also heals self.[X]

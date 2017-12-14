@@ -1,2 +1,2 @@
-His friends call[N]
-him Timathan.[X]
+Pass: Can move through[N]
+enemy units.[X]

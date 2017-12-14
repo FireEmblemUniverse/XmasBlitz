@@ -2,6 +2,10 @@
 #define MODULAR_GETTER_COMMON_EVENT
 
 prHalveIfRescuing:
-	rIfUnitHasState(US_RESCUING, rHalved)
+  rIfUnitHasState(US_RESCUING, rHalved)
+
+prSkillFury:
+  rIfUnitHasSkill(FuryID)
+    rAddConst(2)
 
 #endif // MODULAR_GETTER_COMMON_EVENT

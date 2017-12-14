@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pResistanceModifiers: // Resistance
-	POIN prAddUnitResistance prDebuffRes prAddEquipResistance prRallyRes prPairUpRes prAddPureWaterBarrierMod prSkillFury
+	POIN prAddUnitResistance prDebuffRes prAddEquipResistance prRallyRes prAddPureWaterBarrierMod prSkillFury // prPairUpRes
 WORD 0
 
 prAddUnitResistance:
@@ -24,12 +24,8 @@ prRallyRes:
 	#incbin "_asm/RallyRes.bin"
 	WORD DebuffTable
 
-prPairUpRes:
-  #incbin "_asm/PairUpRes.bin"
-  POIN PairUpBonusesTable
-
-prSkillFury:
-  rIfUnitHasSkill(FuryID)
-    rAddConst(2)
+// prPairUpRes:
+  // #incbin "_asm/PairUpRes.bin"
+  // POIN PairUpBonusesTable
 
 #endif // MODULAR_GETTER_RESISTANCE_EVENT

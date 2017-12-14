@@ -30,8 +30,6 @@ Lifetaker:
 POIN SkillTester
 WORD LifetakerID
 POIN LifetakerEvent
-LifetakerEvent:
-#include "LifetakerEvent.event"
 ALIGN 4
 
 Fury:
@@ -39,8 +37,6 @@ Fury:
 POIN SkillTester
 WORD FuryID
 POIN FuryEvent
-FuryEvent:
-#include "FuryEvent.event"
 ALIGN 4
 
 Despoil:
@@ -48,8 +44,6 @@ Despoil:
 POIN SkillTester
 WORD DespoilID
 POIN DespoilEvent
-DespoilEvent:
-#include "DespoilEvent.event"
 ALIGN 4
 
 SavageBlow:
@@ -58,8 +52,6 @@ POIN SkillTester
 WORD SavageBlowID
 POIN SavageBlowEvent
 POIN AuraSkillCheck
-SavageBlowEvent:
-#include "SavageBlowEvent.event"
 ALIGN 4
 
 BreathOfLife:
@@ -68,8 +60,6 @@ POIN SkillTester
 WORD BreathOfLifeID
 POIN BreathOfLifeEvent
 POIN AuraSkillCheck
-BreathOfLifeEvent:
-#include "BreathOfLifeEvent.event"
 ALIGN 4
 
 Galeforce:
@@ -77,8 +67,6 @@ Galeforce:
 POIN SkillTester
 WORD GaleforceID
 POIN GaleforceEvent
-GaleforceEvent:
-#include "GaleforceEvent.event"
 ALIGN 4
 
 Canto:
@@ -113,3 +101,10 @@ SHORT 0xFFFF
 ORG $39B98 //this sets 00040000 to the status bitfield thing for some reason on non-player units
 SHORT 0x46C0
 POP
+
+#include "LifetakerEvent.event"
+#include "FuryEvent.event"
+#include "DespoilEvent.event"
+#include "SavageBlowEvent.event"
+#include "BreathOfLifeEvent.event"
+#include "GaleforceEvent.event"

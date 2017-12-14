@@ -11,7 +11,7 @@
     
     ALIGN 4
     NoPrefixList:
-    BYTE Fimbulvetr Excalibur Fenrir Gleipnir Reginleif Sieglinde Ivaldi Latona Vidofnir Naglfar Audhulma Siegmund Garm Nidhogg MasterProof Orbs Turnwheel
+    BYTE Fimbulvetr Excalibur Fenrir Gleipnir Reginleif Sieglinde Ivaldi Latona Vidofnir Naglfar Audhulma Siegmund Garm Nidhogg MasterProof
     BYTE 0
     
     POP

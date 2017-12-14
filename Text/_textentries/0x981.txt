@@ -1,1 +1,2 @@
-Basement[X]
+Smite: Allows unit to push[N]
+other units two tiles away.[X]

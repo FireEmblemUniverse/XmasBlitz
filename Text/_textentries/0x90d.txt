@@ -1,1 +1,2 @@
-You want a playable soldier?[X]
+Provoke: Enemies are more[N]
+likely to target this unit.[X]

@@ -1,0 +1,29 @@
+#ifndef GRAPHICS_MISC
+#define GRAPHICS_MISC
+
+// TikiTransformPal:
+  // #incext compress "tiki_transformed_pal.dmp"
+
+// TikiNormalPal:
+  // #incext compress "tiki_untransformed_pal.dmp"
+
+// PUSH
+  // ORG (0xc00008-0x20)+(0xc5*0x20)+(7*4)
+    // POIN TikiTransformPal
+
+  // ORG (0xc00008-0x20)+(0xc6*0x20)+(7*4)
+    // POIN TikiTransformPal
+
+  // ORG (0xc00008-0x20)+(0xc7*0x20)+(7*4)
+    // POIN TikiNormalPal
+
+  // ORG (0xc00008-0x20)+(0xc4*0x20)+(7*4)
+    // POIN TikiTransformPal
+
+// POP
+
+// Link_Arena_Obj:
+  // #incext Png2Dmp "arena_objects_tact.png" --lz77
+  // #inctext PFinder "../FE8_clean.gba" 0x5ABD68 Link_Arena_Obj
+
+#endif // GRAPHICS_MISC

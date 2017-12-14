@@ -1,5 +1,10 @@
+#ifndef HAX_SKILL_FURY_EVENT
+#define HAX_SKILL_FURY_EVENT
+
 FuryEvent:
-SOUN 0xD2
-STAL 0x32
-NoFade
+  SOUN 0xD2
+  STAL 0x32
+  NoFade
 ENDA
+
+#endif // HAX_SKILL_FURY_EVENT

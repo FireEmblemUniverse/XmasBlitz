@@ -1,6 +1,11 @@
+#ifndef HAX_SKILL_BOL_EVENT
+#define HAX_SKILL_BOL_EVENT
+
 BreathOfLifeEvent:
-CAM1 0xFFFF
-SOUN 0x111
-STAL 0x16
-NoFade
+  CAM1 0xFFFF
+  SOUN 0x111
+  STAL 0x16
+  NoFade
 ENDA
+
+#endif // HAX_SKILL_BOL_EVENT

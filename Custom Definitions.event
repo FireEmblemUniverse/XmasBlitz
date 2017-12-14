@@ -1,16 +1,23 @@
-#ifndef CCB_DEFINITIONS
-#define CCB_DEFINITIONS
+#ifndef XMSCCB_DEFINITIONS
+#define XMSCCB_DEFINITIONS
 
 // #define FreeSpace 0xb2a610
-#define FreeSpace 0x1000000
+
+#define FreeSpace      0x1000000 // Size: FFFFFF
+#define FreeSpace_Base 0xEFB2E0  // Size: E4D20
+#define FreeSpace_Hack 0xB2A610  // Size: D59FC
+// #define FreeSpace_x 0xE47180  // Size: 98E80
+// #define FreeSpace_y 0xFE4000  // Size: 1B000
+
 #define FreeSpaceBLRange 0x1c1ec0
 
-#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
-#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148*chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148*chapter) + 9; BYTE anim1 anim2; POP"
 
 #ifndef ItemTable
   #define ItemTable 0x809B10
 #endif
+
 #ifndef DebuffTable
     #define DebuffTable 0x203F100
 #endif
@@ -31,51 +38,53 @@
 
 #include "Engine Hacks/Skill System/skill_definitions.event"
 
-#define Void 1
-#define Tim 2
-#define Tam 3
-#define Jerome 4
-#define Leeroy 5
-#define Anna 6
-#define Bede 7
-#define Jay 8
-#define NotArch 9
-#define Kirsten 10
-#define Bob 11
-#define Roshea 12
-#define Prine 13
-#define Edge 14
-//no ephraim replacement
-#define Samson 16
-#define Arve 17
-#define Tye 18
-#define Celicia 19
-#define Eevster 20
-#define AnnaWyv 21
-#define Nikita 22
-#define AnnaRogue 23
-#define Edgeworth 24
-#define Zigludo 25
-#define Kaga 26
-#define Doot 27
-#define Celica 28
-#define Doowile 29
-#define EvilFlorina 30
-#define Bjoern 31
-#define Jake 32
-#define Marf 33
-#define Tiki 34
+// Following definitions are from Blitz 1
 
-#define Mark 36
+// #define Void 1
+// #define Tim 2
+// #define Tam 3
+// #define Jerome 4
+// #define Leeroy 5
+// #define Anna 6
+// #define Bede 7
+// #define Jay 8
+// #define NotArch 9
+// #define Kirsten 10
+// #define Bob 11
+// #define Roshea 12
+// #define Prine 13
+// #define Edge 14
+// /* no ephraim replacement */
+// #define Samson 16
+// #define Arve 17
+// #define Tye 18
+// #define Celicia 19
+// #define Eevster 20
+// #define AnnaWyv 21
+// #define Nikita 22
+// #define AnnaRogue 23
+// #define Edgeworth 24
+// #define Zigludo 25
+// #define Kaga 26
+// #define Doot 27
+// #define Celica 28
+// #define Doowile 29
+// #define EvilFlorina 30
+// #define Bjoern 31
+// #define Jake 32
+// #define Marf 33
+// #define Tiki 34
 
-#define Lyria 0x60
-#define Meriah 0x61
-#define Plum 0x62
-#define Yuni 0x63
+// #define Mark 36
 
-#define Ch8Boss 0x4D
-#define Ch8Generic 0x99
-#define Ch21Boss 0xC5
-#define Ch21Generic 0x9A
+// #define Lyria 0x60
+// #define Meriah 0x61
+// #define Plum 0x62
+// #define Yuni 0x63
 
-#endif
+// #define Ch8Boss 0x4D
+// #define Ch8Generic 0x99
+// #define Ch21Boss 0xC5
+// #define Ch21Generic 0x9A
+
+#endif // XMSCCB_DEFINITIONS

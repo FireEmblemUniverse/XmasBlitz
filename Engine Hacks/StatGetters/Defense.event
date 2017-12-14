@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pDefenseModifiers: // Defense
-	POIN prAddUnitDefense prDebuffDef prAddEquipDefense prRallyDef prPairUpDef prSkillFury
+	POIN prAddUnitDefense prDebuffDef prAddEquipDefense prRallyDef prSkillFury // prPairUpDef
 WORD 0
 
 prAddUnitDefense:
@@ -21,12 +21,8 @@ prRallyDef:
 	#incbin "_asm/RallyDef.bin"
 	WORD DebuffTable
 
-prPairUpDef:
-  #incbin "_asm/PairUpDef.bin"
-  POIN PairUpBonusesTable
-
-prSkillFury:
-  rIfUnitHasSkill(FuryID)
-    rAddConst(2)
+// prPairUpDef:
+  // #incbin "_asm/PairUpDef.bin"
+  // POIN PairUpBonusesTable
 
 #endif // MODULAR_GETTER_DEFENSE_EVENT

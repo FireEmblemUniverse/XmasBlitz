@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pLuckModifiers: // Luck
-	POIN prAddUnitLuck prDebuffLck prAddEquipLuck prRallyLck prPairUpLck
+	POIN prAddUnitLuck prDebuffLck prAddEquipLuck prRallyLck // prPairUpLck
 WORD 0
 
 prAddUnitLuck:
@@ -21,8 +21,8 @@ prRallyLck:
 	#incbin "_asm/RallyLck.bin"
 	WORD DebuffTable
 
-prPairUpLck:
-  #incbin "_asm/PairUpLck.bin"
-  POIN PairUpBonusesTable
+// prPairUpLck:
+  // #incbin "_asm/PairUpLck.bin"
+  // POIN PairUpBonusesTable
 
 #endif // MODULAR_GETTER_LUCK_EVENT

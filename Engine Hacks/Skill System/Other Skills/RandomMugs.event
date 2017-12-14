@@ -1,4 +1,12 @@
-    #define IdentityRamByte 0x202FFFF
+	#ifndef IdentityProblemsMugList
+		#define IdentityProblemsMugList "0x0c 0x09 0x0a"
+	#endif
+
+	#ifndef IdentityProblemsNameList
+		#define IdentityProblemsNameList "nameCamus nameZeke nameSirius"
+	#endif
+		
+	#define IdentityRamByte 0x202FFFF
     
     PUSH
     ORG $8C634
@@ -317,7 +325,7 @@
     ALIGN 4
     IdentityProblemsMugs: //List of mugs that identity problems can be randomized to (the list is 3 entries)
     //This list is also used for the [0xE0][0xFF] text command
-    BYTE 0x0c 0x09 0x0a
+    BYTE IdentityProblemsMugList
     ALIGN 2
     IdentityProblemsNames: //Make sure the names match the mugs from the list above and whatnot
-    SHORT nameCamus nameZeke nameSirius
+    SHORT IdentityProblemsNameList

@@ -1,1 +1,2 @@
-Not amused[X]
+Slayer: Deal effective damage[N]
+to monster units.[X]
