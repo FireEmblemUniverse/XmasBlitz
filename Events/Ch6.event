@@ -1,73 +1,206 @@
-EventPointerTable(0x24, ThisChapter)
+EventPointerTable(0x24,ThisChapter)
+
+EscapePointPointerTable(6, Ch6EscapePoint)
+Ch6EscapePoint:
+EscapePoint(21, 7, MoveRight)
+EscapePointEnd
 
 ThisChapter:
-  POIN TurnBasedEvents
-  POIN CharacterBasedEvents
-  POIN LocationBasedEvents
-  POIN MiscBasedEvents
-  POIN Dunno1 Dunno2 Dunno3 Tutorial
-  POIN Traps1 Traps2
-  POIN AlliedUnits AlliedUnits // This unit group determines the number and position of deployment slots when there is a prep screen
-  POIN $0 $0 $0
-  POIN $0 $0 $0
-  POIN BeginningScene EndingScene
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingPrepScreen,1)
+TURN 0x0 ThiefReinforcement [4,0] 0x0
+TURN 0x0 Thief2Reinforcement [8,0] 0x0
+TURN 0x0 CavalierReinforcement [11,0] 0x0
+TURN 0x0 FighterReinforcement [13,0] 0x0
+TURN 0x0 FalcoReinforcement [15,0] 0x0
+TURN 0x0 WyvernReinforcement [16,0] 0x0
 END_MAIN
 
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 CharacterBasedEvents:
+CharacterEventBothWays(0x7, RecruitTalk, Blitzen, Tye)
 END_MAIN
+
+RecruitTalk:
+MUSS 0x30
+Text(Ch12RecruitTalk)
+REMA
+CUSA Tye//Tye joins the party!
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+
+VillageMendBow:
+VillageEventItem(Ch2VillageConvo1, Village, MendBow) //Gives item to the active character (the one visiting) Mend Bow would just be a Long Bow with the Mend use option.
+ENDA //Just use these for good measure
+
+VillageRescue:
+VillageEventItem(Ch2VillageConvo1, Village, Rescue) //Gives item to the active character (the one visiting)
+ENDA //Just use these for good measure
 
 LocationBasedEvents:
-  #ifdef __DEBUG__
-    Seize(0, 0)
-  #endif
+Village(0x8, VillageMendBow, 15, 2)
+Village(0x9,VillageRescue,16,13)
+Vendor(ShopItems,12,16)
+Armory(ArmoryItems,6,1)
+Arena(5,1)
+Seize(3,9)
+Seize(7,6)
 END_MAIN
+
+ShopItems:
+SHLI Vulnerary Heal Mend Torch PureWater Fire Lightning Flux Berserk
+ArmoryItems:
+SHLI IronSword IronLance IronAxe IronBow KillerBow BraveBow DevilAxe
+ALIGN 4
 
 MiscBasedEvents:
-  CauseGameOverIfLordDies
+CauseGameOverIfLordDies
 END_MAIN
 
-Dunno1:
-END_MAIN
-
-Dunno2:
-END_MAIN
-
-Dunno3:
-END_MAIN
+Dunno:
+WORD $00
 
 Tutorial:
+WORD $00
+
+TrapData:
 END_MAIN
 
-AlliedUnits:
-  UNIT Eirika EirikaLord 0 Level(1, Ally, False) [0, 0] 0x00 0x00 0 0x00000000 [Rapier, Vulnerary] NoAI
+Units:
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [2,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [1,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [4,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [2,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [3,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [5,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Blitzen EirikaLord 0x00 Level(1, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
-EnemyUnits:
-  UNIT 0x80 Priest 0 Level(0, Enemy, False) [1, 0] 0x00 0x00 0 0x00000000 [0] NoAI
+TyeAgain:
+UNIT Tye Knight 0x00 Level(8, NPC, 0) [10,14] 0x00 0x00 0x0 0x00 [SteelBlade, Vertwrath] AttackInRangeAI //Vertwrath is just a prf steel lance with 1-3 range and drain HP effect. Gives +5 lck.
 UNIT
 
-Traps1:
-ENDTRAP
+Bad:
+UNIT Valter_Prologue MageKnight 0x00 Level(3, Enemy, 0) [7,6] 0x2 0x00 0x0 0x00 [Fimbulvetr, Nosferatu, Elixir, StoneStaff] GuardTileAI //Stone Staff would just be Stone but turned into a Staff, probably would have better Hit too.
+UNIT 0x80 Knight Valter_Prologue Level(6, Enemy, 1) [9,7] 0x00 0x00 0x0 0x00 [Spear] GuardTileAI 
+UNIT 0x80 Knight Valter_Prologue Level(6, Enemy, 1) [8,8] 0x00 0x00 0x0 0x00 [Spear] GuardTileAI 
+UNIT 0x80 Knight Valter_Prologue Level(6, Enemy, 1) [19,5] 0x00 0x00 0x0 0x00 [Spear] GuardTileAI 
+UNIT 0x80 Knight Valter_Prologue Level(6, Enemy, 1) [20,5] 0x00 0x00 0x0 0x00 [Spear] GuardTileAI 
+UNIT 0x80 Knight Valter_Prologue Level(6, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
+UNIT 0x80 Knight Valter_Prologue Level(6, Enemy, 1) [11,13] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
+UNIT 0x80 ArcheronIronBallista Valter_Prologue Level(6, Enemy, 1) [7,3] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 ArcheronIronBallista Valter_Prologue Level(6, Enemy, 1) [11,1] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Ranger Valter_Prologue Level(1, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [IronBow, SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Ranger Valter_Prologue Level(1, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [IronBow, SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 MageKnight_F Valter_Prologue Level(1, Enemy, 1) [19,16] 0x00 0x00 0x0 0x00 [Lightning] PursueWithoutHeedAI 
+UNIT 0x80 MageKnight_F Valter_Prologue Level(1, Enemy, 1) [18,16] 0x00 0x00 0x0 0x00 [Lightning] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Valter_Prologue Level(6, Enemy, 1) [5,14] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI
+UNIT 0x80 Mercenary Valter_Prologue Level(6, Enemy, 1) [20,8] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT 0x80 Mercenary Valter_Prologue Level(6, Enemy, 1) [12,8] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT
+
+Badder:
+UNIT 0x80 Mercenary Valter_Prologue Level(6, Enemy, 1) [20,8] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT 0x80 Mercenary Valter_Prologue Level(6, Enemy, 1) [19,9] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT 0x80 Pirate Valter_Prologue Level(6, Enemy, 1) [8,12] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
+UNIT 0x80 Pirate Valter_Prologue Level(6, Enemy, 1) [13,9] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
+UNIT 0x80 Pirate Valter_Prologue Level(6, Enemy, 1) [16,6] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
+UNIT 0x80 Pirate Valter_Prologue Level(6, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
+UNIT 0x80 Pirate Valter_Prologue Level(6, Enemy, 1) [15,14] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
+UNIT 0x80 Archer Valter_Prologue Level(6, Enemy, 1) [6,3] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
+UNIT 0x80 Archer Valter_Prologue Level(6, Enemy, 1) [15,4] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
+UNIT 0x80 Archer Valter_Prologue Level(6, Enemy, 1) [18,12] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
+UNIT 0x80 Mage Valter_Prologue Level(6, Enemy, 1) [8,16] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI 
+UNIT 0x80 Mage Valter_Prologue Level(6, Enemy, 1) [21,6] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI 
+UNIT 0x80 Mage Valter_Prologue Level(6, Enemy, 1) [18,2] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI 
+UNIT
+
 ALIGN 4
 
-Traps2:
-ENDTRAP
-ALIGN 4
+ThiefReinforcement:
+ReinforcementEvent(ThiefReinforcementUnit)
+ENDA
+
+Thief2Reinforcement:
+ReinforcementEvent(Thief2ReinforcementUnit)
+ENDA
+
+FighterReinforcement:
+ReinforcementEvent(FighterReinforcementUnit)
+ENDA
+
+CavalierReinforcement:
+ReinforcementEvent(CavalierReinforcementUnit)
+ENDA
+
+WyvernReinforcement:
+ReinforcementEvent(WyvernReinforcementUnit)
+ENDA
+
+FalcoReinforcement:
+ReinforcementEvent(FalcoReinforcementUnit)
+ENDA
+
+ThiefReinforcementUnit:
+UNIT 0x80 Thief Valter_Prologue Level(10, Enemy, 1) [19,16] 0x2 0x00 0x0 0x00 [SilverSword, RedGem] BrigandAI
+UNIT
+
+Thief2ReinforcementUnit:
+UNIT 0x80 Thief Valter_Prologue Level(10, Enemy, 1) [21,7] 0x2 0x00 0x0 0x00 [SilverSword, OrionBolt] BrigandAI 
+UNIT
+
+FighterReinforcementUnit:
+UNIT 0x80 Fighter Valter_Prologue Level(10, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Tomahawk] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Valter_Prologue Level(10, Enemy, 1) [10,4] 0x00 0x00 0x0 0x00 [Tomahawk] PursueWithoutHeedAI
+UNIT
+
+CavalierReinforcementUnit:
+UNIT 0x80 Cavalier Valter_Prologue Level(10, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [KillingEdge, Spear] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Valter_Prologue Level(10, Enemy, 1) [0,6] 0x00 0x00 0x0 0x00 [KillingEdge, Spear] PursueWithoutHeedAI 
+UNIT
+
+WyvernReinforcementUnit:
+UNIT 0x80 WyvernLord Valter_Prologue Level(1, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [Runesword] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Valter_Prologue Level(1, Enemy, 1) [19,14] 0x00 0x00 0x0 0x00 [Runesword] PursueWithoutHeedAI 
+UNIT
+
+FalcoReinforcementUnit:
+UNIT 0x80 FalcoKnight Valter_Prologue Level(1, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [LightBrand] PursueWithoutHeedAI 
+UNIT 0x80 FalcoKnight Valter_Prologue Level(1, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [LightBrand] PursueWithoutHeedAI 
+UNIT
 
 BeginningScene:
-  LOAD2 0x1 AlliedUnits // 0x0 instead of 0x1 seems to be for allies on maps with prep screens
-  ENUN
-
-  LOAD1 0x1 EnemyUnits
-  ENUN
-  
-  NoFade
-  // GotoPrepScreen
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 TyeAgain
+ENUN
+LOAD1 0x1 Bad
+ENUN
+LOAD1 0x1 Badder
+ENUN
+NoFade
 ENDA
 
 EndingScene:
-  MNCH 0x7
-  NoFade
+Text(Ch6Ending)
+MNCH 7
 ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET
