@@ -1,75 +1,111 @@
-EventPointerTable(0xA, ThisChapter)
+﻿//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
 
+#include EAstdlib.event
+#define C1Level 10
+
+EventPointerTable(0x0A,ThisChapter)
+
+ORG StartOffset
 ThisChapter:
-  POIN TurnBasedEvents
-  POIN CharacterBasedEvents
-  POIN LocationBasedEvents
-  POIN MiscBasedEvents
-  POIN Dunno1 Dunno2 Dunno3 Tutorial
-  POIN Traps1 Traps2
-  POIN AlliedUnits AlliedUnits // This unit group determines the number and position of deployment slots when there is a prep screen
-  POIN $0 $0 $0
-  POIN $0 $0 $0
-  POIN BeginningScene EndingScene
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0, DangerBirbArrives, 3)
+TurnEventPlayer(0x0, ThiefArrives, 4)
 END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(0x7, DangerBirbJoinsDonor, Donor, Jonathan)
+CharacterEvent(0x8, DangerBirbJoinsBlitzen, Blitzen, Jonathan)
 END_MAIN
 
 LocationBasedEvents:
-  #ifdef __DEBUG__
-    Seize(0, 0)
-  #endif
+Chest(BlueGem, 2,2)
+Chest(Armorslayer, 5,2)
 END_MAIN
 
 MiscBasedEvents:
-  CauseGameOverIfLordDies
+CauseGameOverIfLordDies
 END_MAIN
 
-Dunno1:
-END_MAIN
-
-Dunno2:
-END_MAIN
-
-Dunno3:
+Dunno:
 END_MAIN
 
 Tutorial:
 END_MAIN
 
-AlliedUnits:
-  UNIT Eirika EirikaLord 0 Level(1, Ally, False) [0, 0] 0x00 0x00 0 0x00000000 [Rapier, Vulnerary] NoAI
-UNIT
-
-EnemyUnits:
-  UNIT 0x80 Priest 0 Level(0, Enemy, False) [1, 0] 0x00 0x00 0 0x00000000 [0] NoAI
-UNIT
-
-Traps1:
+TrapData:
 ENDTRAP
+
 ALIGN 4
 
-Traps2:
-ENDTRAP
-ALIGN 4
+Units:
+UNIT Blitzen Cavalier 0x0 Level(1,Ally,0) [3,14] 0 0 0 0 [SteelSword] NoAI
+UNIT Donor Cavalier 0x0 Level(1,Ally,0) [4,14] 0 0 0 0 [SteelLance] NoAI
+UNIT Nogma Mercenary 0x0 Level(1,Ally,0) [3,13] 0 0 0 0 [SteelSword] NoAI
+UNIT Cedar PegasusKnight 0x0 Level(1,Ally,0) [2,14] 0 0 0 0 [SteelLance] NoAI
+UNIT Bab Manakete 0x0 Level(1,Ally,0) [4,15] 0 0 0 0 [0x0] NoAI
+UNIT
+
+DangerBirbArrives:
+ReinforcementEvent(DangerBirb)
+ENDA
+
+DangerBirb:
+UNIT Jonathan Gargoyle 0x0 Level(12,NPC,0) [16,12] 0 0 0 0 [KillerLance] DefaultAI
+UNIT
+
+DangerBirbJoinsDonor:
+TurnAlly(Jonathan)
+ENDA
+
+DangerBirbJoinsBlitzen:
+TurnAlly(Jonathan)
+ENDA
+
+ThiefArrives:
+ReinforcementEvent(ThiefLad)
+ENDA
+
+
+ThiefLad:
+UNIT 0x80 Thief 0x0 Level(C1Level, Enemy, 1) [10,0] DropItem 0 0 0 [SteelSword, ChestKey_5] LootingThiefAI
+UNIT
+
+Enemies:
+UNIT Breguet Knight 0x0 Level(15,Enemy,0) [13,1] 0 0 0 0 [Javelin] GuardTileAI
+UNIT 0x80 Mercenary 0x0 Level(C1Level, Enemy, 1) [9,14] 0 0 0 0 [SteelSword] DefaultAI
+UNIT 0x80 Fighter 0x0 Level(C1Level, Enemy, 1) [7,15] 0 0 0 0 [SteelAxe] DefaultAI
+UNIT 0x80 Shaman 0x0 Level(C1Level+1, Enemy, 1) [4,1] DropItem 0 0 0 [Flux, Vulnerary] AttackInRangeAI
+UNIT 0x80 Fighter 0x0 Level(C1Level, Enemy, 1) [6,10] 0 0 0 0 [SteelSword] DefaultAI
+UNIT 0x80 Archer 0x0 Level(C1Level+1, Enemy, 1) [14,2] 0 0 0 0 [SteelBow] AttackInRangeAI
+UNIT 0x80 Mercenary 0x0 Level(C1Level, Enemy, 1) [14,13] 0 0 0 0 [SteelSword] AttackInRangeAI
+UNIT 0x80 Soldier 0x0 Level(C1Level, Enemy, 1) [16,10] 0 0 0 0 [SteelLance] DefaultAI
+UNIT 0x80 Archer 0x0 Level(C1Level, Enemy, 1) [1,6] 0 0 0 0 [SteelBow] DefaultAI
+UNIT 0x80 Mercenary 0x0 Level(C1Level+1, Enemy, 1) [10,6] 0 0 0 0 [SteelSword] DefaultAI
+UNIT 0x80 Knight 0 Level(C1Level+1, Enemy, 1) [12,5] 0 0 0 0 [SteelLance] DefaultAI
+UNIT
 
 BeginningScene:
-  LOAD2 0x1 AlliedUnits // 0x0 instead of 0x1 seems to be for allies on maps with prep screens
-  ENUN
-
-  LOAD1 0x1 EnemyUnits
-  ENUN
-  
-  NoFade
-  // GotoPrepScreen
+LOAD2 0x1 Units
+ENUN
+LOAD2 0x1 Enemies
+ENUN
 ENDA
 
 EndingScene:
-  ENUT 0x89 //location shenanigans
-  
-  MNCH 0x2
-  NoFade
+MoveToChapter(Ch2)
 ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET
