@@ -64,43 +64,43 @@ UNIT
 
 EnemyUnits:
 UNIT Vigarde GreatKnight 0x00 Level(10, Enemy, 0) [3,4] 0x00 0x00 0x0 0x00 [LightBrand, Horseslayer, Halberd] AttackInRangeAI 
-UNIT 0x80 Paladin Vigarde Level(5, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverSword] AttackInRangeAI 
-UNIT 0x80 Hero Vigarde Level(5, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [SilverAxe, SilverSword] AttackInRangeAI 
-UNIT 0x80 Hero Vigarde Level(5, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [Tomahawk, SilverSword] AttackInRangeAI 
-UNIT 0x80 Swordmaster_F Vigarde Level(5, Enemy, 1) [4,7] 0x00 0x00 0x0 0x00 [Runesword, SilverSword] AttackInRangeAI 
-UNIT 0x80 Sniper_F Vigarde Level(5, Enemy, 1) [7,10] 0x00 0x00 0x0 0x00 [Longbow, SilverBow] AttackInRangeAI 
-UNIT 0x80 Warrior Vigarde Level(5, Enemy, 1) [8,9] 0x00 0x00 0x0 0x00 [Hammer] AttackInRangeAI 
-UNIT 0x80 Warrior Vigarde Level(5, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [SilverAxe, SilverBow] AttackInRangeAI 
+UNIT 0x80 Paladin Vigarde Level(7, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverSword] AttackInRangeAI 
+UNIT 0x80 Hero Vigarde Level(7, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [SilverAxe, SilverSword] AttackInRangeAI 
+UNIT 0x80 Hero Vigarde Level(7, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [Tomahawk, SilverSword] AttackInRangeAI 
+UNIT 0x80 Swordmaster_F Vigarde Level(7, Enemy, 1) [4,7] 0x00 0x00 0x0 0x00 [Runesword, SilverSword] AttackInRangeAI 
+UNIT 0x80 Sniper_F Vigarde Level(7, Enemy, 1) [7,10] 0x00 0x00 0x0 0x00 [Longbow, SilverBow] AttackInRangeAI 
+UNIT 0x80 Warrior Vigarde Level(7, Enemy, 1) [8,9] 0x00 0x00 0x0 0x00 [Hammer] AttackInRangeAI 
+UNIT 0x80 Warrior Vigarde Level(7, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [SilverAxe, SilverBow] AttackInRangeAI 
 UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [16,30] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
 UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
 UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [18,6] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
 UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [31,12] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
-UNIT 0x80 General Vigarde Level(2, Enemy, 1) [23,16] 0x00 0x00 0x0 0x00 [Spear] GuardTileAI 
-UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [13,21] 0x00 0x00 0x0 0x00 [BraveAxe] AttackInRangeAI 
-UNIT 0x80 Ranger Vigarde Level(2, Enemy, 1) [28,21] 0x00 0x00 0x0 0x00 [SilverBow] PursueWithoutHeedAI 
-UNIT 0x80 Ranger Vigarde Level(2, Enemy, 1) [29,20] 0x00 0x00 0x0 0x00 [SilverBow] PursueWithoutHeedAI 
+UNIT 0x80 General Vigarde Level(3, Enemy, 1) [23,16] 0x00 0x00 0x0 0x00 [Spear] GuardTileAI 
+UNIT 0x80 Berserker Vigarde Level(3, Enemy, 1) [13,21] 0x00 0x00 0x0 0x00 [BraveAxe] AttackInRangeAI 
+UNIT 0x80 Ranger Vigarde Level(4, Enemy, 1) [28,21] 0x00 0x00 0x0 0x00 [SilverBow] PursueWithoutHeedAI 
+UNIT 0x80 Ranger Vigarde Level(4, Enemy, 1) [29,20] 0x00 0x00 0x0 0x00 [SilverBow] PursueWithoutHeedAI 
 UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [6,7] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
 UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [6,30] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
-UNIT 0x80 Paladin Vigarde Level(2, Enemy, 1) [19,17] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
-UNIT 0x80 Paladin Vigarde Level(2, Enemy, 1) [29,29] 0x00 0x00 0x0 0x00 [SilverLance] AttackInRangeAI 
-UNIT 0x80 Warrior Vigarde Level(2, Enemy, 1) [25,10] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
-UNIT 0x80 Swordmaster Vigarde Level(2, Enemy, 1) [20,23] 0x00 0x00 0x0 0x00 [SilverBlade] AttackInRangeAI 
-UNIT 0x80 Swordmaster Vigarde Level(2, Enemy, 1) [21,24] 0x00 0x00 0x0 0x00 [SilverBlade] AttackInRangeAI 
-UNIT 0x80 Paladin Vigarde Level(2, Enemy, 1) [13,20] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
-UNIT 0x80 Paladin Vigarde Level(2, Enemy, 1) [1,29] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
-UNIT 0x80 Sniper Vigarde Level(2, Enemy, 1) [2,30] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
-UNIT 0x80 Sniper Vigarde Level(2, Enemy, 1) [8,29] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
-UNIT 0x80 General Vigarde Level(2, Enemy, 1) [1,24] 0x00 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
-UNIT 0x80 Swordmaster Vigarde Level(2, Enemy, 1) [1,13] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
-UNIT 0x80 Swordmaster Vigarde Level(2, Enemy, 1) [4,13] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
-UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [2,18] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
-UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [5,23] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
-UNIT 0x80 ArchMogall Vigarde Level(2, Enemy, 1) [14,0] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
-UNIT 0x80 ArchMogall Vigarde Level(2, Enemy, 1) [13,1] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
-UNIT 0x80 ArchMogall Vigarde Level(2, Enemy, 1) [13,27] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
-UNIT 0x80 ArchMogall Vigarde Level(2, Enemy, 1) [12,27] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
-UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [30,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [3,18] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 Paladin Vigarde Level(3, Enemy, 1) [19,17] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT 0x80 Paladin Vigarde Level(3, Enemy, 1) [29,29] 0x00 0x00 0x0 0x00 [SilverLance] AttackInRangeAI 
+UNIT 0x80 Warrior Vigarde Level(3, Enemy, 1) [25,10] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 Swordmaster Vigarde Level(3, Enemy, 1) [20,23] 0x00 0x00 0x0 0x00 [SilverBlade] AttackInRangeAI 
+UNIT 0x80 Swordmaster Vigarde Level(3, Enemy, 1) [21,24] 0x00 0x00 0x0 0x00 [SilverBlade] AttackInRangeAI 
+UNIT 0x80 Paladin Vigarde Level(3, Enemy, 1) [13,20] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Paladin Vigarde Level(3, Enemy, 1) [1,29] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Sniper Vigarde Level(4, Enemy, 1) [2,30] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
+UNIT 0x80 Sniper Vigarde Level(4, Enemy, 1) [8,29] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
+UNIT 0x80 General Vigarde Level(3, Enemy, 1) [1,24] 0x00 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
+UNIT 0x80 Swordmaster Vigarde Level(3, Enemy, 1) [1,13] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT 0x80 Swordmaster Vigarde Level(3, Enemy, 1) [4,13] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT 0x80 Berserker Vigarde Level(3, Enemy, 1) [2,18] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
+UNIT 0x80 Berserker Vigarde Level(3, Enemy, 1) [5,23] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
+UNIT 0x80 ArchMogall Vigarde Level(5, Enemy, 1) [14,0] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
+UNIT 0x80 ArchMogall Vigarde Level(5, Enemy, 1) [13,1] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
+UNIT 0x80 ArchMogall Vigarde Level(5, Enemy, 1) [13,27] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
+UNIT 0x80 ArchMogall Vigarde Level(5, Enemy, 1) [12,27] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Vigarde Level(3, Enemy, 1) [30,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Vigarde Level(3, Enemy, 1) [3,18] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
 UNIT
 
 
