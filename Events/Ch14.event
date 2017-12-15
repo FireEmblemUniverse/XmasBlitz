@@ -132,7 +132,7 @@ House2:
 ENDA
 
 House3:
-  Text(0x00,Ch14HouseTex3)
+  Text(0x00,Ch14HouseText3)
 ENDA
 
 House4:
