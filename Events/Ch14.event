@@ -1,31 +1,37 @@
-EventPointerTable(0x41, ThisChapter)
+EventPointerTable(0x41, PointerList)
 
-ThisChapter:
-  POIN TurnBasedEvents
-  POIN CharacterBasedEvents
-  POIN LocationBasedEvents
-  POIN MiscBasedEvents
-  POIN Dunno1 Dunno2 Dunno3 Tutorial
-  POIN Traps1 Traps2
-  POIN AlliedUnits AlliedUnits // This unit group determines the number and position of deployment slots when there is a prep screen
-  POIN $0 $0 $0
-  POIN $0 $0 $0
-  POIN BeginningScene EndingScene
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+  TurnEventPlayer(0x0,ReinRecruitment,1)
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-  #ifdef __DEBUG__
-    Seize(0, 0)
-  #endif
+  House(0x8,House1,8,11)
+  House(0x9,House2,1,23)
+  House(0xa,House3,5,27)
+  House(0xb,House4,28,28)
+  Vendor(HardtVendor,3,28)
+  Armory(HardtArmory,5,29)
 END_MAIN
 
 MiscBasedEvents:
   CauseGameOverIfLordDies
+  DefeatBoss(EndingScene)
+  AREA 0xc BridgeBomb [6,17] [9,30]
 END_MAIN
 
 Dunno1:
@@ -40,12 +46,67 @@ END_MAIN
 Tutorial:
 END_MAIN
 
-AlliedUnits:
-  UNIT Eirika EirikaLord 0 Level(1, Ally, False) [0, 0] 0x00 0x00 0 0x00000000 [Rapier, Vulnerary] NoAI
+// allies are all scrunched up in a rectangle like in fe5
+Units1:
+UNIT Eirika EirikaLord 0x0 Level(1,Ally,0) [28,5] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [27,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [28,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [29,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [27,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [28,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [29,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [27,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [29,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [27,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [28,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [29,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 EnemyUnits:
-  UNIT 0x80 Priest 0 Level(0, Enemy, False) [1, 0] 0x00 0x00 0 0x00000000 [0] NoAI
+UNIT Vigarde GreatKnight 0x00 Level(10, Enemy, 0) [3,4] 0x00 0x00 0x0 0x00 [LightBrand, Horseslayer, Halberd] AttackInRangeAI 
+UNIT 0x80 Paladin Vigarde Level(5, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverSword] AttackInRangeAI 
+UNIT 0x80 Hero Vigarde Level(5, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [SilverAxe, SilverSword] AttackInRangeAI 
+UNIT 0x80 Hero Vigarde Level(5, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [Tomahawk, SilverSword] AttackInRangeAI 
+UNIT 0x80 Swordmaster_F Vigarde Level(5, Enemy, 1) [4,7] 0x00 0x00 0x0 0x00 [Runesword, SilverSword] AttackInRangeAI 
+UNIT 0x80 Sniper_F Vigarde Level(5, Enemy, 1) [7,10] 0x00 0x00 0x0 0x00 [Longbow, SilverBow] AttackInRangeAI 
+UNIT 0x80 Warrior Vigarde Level(5, Enemy, 1) [8,9] 0x00 0x00 0x0 0x00 [Hammer] AttackInRangeAI 
+UNIT 0x80 Warrior Vigarde Level(5, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [SilverAxe, SilverBow] AttackInRangeAI 
+UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [16,30] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
+UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
+UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [18,6] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
+UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [31,12] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
+UNIT 0x80 General Vigarde Level(2, Enemy, 1) [23,16] 0x00 0x00 0x0 0x00 [Spear] GuardTileAI 
+UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [13,21] 0x00 0x00 0x0 0x00 [BraveAxe] AttackInRangeAI 
+UNIT 0x80 Ranger Vigarde Level(2, Enemy, 1) [28,21] 0x00 0x00 0x0 0x00 [SilverBow] PursueWithoutHeedAI 
+UNIT 0x80 Ranger Vigarde Level(2, Enemy, 1) [29,20] 0x00 0x00 0x0 0x00 [SilverBow] PursueWithoutHeedAI 
+UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [6,7] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
+UNIT LungeGeneric Monk Vigarde Level(15, Enemy, 1) [6,30] 0x00 0x00 0x0 0x00 [Purge] GuardTileAI 
+UNIT 0x80 Paladin Vigarde Level(2, Enemy, 1) [19,17] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT 0x80 Paladin Vigarde Level(2, Enemy, 1) [29,29] 0x00 0x00 0x0 0x00 [SilverLance] AttackInRangeAI 
+UNIT 0x80 Warrior Vigarde Level(2, Enemy, 1) [25,10] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 Swordmaster Vigarde Level(2, Enemy, 1) [20,23] 0x00 0x00 0x0 0x00 [SilverBlade] AttackInRangeAI 
+UNIT 0x80 Swordmaster Vigarde Level(2, Enemy, 1) [21,24] 0x00 0x00 0x0 0x00 [SilverBlade] AttackInRangeAI 
+UNIT 0x80 Paladin Vigarde Level(2, Enemy, 1) [13,20] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Paladin Vigarde Level(2, Enemy, 1) [1,29] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Sniper Vigarde Level(2, Enemy, 1) [2,30] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
+UNIT 0x80 Sniper Vigarde Level(2, Enemy, 1) [8,29] 0x00 0x00 0x0 0x00 [SilverBow] AttackInRangeAI 
+UNIT 0x80 General Vigarde Level(2, Enemy, 1) [1,24] 0x00 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
+UNIT 0x80 Swordmaster Vigarde Level(2, Enemy, 1) [1,13] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT 0x80 Swordmaster Vigarde Level(2, Enemy, 1) [4,13] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI 
+UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [2,18] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
+UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [5,23] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
+UNIT 0x80 ArchMogall Vigarde Level(2, Enemy, 1) [14,0] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
+UNIT 0x80 ArchMogall Vigarde Level(2, Enemy, 1) [13,1] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
+UNIT 0x80 ArchMogall Vigarde Level(2, Enemy, 1) [13,27] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
+UNIT 0x80 ArchMogall Vigarde Level(2, Enemy, 1) [12,27] 0x00 0x00 0x0 0x00 [EvilEye] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [30,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Vigarde Level(2, Enemy, 1) [3,18] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT
+
+
+// if we're cool with prfs change fimbulveter to dire thunder
+ReinHimself:
+UNIT Reinhardt MageKnight Eirika Level(3,Ally,0) [28,8] 0x0 0x0 0x0 0x0 [Bolting,Fimbulvetr,Rescue] NoAI
 UNIT
 
 Traps1:
@@ -56,18 +117,57 @@ Traps2:
 ENDTRAP
 ALIGN 4
 
-BeginningScene:
-  LOAD2 0x1 AlliedUnits // 0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ReinRecruitment:
+  LOAD1 0x1 ReinHimself
   ENUN
+  NoFade
+ENDA
 
+House1:	
+  Text(0x00,Ch14HouseText)
+ENDA
+
+House2:
+  Text(0x00,Ch14HouseText2)
+ENDA
+
+House3:
+  Text(0x00,Ch14HouseTex3)
+ENDA
+
+House4:
+  Text(0x00,Ch14HouseText4)
+ENDA
+
+BridgeBomb:
+  CHECK_ALLEGIANCE 0xFFFF
+  IFEQ 0x1 0xC 0x0
+    // if it was a player, trigger map change
+    TILECHANGE 0x0
+  GOTO 0x2
+  LABEL 0x1
+    // if it was an enemy, reset event
+    ENUF 0xC
+  LABEL 0x2
+  NoFade
+ENDA
+
+BeginningScene:
+  LOAD2 0x1 Units1
+  ENUN
   LOAD1 0x1 EnemyUnits
   ENUN
-  
+  GotoPrepScreen
   NoFade
-  // GotoPrepScreen
 ENDA
 
 EndingScene:
-  MNCH 15
+  MNCH 15 //go to next chapter
   NoFade
 ENDA
+
+HardtVendor:
+  SHLI Elfire Divine Nosferatu Recover
+
+HardtArmory:
+  SHLI Armourslayer Horseslayer Hammer SilverBow
